@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 const services = [
   {
     title: "Business Website",
-    price: "$350-600",
+    price: "$600-1,200",
     description:
-      "A clean, fast, mobile-ready site that actually gets you customers. 3-5 pages, contact form, SEO basics included.",
+      "A clean, fast, mobile-ready site that actually gets you customers. Price based on page count and add-ons like booking, e-commerce, or custom features.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
     ),
@@ -56,7 +56,7 @@ const services = [
   },
   {
     title: "Monthly Tech Retainer",
-    price: "$100-175/mo",
+    price: "$50-75/mo",
     description:
       "Your personal tech person. I handle updates, fixes, questions, and changes so you never have to worry about it.",
     icon: (
