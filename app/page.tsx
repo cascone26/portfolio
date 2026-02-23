@@ -213,14 +213,14 @@ export default function Home() {
                     href="https://lessondraft.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-gradient inline-flex items-center gap-2 text-white font-semibold px-6 py-3 rounded-xl text-sm"
+                    className="btn-gradient gap-2 text-white font-semibold px-6 py-3 rounded-xl text-sm"
                   >
                     Visit site
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   </a>
                   <Link
                     href="/work/lessondraft"
-                    className="btn-outline inline-flex items-center text-foreground font-medium px-6 py-3 rounded-xl text-sm"
+                    className="btn-outline text-foreground font-medium px-6 py-3 rounded-xl text-sm"
                   >
                     Case study
                   </Link>
