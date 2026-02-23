@@ -19,22 +19,22 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full bg-[#0f172a]/80 backdrop-blur-md border-b border-border z-50">
+    <nav className="fixed top-0 w-full z-50 border-b border-white/[0.06]" style={{ background: "linear-gradient(180deg, rgba(11,17,33,0.9) 0%, rgba(11,17,33,0.8) 100%)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}>
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="font-bold text-lg text-foreground">
+        <Link href="/" className="font-bold text-lg text-foreground tracking-tight">
           Jacob Cascone
         </Link>
 
         {/* Desktop */}
-        <div className="hidden md:flex gap-6 text-sm">
+        <div className="hidden md:flex gap-1 text-sm">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className={`transition-colors ${
+              className={`px-3 py-1.5 rounded-lg transition-all duration-200 ${
                 pathname === l.href
-                  ? "text-accent font-medium"
-                  : "text-muted hover:text-foreground"
+                  ? "text-accent-light bg-accent/10 font-medium"
+                  : "text-muted hover:text-foreground hover:bg-white/[0.04]"
               }`}
             >
               {l.label}
@@ -45,13 +45,13 @@ export default function Nav() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-muted hover:text-foreground transition-colors"
+          className="md:hidden text-muted hover:text-foreground transition-colors p-1"
           aria-label="Toggle menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="22"
+            height="22"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -77,16 +77,16 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-border bg-[#0f172a]/95 backdrop-blur-md px-6 py-4 space-y-3">
+        <div className="md:hidden border-t border-white/[0.06] px-6 py-4 space-y-1" style={{ background: "rgba(11,17,33,0.95)", backdropFilter: "blur(16px)" }}>
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className={`block text-sm transition-colors ${
+              className={`block px-3 py-2 rounded-lg text-sm transition-all ${
                 pathname === l.href
-                  ? "text-accent font-medium"
-                  : "text-muted hover:text-foreground"
+                  ? "text-accent-light bg-accent/10 font-medium"
+                  : "text-muted hover:text-foreground hover:bg-white/[0.04]"
               }`}
             >
               {l.label}

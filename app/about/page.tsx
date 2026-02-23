@@ -8,19 +8,39 @@ export const metadata: Metadata = {
 };
 
 const skills = [
-  { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"] },
-  { category: "Backend", items: ["Node.js", "Supabase", "PostgreSQL", "REST APIs"] },
-  { category: "AI & Automation", items: ["Anthropic API", "AI Chatbots", "Email Automation", "Social Media Automation"] },
-  { category: "Tools & Platforms", items: ["Vercel", "Git/GitHub", "Stripe", "Clerk", "Google Business Profile"] },
+  {
+    category: "Frontend",
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js", "Supabase", "PostgreSQL", "REST APIs"],
+  },
+  {
+    category: "AI & Automation",
+    items: [
+      "Anthropic API",
+      "AI Chatbots",
+      "Email Automation",
+      "Social Media Automation",
+    ],
+  },
+  {
+    category: "Tools & Platforms",
+    items: ["Vercel", "Git/GitHub", "Stripe", "Clerk", "Google Business Profile"],
+  },
 ];
 
 export default function AboutPage() {
   return (
     <>
-      <section className="pt-20 pb-12 px-6">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
-          <p className="text-muted text-lg">
+      <section className="relative pt-24 pb-12 px-6">
+        <div className="absolute top-0 left-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="max-w-3xl mx-auto relative">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+            About <span className="gradient-text-blue">Me</span>
+          </h1>
+          <p className="text-muted text-lg leading-relaxed">
             The short version: I build things for the internet and I care about
             doing it well.
           </p>
@@ -28,10 +48,9 @@ export default function AboutPage() {
       </section>
 
       <section className="pb-24 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
-          {/* Intro */}
+        <div className="max-w-3xl mx-auto space-y-14">
           <div>
-            <h2 className="text-2xl font-bold mb-3">Who I Am</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">Who I Am</h2>
             <div className="space-y-4 text-muted leading-relaxed">
               <p>
                 I&apos;m Jacob — 20 years old, based in Mission, KS. I&apos;m
@@ -49,9 +68,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* What drives me */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">What Drives Me</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">
+              What Drives Me
+            </h2>
             <div className="space-y-4 text-muted leading-relaxed">
               <p>
                 I care about education — it&apos;s what I&apos;m studying and
@@ -69,23 +89,21 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Skills */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">Tech Stack</h2>
+            <h2 className="text-2xl font-bold mb-6 tracking-tight">
+              Tech Stack
+            </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {skills.map((group) => (
-                <div
-                  key={group.category}
-                  className="bg-card border border-border rounded-xl p-5"
-                >
-                  <h3 className="font-semibold text-sm text-accent mb-3">
+                <div key={group.category} className="glass rounded-2xl p-6">
+                  <h3 className="font-semibold text-sm text-accent-light mb-4">
                     {group.category}
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {group.items.map((item) => (
                       <span
                         key={item}
-                        className="bg-accent/10 text-foreground text-xs px-2 py-1 rounded"
+                        className="bg-accent/10 text-foreground text-xs px-2.5 py-1 rounded-lg"
                       >
                         {item}
                       </span>
@@ -97,14 +115,17 @@ export default function AboutPage() {
           </div>
 
           {/* CTA */}
-          <div className="bg-card border border-border rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-3">Want to work together?</h2>
-            <p className="text-muted mb-6">
+          <div className="relative glass rounded-2xl p-10 text-center">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] rounded-full bg-accent/[0.06] blur-[60px] pointer-events-none" />
+            <h2 className="text-2xl font-bold mb-3 tracking-tight relative">
+              Want to work together?
+            </h2>
+            <p className="text-muted mb-6 relative">
               I&apos;m always open to new projects and conversations.
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+              className="btn-gradient inline-block text-white font-semibold px-8 py-3.5 rounded-xl relative"
             >
               Get in touch
             </Link>

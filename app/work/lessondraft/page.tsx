@@ -10,23 +10,26 @@ export const metadata: Metadata = {
 export default function LessonDraftCaseStudy() {
   return (
     <>
-      <section className="pt-20 pb-12 px-6">
-        <div className="max-w-3xl mx-auto">
+      <section className="relative pt-24 pb-12 px-6">
+        <div className="absolute top-0 left-1/4 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="max-w-3xl mx-auto relative">
           <Link
             href="/work"
-            className="text-accent text-sm hover:underline mb-6 inline-block"
+            className="text-accent-light text-sm hover:underline mb-6 inline-block"
           >
             ← Back to Work
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">LessonDraft</h1>
-          <p className="text-muted text-lg">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+            LessonDraft
+          </h1>
+          <p className="text-muted text-lg leading-relaxed">
             AI-powered lesson plan generator for teachers.
           </p>
           <a
             href="https://lessondraft.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-4 text-accent hover:underline text-sm"
+            className="inline-flex items-center gap-2 mt-5 text-accent-light hover:underline text-sm"
           >
             Visit lessondraft.com ↗
           </a>
@@ -34,10 +37,9 @@ export default function LessonDraftCaseStudy() {
       </section>
 
       <section className="pb-24 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
-          {/* Problem */}
+        <div className="max-w-3xl mx-auto space-y-14">
           <div>
-            <h2 className="text-2xl font-bold mb-3">The Problem</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">The Problem</h2>
             <p className="text-muted leading-relaxed">
               Teachers spend hours every week creating lesson plans from scratch.
               Existing tools are either too rigid (fill-in-the-blank templates)
@@ -47,9 +49,8 @@ export default function LessonDraftCaseStudy() {
             </p>
           </div>
 
-          {/* Solution */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">The Solution</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">The Solution</h2>
             <p className="text-muted leading-relaxed">
               LessonDraft lets teachers input their subject, grade level, and
               standards, then generates a complete lesson plan in seconds using
@@ -59,9 +60,8 @@ export default function LessonDraftCaseStudy() {
             </p>
           </div>
 
-          {/* Tech stack */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">Tech Stack</h2>
+            <h2 className="text-2xl font-bold mb-5 tracking-tight">Tech Stack</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {[
                 "Next.js",
@@ -75,7 +75,7 @@ export default function LessonDraftCaseStudy() {
               ].map((tech) => (
                 <div
                   key={tech}
-                  className="bg-card border border-border rounded-lg px-4 py-3 text-sm text-center"
+                  className="glass rounded-xl px-4 py-3 text-sm text-center"
                 >
                   {tech}
                 </div>
@@ -83,36 +83,28 @@ export default function LessonDraftCaseStudy() {
             </div>
           </div>
 
-          {/* Key features */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">Key Features</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">Key Features</h2>
             <ul className="space-y-3 text-muted">
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">—</span>
-                AI-generated lesson plans from minimal input
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">—</span>
-                User authentication and account management via Clerk
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">—</span>
-                Subscription billing with Stripe (free tier + paid plans)
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">—</span>
-                Lesson history saved to Supabase for each user
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">—</span>
-                Responsive design that works on desktop and mobile
-              </li>
+              {[
+                "AI-generated lesson plans from minimal input",
+                "User authentication and account management via Clerk",
+                "Subscription billing with Stripe (free tier + paid plans)",
+                "Lesson history saved to Supabase for each user",
+                "Responsive design that works on desktop and mobile",
+              ].map((item) => (
+                <li key={item} className="flex gap-3">
+                  <span className="text-accent-light shrink-0 mt-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* What I learned */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">What I Learned</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">What I Learned</h2>
             <p className="text-muted leading-relaxed">
               This was my first full SaaS product — authentication, payments,
               database, and AI integration all wired together. I learned how to

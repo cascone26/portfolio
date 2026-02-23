@@ -10,28 +10,28 @@ export const metadata: Metadata = {
 export default function LessonDraftSocialCaseStudy() {
   return (
     <>
-      <section className="pt-20 pb-12 px-6">
-        <div className="max-w-3xl mx-auto">
+      <section className="relative pt-24 pb-12 px-6">
+        <div className="absolute top-0 right-1/4 w-[500px] h-[300px] rounded-full bg-indigo-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="max-w-3xl mx-auto relative">
           <Link
             href="/work"
-            className="text-accent text-sm hover:underline mb-6 inline-block"
+            className="text-accent-light text-sm hover:underline mb-6 inline-block"
           >
             ← Back to Work
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            LessonDraft Social Autoposter
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+            Social Autoposter
           </h1>
-          <p className="text-muted text-lg">
+          <p className="text-muted text-lg leading-relaxed">
             Automated social media content pipeline for LessonDraft.
           </p>
         </div>
       </section>
 
       <section className="pb-24 px-6">
-        <div className="max-w-3xl mx-auto space-y-12">
-          {/* Problem */}
+        <div className="max-w-3xl mx-auto space-y-14">
           <div>
-            <h2 className="text-2xl font-bold mb-3">The Problem</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">The Problem</h2>
             <p className="text-muted leading-relaxed">
               LessonDraft needed consistent social media presence to drive
               organic traffic, but manually creating and posting content across
@@ -40,9 +40,8 @@ export default function LessonDraftSocialCaseStudy() {
             </p>
           </div>
 
-          {/* Solution */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">The Solution</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">The Solution</h2>
             <p className="text-muted leading-relaxed">
               I built an automated content pipeline that uses AI to generate
               educational social media posts — teaching tips, lesson plan ideas,
@@ -52,34 +51,27 @@ export default function LessonDraftSocialCaseStudy() {
             </p>
           </div>
 
-          {/* How it works */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">How It Works</h2>
-            <ul className="space-y-3 text-muted">
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">1.</span>
-                AI generates educational content topics based on trending
-                teaching themes and LessonDraft&apos;s value proposition
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">2.</span>
-                Content is adapted for each platform&apos;s format and audience
-                expectations
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">3.</span>
-                Posts are queued and scheduled for optimal engagement times
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent shrink-0">4.</span>
-                Performance is tracked to refine content strategy over time
-              </li>
-            </ul>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">How It Works</h2>
+            <div className="space-y-4">
+              {[
+                "AI generates educational content topics based on trending teaching themes and LessonDraft's value proposition",
+                "Content is adapted for each platform's format and audience expectations",
+                "Posts are queued and scheduled for optimal engagement times",
+                "Performance is tracked to refine content strategy over time",
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4">
+                  <span className="w-7 h-7 shrink-0 rounded-lg bg-accent/10 flex items-center justify-center text-accent-light text-xs font-semibold">
+                    {i + 1}
+                  </span>
+                  <p className="text-muted leading-relaxed pt-0.5">{item}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
-          {/* Tech stack */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">Tech Stack</h2>
+            <h2 className="text-2xl font-bold mb-5 tracking-tight">Tech Stack</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
                 "Anthropic API",
@@ -91,7 +83,7 @@ export default function LessonDraftSocialCaseStudy() {
               ].map((tech) => (
                 <div
                   key={tech}
-                  className="bg-card border border-border rounded-lg px-4 py-3 text-sm text-center"
+                  className="glass rounded-xl px-4 py-3 text-sm text-center"
                 >
                   {tech}
                 </div>
@@ -99,9 +91,8 @@ export default function LessonDraftSocialCaseStudy() {
             </div>
           </div>
 
-          {/* Results */}
           <div>
-            <h2 className="text-2xl font-bold mb-3">What I Learned</h2>
+            <h2 className="text-2xl font-bold mb-4 tracking-tight">What I Learned</h2>
             <p className="text-muted leading-relaxed">
               Building this taught me how to think about content as a system
               rather than individual posts. The key insight was that AI-generated

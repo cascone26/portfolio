@@ -29,21 +29,24 @@ const projects = [
 export default function WorkPage() {
   return (
     <>
-      <section className="pt-20 pb-12 px-6">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Work</h1>
-          <p className="text-muted text-lg max-w-2xl">
+      <section className="relative pt-24 pb-12 px-6">
+        <div className="absolute top-0 left-0 w-[500px] h-[300px] rounded-full bg-indigo-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="max-w-5xl mx-auto relative">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+            <span className="gradient-text-blue">Work</span>
+          </h1>
+          <p className="text-muted text-lg max-w-2xl leading-relaxed">
             Real products I&apos;ve shipped. Each one solves a real problem.
           </p>
         </div>
       </section>
 
       <section className="pb-24 px-6">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-5">
           {projects.map((p) => (
             <div
               key={p.name}
-              className="bg-card border border-border rounded-xl p-6 hover:border-accent/40 hover:shadow-[0_0_20px_rgba(59,130,246,0.08)] transition-all flex flex-col"
+              className="glass rounded-2xl p-7 transition-all duration-300 flex flex-col"
             >
               <div className="flex justify-between items-start mb-3">
                 <h2 className="font-semibold text-xl">{p.name}</h2>
@@ -52,20 +55,20 @@ export default function WorkPage() {
                     href={p.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted hover:text-accent transition-colors text-sm"
+                    className="text-muted hover:text-accent-light transition-colors text-sm shrink-0 ml-3"
                   >
                     Visit site ↗
                   </a>
                 )}
               </div>
-              <p className="text-muted text-sm leading-relaxed mb-4 flex-1">
+              <p className="text-muted text-sm leading-relaxed mb-5 flex-1">
                 {p.description}
               </p>
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2 mb-5">
                 {p.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="bg-accent/10 text-accent text-xs px-2 py-1 rounded"
+                    className="bg-accent/10 text-accent-light text-xs px-2.5 py-1 rounded-lg"
                   >
                     {tag}
                   </span>
@@ -73,7 +76,7 @@ export default function WorkPage() {
               </div>
               <Link
                 href={p.caseStudy}
-                className="text-accent text-sm hover:underline"
+                className="text-accent-light text-sm hover:underline"
               >
                 Read case study →
               </Link>
@@ -81,12 +84,12 @@ export default function WorkPage() {
           ))}
 
           {/* Placeholder */}
-          <div className="bg-card/30 border border-border border-dashed rounded-xl p-6 flex items-center justify-center">
+          <div className="glass rounded-2xl p-7 flex items-center justify-center border-dashed !border-white/[0.06]" style={{ background: "rgba(15,23,42,0.3)" }}>
             <div className="text-center">
-              <p className="text-muted/50 text-sm mb-2">Your project here</p>
+              <p className="text-muted/60 text-sm mb-3">Your project here</p>
               <Link
                 href="/contact"
-                className="text-accent text-sm hover:underline"
+                className="text-accent-light text-sm hover:underline"
               >
                 Let&apos;s build something →
               </Link>

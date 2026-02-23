@@ -11,25 +11,32 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border py-12 px-6">
-      <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+    <footer className="relative border-t border-white/[0.06] pt-16 pb-8 px-6">
+      {/* Subtle top glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[1px] bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+
+      <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <p className="font-bold text-lg text-foreground mb-2">Jacob Cascone</p>
-          <p className="text-muted text-sm">
+          <p className="font-bold text-lg text-foreground mb-2 tracking-tight">
+            Jacob Cascone
+          </p>
+          <p className="text-muted text-sm leading-relaxed">
             Web & AI solutions for small businesses in Kansas City.
           </p>
         </div>
 
         {/* Quick links */}
         <div>
-          <p className="font-semibold text-sm text-foreground mb-3">Pages</p>
+          <p className="font-semibold text-xs uppercase tracking-wider text-muted mb-4">
+            Pages
+          </p>
           <div className="grid grid-cols-2 gap-2">
             {quickLinks.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
-                className="text-muted text-sm hover:text-foreground transition-colors"
+                className="text-muted text-sm hover:text-accent-light transition-colors"
               >
                 {l.label}
               </Link>
@@ -39,17 +46,22 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <p className="font-semibold text-sm text-foreground mb-3">Contact</p>
+          <p className="font-semibold text-xs uppercase tracking-wider text-muted mb-4">
+            Contact
+          </p>
           <div className="space-y-2 text-sm text-muted">
             <p>
-              <a href="tel:816-520-5652" className="hover:text-foreground transition-colors">
+              <a
+                href="tel:816-520-5652"
+                className="hover:text-accent-light transition-colors"
+              >
                 816-520-5652
               </a>
             </p>
             <p>
               <a
                 href="mailto:cobo.cascone@gmail.com"
-                className="hover:text-foreground transition-colors"
+                className="hover:text-accent-light transition-colors"
               >
                 cobo.cascone@gmail.com
               </a>
@@ -59,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-border flex justify-between items-center text-muted text-xs">
+      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] flex justify-between items-center text-muted text-xs">
         <span>&copy; {new Date().getFullYear()} Jacob Cascone</span>
         <span>Mission, KS</span>
       </div>

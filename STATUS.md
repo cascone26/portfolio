@@ -5,26 +5,38 @@
 
 ## Current State
 - Deployed at `https://portfolio-nine-sable-45.vercel.app`
+- GitHub: `https://github.com/cascone26/portfolio`
 - Vercel project: `cascone26s-projects/portfolio`
-- No custom domain yet (~$10/yr Namecheap when ready)
+- No custom domain yet
 
-## Recent Work
-- Initial commit from Create Next App (early stage)
+## Site Structure
+- `/` — Home (hero + highlight cards)
+- `/services` — Services & pricing (6 services + how it works)
+- `/work` — Portfolio grid (LessonDraft, Social Autoposter, placeholder)
+- `/work/lessondraft` — LessonDraft case study
+- `/work/lessondraft-social` — Autoposter case study
+- `/about` — About me (bio, skills, tech stack)
+- `/faq` — FAQ (10 questions)
+- `/contact` — Contact form (Formspree) + phone/email/location
+- `/blog` — Coming soon placeholder
 
-## Uncommitted Changes
-- `app/globals.css` modified
-- `app/layout.tsx` modified
-- `app/page.tsx` modified
-- `portfolio-content.md` untracked (marketing content — FB/Nextdoor/LinkedIn posts, outreach templates, contract, intake form, checklist)
+## Design
+- Dark navy/slate palette (#0f172a bg, #1e293b cards, #3b82f6 accent)
+- Geist font, Tailwind CSS v4
+- Shared nav (mobile hamburger) + footer across all pages
+
+## Contact Info
+- Email: cobo.cascone@gmail.com
+- Phone: 816-520-5652
+- Location: Mission, KS
 
 ## Known Issues
-- Contact email is placeholder `jacob@jacobcascone.com` — needs updating
-- Changes above not yet committed
-
-## Services Offered
-Websites ($500-800), refresh ($150-400), Google Business Profile ($150), AI chatbot ($400-700), email automation ($300-500), retainer ($150-250/mo)
+- Contact form uses Formspree — needs Formspree account setup for actual delivery
+- Blog is placeholder only
+- No custom domain yet
 
 ## Next Up
-- Commit pending changes
-- Update contact email
+- Set up Formspree form endpoint for contact page
 - Get custom domain when ready
+- Add blog posts when ready
+- Consider adding screenshots/previews to work page

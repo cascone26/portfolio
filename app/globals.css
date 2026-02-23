@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f172a;
-  --foreground: #f1f5f9;
-  --card-bg: #1e293b;
+  --background: #0b1121;
+  --foreground: #e2e8f0;
+  --card-bg: rgba(15, 23, 42, 0.6);
   --accent: #3b82f6;
   --accent-dark: #2563eb;
+  --accent-light: #60a5fa;
   --text-secondary: #94a3b8;
-  --border: #334155;
+  --border: rgba(148, 163, 184, 0.1);
 }
 
 @theme inline {
@@ -16,6 +17,7 @@
   --color-card: var(--card-bg);
   --color-accent: var(--accent);
   --color-accent-dark: var(--accent-dark);
+  --color-accent-light: var(--accent-light);
   --color-muted: var(--text-secondary);
   --color-border: var(--border);
 }
@@ -33,4 +35,93 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Glass card */
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.8) 0%,
+    rgba(30, 41, 59, 0.4) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.glass:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow:
+    0 0 30px rgba(59, 130, 246, 0.06),
+    inset 0 1px 0 rgba(148, 163, 184, 0.05);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #f1f5f9 0%, #60a5fa 50%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-blue {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #4f46e5 100%);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+}
+
+.btn-gradient:hover {
+  box-shadow: 0 4px 25px rgba(59, 130, 246, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Outline button */
+.btn-outline {
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* Glow orbs for background */
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+/* Section divider gradient */
+.section-fade {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(15, 23, 42, 0.3) 50%,
+    transparent 100%
+  );
+}
+
+/* Input styling */
+.input-field {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.2s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
