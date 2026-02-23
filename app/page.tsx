@@ -1,7 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import FadeIn from "./components/fade-in";
 import BrowserFrame from "./components/browser-frame";
+import Typewriter from "./components/typewriter";
+import TechMarquee from "./components/tech-marquee";
 
 const highlights = [
   {
@@ -61,8 +63,9 @@ export default function Home() {
 
               <FadeIn delay={0.1}>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] mb-6 tracking-tight">
-                  Websites &<br />AI tools
-                  <br />
+                  <span className="block min-h-[1.2em]">
+                    <Typewriter />
+                  </span>
                   <span className="gradient-text">for small businesses.</span>
                 </h1>
               </FadeIn>
@@ -175,6 +178,20 @@ export default function Home() {
         </section>
       </FadeIn>
 
+      {/* Tech marquee */}
+      <section className="py-8 px-6">
+        <div className="max-w-5xl mx-auto">
+          <FadeIn>
+            <p className="text-xs uppercase tracking-widest text-accent-light/60 mb-4 font-medium text-center">
+              Built with
+            </p>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <TechMarquee />
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Featured project — LessonDraft */}
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
@@ -240,6 +257,44 @@ export default function Home() {
               </BrowserFrame>
             </FadeIn>
           </div>
+        </div>
+      </section>
+
+      {/* Gradient CTA banner */}
+      <section className="py-24 px-6 relative overflow-hidden">
+        <div className="absolute inset-0 gradient-mesh" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0b1121] via-transparent to-[#0b1121]" />
+
+        {/* Decorative floating shapes */}
+        <div className="absolute top-1/4 left-[10%] w-20 h-20 border border-accent/10 rounded-2xl rotate-12 float-shape" />
+        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-indigo-400/10 rounded-full float-shape-reverse" />
+        <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-accent/[0.07] rounded-lg rotate-45 float-shape-slow" />
+
+        <div className="max-w-3xl mx-auto text-center relative">
+          <FadeIn>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+              Let&apos;s build something{" "}
+              <span className="gradient-text">your customers love.</span>
+            </h2>
+            <p className="text-muted text-lg mb-8 max-w-xl mx-auto leading-relaxed">
+              No long contracts. No jargon. Just a fast, good-looking site that
+              works for your business.
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link
+                href="/contact"
+                className="btn-gradient text-white font-semibold px-8 py-3.5 rounded-xl"
+              >
+                Start a project
+              </Link>
+              <Link
+                href="/services"
+                className="btn-outline text-foreground font-medium px-8 py-3.5 rounded-xl"
+              >
+                View pricing
+              </Link>
+            </div>
+          </FadeIn>
         </div>
       </section>
 
