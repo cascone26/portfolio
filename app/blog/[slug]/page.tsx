@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <section className="pb-16 px-6">
         <FadeIn>
-          <article className="max-w-3xl mx-auto prose-custom">
+          <article className="max-w-3xl mx-auto blog-content">
             {post.content
               .trim()
               .split("\n\n")
@@ -101,53 +101,78 @@ export default async function BlogPostPage({ params }: Props) {
                   );
                 }
 
-                // Unordered list
-                if (trimmed.startsWith("- ")) {
-                  const items = trimmed.split("\n").filter((l) => l.trim());
+                // Unordered list (may have a non-list intro line)
+                const lines = trimmed.split("\n").filter((l) => l.trim());
+                const firstListIdx = lines.findIndex((l) => l.trim().startsWith("- "));
+                if (firstListIdx >= 0) {
+                  const introLines = lines.slice(0, firstListIdx);
+                  const listLines = lines.slice(firstListIdx);
                   return (
-                    <ul key={i} className="space-y-2 my-4">
-                      {items.map((item, j) => (
-                        <li
-                          key={j}
-                          className="flex gap-3 text-muted leading-relaxed"
-                        >
-                          <span className="text-accent-light shrink-0 mt-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
-                          </span>
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: formatInline(item.replace(/^- /, "")),
-                            }}
-                          />
-                        </li>
-                      ))}
-                    </ul>
+                    <div key={i}>
+                      {introLines.length > 0 && (
+                        <p
+                          className="text-muted leading-relaxed my-4"
+                          dangerouslySetInnerHTML={{
+                            __html: formatInline(introLines.join(" ")),
+                          }}
+                        />
+                      )}
+                      <ul className="space-y-2 my-4">
+                        {listLines.map((item, j) => (
+                          <li
+                            key={j}
+                            className="flex gap-3 text-muted leading-relaxed"
+                          >
+                            <span className="text-accent-light shrink-0 mt-1.5">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+                            </span>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: formatInline(item.replace(/^- /, "")),
+                              }}
+                            />
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   );
                 }
 
-                // Ordered list
-                if (/^\d+\.\s/.test(trimmed)) {
-                  const items = trimmed.split("\n").filter((l) => l.trim());
+                // Ordered list (may have a non-list intro line)
+                const firstOlIdx = lines.findIndex((l) => /^\d+\.\s/.test(l.trim()));
+                if (firstOlIdx >= 0) {
+                  const introLines = lines.slice(0, firstOlIdx);
+                  const listLines = lines.slice(firstOlIdx);
                   return (
-                    <ol key={i} className="space-y-2 my-4">
-                      {items.map((item, j) => (
-                        <li
-                          key={j}
-                          className="flex gap-3 text-muted leading-relaxed"
-                        >
-                          <span className="text-accent-light shrink-0 font-semibold text-sm w-5 text-right">
-                            {j + 1}.
-                          </span>
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: formatInline(
-                                item.replace(/^\d+\.\s/, "")
-                              ),
-                            }}
-                          />
-                        </li>
-                      ))}
-                    </ol>
+                    <div key={i}>
+                      {introLines.length > 0 && (
+                        <p
+                          className="text-muted leading-relaxed my-4"
+                          dangerouslySetInnerHTML={{
+                            __html: formatInline(introLines.join(" ")),
+                          }}
+                        />
+                      )}
+                      <ol className="space-y-2 my-4">
+                        {listLines.map((item, j) => (
+                          <li
+                            key={j}
+                            className="flex gap-3 text-muted leading-relaxed"
+                          >
+                            <span className="text-accent-light shrink-0 font-semibold text-sm w-5 text-right">
+                              {j + 1}.
+                            </span>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: formatInline(
+                                  item.replace(/^\d+\.\s/, "")
+                                ),
+                              }}
+                            />
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
                   );
                 }
 

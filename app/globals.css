@@ -30,11 +30,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* ===== GLASS CARD ===== */
@@ -48,6 +51,7 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(148, 163, 184, 0.08);
   transition: all 0.4s cubic-bezier(0.21, 0.47, 0.32, 0.98);
+  min-width: 0;
 }
 
 .glass:hover {
@@ -211,6 +215,12 @@ body {
 }
 .code-plain {
   color: #94a3b8;
+}
+
+/* ===== BLOG CONTENT ===== */
+.blog-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* ===== PULSE GLOW for featured elements ===== */

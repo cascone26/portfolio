@@ -27,19 +27,25 @@ export default function Nav() {
 
         {/* Desktop */}
         <div className="hidden md:flex gap-1 text-sm">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className={`px-3 py-1.5 rounded-lg transition-all duration-200 ${
-                pathname === l.href
-                  ? "text-accent-light bg-accent/10 font-medium"
-                  : "text-muted hover:text-foreground hover:bg-white/[0.04]"
-              }`}
-            >
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) => {
+            const isActive =
+              l.href === "/"
+                ? pathname === "/"
+                : pathname === l.href || pathname.startsWith(l.href + "/");
+            return (
+              <Link
+                key={l.href}
+                href={l.href}
+                className={`px-3 py-1.5 rounded-lg transition-all duration-200 ${
+                  isActive
+                    ? "text-accent-light bg-accent/10 font-medium"
+                    : "text-muted hover:text-foreground hover:bg-white/[0.04]"
+                }`}
+              >
+                {l.label}
+              </Link>
+            );
+          })}
         </div>
 
         {/* Mobile toggle */}
@@ -78,20 +84,26 @@ export default function Nav() {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t border-white/[0.06] px-6 py-4 space-y-1" style={{ background: "rgba(11,17,33,0.95)", backdropFilter: "blur(16px)" }}>
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              onClick={() => setOpen(false)}
-              className={`block px-3 py-2 rounded-lg text-sm transition-all ${
-                pathname === l.href
-                  ? "text-accent-light bg-accent/10 font-medium"
-                  : "text-muted hover:text-foreground hover:bg-white/[0.04]"
-              }`}
-            >
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) => {
+            const isActive =
+              l.href === "/"
+                ? pathname === "/"
+                : pathname === l.href || pathname.startsWith(l.href + "/");
+            return (
+              <Link
+                key={l.href}
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className={`block px-3 py-2 rounded-lg text-sm transition-all ${
+                  isActive
+                    ? "text-accent-light bg-accent/10 font-medium"
+                    : "text-muted hover:text-foreground hover:bg-white/[0.04]"
+                }`}
+              >
+                {l.label}
+              </Link>
+            );
+          })}
         </div>
       )}
     </nav>
