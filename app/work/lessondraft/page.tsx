@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "../../components/fade-in";
 import BrowserFrame from "../../components/browser-frame";
@@ -49,14 +50,13 @@ export default function LessonDraftCaseStudy() {
         <FadeIn>
           <div className="max-w-4xl mx-auto">
             <BrowserFrame url="lessondraft.com" className="pulse-glow">
-              <div className="aspect-[16/9] bg-gradient-to-br from-blue-500/[0.08] via-indigo-500/[0.05] to-purple-500/[0.08] flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-accent-light/20 mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="mx-auto"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-                  </div>
-                  <p className="text-muted/30 text-xs">Screenshot coming soon</p>
-                </div>
-              </div>
+              <Image
+                src="/screenshots/lessondraft.png"
+                alt="LessonDraft homepage — AI-powered lesson plan generator"
+                width={1376}
+                height={860}
+                className="w-full h-auto"
+              />
             </BrowserFrame>
           </div>
         </FadeIn>
