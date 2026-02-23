@@ -38,7 +38,9 @@ export default function BlogPage() {
                 className="group glass rounded-2xl p-6 block"
               >
                 <div className="flex flex-wrap items-center gap-3 mb-3">
-                  <time className="text-xs text-muted">{post.date}</time>
+                  <time className="text-xs text-muted" dateTime={post.date}>
+                    {new Date(post.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                  </time>
                   <span className="text-muted/30">·</span>
                   <span className="text-xs text-muted">{post.readTime} read</span>
                   <span className="text-muted/30">·</span>

@@ -71,9 +71,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] flex justify-between items-center text-muted text-xs">
+      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] text-center text-muted text-xs">
         <span>&copy; {new Date().getFullYear()} Jacob Cascone</span>
-        <span>Mission, KS</span>
       </div>
     </footer>
   );

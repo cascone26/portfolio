@@ -56,7 +56,7 @@ Your website doesn't take breaks. It doesn't call in sick. It's there at midnigh
 
 ## What to do next
 
-If you don't have a website, or if yours looks like it was built in 2010, it's time. You don't need to overthink it. Start simple, get something clean up, and you can always build on it later.
+If you don't have a website, or if yours looks like it was built in 2010, it's time. You don't need to overthink it. Start simple, get something cleaned up, and you can always build on it later.
 
 I offer free audits for small businesses — no pitch, no pressure. Just an honest look at where you stand online and what would help.
     `,

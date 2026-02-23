@@ -36,8 +36,9 @@ export default function ContactPage() {
               className="glass rounded-2xl p-7 space-y-5"
             >
               <div>
-                <label className="text-sm text-muted block mb-2">Name</label>
+                <label htmlFor="name" className="text-sm text-muted block mb-2">Name</label>
                 <input
+                  id="name"
                   type="text"
                   name="name"
                   required
@@ -46,8 +47,9 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="text-sm text-muted block mb-2">Email</label>
+                <label htmlFor="email" className="text-sm text-muted block mb-2">Email</label>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   required
@@ -56,10 +58,11 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="text-sm text-muted block mb-2">
+                <label htmlFor="business" className="text-sm text-muted block mb-2">
                   Business & what you do
                 </label>
                 <input
+                  id="business"
                   type="text"
                   name="business"
                   placeholder="e.g. Joe's Plumbing — residential plumbing in KC"
@@ -67,10 +70,11 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="text-sm text-muted block mb-2">
+                <label htmlFor="message" className="text-sm text-muted block mb-2">
                   What do you need?
                 </label>
                 <textarea
+                  id="message"
                   name="message"
                   required
                   placeholder="New website, fix my existing site, show up on Google, automate something..."

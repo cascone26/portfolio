@@ -46,7 +46,9 @@ export default async function BlogPostPage({ params }: Props) {
           </FadeIn>
           <FadeIn delay={0.1}>
             <div className="flex flex-wrap items-center gap-3 mb-4">
-              <time className="text-sm text-muted">{post.date}</time>
+              <time className="text-sm text-muted" dateTime={post.date}>
+                {new Date(post.date + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+              </time>
               <span className="text-muted/30">·</span>
               <span className="text-sm text-muted">{post.readTime} read</span>
             </div>

@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-02-22
+2026-02-23
 
 ## Current State
 - Deployed at `https://portfolio-nine-sable-45.vercel.app`
@@ -9,21 +9,27 @@
 - Vercel project: `cascone26s-projects/portfolio`
 - No custom domain yet
 
-## Site Structure
-- `/` — Home (hero + highlight cards)
+## Site Structure (20 routes)
+- `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards)
 - `/services` — Services & pricing (6 services + how it works)
 - `/work` — Portfolio grid (LessonDraft, Social Autoposter, placeholder)
-- `/work/lessondraft` — LessonDraft case study
+- `/work/lessondraft` — LessonDraft case study with screenshot
 - `/work/lessondraft-social` — Autoposter case study
 - `/about` — About me (bio, skills, tech stack)
 - `/faq` — FAQ (10 questions)
 - `/contact` — Contact form (Formspree) + phone/email/location
-- `/blog` — Coming soon placeholder
+- `/blog` — Blog listing (8 posts)
+- `/blog/[slug]` — 8 individual blog posts with prev/next nav
 
 ## Design
-- Dark navy/slate palette (#0f172a bg, #1e293b cards, #3b82f6 accent)
+- Dark navy palette (#0b1121 bg, glass-morphism cards, #3b82f6 accent)
 - Geist font, Tailwind CSS v4
-- Shared nav (mobile hamburger) + footer across all pages
+- Framer Motion scroll animations (FadeIn component)
+- Glass-morphism cards with gradient borders
+- Gradient text headings, gradient buttons with glow
+- Custom JC favicon (app/icon.svg)
+- BrowserFrame component for screenshots
+- Shared nav (mobile hamburger, active route highlighting) + footer
 
 ## Contact Info
 - Email: cobo.cascone@gmail.com
@@ -31,12 +37,12 @@
 - Location: Mission, KS
 
 ## Known Issues
-- Contact form uses Formspree — needs Formspree account setup for actual delivery
-- Blog is placeholder only
+- Contact form uses Formspree legacy email endpoint — may need a proper Formspree form ID for reliable delivery
 - No custom domain yet
+- No OpenGraph image for social media previews
 
 ## Next Up
-- Set up Formspree form endpoint for contact page
+- Set up Formspree account and get proper form ID for contact page
 - Get custom domain when ready
-- Add blog posts when ready
-- Consider adding screenshots/previews to work page
+- Add OpenGraph image for social sharing
+- Consider adding more project screenshots to work page
