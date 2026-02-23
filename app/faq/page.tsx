@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FadeIn from "../components/fade-in";
 
 export const metadata: Metadata = {
   title: "FAQ",
@@ -56,12 +57,16 @@ export default function FAQPage() {
       <section className="relative pt-24 pb-12 px-6">
         <div className="absolute top-0 right-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-            <span className="gradient-text-blue">FAQ</span>
-          </h1>
-          <p className="text-muted text-lg leading-relaxed">
-            Common questions about working together.
-          </p>
+          <FadeIn>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+              <span className="gradient-text-blue">FAQ</span>
+            </h1>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <p className="text-muted text-lg leading-relaxed">
+              Common questions about working together.
+            </p>
+          </FadeIn>
         </div>
       </section>
 
@@ -69,35 +74,36 @@ export default function FAQPage() {
         <div className="max-w-3xl mx-auto">
           <div className="space-y-0">
             {faqs.map((faq, i) => (
-              <div
-                key={faq.q}
-                className={`py-7 ${
-                  i < faqs.length - 1
-                    ? "border-b border-white/[0.06]"
-                    : ""
-                }`}
-              >
-                <h2 className="font-semibold text-lg mb-2">{faq.q}</h2>
-                <p className="text-muted text-sm leading-relaxed">{faq.a}</p>
-              </div>
+              <FadeIn key={faq.q} delay={i * 0.05}>
+                <div
+                  className={`py-7 ${
+                    i < faqs.length - 1 ? "border-b border-white/[0.06]" : ""
+                  }`}
+                >
+                  <h2 className="font-semibold text-lg mb-2">{faq.q}</h2>
+                  <p className="text-muted text-sm leading-relaxed">{faq.a}</p>
+                </div>
+              </FadeIn>
             ))}
           </div>
 
-          <div className="relative mt-16 glass rounded-2xl p-10 text-center">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] rounded-full bg-accent/[0.06] blur-[60px] pointer-events-none" />
-            <h2 className="text-2xl font-bold mb-3 tracking-tight relative">
-              Still have questions?
-            </h2>
-            <p className="text-muted mb-6 relative">
-              I&apos;m happy to chat — no commitment required.
-            </p>
-            <Link
-              href="/contact"
-              className="btn-gradient inline-block text-white font-semibold px-8 py-3.5 rounded-xl relative"
-            >
-              Get in touch
-            </Link>
-          </div>
+          <FadeIn>
+            <div className="relative mt-16 glass rounded-2xl p-10 text-center">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] rounded-full bg-accent/[0.06] blur-[60px] pointer-events-none" />
+              <h2 className="text-2xl font-bold mb-3 tracking-tight relative">
+                Still have questions?
+              </h2>
+              <p className="text-muted mb-6 relative">
+                I&apos;m happy to chat — no commitment required.
+              </p>
+              <Link
+                href="/contact"
+                className="btn-gradient inline-block text-white font-semibold px-8 py-3.5 rounded-xl relative"
+              >
+                Get in touch
+              </Link>
+            </div>
+          </FadeIn>
         </div>
       </section>
     </>
