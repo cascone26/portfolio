@@ -5,7 +5,7 @@ import FadeIn from "../components/fade-in";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "I'm Jacob Cascone — a 20-year-old web developer and GCU student based in Mission, KS. I build websites and AI tools for small businesses.",
+    "Meet Jacob, the developer behind BuiltSimple — a web developer and GCU student based in Mission, KS building websites and AI tools for small businesses.",
 };
 
 const skills = [

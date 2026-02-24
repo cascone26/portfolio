@@ -4,7 +4,7 @@ import FadeIn from "../components/fade-in";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Jacob Cascone for a free website audit, AI automation consultation, or any web development project.",
+    "Get in touch with BuiltSimple for a free website audit, AI automation consultation, or any web development project.",
 };
 
 export default function ContactPage() {

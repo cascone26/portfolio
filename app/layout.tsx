@@ -10,17 +10,17 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Jacob Cascone | Web & AI Solutions",
-    template: "%s | Jacob Cascone",
+    default: "BuiltSimple | Web & AI Solutions",
+    template: "%s | BuiltSimple",
   },
   description:
     "I build websites and AI tools for small businesses in Kansas City. Fast, affordable, no tech jargon.",
   keywords:
-    "web developer Kansas City, small business website KC, AI automation Kansas City, website design Mission KS",
+    "web developer Kansas City, small business website KC, AI automation Kansas City, BuiltSimple, website design Mission KS",
   openGraph: {
-    title: "Jacob Cascone | Web & AI Solutions",
+    title: "BuiltSimple | Web & AI Solutions",
     description:
-      "I build websites and AI tools for small businesses in Kansas City.",
+      "We build websites and AI tools for small businesses in Kansas City.",
     type: "website",
     url: "https://builtsimple.dev",
   },

@@ -19,7 +19,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <p className="font-bold text-lg text-foreground mb-2 tracking-tight">
-            Jacob Cascone
+            BuiltSimple
           </p>
           <p className="text-muted text-sm leading-relaxed">
             Web & AI solutions for small businesses in Kansas City.
@@ -72,7 +72,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] text-center text-muted text-xs">
-        <span>&copy; {new Date().getFullYear()} Jacob Cascone</span>
+        <span>&copy; {new Date().getFullYear()} BuiltSimple</span>
       </div>
     </footer>
   );

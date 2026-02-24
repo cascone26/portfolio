@@ -52,7 +52,7 @@ export default function AdminShell({ children }: { children: React.ReactNode }) 
               <line x1="3" y1="18" x2="21" y2="18" />
             </svg>
           </button>
-          <span className="text-sm font-bold text-foreground">JC Admin</span>
+          <span className="text-sm font-bold text-foreground">BS Admin</span>
         </div>
 
         <div className="max-w-5xl mx-auto p-6 md:p-8">{children}</div>

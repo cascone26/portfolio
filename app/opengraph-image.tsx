@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Jacob Cascone — Web & AI Solutions for Small Businesses";
+export const alt = "BuiltSimple — Web & AI Solutions for Small Businesses";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -46,26 +46,6 @@ export default function OGImage() {
           }}
         />
 
-        {/* JC badge */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            width: "64px",
-            height: "64px",
-            borderRadius: "16px",
-            background: "linear-gradient(135deg, rgba(96,165,250,0.15), rgba(129,140,248,0.15))",
-            border: "1px solid rgba(96,165,250,0.3)",
-            marginBottom: "32px",
-            fontSize: "28px",
-            fontWeight: 700,
-            color: "#60a5fa",
-          }}
-        >
-          JC
-        </div>
-
         {/* Name */}
         <div
           style={{
@@ -77,7 +57,7 @@ export default function OGImage() {
             marginBottom: "16px",
           }}
         >
-          Jacob Cascone
+          BuiltSimple
         </div>
 
         {/* Tagline */}
@@ -103,7 +83,7 @@ export default function OGImage() {
             maxWidth: "600px",
           }}
         >
-          Fast, affordable websites and AI tools for small businesses in Kansas City.
+          Fast, affordable websites and AI tools for small businesses in Kansas City. builtsimple.dev
         </div>
 
         {/* Bottom accent line */}

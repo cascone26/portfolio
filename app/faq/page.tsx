@@ -5,7 +5,7 @@ import FadeIn from "../components/fade-in";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Frequently asked questions about working with Jacob Cascone — pricing, timelines, process, and what to expect.",
+    "Frequently asked questions about working with BuiltSimple — pricing, timelines, process, and what to expect.",
 };
 
 const faqs = [

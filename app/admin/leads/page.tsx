@@ -9,7 +9,7 @@ export default function LeadsPage() {
         <AdminCard>
           <h2 className="text-sm font-semibold text-foreground mb-3">Contact Form Submissions</h2>
           <p className="text-sm text-muted mb-4">
-            Form submissions from the portfolio contact page come through Formspree and land in your Gmail.
+            Form submissions from the BuiltSimple contact page come through Formspree and land in your Gmail.
           </p>
           <div className="space-y-2">
             <a

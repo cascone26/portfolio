@@ -25,7 +25,7 @@ export const scripts: Script[] = [
       "I know you're busy running your business — just wanted to make sure my message didn't get lost.",
       "I'd love to help you [specific benefit: get more customers online, update your website, etc.]",
       "If now isn't the right time, no worries at all. I'm here whenever you're ready.",
-      "Feel free to check out my portfolio at jacobcascone.com to see the kind of work I do.",
+      "Feel free to check out my portfolio at builtsimple.dev to see the kind of work I do.",
     ],
   },
   {
