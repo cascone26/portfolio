@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     description:
       "I build websites and AI tools for small businesses in Kansas City.",
     type: "website",
+    url: "https://portfolio-nine-sable-45.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
