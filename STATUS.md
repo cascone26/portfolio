@@ -1,13 +1,13 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-02-23
+2026-02-24
 
 ## Current State
-- Deployed at `https://portfolio-nine-sable-45.vercel.app`
+- Deployed at `https://builtsimple.dev`
 - GitHub: `https://github.com/cascone26/portfolio`
 - Vercel project: `cascone26s-projects/portfolio`
-- No custom domain yet
+- Custom domain: `builtsimple.dev` (pending DNS setup)
 
 ## Site Structure (31 routes)
 - `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards)
@@ -57,11 +57,9 @@
 
 ## Known Issues
 - Contact form uses Formspree legacy email endpoint — may need a proper Formspree form ID for reliable delivery
-- No custom domain yet
-- No OpenGraph image for social media previews
+- Set up Formspree account and get proper form ID for contact page
 
 ## Next Up
 - Set up Formspree account and get proper form ID for contact page
-- Get custom domain when ready
-- Add OpenGraph image for social sharing
+- Connect builtsimple.dev domain in Vercel
 - Consider adding more project screenshots to work page
