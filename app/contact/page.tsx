@@ -31,7 +31,7 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-6">
           <FadeIn className="md:col-span-2">
             <form
-              action="https://formspree.io/cobo.cascone@gmail.com"
+              action="https://formspree.io/f/xdalydzq"
               method="POST"
               className="glass rounded-2xl p-7 space-y-5"
             >
