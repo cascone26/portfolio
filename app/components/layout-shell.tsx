@@ -15,7 +15,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
   return (
     <>
       <Nav />
-      <main className="min-h-screen pt-16 relative">{children}</main>
+      <main className="min-h-screen pt-20 relative">{children}</main>
       <Footer />
     </>
   );
