@@ -54,7 +54,7 @@ const faqs = [
 export default function FAQPage() {
   return (
     <>
-      <section className="relative pt-24 pb-12 px-6">
+      <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 right-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
           <FadeIn>

@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-24 pb-20 px-6 overflow-hidden">
+      <section className="relative pt-12 pb-20 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.07] blur-[120px] pointer-events-none" />
 
         <div className="max-w-5xl mx-auto relative">

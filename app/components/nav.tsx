@@ -19,7 +19,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 border-b border-white/[0.06]" style={{ background: "#0b1121", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}>
+    <nav className="sticky top-0 w-full z-50 border-b border-white/[0.06]" style={{ background: "#0b1121", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}>
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="font-bold text-lg text-foreground tracking-tight">
           Jacob Cascone
