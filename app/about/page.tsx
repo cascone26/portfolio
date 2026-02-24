@@ -74,10 +74,10 @@ export default function AboutPage() {
                 </p>
                 <p>
                   On the side, I build websites and AI tools for small
-                  businesses. I taught myself web development and have shipped a
-                  live SaaS product (LessonDraft) with real users, real payments,
-                  and real AI integration. I&apos;m not an agency — I&apos;m one
-                  person who actually builds the thing.
+                  businesses. I taught myself web development and have since
+                  shipped a live SaaS product (LessonDraft) with real users, real
+                  payments, and real AI integration. No agency overhead — I
+                  personally handle every project from design to deployment.
                 </p>
               </div>
             </div>

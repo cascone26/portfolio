@@ -56,7 +56,7 @@ export default function Home() {
               <FadeIn delay={0}>
                 <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent-light text-sm px-4 py-1.5 rounded-full mb-8">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-                  Available for projects — Kansas City, KS
+                  Available for projects — Mission, KS
                 </div>
               </FadeIn>
 

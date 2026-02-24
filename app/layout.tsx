@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | BuiltSimple",
   },
   description:
-    "I build websites and AI tools for small businesses in Kansas City. Fast, affordable, no tech jargon.",
+    "We build websites and AI tools for small businesses in the Kansas City area. Fast, affordable, no tech jargon.",
   keywords:
     "web developer Kansas City, small business website KC, AI automation Kansas City, BuiltSimple, website design Mission KS",
   openGraph: {

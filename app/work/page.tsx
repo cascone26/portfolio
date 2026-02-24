@@ -89,20 +89,19 @@ export default function WorkPage() {
           ))}
 
           <FadeIn delay={0.2}>
-            <div
-              className="glass rounded-2xl p-7 flex items-center justify-center h-full border-dashed !border-white/[0.06]"
+            <Link
+              href="/contact"
+              className="glass rounded-2xl p-7 flex items-center justify-center h-full group"
               style={{ background: "rgba(15,23,42,0.3)" }}
             >
               <div className="text-center">
-                <p className="text-muted/60 text-sm mb-3">Your project here</p>
-                <Link
-                  href="/contact"
-                  className="text-accent-light text-sm link-underline"
-                >
-                  Let&apos;s build something →
-                </Link>
+                <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                </div>
+                <p className="text-foreground font-medium text-sm mb-1 group-hover:text-accent-light transition-colors">Start a project</p>
+                <p className="text-muted text-xs">Get a free audit for your business</p>
               </div>
-            </div>
+            </Link>
           </FadeIn>
         </div>
       </section>

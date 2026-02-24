@@ -1,10 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#60a5fa"/>
       <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="8" fill="#0b1121"/>
-  <text x="16" y="22" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="14" fill="url(#g)">BS</text>
+  <rect width="32" height="32" rx="6" fill="#0b1121"/>
+  <path d="M 6.5,6.5 H 18 V 13 H 13 V 21 H 6.5 Z" fill="url(#g1)"/>
+  <path d="M 19,11 H 25.5 V 25.5 H 14 V 19 H 19 Z" fill="url(#g2)" opacity="0.75"/>
 </svg>
