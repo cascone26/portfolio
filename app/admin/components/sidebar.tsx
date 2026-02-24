@@ -14,7 +14,7 @@ const navItems = [
   { href: "/admin/notes", label: "Notes", icon: "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" },
 ];
 
-export default function Sidebar() {
+export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -24,9 +24,9 @@ export default function Sidebar() {
   }
 
   return (
-    <aside className="w-56 shrink-0 border-r border-white/[0.06] bg-[#0a0f1e]/80 backdrop-blur-sm flex flex-col min-h-screen">
+    <div className="flex flex-col h-full">
       <div className="p-5 border-b border-white/[0.06]">
-        <Link href="/admin" className="font-bold text-sm text-foreground tracking-tight">
+        <Link href="/admin" onClick={onNavigate} className="font-bold text-sm text-foreground tracking-tight">
           JC Admin
         </Link>
         <p className="text-xs text-muted mt-0.5">Dashboard</p>
@@ -41,6 +41,7 @@ export default function Sidebar() {
             <Link
               key={item.href}
               href={item.href}
+              onClick={onNavigate}
               className={`flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm transition-all ${
                 isActive
                   ? "text-accent-light bg-accent/10 font-medium"
@@ -78,6 +79,6 @@ export default function Sidebar() {
           Logout
         </button>
       </div>
-    </aside>
+    </div>
   );
 }
