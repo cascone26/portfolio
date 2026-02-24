@@ -11,16 +11,7 @@ export interface Client {
   date: string; // YYYY-MM-DD
 }
 
-export const clients: Client[] = [
-  // Example clients — edit this file and redeploy to update
-  // {
-  //   id: "1",
-  //   name: "KC Coffee Co",
-  //   project: "Business website",
-  //   status: "paid",
-  //   amount: 800,
-  //   paid: true,
-  //   notes: "5-page site with contact form. Referred by mom.",
-  //   date: "2026-02-01",
-  // },
-];
+// Edit this array and redeploy to update. Example:
+// { id: "1", name: "KC Coffee Co", project: "Business website", status: "paid", amount: 800, paid: true, notes: "5-page site. Referred by mom.", date: "2026-02-01" },
+
+export const clients: Client[] = [];

@@ -9,7 +9,7 @@ export default function AdminOverview() {
   const activeProjects = clients.filter((c) => c.status === "in-progress").length;
   const totalEarned = clients.filter((c) => c.paid).reduce((sum, c) => sum + c.amount, 0);
   const pending = clients.filter((c) => c.status === "delivered" && !c.paid).reduce((sum, c) => sum + c.amount, 0);
-  const recentClients = clients.slice(-5).reverse();
+  const recentClients = [...clients].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5);
   const openNotes = notes.filter((n) => !n.done).slice(0, 5);
 
   const stats = [

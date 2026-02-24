@@ -13,7 +13,7 @@ export default function LeadsPage() {
           </p>
           <div className="space-y-2">
             <a
-              href="https://formspree.io/"
+              href="https://formspree.io/forms"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-accent-light hover:underline"
@@ -24,7 +24,7 @@ export default function LeadsPage() {
               Formspree Dashboard
             </a>
             <a
-              href="https://mail.google.com/"
+              href="https://mail.google.com/mail/u/0/#search/from%3Aformspree"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-accent-light hover:underline"
@@ -32,7 +32,18 @@ export default function LeadsPage() {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              Gmail (cobo.cascone@gmail.com)
+              Gmail — Formspree submissions
+            </a>
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-accent-light hover:underline"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Gmail Inbox
             </a>
           </div>
         </AdminCard>

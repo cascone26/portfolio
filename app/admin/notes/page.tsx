@@ -43,7 +43,7 @@ export default function NotesPage() {
         </AdminCard>
       )}
 
-      <p className="text-xs text-muted mt-6">Edit data/notes.ts and redeploy to update this list.</p>
+      <p className="text-xs text-muted mt-6">Edit app/admin/data/notes.ts and redeploy to update this list.</p>
     </div>
   );
 }

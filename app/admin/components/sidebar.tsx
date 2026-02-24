@@ -57,15 +57,17 @@ export default function Sidebar() {
       </nav>
 
       <div className="p-3 border-t border-white/[0.06] space-y-1">
-        <Link
+        <a
           href="/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-muted hover:text-foreground hover:bg-white/[0.04] transition-all"
         >
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
           View Site
-        </Link>
+        </a>
         <button
           onClick={handleLogout}
           className="w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-muted hover:text-red-400 hover:bg-red-500/5 transition-all"
