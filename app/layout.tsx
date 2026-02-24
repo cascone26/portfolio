@@ -9,6 +9,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://builtsimple.dev"),
   title: {
     default: "BuiltSimple | Web & AI Solutions",
     template: "%s | BuiltSimple",
