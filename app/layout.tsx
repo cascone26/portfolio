@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
-import Nav from "./components/nav";
-import Footer from "./components/footer";
+import LayoutShell from "./components/layout-shell";
 import "./globals.css";
 
 const geist = Geist({
@@ -53,9 +52,7 @@ export default function RootLayout({
           />
         </div>
 
-        <Nav />
-        <main className="min-h-screen pt-16 relative">{children}</main>
-        <Footer />
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );

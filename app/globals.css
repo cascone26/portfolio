@@ -283,6 +283,89 @@ body {
   animation-play-state: paused;
 }
 
+/* ===== ADMIN PROSE (markdown rendering) ===== */
+.admin-prose {
+  color: var(--foreground);
+  line-height: 1.7;
+}
+
+.admin-prose h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.admin-prose h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.admin-prose h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.admin-prose p {
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.admin-prose strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.admin-prose ul,
+.admin-prose ol {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.admin-prose li {
+  margin-bottom: 0.25rem;
+}
+
+.admin-prose hr {
+  border-color: rgba(148, 163, 184, 0.1);
+  margin: 1.5rem 0;
+}
+
+.admin-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.admin-prose th,
+.admin-prose td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.admin-prose th {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-prose a {
+  color: var(--accent-light);
+}
+
+.admin-prose a:hover {
+  text-decoration: underline;
+}
+
 /* ===== GRADIENT MESH BACKGROUND ===== */
 @keyframes mesh-shift {
   0%,
