@@ -30,7 +30,7 @@ Any work outside of that description is considered out of scope and may require 
 
 - **50% due upfront** before work begins. I won't start until this is received.
 - **50% due on delivery** — when I deliver the final files, site access, or completed setup.
-- Accepted payment methods: [Stripe link / Zelle / Venmo / etc.]
+- Accepted payment methods: Stripe (a secure payment link will be provided)
 - If final payment isn't received within 7 days of delivery, I reserve the right to pause or remove access to the delivered work until payment clears.
 
 ---
