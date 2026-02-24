@@ -3,7 +3,6 @@ import Image from "next/image";
 import FadeIn from "./components/fade-in";
 import BrowserFrame from "./components/browser-frame";
 import Typewriter from "./components/typewriter";
-import TechMarquee from "./components/tech-marquee";
 
 const highlights = [
   {
@@ -47,7 +46,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-24 pb-20 px-6 overflow-hidden">
+      <section className="relative pt-12 pb-20 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.07] blur-[120px] pointer-events-none" />
 
         <div className="max-w-5xl mx-auto relative">
@@ -62,12 +61,17 @@ export default function Home() {
               </FadeIn>
 
               <FadeIn delay={0.1}>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] mb-6 tracking-tight">
-                  <span className="block min-h-[1.2em]">
-                    <Typewriter />
-                  </span>
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] mb-4 tracking-tight">
+                  Websites & AI tools{" "}
                   <span className="gradient-text">for small businesses.</span>
                 </h1>
+              </FadeIn>
+
+              <FadeIn delay={0.15}>
+                <p className="font-mono text-sm text-accent-light/60 mb-6 tracking-wide">
+                  <span className="text-accent-light/30">{">"}</span>{" "}
+                  <Typewriter />
+                </p>
               </FadeIn>
 
               <FadeIn delay={0.2}>
@@ -177,20 +181,6 @@ export default function Home() {
           </div>
         </section>
       </FadeIn>
-
-      {/* Tech marquee */}
-      <section className="py-8 px-6">
-        <div className="max-w-5xl mx-auto">
-          <FadeIn>
-            <p className="text-xs uppercase tracking-widest text-accent-light/60 mb-4 font-medium text-center">
-              Built with
-            </p>
-          </FadeIn>
-          <FadeIn delay={0.1}>
-            <TechMarquee />
-          </FadeIn>
-        </div>
-      </section>
 
       {/* Featured project — LessonDraft */}
       <section className="py-24 px-6">
