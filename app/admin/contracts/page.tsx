@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import AdminCard from "../components/admin-card";
 import { contracts } from "../data/contracts";
@@ -8,10 +8,35 @@ import { contracts } from "../data/contracts";
 export default function ContractsPage() {
   const [active, setActive] = useState(0);
   const [copied, setCopied] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [drafts, setDrafts] = useState<Record<number, string>>({});
   const printRef = useRef<HTMLDivElement>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const currentContent = drafts[active] ?? contracts[active].content;
+  const hasEdits = drafts[active] !== undefined;
+
+  useEffect(() => {
+    if (editing && textareaRef.current) {
+      textareaRef.current.focus();
+    }
+  }, [editing]);
+
+  function handleDraftChange(value: string) {
+    setDrafts((prev) => ({ ...prev, [active]: value }));
+  }
+
+  function handleReset() {
+    setDrafts((prev) => {
+      const next = { ...prev };
+      delete next[active];
+      return next;
+    });
+    setEditing(false);
+  }
 
   async function handleCopy() {
-    await navigator.clipboard.writeText(contracts[active].content);
+    await navigator.clipboard.writeText(currentContent);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   }
@@ -48,7 +73,7 @@ export default function ContractsPage() {
         {contracts.map((doc, i) => (
           <button
             key={doc.slug}
-            onClick={() => { setActive(i); setCopied(false); }}
+            onClick={() => { setActive(i); setCopied(false); setEditing(false); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               active === i
                 ? "bg-accent/15 text-accent-light border border-accent/30"
@@ -63,8 +88,36 @@ export default function ContractsPage() {
       {/* Content */}
       <AdminCard>
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-sm font-semibold text-foreground">{contracts[active].title}</h2>
+          <div className="flex items-center gap-3">
+            <h2 className="text-sm font-semibold text-foreground">{contracts[active].title}</h2>
+            {hasEdits && (
+              <span className="text-[10px] uppercase tracking-wider text-amber-400/80 bg-amber-400/10 px-2 py-0.5 rounded">
+                Edited
+              </span>
+            )}
+          </div>
           <div className="flex gap-2">
+            <button
+              onClick={() => setEditing(!editing)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
+                editing
+                  ? "border-accent/30 bg-accent/10 text-accent-light"
+                  : "border-white/[0.06] hover:border-accent/30 hover:bg-accent/5 text-muted hover:text-accent-light"
+              }`}
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+              </svg>
+              {editing ? "Preview" : "Edit"}
+            </button>
+            {hasEdits && (
+              <button
+                onClick={handleReset}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-white/[0.06] hover:border-red-400/30 hover:bg-red-400/5 text-muted hover:text-red-400 transition-all"
+              >
+                Reset
+              </button>
+            )}
             <button
               onClick={handlePrint}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-white/[0.06] hover:border-accent/30 hover:bg-accent/5 text-muted hover:text-accent-light transition-all"
@@ -90,15 +143,26 @@ export default function ContractsPage() {
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                   </svg>
-                  Copy markdown
+                  Copy
                 </>
               )}
             </button>
           </div>
         </div>
-        <div className="admin-prose" ref={printRef}>
-          <ReactMarkdown>{contracts[active].content}</ReactMarkdown>
-        </div>
+
+        {editing ? (
+          <textarea
+            ref={textareaRef}
+            value={currentContent}
+            onChange={(e) => handleDraftChange(e.target.value)}
+            className="w-full min-h-[600px] bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 text-sm text-foreground font-mono leading-relaxed resize-y focus:outline-none focus:border-accent/30"
+            spellCheck={false}
+          />
+        ) : (
+          <div className="admin-prose" ref={printRef}>
+            <ReactMarkdown>{currentContent}</ReactMarkdown>
+          </div>
+        )}
       </AdminCard>
     </div>
   );
