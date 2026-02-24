@@ -10,15 +10,6 @@ export const metadata: Metadata = {
 
 const services = [
   {
-    title: "Google Business Profile",
-    price: "$75",
-    description:
-      "Show up when people search for your business. Setup, optimization, and I'll show you how to collect reviews. The easiest first step to getting found online.",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-    ),
-  },
-  {
     title: "Website Refresh",
     price: "$100-250",
     description:
@@ -110,8 +101,8 @@ export default function ServicesPage() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <p className="text-muted text-lg max-w-2xl leading-relaxed">
-              Something for every budget — starting at $75. Pick what makes
-              sense for your business right now and add on later. No hidden fees.
+              Something for every budget. Pick what makes sense for your
+              business right now and add on later. No hidden fees.
             </p>
           </FadeIn>
         </div>

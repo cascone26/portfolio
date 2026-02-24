@@ -8,7 +8,7 @@ const highlights = [
   {
     title: "Services & Pricing",
     description:
-      "Starting at $75. Websites, AI chatbots, Google profiles, and more — something for every budget.",
+      "Websites, AI chatbots, automation, and more — something for every budget.",
     href: "/services",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
@@ -86,16 +86,15 @@ export default function Home() {
                 <div className="flex flex-wrap gap-4">
                   <Link
                     href="/contact"
-                    className="btn-gradient text-white font-semibold px-7 py-3.5 rounded-xl"
+                    className="btn-gradient text-white font-semibold px-9 py-4 rounded-xl text-lg"
                   >
                     Get a free audit
                   </Link>
                   <Link
                     href="/services"
-                    className="inline-flex items-center gap-2 font-semibold px-7 py-3.5 rounded-xl text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
+                    className="inline-flex items-center font-semibold px-9 py-4 rounded-xl text-lg text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
                   >
                     See pricing
-                    <span className="text-accent-light text-sm font-normal">from $75</span>
                   </Link>
                 </div>
               </FadeIn>
@@ -274,16 +273,15 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/contact"
-                className="btn-gradient text-white font-semibold px-8 py-3.5 rounded-xl"
+                className="btn-gradient text-white font-semibold px-9 py-4 rounded-xl text-lg"
               >
                 Start a project
               </Link>
               <Link
                 href="/services"
-                className="inline-flex items-center gap-2 font-medium px-8 py-3.5 rounded-xl text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
+                className="inline-flex items-center font-semibold px-9 py-4 rounded-xl text-lg text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
               >
                 View pricing
-                <span className="text-accent-light text-sm font-normal">from $75</span>
               </Link>
             </div>
           </FadeIn>
