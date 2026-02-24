@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 const services = [
   {
-    title: "Business Website",
-    price: "$600-1,200",
+    title: "Google Business Profile",
+    price: "$75",
     description:
-      "A clean, fast, mobile-ready site that actually gets you customers. Price based on page count and add-ons like booking, e-commerce, or custom features.",
+      "Show up when people search for your business. Setup, optimization, and I'll show you how to collect reviews. The easiest first step to getting found online.",
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
     ),
   },
   {
@@ -28,12 +28,21 @@ const services = [
     ),
   },
   {
-    title: "Google Business Profile",
-    price: "$75",
+    title: "Starter Site",
+    price: "$250-400",
     description:
-      "Show up when people search for your business. Setup, optimization, and I'll show you how to collect reviews.",
+      "A clean one-page site with everything you need: your business name, services, hours, location, and a contact form. Perfect if you just need to show up online.",
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>
+    ),
+  },
+  {
+    title: "Full Business Website",
+    price: "$600-1,200",
+    description:
+      "A multi-page site built for growth — with multiple pages, custom features, booking, e-commerce, or whatever your business needs.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
     ),
   },
   {
@@ -101,8 +110,8 @@ export default function ServicesPage() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <p className="text-muted text-lg max-w-2xl leading-relaxed">
-              Pick one or stack them. Most clients start with a website, then add
-              on. All prices are transparent — no hidden fees.
+              Something for every budget — starting at $75. Pick what makes
+              sense for your business right now and add on later. No hidden fees.
             </p>
           </FadeIn>
         </div>
