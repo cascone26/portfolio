@@ -144,7 +144,7 @@ export default function AboutPage() {
               </p>
               <Link
                 href="/contact"
-                className="btn-gradient inline-block text-white font-semibold px-8 py-3.5 rounded-xl relative"
+                className="btn-gradient inline-block text-white font-semibold px-6 py-2.5 rounded-lg text-sm relative"
               >
                 Get in touch
               </Link>

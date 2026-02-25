@@ -83,16 +83,16 @@ export default function Home() {
               </FadeIn>
 
               <FadeIn delay={0.3}>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-3">
                   <Link
                     href="/contact"
-                    className="btn-gradient text-white font-semibold px-9 py-4 rounded-xl text-lg"
+                    className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
                   >
                     Get a free audit
                   </Link>
                   <Link
                     href="/services"
-                    className="btn-outline text-white font-semibold px-9 py-4 rounded-xl text-lg"
+                    className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
                   >
                     See pricing
                   </Link>
@@ -219,14 +219,14 @@ export default function Home() {
                     href="https://lessondraft.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-gradient gap-2 text-white font-semibold px-7 py-3 rounded-xl text-sm"
+                    className="btn-gradient gap-2 text-white font-semibold px-5 py-2 rounded-lg text-sm"
                   >
                     Visit site
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
                   </a>
                   <Link
                     href="/work/lessondraft"
-                    className="btn-outline text-foreground font-medium px-7 py-3 rounded-xl text-sm"
+                    className="btn-outline text-foreground font-medium px-5 py-2 rounded-lg text-sm"
                   >
                     Case study
                   </Link>
@@ -234,7 +234,7 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.2} direction="left">
-              <BrowserFrame url="lessondraft.com">
+              <BrowserFrame url="lessondraft.com" className="pulse-glow">
                 <Image
                   src="/screenshots/lessondraft.png"
                   alt="LessonDraft — AI-powered lesson plan generator for teachers"
@@ -254,6 +254,11 @@ export default function Home() {
         <div className="absolute inset-0 gradient-mesh" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0b1121] via-transparent to-[#0b1121]" />
 
+        {/* Decorative floating shapes */}
+        <div className="absolute top-1/4 left-[10%] w-20 h-20 border border-accent/10 rounded-2xl rotate-12 float-shape" />
+        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-indigo-400/10 rounded-full float-shape-reverse" />
+        <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-accent/[0.07] rounded-lg rotate-45 float-shape-slow" />
+
         <div className="max-w-3xl mx-auto text-center relative">
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
@@ -267,13 +272,13 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/contact"
-                className="btn-gradient text-white font-semibold px-9 py-4 rounded-xl text-lg"
+                className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
               >
                 Start a project
               </Link>
               <Link
                 href="/services"
-                className="btn-outline text-white font-semibold px-9 py-4 rounded-xl text-lg"
+                className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
               >
                 View pricing
               </Link>

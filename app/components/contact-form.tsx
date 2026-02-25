@@ -111,7 +111,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="w-full btn-gradient text-white font-semibold py-3.5 rounded-xl disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full btn-gradient text-white font-semibold py-2.5 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "submitting" ? "Sending..." : "Send message"}
       </button>
