@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import LayoutShell from "./components/layout-shell";
 import "./globals.css";
 
@@ -58,6 +59,7 @@ export default function RootLayout({
         </div>
 
         <LayoutShell>{children}</LayoutShell>
+        <Analytics />
       </body>
     </html>
   );
