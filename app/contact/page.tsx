@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import FadeIn from "../components/fade-in";
+import ContactForm from "../components/contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -30,65 +31,7 @@ export default function ContactPage() {
       <section className="pb-24 px-6">
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-6">
           <FadeIn className="md:col-span-2">
-            <form
-              action="https://formspree.io/f/xdalydzq"
-              method="POST"
-              className="glass rounded-2xl p-7 space-y-5"
-            >
-              <div>
-                <label htmlFor="name" className="text-sm text-muted block mb-2">Name</label>
-                <input
-                  id="name"
-                  type="text"
-                  name="name"
-                  required
-                  placeholder="Your name"
-                  className="w-full input-field rounded-xl px-4 py-3 text-foreground placeholder-muted/40"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="text-sm text-muted block mb-2">Email</label>
-                <input
-                  id="email"
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="you@example.com"
-                  className="w-full input-field rounded-xl px-4 py-3 text-foreground placeholder-muted/40"
-                />
-              </div>
-              <div>
-                <label htmlFor="business" className="text-sm text-muted block mb-2">
-                  Business & what you do
-                </label>
-                <input
-                  id="business"
-                  type="text"
-                  name="business"
-                  placeholder="e.g. Joe's Plumbing — residential plumbing in KC"
-                  className="w-full input-field rounded-xl px-4 py-3 text-foreground placeholder-muted/40"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="text-sm text-muted block mb-2">
-                  What do you need?
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  required
-                  placeholder="New website, fix my existing site, show up on Google, automate something..."
-                  rows={4}
-                  className="w-full input-field rounded-xl px-4 py-3 text-foreground placeholder-muted/40 resize-none"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full btn-gradient text-white font-semibold py-3.5 rounded-xl"
-              >
-                Send message
-              </button>
-            </form>
+            <ContactForm />
           </FadeIn>
 
           <FadeIn delay={0.15}>

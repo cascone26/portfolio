@@ -100,60 +100,58 @@ export default function Home() {
               </FadeIn>
             </div>
 
-            {/* Right — code mockup */}
+            {/* Right — site mockup */}
             <FadeIn delay={0.3} direction="left">
               <div className="hidden md:block">
-                <BrowserFrame url="your-business.com">
-                  <div className="p-5 text-[13px] leading-relaxed space-y-1">
-                    <p>
-                      <span className="code-keyword">const</span>{" "}
-                      <span className="code-function">website</span>{" "}
-                      <span className="code-plain">=</span>{" "}
-                      <span className="code-function">build</span>
-                      <span className="code-plain">({"{"}</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">client:</span>{" "}
-                      <span className="code-string">
-                        &quot;your business&quot;
+                <BrowserFrame url="joes-plumbing.com">
+                  <div className="bg-white text-gray-900">
+                    {/* Mock nav */}
+                    <div className="flex items-center justify-between px-5 py-3 border-b border-gray-100">
+                      <span className="font-bold text-sm text-blue-700">
+                        Joe&apos;s Plumbing
                       </span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">fast:</span>{" "}
-                      <span className="code-keyword">true</span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">mobile:</span>{" "}
-                      <span className="code-keyword">true</span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">seo:</span>{" "}
-                      <span className="code-keyword">true</span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">budget:</span>{" "}
-                      <span className="code-string">
-                        &quot;affordable&quot;
-                      </span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p className="pl-5">
-                      <span className="code-plain">jargon:</span>{" "}
-                      <span className="code-keyword">false</span>
-                      <span className="code-plain">,</span>
-                    </p>
-                    <p>
-                      <span className="code-plain">{"}"});</span>
-                    </p>
-                    <p className="mt-3">
-                      <span className="code-comment">
-                        {"// "}Ready in 1-2 weeks
-                      </span>
-                    </p>
+                      <div className="flex gap-4 text-[11px] text-gray-500 font-medium">
+                        <span>Services</span>
+                        <span>About</span>
+                        <span>Contact</span>
+                      </div>
+                    </div>
+                    {/* Mock hero */}
+                    <div className="px-5 py-6 bg-gradient-to-br from-blue-50 to-white">
+                      <p className="text-[10px] uppercase tracking-widest text-blue-600 font-semibold mb-1">
+                        Kansas City&apos;s trusted plumber
+                      </p>
+                      <p className="text-lg font-bold leading-tight mb-1.5">
+                        Fast, honest plumbing <br />
+                        you can count on.
+                      </p>
+                      <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">
+                        Serving KC homes for 15 years. Licensed &amp; insured.
+                      </p>
+                      <div className="flex gap-2">
+                        <span className="bg-blue-600 text-white text-[10px] font-semibold px-3 py-1.5 rounded-md">
+                          Book Now
+                        </span>
+                        <span className="border border-blue-200 text-blue-700 text-[10px] font-semibold px-3 py-1.5 rounded-md">
+                          (816) 555-0123
+                        </span>
+                      </div>
+                    </div>
+                    {/* Mock services */}
+                    <div className="px-5 py-4 grid grid-cols-3 gap-2">
+                      {["Repairs", "Installations", "Drain Cleaning"].map(
+                        (s) => (
+                          <div
+                            key={s}
+                            className="bg-gray-50 rounded-lg p-2.5 text-center"
+                          >
+                            <p className="text-[10px] font-semibold text-gray-700">
+                              {s}
+                            </p>
+                          </div>
+                        )
+                      )}
+                    </div>
                   </div>
                 </BrowserFrame>
               </div>
@@ -168,10 +166,10 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.02] to-transparent" />
           <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-x-10 gap-y-3 text-muted text-sm relative">
             {[
-              "Live SaaS products shipped",
-              "Fast turnaround — no agency delays",
-              "Small business focused",
-              "Plain English, no fluff",
+              "24-hour response time",
+              "Websites delivered in 1-2 weeks",
+              "No contracts — pay per project",
+              "100% custom — no templates",
             ].map((item) => (
               <span key={item} className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-accent/60 rounded-full" />

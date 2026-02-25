@@ -12,6 +12,8 @@ const services = [
   {
     title: "Website Refresh",
     price: "$100-250",
+    timeline: "2-3 days",
+    priceNote: "Depends on how much needs fixing",
     description:
       "Your site exists but looks outdated or broken. I'll clean it up, speed it up, and make it work on phones.",
     icon: (
@@ -21,6 +23,8 @@ const services = [
   {
     title: "Starter Site",
     price: "$250-400",
+    timeline: "3-5 days",
+    priceNote: "Depends on content and design complexity",
     description:
       "A clean one-page site with everything you need: your business name, services, hours, location, and a contact form. Perfect if you just need to show up online.",
     icon: (
@@ -30,6 +34,8 @@ const services = [
   {
     title: "Full Business Website",
     price: "$600-1,200",
+    timeline: "1-2 weeks",
+    priceNote: "Depends on number of pages and custom features",
     description:
       "A multi-page site built for growth — with multiple pages, custom features, booking, e-commerce, or whatever your business needs.",
     icon: (
@@ -39,6 +45,8 @@ const services = [
   {
     title: "AI Chatbot",
     price: "$250-500",
+    timeline: "3-5 days",
+    priceNote: "Depends on how many topics it needs to handle",
     description:
       "A chatbot on your website that answers customer questions 24/7, captures leads, and saves you time.",
     icon: (
@@ -48,6 +56,8 @@ const services = [
   {
     title: "Email Automation",
     price: "$200-350",
+    timeline: "2-4 days",
+    priceNote: "Depends on number of automations",
     description:
       "Automatic follow-ups, appointment reminders, lead responses — set it up once and let it run.",
     icon: (
@@ -57,6 +67,8 @@ const services = [
   {
     title: "Monthly Tech Retainer",
     price: "$50-75/mo",
+    timeline: "Ongoing",
+    priceNote: "Depends on how much support you need",
     description:
       "Your personal tech person. I handle updates, fixes, questions, and changes so you never have to worry about it.",
     icon: (
@@ -122,9 +134,17 @@ export default function ServicesPage() {
                     {s.price}
                   </span>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">
+                <p className="text-muted text-sm leading-relaxed mb-3">
                   {s.description}
                 </p>
+                <div className="flex items-center gap-3 text-xs text-muted/70 pt-2 border-t border-white/[0.04]">
+                  <span className="flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    {s.timeline}
+                  </span>
+                  <span className="w-px h-3 bg-white/[0.08]" />
+                  <span>{s.priceNote}</span>
+                </div>
               </div>
             </FadeIn>
           ))}

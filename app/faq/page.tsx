@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import FadeIn from "../components/fade-in";
+import Accordion from "../components/accordion";
 
 export const metadata: Metadata = {
   title: "FAQ",
@@ -72,20 +73,9 @@ export default function FAQPage() {
 
       <section className="pb-24 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="space-y-0">
-            {faqs.map((faq, i) => (
-              <FadeIn key={faq.q} delay={i * 0.05}>
-                <div
-                  className={`py-7 ${
-                    i < faqs.length - 1 ? "border-b border-white/[0.06]" : ""
-                  }`}
-                >
-                  <h2 className="font-semibold text-lg mb-2">{faq.q}</h2>
-                  <p className="text-muted text-sm leading-relaxed">{faq.a}</p>
-                </div>
-              </FadeIn>
-            ))}
-          </div>
+          <FadeIn>
+            <Accordion items={faqs} />
+          </FadeIn>
 
           <FadeIn>
             <div className="relative mt-16 glass rounded-2xl p-10 text-center">
