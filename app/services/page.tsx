@@ -105,6 +105,7 @@ export default function ServicesPage() {
     <>
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 right-0 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="absolute top-10 left-[5%] w-[400px] h-[300px] rounded-full bg-purple-500/[0.04] blur-[100px] pointer-events-none" />
         <div className="max-w-5xl mx-auto relative">
           <FadeIn>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">

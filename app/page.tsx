@@ -48,6 +48,7 @@ export default function Home() {
       {/* Hero */}
       <section className="relative pt-12 pb-20 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.07] blur-[120px] pointer-events-none" />
+        <div className="absolute -top-20 right-[15%] w-[500px] h-[400px] rounded-full bg-purple-500/[0.04] blur-[120px] pointer-events-none" />
 
         <div className="max-w-5xl mx-auto relative">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -256,8 +257,8 @@ export default function Home() {
 
         {/* Decorative floating shapes */}
         <div className="absolute top-1/4 left-[10%] w-20 h-20 border border-accent/10 rounded-2xl rotate-12 float-shape" />
-        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-indigo-400/10 rounded-full float-shape-reverse" />
-        <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-accent/[0.07] rounded-lg rotate-45 float-shape-slow" />
+        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-purple-400/15 rounded-full float-shape-reverse" />
+        <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-purple-500/[0.1] rounded-lg rotate-45 float-shape-slow" />
 
         <div className="max-w-3xl mx-auto text-center relative">
           <FadeIn>

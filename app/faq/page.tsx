@@ -57,6 +57,7 @@ export default function FAQPage() {
     <>
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 right-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
+        <div className="absolute top-20 left-[10%] w-[350px] h-[250px] rounded-full bg-purple-500/[0.04] blur-[100px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
           <FadeIn>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
