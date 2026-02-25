@@ -92,7 +92,7 @@ export default function Home() {
                   </Link>
                   <Link
                     href="/services"
-                    className="inline-flex items-center font-semibold px-9 py-4 rounded-xl text-lg text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
+                    className="btn-outline text-white font-semibold px-9 py-4 rounded-xl text-lg"
                   >
                     See pricing
                   </Link>
@@ -234,7 +234,7 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.2} direction="left">
-              <BrowserFrame url="lessondraft.com" className="pulse-glow">
+              <BrowserFrame url="lessondraft.com">
                 <Image
                   src="/screenshots/lessondraft.png"
                   alt="LessonDraft — AI-powered lesson plan generator for teachers"
@@ -253,11 +253,6 @@ export default function Home() {
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 gradient-mesh" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0b1121] via-transparent to-[#0b1121]" />
-
-        {/* Decorative floating shapes */}
-        <div className="absolute top-1/4 left-[10%] w-20 h-20 border border-accent/10 rounded-2xl rotate-12 float-shape" />
-        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-indigo-400/10 rounded-full float-shape-reverse" />
-        <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-accent/[0.07] rounded-lg rotate-45 float-shape-slow" />
 
         <div className="max-w-3xl mx-auto text-center relative">
           <FadeIn>
@@ -278,7 +273,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/services"
-                className="inline-flex items-center font-semibold px-9 py-4 rounded-xl text-lg text-white border border-accent/40 bg-accent/10 hover:bg-accent/20 hover:border-accent/60 transition-all"
+                className="btn-outline text-white font-semibold px-9 py-4 rounded-xl text-lg"
               >
                 View pricing
               </Link>
