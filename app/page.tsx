@@ -103,54 +103,55 @@ export default function Home() {
             {/* Right — site mockup */}
             <FadeIn delay={0.3} direction="left">
               <div className="hidden md:block">
-                <BrowserFrame url="your-business.com">
-                  <div className="bg-white text-gray-900">
-                    {/* Mock nav */}
-                    <div className="flex items-center justify-between px-5 py-3 border-b border-gray-100">
-                      <span className="font-bold text-sm text-blue-700">
-                        Your Business
-                      </span>
-                      <div className="flex gap-4 text-[11px] text-gray-500 font-medium">
-                        <span>Services</span>
-                        <span>About</span>
-                        <span>Contact</span>
+                <BrowserFrame url="your-site-stats">
+                  <div className="p-5 space-y-4">
+                    {/* Top stats row */}
+                    <div className="grid grid-cols-3 gap-2.5">
+                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                        <p className="text-2xl font-bold text-green-400">98</p>
+                        <p className="text-[10px] text-muted/60 mt-0.5">Speed Score</p>
+                      </div>
+                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                        <p className="text-2xl font-bold text-accent-light">A+</p>
+                        <p className="text-[10px] text-muted/60 mt-0.5">SEO Grade</p>
+                      </div>
+                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                        <p className="text-2xl font-bold text-green-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="inline"><polyline points="20 6 9 17 4 12"/></svg>
+                        </p>
+                        <p className="text-[10px] text-muted/60 mt-0.5">Mobile Ready</p>
                       </div>
                     </div>
-                    {/* Mock hero */}
-                    <div className="px-5 py-6 bg-gradient-to-br from-blue-50 to-white">
-                      <p className="text-[10px] uppercase tracking-widest text-blue-600 font-semibold mb-1">
-                        Your tagline here
-                      </p>
-                      <p className="text-lg font-bold leading-tight mb-1.5">
-                        A website that <br />
-                        works for you.
-                      </p>
-                      <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">
-                        Fast, mobile-friendly, and built to get you customers.
-                      </p>
-                      <div className="flex gap-2">
-                        <span className="bg-blue-600 text-white text-[10px] font-semibold px-3 py-1.5 rounded-md">
-                          Book Now
-                        </span>
-                        <span className="border border-blue-200 text-blue-700 text-[10px] font-semibold px-3 py-1.5 rounded-md">
-                          Call Us
-                        </span>
+                    {/* Visitor chart mock */}
+                    <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-4">
+                      <div className="flex items-center justify-between mb-3">
+                        <p className="text-xs font-medium text-muted/80">Visitors this month</p>
+                        <p className="text-xs font-semibold text-green-400">+34%</p>
                       </div>
-                    </div>
-                    {/* Mock services */}
-                    <div className="px-5 py-4 grid grid-cols-3 gap-2">
-                      {["Service One", "Service Two", "Service Three"].map(
-                        (s) => (
+                      <div className="flex items-end gap-1.5 h-16">
+                        {[35, 42, 38, 55, 48, 62, 58, 71, 65, 78, 85, 92].map((h, i) => (
                           <div
-                            key={s}
-                            className="bg-gray-50 rounded-lg p-2.5 text-center"
-                          >
-                            <p className="text-[10px] font-semibold text-gray-700">
-                              {s}
-                            </p>
-                          </div>
-                        )
-                      )}
+                            key={i}
+                            className="flex-1 rounded-sm bg-gradient-to-t from-accent/40 to-accent-light/60"
+                            style={{ height: `${h}%` }}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                    {/* Bottom checklist */}
+                    <div className="space-y-2">
+                      {[
+                        "SSL secured & fast loading",
+                        "Google Business connected",
+                        "Contact form capturing leads",
+                      ].map((item) => (
+                        <div key={item} className="flex items-center gap-2.5 text-[11px]">
+                          <span className="w-4 h-4 rounded-full bg-green-500/15 flex items-center justify-center shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-400"><polyline points="20 6 9 17 4 12"/></svg>
+                          </span>
+                          <span className="text-muted/70">{item}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </BrowserFrame>
