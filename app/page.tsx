@@ -103,12 +103,12 @@ export default function Home() {
             {/* Right — site mockup */}
             <FadeIn delay={0.3} direction="left">
               <div className="hidden md:block">
-                <BrowserFrame url="joes-plumbing.com">
+                <BrowserFrame url="your-business.com">
                   <div className="bg-white text-gray-900">
                     {/* Mock nav */}
                     <div className="flex items-center justify-between px-5 py-3 border-b border-gray-100">
                       <span className="font-bold text-sm text-blue-700">
-                        Joe&apos;s Plumbing
+                        Your Business
                       </span>
                       <div className="flex gap-4 text-[11px] text-gray-500 font-medium">
                         <span>Services</span>
@@ -119,27 +119,27 @@ export default function Home() {
                     {/* Mock hero */}
                     <div className="px-5 py-6 bg-gradient-to-br from-blue-50 to-white">
                       <p className="text-[10px] uppercase tracking-widest text-blue-600 font-semibold mb-1">
-                        Kansas City&apos;s trusted plumber
+                        Your tagline here
                       </p>
                       <p className="text-lg font-bold leading-tight mb-1.5">
-                        Fast, honest plumbing <br />
-                        you can count on.
+                        A website that <br />
+                        works for you.
                       </p>
                       <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">
-                        Serving KC homes for 15 years. Licensed &amp; insured.
+                        Fast, mobile-friendly, and built to get you customers.
                       </p>
                       <div className="flex gap-2">
                         <span className="bg-blue-600 text-white text-[10px] font-semibold px-3 py-1.5 rounded-md">
                           Book Now
                         </span>
                         <span className="border border-blue-200 text-blue-700 text-[10px] font-semibold px-3 py-1.5 rounded-md">
-                          (816) 555-0123
+                          Call Us
                         </span>
                       </div>
                     </div>
                     {/* Mock services */}
                     <div className="px-5 py-4 grid grid-cols-3 gap-2">
-                      {["Repairs", "Installations", "Drain Cleaning"].map(
+                      {["Service One", "Service Two", "Service Three"].map(
                         (s) => (
                           <div
                             key={s}
