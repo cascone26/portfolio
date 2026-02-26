@@ -10,6 +10,831 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-cheap-websites-cost-more",
+    title: "Why Cheap Websites End Up Costing You More",
+    description:
+      "That $50/month website builder sounds great until you do the math. Here's why the cheapest option is rarely the best value.",
+    date: "2026-03-10",
+    readTime: "4 min",
+    tags: ["Websites", "Pricing"],
+    content: `
+You see the ads everywhere. "$12/month — build your own website!" Sounds like a steal compared to paying a developer, right?
+
+Let's do some actual math.
+
+## The hidden costs of website builders
+
+Take a typical website builder — Wix, Squarespace, whatever. Here's what the real cost looks like after a year:
+
+- **Monthly plan:** $16/month = $192/year
+- **Custom domain:** $15/year (sometimes included, sometimes not)
+- **Remove ads upgrade:** another $5-10/month on cheap plans
+- **Premium templates:** $50-100 one-time
+- **Third-party plugins:** $10-30/month for forms, booking, SEO tools
+- **Your time building it:** 30-50 hours at minimum
+
+That "cheap" website just cost you $400-700 in the first year plus dozens of hours of your time. And it still looks like a template because it is one.
+
+**Year two?** You're paying those monthly fees again. Year three? Same thing. After 3 years you've spent $1,000-1,500 on a website you don't own and can't take with you.
+
+## What "you don't own it" actually means
+
+This is the part people miss. When you build on Wix or Squarespace, you're renting. If you stop paying, your site disappears. If the platform raises prices, you pay or lose everything. If they shut down a feature you depend on, too bad.
+
+When I build your site, you own the code. You own the domain. You own everything. If you want to move to a different host or hire someone else later, you can. No lock-in.
+
+## The time tax
+
+Let's talk about those 30-50 hours. That's a conservative estimate for someone with no web experience to build a decent-looking site on a page builder. And "decent-looking" is generous — most DIY sites look like DIY sites.
+
+If you're a plumber charging $100/hour, those 40 hours of website building cost you $4,000 in lost income. Even if your time is worth $30/hour, that's $1,200. Suddenly hiring someone for $400 is the cheaper option.
+
+## When free and cheap make sense
+
+I'll be honest — if you're testing a business idea and you're not sure it'll work, a free Carrd page or a basic Google Business Profile is fine to start. Don't invest $500 in a website for a business that might not exist in 3 months.
+
+But once you're committed and taking real customers? Get a real site. The difference in how customers perceive you is massive.
+
+## The sweet spot
+
+A custom-built website that you own, that's fast, that looks professional, that works on phones, and that actually helps you get found on Google — that's $350-600 for most small businesses. One-time cost. You own it forever.
+
+Compare that to $500/year on a template builder that you'll never fully own. The math isn't even close.
+    `,
+  },
+  {
+    slug: "how-to-get-your-first-customers-online",
+    title: "How to Get Your First Customers Online (Without Spending a Fortune)",
+    description:
+      "You've got a business but no online presence. Here's a practical, step-by-step plan to start getting customers from the internet.",
+    date: "2026-03-09",
+    readTime: "5 min",
+    tags: ["Small Business", "Marketing"],
+    content: `
+You're getting customers through word of mouth and maybe a Facebook post here and there. It's working, but it's slow. You know you need to get online, but you don't know where to start and you don't want to waste money on stuff that doesn't work.
+
+Here's the plan. Start at the top, work your way down. Each step builds on the last.
+
+## Step 1: Google Business Profile (free, 30 minutes)
+
+This is the single highest-impact thing you can do, and it's completely free. Go to business.google.com and set up your profile. Fill out every field. Add real photos. Pick the most specific category for your business.
+
+This alone will get you showing up in "near me" searches on Google Maps. For a lot of local businesses, this is where the majority of new customers come from.
+
+## Step 2: Get a website ($350-600, one-time)
+
+Your Google Business Profile links to your website. People who find you on Google will want to see more before they call. A clean, fast, mobile-friendly website with your services, location, and a way to contact you is all you need.
+
+Don't overthink this. You don't need a blog with 50 posts, a video background, or a custom logo. You need a site that answers three questions: What do you do? Where are you? How do I reach you?
+
+## Step 3: Collect Google reviews (free, ongoing)
+
+After every good job, ask for a Google review. Not in a weird salesy way — just "If you're happy with the work, a Google review really helps my business." Send them the direct link to make it easy.
+
+Reviews are the #1 trust signal for local businesses. When someone sees you have 20+ positive reviews, they're calling you instead of the guy with zero.
+
+## Step 4: Get listed in directories (free, 1-2 hours)
+
+Make sure your business shows up on:
+
+- **Yelp** — still matters for certain industries
+- **Facebook** — create a business page if you haven't
+- **Apple Maps** — submit through Apple Business Connect
+- **Nextdoor** — huge for local service businesses
+
+The key is consistent info everywhere: same business name, same address, same phone number. Inconsistencies confuse Google and hurt your search rankings.
+
+## Step 5: Start posting (free, 15 min/week)
+
+You don't need a social media strategy. You need to post a photo of your work once or twice a week. Before and after shots, finished projects, your team on a job site — real stuff. Not graphics. Not quotes. Not stock photos.
+
+Post on your Google Business Profile (yes, it has a post feature), Facebook, and Nextdoor. That's it. Don't try to be on every platform.
+
+## What not to do
+
+- **Don't pay for ads yet.** Get the basics right first. Ads amplify what's already working — they don't fix a broken online presence.
+- **Don't hire an SEO company charging $1,000/month.** You don't need that yet. Maybe not ever.
+- **Don't buy followers or fake reviews.** Google is good at detecting these and will penalize you.
+- **Don't try to do everything at once.** One step at a time. Consistency beats intensity.
+
+## The timeline
+
+If you do all five steps, you should start seeing organic online inquiries within 1-3 months. It's not instant, but it compounds. Six months from now, you'll wonder why you didn't do this sooner.
+    `,
+  },
+  {
+    slug: "what-is-website-hosting",
+    title: "What Is Website Hosting and Do You Need to Pay for It?",
+    description:
+      "Hosting, domains, servers — it's confusing. Here's a plain-English explanation of where your website actually lives and what it costs.",
+    date: "2026-03-08",
+    readTime: "4 min",
+    tags: ["Websites", "Basics"],
+    content: `
+A lot of business owners I talk to are confused by hosting. What is it? Do you need it? Is it the same as a domain name? How much should it cost? Let me break it down without the tech jargon.
+
+## Your website needs to live somewhere
+
+Think of it like renting space. Your website is a bunch of files — text, images, code. Those files need to sit on a computer (a server) that's connected to the internet 24/7 so people can access your site anytime.
+
+That's hosting. You're renting space on a server so your website is available to the world.
+
+## Hosting vs. domain name
+
+These are two different things that people confuse all the time:
+
+- **Domain name** = your address (like builtsimple.dev). It's what people type to find you.
+- **Hosting** = the building at that address. It's where your website files actually live.
+
+You need both. A domain without hosting is an address with no building. Hosting without a domain means your site exists but nobody can find it.
+
+## What hosting costs
+
+For a small business website, hosting ranges from free to about $20/month depending on what you need:
+
+- **Free hosting** — platforms like Vercel and Netlify offer free plans that work great for simple business websites. This is what I use for most client sites.
+- **Cheap shared hosting** — $5-10/month. Companies like Bluehost, SiteGround, HostGator. Fine for basic sites but can be slow.
+- **Managed hosting** — $15-30/month. Faster, more reliable, better support. Worth it for sites with lots of traffic.
+- **Website builder hosting** — Wix, Squarespace, etc. bundle hosting into their monthly fee ($15-40/month). Convenient but you're locked into their platform.
+
+## The truth most developers won't tell you
+
+Most small business websites can be hosted for free. If your site is built with modern tools (like I build them), platforms like Vercel will host it at no cost. It's fast, reliable, and scales automatically.
+
+The only time you need paid hosting is if you have a database, lots of file uploads, an e-commerce store, or thousands of daily visitors. A typical 5-page business website? Free hosting handles it perfectly.
+
+## What about domain names?
+
+A .com domain runs about $10-15/year. A .dev or other extension might be $12-20/year. You register it through a domain registrar (Namecheap, Google Domains, Cloudflare, etc.).
+
+I recommend Cloudflare or Namecheap — they charge what it actually costs with no markup. Some registrars lure you in with $1 first-year pricing then jack it up to $20/year on renewal. Read the fine print.
+
+## What I do for clients
+
+When I build a website, I handle all of this. I set up the hosting, configure the domain, deploy the site, and make sure everything works. Most of my clients pay $0/month for hosting and $12-15/year for their domain.
+
+No monthly hosting fees, no surprise charges. That's how it should be.
+    `,
+  },
+  {
+    slug: "online-booking-systems-for-small-businesses",
+    title: "Online Booking: Should Your Business Let Customers Schedule Online?",
+    description:
+      "If your customers call to book appointments, you're losing some of them. Here's when online booking makes sense and how to set it up.",
+    date: "2026-03-07",
+    readTime: "5 min",
+    tags: ["Automation", "Small Business"],
+    content: `
+You're a barber, a tutor, a personal trainer, a massage therapist, a cleaning company. People need to book a time with you. Right now they call, text, or DM you. Sometimes you miss the call. Sometimes you're on another job. Sometimes they just don't bother calling at all.
+
+Online booking fixes this.
+
+## What online booking actually looks like
+
+Your website has a "Book Now" button. The customer clicks it, sees your available time slots, picks one, and confirms. They get an email reminder. You get a notification. Done.
+
+No phone tag. No "let me check my calendar and get back to you." No lost leads who didn't want to call.
+
+## Why it works
+
+**People book outside business hours.** About 40% of online bookings happen after 5pm or on weekends. Those are customers you'd lose if they had to call during your working hours.
+
+**It reduces no-shows.** Automated email and text reminders cut no-shows by 25-30%. When people commit with a click and get reminded the day before, they show up.
+
+**It saves you time.** If you spend 30 minutes a day on scheduling — taking calls, texting back and forth, updating your calendar — that's 2.5 hours a week. Over a year, that's 130 hours spent on something a computer can do automatically.
+
+**Younger customers expect it.** If your target market includes anyone under 40, many of them would rather book online than make a phone call. That's just the reality in 2026.
+
+## When online booking makes sense
+
+It's a good fit if:
+
+- **Your business runs on appointments.** Barbers, tutors, consultants, trainers, therapists, cleaning services.
+- **You have predictable availability.** You know what time slots you can offer.
+- **You miss calls regularly.** You're on the job and can't answer the phone.
+- **You want to reduce admin work.** Less time scheduling, more time doing actual work.
+
+It might not make sense if:
+
+- **Your jobs require estimates first.** A roofer needs to see the roof before scheduling work. A contact form is better here.
+- **You don't have set hours.** If every job is different and you can't predict availability, a booking system adds more complexity than it solves.
+
+## What tools are out there
+
+For small businesses, these work well:
+
+- **Calendly** — free tier handles basic scheduling, paid plans start at $10/month
+- **Square Appointments** — free for individuals, integrates with Square payments
+- **Acuity Scheduling** — $16/month, powerful but more features than most need
+- **Cal.com** — open source, free self-hosted option
+
+Most of these can be embedded directly into your website so customers never leave your site.
+
+## What it costs to set up
+
+If you already use one of these tools, embedding it in your website takes about an hour. If you need help choosing a tool, configuring it, and integrating it into your site, that's usually a $200-300 job.
+
+The ongoing cost is whatever the booking platform charges — anywhere from free to $20/month depending on your needs.
+
+## Start simple
+
+You don't need a complex system on day one. Start with something basic — Calendly's free plan embedded on your contact page. See how it goes. If you're getting 5+ bookings a week through it, then consider upgrading to something more feature-rich.
+
+The goal is to make it easier for people to give you money. Remove friction wherever you can.
+    `,
+  },
+  {
+    slug: "why-website-speed-matters",
+    title: "Why Your Website Speed Matters More Than You Think",
+    description:
+      "Slow websites lose customers and rank lower on Google. Here's how fast yours should be and what to do if it's not.",
+    date: "2026-03-06",
+    readTime: "4 min",
+    tags: ["Websites", "SEO"],
+    content: `
+Pull up your website on your phone right now. Count how many seconds it takes to fully load. If you got past 3, you have a problem.
+
+## The numbers don't lie
+
+Here's what research consistently shows:
+
+- **1-3 seconds:** Normal. People stay.
+- **3-5 seconds:** You lose about 25% of visitors.
+- **5-10 seconds:** You lose about 50% of visitors.
+- **10+ seconds:** Almost everyone is gone.
+
+People are impatient, and they have options. If your site takes 6 seconds to load, they hit the back button and click on your competitor who loads in 2. You lost that customer and you didn't even know it.
+
+## Google cares about speed too
+
+Google uses page speed as a ranking factor. Specifically, they measure something called Core Web Vitals — how fast your page loads, how quickly it becomes interactive, and whether stuff shifts around while loading.
+
+Slower site = lower rankings = fewer people find you = fewer customers. It's that simple.
+
+## Why most small business sites are slow
+
+The usual culprits:
+
+**Giant images.** Someone uploaded a 4MB photo straight from their phone. It should be 100-200KB. This is the #1 cause of slow sites.
+
+**Too many plugins.** WordPress sites are notorious for this. 30 plugins all loading their own JavaScript files, fighting each other, slowing everything down.
+
+**Cheap hosting.** That $3/month hosting plan has your site sharing a server with 500 other websites. During peak hours, everything crawls.
+
+**Page builder bloat.** Wix, Elementor, Divi — they generate way more code than necessary to make the drag-and-drop editor work. A page that needs 50 lines of code might have 5,000.
+
+**Third-party scripts.** Chat widgets, analytics tools, Facebook pixels, pop-up plugins — each one adds loading time. Some sites have 15+ third-party scripts running on every page.
+
+## How to check your speed
+
+Go to **pagespeed.web.dev** (Google's own tool). Enter your website URL. It'll give you a score from 0-100 and tell you exactly what's slowing you down.
+
+Green (90-100) = great. Yellow (50-89) = needs work. Red (0-49) = serious problems.
+
+Test the mobile score, not just desktop. Mobile is what matters.
+
+## Quick fixes you can do yourself
+
+- **Compress your images.** Use tinypng.com to shrink images before uploading. Or ask your developer to set up automatic compression.
+- **Remove plugins you don't use.** Deactivating isn't enough — delete them.
+- **Upgrade your hosting.** Moving from $3/month shared hosting to a $10/month plan can cut load times in half.
+- **Remove unnecessary widgets.** That chat bubble, social media feed, and autoplay video on your homepage? Pick one. Not all three.
+
+## The real fix
+
+For a lot of small business sites, the core issue is the platform. A WordPress site with 20 plugins on cheap hosting will never be as fast as a modern site built with clean code on good infrastructure.
+
+When I build sites, speed is built in from the start. Most of my sites score 95+ on Google PageSpeed. They load in under 2 seconds on mobile. No plugins, no bloat, no page builder overhead.
+
+If your site is slow and you want to know how bad it is, I'll run a free speed audit and show you exactly what's going on.
+    `,
+  },
+  {
+    slug: "how-to-write-your-business-website-content",
+    title: "How to Write the Content for Your Business Website",
+    description:
+      "Staring at a blank page trying to write your website copy? Here's exactly what to write on each page and how to say it.",
+    date: "2026-03-05",
+    readTime: "5 min",
+    tags: ["Websites", "Content"],
+    content: `
+The #1 reason small business website projects stall isn't the design or the development — it's the content. Business owners freeze up when it's time to write the words that go on the pages. What do you say? How much do you write? What if it sounds dumb?
+
+Here's a practical framework that works for any small business.
+
+## The homepage (most important page)
+
+Your homepage needs to answer three questions in the first 5 seconds:
+
+1. **What do you do?** "Residential plumbing for the KC metro" — clear and specific.
+2. **Who is it for?** "Homeowners in Johnson County" — not everyone, be specific.
+3. **What should I do next?** "Call for a free estimate" — one clear action.
+
+That's your hero section. Don't try to be clever. Don't use vague taglines like "Elevating Your Experience" or "Solutions for Tomorrow." Just say what you do.
+
+Below the hero, add:
+
+- **A few sentences about what makes you different.** Family-owned? 20 years experience? Same-day service? Say it.
+- **Your main services** listed out (link to the services page).
+- **A trust element** — Google review rating, years in business, number of customers served.
+- **A call to action** — contact form, phone number, or a "Get a Quote" button.
+
+## The about page
+
+People want to know who they're hiring. This page isn't a corporate bio — it's a chance to build trust.
+
+Write it like you're explaining your business to someone at a backyard barbecue:
+
+- **Who you are.** Name, face, story. How did you get into this business?
+- **Why you do this work.** What drives you? What do you care about?
+- **Why someone should pick you** over the dozen other options in KC.
+
+Keep it personal. First person ("I" not "we" if you're a solo operator). Customers connect with people, not companies.
+
+## The services page
+
+For each service, cover:
+
+- **What it is** in plain English (not industry jargon)
+- **Who needs it** and when
+- **What the customer gets** (deliverables, timeline)
+- **What it costs** (even a range is better than nothing)
+- **How to get started** (call, form, book online)
+
+Don't make people dig for pricing. If you can't give exact numbers, give ranges. "Kitchen remodels typically run $5,000-15,000 depending on scope." That's enough to qualify leads without scaring anyone away.
+
+## The contact page
+
+Keep it simple:
+
+- **Contact form** (name, email, phone, message — that's it)
+- **Phone number** (clickable on mobile)
+- **Email address**
+- **Business hours**
+- **Service area** (city/zip codes you cover)
+
+Don't hide your contact info behind 5 pages of content. Make it impossible to miss.
+
+## Writing tips
+
+- **Write like you talk.** Read it out loud. If it sounds like a robot wrote it, rewrite it.
+- **Short sentences.** Short paragraphs. People scan, they don't read novels.
+- **Use "you" more than "we."** Instead of "We provide excellent service" say "You'll get same-day service."
+- **Cut the fluff.** "We are a premier provider of innovative solutions" means nothing. "We fix leaky pipes fast" means everything.
+- **Include your location.** Mention your city, neighborhood, or service area naturally throughout the content. It helps Google connect you to local searches.
+
+## If you're stuck
+
+Some people just aren't writers, and that's fine. You don't need to be. When I build websites, I help with the content too. We'll hop on a 20-minute call where I ask you questions about your business, and I'll turn your answers into website copy that sounds like you (not like a marketing textbook).
+
+The hardest part is starting. But your website copy doesn't need to be perfect — it needs to be honest, clear, and helpful. That's it.
+    `,
+  },
+  {
+    slug: "kansas-city-small-business-online-guide",
+    title: "Kansas City Small Business Owner? Here's Your Online Checklist",
+    description:
+      "A practical checklist for KC-area business owners who want to get found online. Local tips, local resources, and what actually matters.",
+    date: "2026-03-04",
+    readTime: "5 min",
+    tags: ["Local SEO", "Kansas City", "Small Business"],
+    content: `
+If you run a small business in the Kansas City area — whether that's downtown KCMO, Overland Park, Olathe, Mission, Shawnee, or anywhere in the metro — here's a practical checklist to get your online presence right.
+
+No theory, no fluff. Just the stuff that actually gets you found by local customers.
+
+## The checklist
+
+### 1. Google Business Profile — set up and optimized
+
+This is non-negotiable. When someone searches "plumber near me" or "bakery in Overland Park," Google shows the local map pack first. If you're not in it, you're invisible for those searches.
+
+- Claim your listing at business.google.com
+- Use your real business address (Kansas City, Mission, whatever)
+- Pick the most specific category
+- Add photos (real ones, not stock)
+- Write a description that mentions your KC service area
+- Post updates at least once a month
+
+### 2. A real website
+
+Facebook pages and Google Business Profiles are great, but they're not yours. A website you own is the foundation of everything else. It doesn't need to be fancy — it needs to be fast, mobile-friendly, and clearly state what you do, where you do it, and how to contact you.
+
+Make sure your website mentions Kansas City, your specific city, and your service area. Something like "Serving Johnson County, including Overland Park, Olathe, Lenexa, and Shawnee." Google needs those geographic signals.
+
+### 3. Consistent business info everywhere
+
+Your name, address, and phone number (NAP) must be identical across:
+
+- Your website
+- Google Business Profile
+- Yelp
+- Facebook
+- Apple Maps
+- Any industry directories (Angi, Thumbtack, HomeAdvisor, etc.)
+
+Even small differences matter. "123 Main St" vs "123 Main Street" can confuse search engines.
+
+### 4. Get listed on KC-specific directories
+
+Beyond the national ones, make sure you're on:
+
+- **KC Chamber of Commerce** — membership gets you a directory listing and backlink
+- **Johnson County, Wyandotte County, or KCMO business directories**
+- **Nextdoor** — huge in KC suburbs for finding local services
+- **KCRAR (KC Regional Association of Realtors)** — if you're in home services, agents refer from here
+- **Local Facebook groups** — "Overland Park Recommendations," "Johnson County Small Business," etc.
+
+### 5. Google reviews — aim for 20+
+
+Reviews are the biggest trust signal and ranking factor for local search. Most KC businesses have under 10 reviews. If you can get to 20-30 genuine reviews, you'll outrank most of your local competition.
+
+Ask after every completed job. Make it easy — text them a direct link. Respond to every review (good and bad).
+
+### 6. Basic local SEO on your website
+
+Make sure your site has:
+
+- Your city name in page titles (e.g., "Residential Plumbing | Kansas City, KS")
+- Your service area mentioned on the homepage
+- A dedicated contact page with your full address
+- Schema markup for local business (your developer can handle this)
+
+### 7. Mobile-friendly and fast
+
+Over 65% of local searches happen on phones. If your site doesn't work on mobile, you're losing the majority of potential customers. Test your site on your own phone. Can you read everything? Can you tap the call button? Does it load in under 3 seconds?
+
+## What you probably don't need yet
+
+- **Paid ads** — not until your organic presence is solid
+- **Social media management** — a few posts a week is enough
+- **SEO retainer** — the basics matter more than monthly SEO services
+- **A fancy logo** — nice to have, but a clean font treatment works fine
+
+## KC resources
+
+- **SBA Kansas City District Office** — free counseling and workshops
+- **SCORE Kansas City** — free mentorship from experienced business owners
+- **KC BizCare** — helps with permits, licenses, and starting a business in KCMO
+- **NetWork Kansas** — statewide small business resources and microloans
+
+## Want help?
+
+I'm based in Mission, KS and I work specifically with KC-area small businesses. I can set up your Google Business Profile, build your website, and make sure all the local SEO basics are covered. Free audit to start — no pitch, just an honest look at where you stand online.
+    `,
+  },
+  {
+    slug: "hiring-a-web-developer-vs-diy",
+    title: "Hiring a Web Developer vs. Doing It Yourself: An Honest Comparison",
+    description:
+      "Should you build your own website or hire someone? Here's a straightforward breakdown of when each option makes sense.",
+    date: "2026-03-03",
+    readTime: "5 min",
+    tags: ["Websites", "Small Business"],
+    content: `
+I'm a web developer, so you'd expect me to say "always hire a developer." But that's not the honest answer. Sometimes DIY makes sense. Sometimes it doesn't. Here's how to figure out which camp you're in.
+
+## When DIY makes sense
+
+**You're testing a business idea.** If you're not sure your business will work yet, don't spend $500 on a website. A free Carrd page or a simple Squarespace site is fine while you validate the concept.
+
+**You enjoy building things.** Some people genuinely enjoy the process. If web design is a hobby for you and you have the time, go for it. It's a useful skill.
+
+**You have more time than money.** If you're bootstrapping and every dollar counts, spending 40 hours on a Squarespace site might make more sense than spending $400 you don't have.
+
+**Your needs are truly basic.** A single-page site with your name, what you do, and a phone number? A website builder handles that fine.
+
+## When hiring a developer makes sense
+
+**You're an established business losing customers.** If you have paying customers and your website (or lack of one) is costing you business, the math is clear. A $400 investment that brings in even one extra customer per month pays for itself immediately.
+
+**Your time is worth more than the cost.** If you bill $50/hour and a DIY site takes you 40 hours, you just "spent" $2,000 on a website that looks worse than what a developer would charge $400-600 for.
+
+**You need it done right and done fast.** A developer can have your site live in 3-5 days. A DIY project drags on for weeks or months because you're fitting it in between actual work.
+
+**You care about speed and SEO.** Website builders produce bloated code. A custom-built site loads faster, ranks better on Google, and provides a better experience. For a local business competing for search rankings, this matters.
+
+**You've tried DIY and it looks bad.** No shame in this. Web design is a skill. If your DIY site looks like it was built in 2015, it's hurting your business more than helping it.
+
+## The real comparison
+
+Here's a side-by-side for a typical 5-page small business site:
+
+**DIY (Squarespace/Wix):**
+- Cost: $200-400/year (ongoing)
+- Time: 30-50 hours initially, then hours for every change
+- Quality: Template-based, looks like thousands of other sites
+- Speed: Average (page builder bloat)
+- SEO: Basic (limited control)
+- Ownership: You don't own the code
+
+**Hired developer:**
+- Cost: $350-600 one-time
+- Time: A few calls + review feedback
+- Quality: Custom, built for your specific business
+- Speed: Fast (clean code, modern tools)
+- SEO: Proper setup from the start
+- Ownership: You own everything
+
+After year one, the DIY option costs the same or more than hiring a developer. After year two, it definitely costs more. And the developer-built site looks better, loads faster, and ranks higher the entire time.
+
+## The middle ground
+
+Some people want to manage their own content after launch. That's totally reasonable. I can build your site and set it up so you can easily update text, add photos, or post updates without touching code. Best of both worlds — professional build, easy maintenance.
+
+## My honest recommendation
+
+If your business is making money and you're serious about it, hire a developer. Not necessarily me — just someone who builds clean, fast, mobile-friendly sites and charges a fair price.
+
+If you're still figuring things out, DIY is fine as a starting point. But set a deadline. If you've been "working on the website" for 3 months and it's still not live, it's time to hand it off.
+    `,
+  },
+  {
+    slug: "website-maintenance-what-happens-after-launch",
+    title: "Your Website Is Live — Now What? A Guide to Maintenance",
+    description:
+      "Launching a website is just the start. Here's what ongoing maintenance looks like and why it matters for your business.",
+    date: "2026-03-02",
+    readTime: "4 min",
+    tags: ["Websites", "Maintenance"],
+    content: `
+You launched your website. It looks great. Everything works. Now you can forget about it for the next 5 years, right?
+
+Not exactly.
+
+## Websites aren't "set it and forget it"
+
+A website is more like a car than a billboard. A billboard just sits there. A car needs oil changes, tire rotations, and the occasional repair. Your website needs attention too — not constant attention, but some.
+
+Here's what that actually looks like.
+
+## The basics (do this monthly)
+
+**Check that everything still works.** Click every link. Submit the contact form (to yourself). Load the site on your phone. Things break over time — hosting changes, third-party services update, SSL certificates expire. A monthly check catches problems before customers do.
+
+**Keep your info current.** Changed your hours? Got a new phone number? Added a service? Update the site. I see businesses with websites showing hours from 2023. That's worse than having no hours listed at all.
+
+**Check your Google Business Profile.** Make sure hours are current, respond to new reviews, add a post. Google rewards active profiles with better rankings.
+
+## The technical stuff (quarterly)
+
+**Update your software.** If your site runs on WordPress, those plugin and core updates aren't optional. Outdated software is the #1 way small business sites get hacked. Seriously — hackers specifically target outdated WordPress installations.
+
+**Check your speed.** Run your site through pagespeed.web.dev every few months. If it's gotten slower, something changed. Maybe an image got uploaded without compression, or a new plugin is dragging things down.
+
+**Review your analytics.** If you have Google Analytics set up (you should), check what pages people visit, where they come from, and whether traffic is going up or down. You don't need to obsess over this, but a quarterly glance tells you a lot.
+
+## The strategic stuff (twice a year)
+
+**Update your content.** Are your prices still accurate? Do your case studies reflect your recent work? Is your bio current? Stale content signals a stale business.
+
+**Check your competitors.** Pull up the websites of your top 3 local competitors. Have they improved? Are they ranking above you now? This tells you if you need to step up your game.
+
+**Ask for feedback.** Ask a customer or friend to browse your site and tell you what's confusing. Fresh eyes catch things you've gone blind to.
+
+## What happens if you don't maintain it
+
+- **Security vulnerabilities.** Outdated software gets hacked. It happens to small business sites constantly.
+- **Broken features.** Forms stop working, maps break, images disappear. Customers think you've gone out of business.
+- **Falling rankings.** Google favors active, updated sites. An untouched site slowly drops in search results.
+- **Bad first impressions.** A copyright date from 2022 tells visitors you don't pay attention to details.
+
+## How I help
+
+I offer a monthly retainer for $50-75/month that covers all of this — updates, monitoring, speed checks, content tweaks, and priority support when you need something changed. Think of it like a subscription to "I don't have to worry about my website."
+
+It's completely optional. I'll never lock you into a maintenance contract. But most clients find it's worth the peace of mind, especially if they don't want to think about their website between updates.
+
+Your website is the most reliable employee you have. Keep it in good shape and it'll keep working for you.
+    `,
+  },
+  {
+    slug: "what-makes-a-good-small-business-website",
+    title: "What Makes a Good Small Business Website in 2026?",
+    description:
+      "Forget the bells and whistles. Here are the things that actually matter when it comes to a small business website that works.",
+    date: "2026-03-01",
+    readTime: "4 min",
+    tags: ["Websites", "Design"],
+    content: `
+There are a lot of opinions about what makes a "good" website. Most of them are wrong — at least for small businesses. You don't need what Apple has. You need something that gets you customers.
+
+Here's what actually matters.
+
+## It loads fast
+
+This is #1 for a reason. If your site takes more than 3 seconds to load on a phone, you're losing people. Fast means under 2 seconds. That's not a nice-to-have — it directly affects your Google ranking and your conversion rate.
+
+## It works on phones
+
+Over 60% of your visitors are on their phones. If your site looks great on desktop but terrible on mobile, you've got it backwards. Design for phones first, desktop second.
+
+Test this right now: pull up your site on your phone. Can you read everything without zooming? Can you tap buttons without accidentally hitting the wrong one? Can you fill out the contact form without wanting to throw your phone?
+
+## It clearly says what you do
+
+Within 5 seconds of landing on your site, a visitor should know:
+
+- What your business does
+- Where you're located
+- How to contact you
+
+That's it. If someone has to scroll and click around to figure out what you do, your site is failing at its most basic job.
+
+## It has one clear call to action
+
+"Call us" or "Get a free estimate" or "Book online." Pick one primary action and make it obvious on every page. Don't give people 7 different things to click — they'll choose none of them.
+
+A phone number in the header (clickable on mobile) + a contact form. That covers 90% of small businesses.
+
+## It looks professional (not fancy)
+
+Professional doesn't mean animations, parallax scrolling, and video backgrounds. It means:
+
+- **Clean layout** with enough white space
+- **Readable fonts** at a reasonable size
+- **Real photos** (not obvious stock photos)
+- **Consistent colors** that match your brand
+- **No spelling errors** or broken links
+
+Simple and clean beats complex and flashy every time. Your customers aren't judging your website against Apple.com — they're judging it against your competitors. And most of your local competitors have mediocre sites, so the bar isn't that high.
+
+## It has social proof
+
+People trust other people more than they trust you. Include:
+
+- **Google review score** (or a few featured reviews)
+- **Number of customers served** (if it's impressive)
+- **Years in business**
+- **Photos of real work** (before/after, completed projects)
+
+You don't need a dedicated testimonials page. A few trust signals sprinkled throughout the site work great.
+
+## It's secure (HTTPS)
+
+If your site URL starts with "http://" instead of "https://", browsers show a "Not Secure" warning. That scares customers away and hurts your Google ranking. An SSL certificate is free through most hosting providers. There's no excuse for not having it in 2026.
+
+## What you don't need
+
+- **A blog** (nice for SEO, but not essential for every business)
+- **Social media feeds** on your site (slows it down, looks cluttered)
+- **A chatbot** (useful for some, overkill for many)
+- **Animations everywhere** (they're cool the first time, annoying the tenth time)
+- **A massive photo gallery** (pick your 10-15 best, not every job you've ever done)
+
+## The bottom line
+
+A good small business website is fast, mobile-friendly, clear about what you do, and makes it easy to contact you. Everything else is secondary. Get those fundamentals right and you'll be ahead of 80% of your local competition.
+    `,
+  },
+  {
+    slug: "do-you-need-a-website-or-just-social-media",
+    title: "Do You Need a Website or Is Social Media Enough?",
+    description:
+      "A lot of business owners think Instagram or Facebook is all they need. Here's when that's true and when it's not.",
+    date: "2026-02-28",
+    readTime: "4 min",
+    tags: ["Websites", "Social Media", "Small Business"],
+    content: `
+"I already have an Instagram page with 2,000 followers. Why do I need a website?"
+
+I hear this at least once a week. And it's a fair question. Social media is powerful. But it's not a replacement for a website. Here's why.
+
+## You don't own social media
+
+This is the big one. Instagram, Facebook, TikTok — these are rented platforms. You're building your business on someone else's land.
+
+Facebook has already shown what happens when they change the rules. Organic reach for business pages went from 16% in 2012 to under 2% now. Pages that used to get hundreds of views per post now get 10. The platform changed and businesses had no recourse.
+
+Instagram could do the same thing tomorrow. TikTok might get banned (again). If your entire online presence is on a platform you don't control, you're one algorithm change away from losing everything.
+
+Your website? You own it. Nobody can take it away or throttle your visibility.
+
+## Social media doesn't rank on Google
+
+When someone searches "plumber in Mission KS," Google doesn't show Instagram pages. It shows websites and Google Business Profiles.
+
+Social media is great for building community and staying top of mind with existing customers. But it's terrible for being discovered by new customers who are actively searching for what you offer.
+
+## Different tools for different jobs
+
+Think of it this way:
+
+- **Social media** = networking event. You're building relationships, showing personality, staying visible.
+- **Website** = your storefront. It's where people go when they're ready to buy.
+
+You need both, but they serve different purposes. Social media brings awareness. Your website converts that awareness into action.
+
+## When social media alone can work
+
+To be fair, there are cases where social media is enough:
+
+- **You're a personal brand** (artist, musician, influencer) and your audience lives on social platforms
+- **You're testing a business idea** and you're not ready to invest in a site yet
+- **Your business is exclusively online/social** (drop shipping, content creation)
+
+For a local service business — plumber, barber, tutor, landscaper, baker — social media alone isn't enough.
+
+## The ideal setup
+
+Here's what actually works for a KC small business:
+
+1. **Google Business Profile** — so you show up in local search
+2. **A website** — so people can learn about you and contact you
+3. **One or two social platforms** — to stay visible and share your work
+
+You don't need to be on every platform. Pick the one where your customers actually hang out. For most local businesses in KC, that's Facebook and maybe Instagram. Post 2-3 times a week — photos of your work, happy customers, before/afters. That's enough.
+
+## The real question
+
+The question isn't "website or social media?" It's "which one should I set up first?" The answer is Google Business Profile (free, 30 minutes), then a website ($350-600), then social media (free, ongoing).
+
+Social media without a website is like handing out business cards that say "Google me." Sometimes they will, sometimes they won't. A website makes sure that when they do look you up, they find something professional and convincing.
+    `,
+  },
+  {
+    slug: "how-to-get-more-google-reviews",
+    title: "How to Get More Google Reviews for Your Business",
+    description:
+      "Google reviews are the most powerful trust signal for local businesses. Here's how to actually get more of them without being annoying.",
+    date: "2026-02-27",
+    readTime: "5 min",
+    tags: ["Google", "Small Business", "Marketing"],
+    content: `
+Google reviews can make or break a local business. When someone searches for what you offer and sees one business with 3 reviews and another with 47, they're picking the one with 47 almost every time. It doesn't matter how good you actually are — perception is reality when someone is choosing between strangers on the internet.
+
+So how do you get more reviews without being weird about it?
+
+## Why reviews matter so much
+
+**They're the #1 trust signal.** Before Google reviews, people asked friends for recommendations. Now they ask Google. A strong review profile is the digital version of a personal recommendation.
+
+**They directly affect your ranking.** Google's local algorithm weighs reviews heavily. More reviews + higher ratings = higher placement in the Maps pack. This is confirmed by Google, not speculation.
+
+**They convert browsers into buyers.** Someone who finds your Google listing and sees consistent 5-star reviews is significantly more likely to contact you than someone with no reviews.
+
+## The simple system
+
+Here's a process that works for any local business:
+
+### 1. Create a direct review link
+
+Google makes this easy. Go to your Google Business Profile, click "Ask for reviews," and copy the short link. This takes customers directly to the review form — no searching for your business, no figuring out where to click.
+
+### 2. Ask at the right time
+
+Timing is everything. The best time to ask is right after you've delivered great service and the customer is happy. For a plumber, that's right after you've fixed the leak and the customer is relieved. For a barber, that's when the customer is looking in the mirror and smiling.
+
+Don't wait a week. Don't send a follow-up email 3 days later. Ask in the moment.
+
+### 3. Make it easy
+
+Say something like: "I'm glad you're happy with the work. If you have a minute, a Google review would really help my business. I can text you the link right now."
+
+Then text them the direct link. One tap, they're on the review page. The easier you make it, the more likely they'll actually do it.
+
+### 4. Follow up once (only once)
+
+If they didn't leave a review after the text, send one follow-up a day or two later. Something like: "Hey, just following up — here's that Google review link if you get a chance. No pressure at all."
+
+One follow-up. Not two. Not three. Don't be that business.
+
+## What not to do
+
+- **Don't offer incentives.** "Leave a review and get 10% off" violates Google's policies. They'll remove the reviews and potentially penalize your listing.
+- **Don't buy fake reviews.** Google's AI catches these. It might take weeks or months, but fake reviews get flagged and removed, and your profile can get suspended.
+- **Don't review-gate.** That's when you ask if the customer had a good experience first, and only send the review link if they say yes. Google specifically prohibits this.
+- **Don't ask everyone at once.** A business that goes from 5 reviews to 50 in a week looks suspicious. Let them come in naturally over time.
+
+## Responding to reviews
+
+Always respond to every review. Every single one.
+
+**For positive reviews:** Thank them specifically. "Thanks, Sarah! Glad we could get that faucet fixed quickly. Appreciate you taking the time to leave a review."
+
+**For negative reviews:** Stay calm and professional. Don't argue. Acknowledge their experience, apologize if appropriate, and offer to make it right. "I'm sorry about your experience, Mike. That's not the level of service I aim for. I'd like to make this right — feel free to call me directly at 816-555-1234."
+
+How you respond to negative reviews actually matters more than the negative review itself. People read those responses and judge your character.
+
+## Realistic numbers
+
+For most small businesses, here's a reasonable trajectory:
+
+- **Month 1-2:** 5-10 reviews (actively asking every customer)
+- **Month 3-6:** 15-25 reviews
+- **Month 6-12:** 25-50 reviews
+- **Year 2+:** 50-100+ reviews
+
+You don't need hundreds of reviews to rank well locally. 20-30 solid reviews with a 4.5+ average puts you ahead of most competitors.
+
+## The long game
+
+Reviews aren't a one-time campaign. It's a habit. Make asking for reviews part of your process — right after every job, every sale, every positive interaction. Over time, they stack up. And once you have 50+ genuine reviews, your Google listing becomes one of the most powerful marketing assets your business has.
+
+Free, permanent, and incredibly effective. You just have to ask.
+    `,
+  },
+  {
     slug: "why-every-small-business-needs-a-website",
     title: "Why Every Small Business Needs a Website in 2026",
     description:
