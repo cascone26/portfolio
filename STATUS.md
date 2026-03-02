@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-02-24
+2026-02-24 (UI polish pass)
 
 ## Current State
 - Deployed at `https://builtsimple.dev`
@@ -55,11 +55,18 @@
 - Phone: 816-520-5652
 - Location: Mission, KS
 
+## Recent Changes (Feb 24 UI polish)
+- FAQ page: click-to-expand accordion (one open at a time, animated)
+- Hero: replaced code snippet with visual mockup of a small business website
+- Contact form: JS handling with success/loading/error states (Formspree + fetch)
+- Trust bar: rewritten with concrete SMB claims (24hr response, 1-2 weeks, no contracts, custom)
+- Services: added delivery timelines and price-driver notes to each card
+
 ## Known Issues
-- Contact form uses Formspree legacy email endpoint — may need a proper Formspree form ID for reliable delivery
-- Set up Formspree account and get proper form ID for contact page
+- None currently
 
 ## Next Up
-- Set up Formspree account and get proper form ID for contact page
-- Connect builtsimple.dev domain in Vercel
+- Connect builtsimple.dev domain in Vercel (if not already done)
 - Consider adding more project screenshots to work page
+- Testimonials (once clients exist)
+- Headshot/photo (needs Jacob to provide one)

@@ -19,6 +19,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: "article",
+      url: `https://builtsimple.dev/blog/${slug}`,
+      publishedTime: post.date,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+    },
+    alternates: {
+      canonical: `https://builtsimple.dev/blog/${slug}`,
+    },
   };
 }
 
@@ -31,8 +46,55 @@ export default async function BlogPostPage({ params }: Props) {
   const prevPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null;
   const nextPost = currentIndex > 0 ? posts[currentIndex - 1] : null;
 
+  const wordCount = post.content.split(/\s+/).length;
+
+  const relatedPosts = posts
+    .filter((p) => p.slug !== slug)
+    .map((p) => ({
+      ...p,
+      sharedTags: p.tags.filter((t) => post.tags.includes(t)).length,
+    }))
+    .filter((p) => p.sharedTags > 0)
+    .sort((a, b) => b.sharedTags - a.sharedTags)
+    .slice(0, 3);
+
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    author: { "@type": "Person", name: "Jacob Cascone" },
+    publisher: { "@type": "Organization", name: "BuiltSimple" },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://builtsimple.dev/blog/${slug}`,
+    },
+    url: `https://builtsimple.dev/blog/${slug}`,
+    wordCount,
+    keywords: post.tags.join(", "),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://builtsimple.dev" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://builtsimple.dev/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://builtsimple.dev/blog/${slug}` },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative pt-12 pb-8 px-6">
         <div className="absolute top-0 left-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
@@ -57,12 +119,13 @@ export default async function BlogPostPage({ params }: Props) {
             </h1>
             <div className="flex flex-wrap gap-2">
               {post.tags.map((tag) => (
-                <span
+                <Link
                   key={tag}
-                  className="bg-accent/10 text-accent-light text-xs px-2.5 py-1 rounded-lg"
+                  href={`/blog/tag/${encodeURIComponent(tag.toLowerCase())}`}
+                  className="bg-accent/10 text-accent-light text-xs px-2.5 py-1 rounded-lg hover:bg-accent/20 transition-colors"
                 >
                   {tag}
-                </span>
+                </Link>
               ))}
             </div>
           </FadeIn>
@@ -192,6 +255,37 @@ export default async function BlogPostPage({ params }: Props) {
           </article>
         </FadeIn>
       </section>
+
+      {/* Related posts */}
+      {relatedPosts.length > 0 && (
+        <section className="pb-12 px-6">
+          <div className="max-w-3xl mx-auto">
+            <FadeIn>
+              <h2 className="text-xl font-bold mb-6 tracking-tight">Related Posts</h2>
+            </FadeIn>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {relatedPosts.map((rp, i) => (
+                <FadeIn key={rp.slug} delay={i * 0.08}>
+                  <Link
+                    href={`/blog/${rp.slug}`}
+                    className="group glass rounded-2xl p-5 block h-full"
+                  >
+                    <time className="text-xs text-muted" dateTime={rp.date}>
+                      {new Date(rp.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                    </time>
+                    <h3 className="font-semibold text-sm mt-2 mb-2 group-hover:text-accent-light transition-colors leading-snug">
+                      {rp.title}
+                    </h3>
+                    <p className="text-muted text-xs leading-relaxed line-clamp-3">
+                      {rp.description}
+                    </p>
+                  </Link>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Post navigation */}
       <section className="pb-24 px-6">

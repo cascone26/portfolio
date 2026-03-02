@@ -29,6 +29,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  alternates: {
+    types: {
+      "application/rss+xml": "https://builtsimple.dev/feed.xml",
+    },
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -41,6 +47,35 @@ export default function RootLayout({
       <body
         className={`${geist.variable} font-[family-name:var(--font-geist-sans)] antialiased bg-background text-foreground overflow-x-hidden`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  name: "BuiltSimple",
+                  url: "https://builtsimple.dev",
+                  founder: {
+                    "@type": "Person",
+                    name: "Jacob Cascone",
+                  },
+                },
+                {
+                  "@type": "WebSite",
+                  name: "BuiltSimple",
+                  url: "https://builtsimple.dev",
+                  potentialAction: {
+                    "@type": "SearchAction",
+                    target: "https://builtsimple.dev/blog?q={search_term_string}",
+                    "query-input": "required name=search_term_string",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
         {/* Global background effects */}
         <div className="fixed inset-0 -z-10">
           <div className="absolute inset-0 bg-[#0b1121]" />

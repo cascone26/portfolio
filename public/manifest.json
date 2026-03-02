@@ -1,0 +1,10 @@
+{
+  "name": "BuiltSimple",
+  "short_name": "BuiltSimple",
+  "description": "Web development and digital solutions for small businesses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [{ "src": "/icon.svg", "type": "image/svg+xml", "sizes": "any" }]
+}
