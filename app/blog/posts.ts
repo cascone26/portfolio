@@ -10,6 +10,2251 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-your-restaurant-needs-a-website-not-just-social-media",
+    title: "Why Your Restaurant Needs a Website (Not Just Social Media)",
+    description: "A Facebook page is not a website. Here's why restaurants that rely only on social media are losing customers to competitors who have a real site.",
+    date: "2026-06-25",
+    readTime: "5 min",
+    tags: ["Websites","Local Business"],
+    content: `## "We Just Use Our Facebook Page"
+
+I hear this from restaurant owners all the time. And I get it — Facebook is free, everyone's on it, and you can post your daily specials without touching any code. But here's the thing: Facebook is not your website. It's someone else's platform, and they control the rules.
+
+When someone Googles "best tacos near me" at 11:45 AM, they don't want to scroll through your Facebook timeline looking for your hours. They want a clean page that says what you serve, when you're open, and where you are. If that page doesn't exist, they're going to the restaurant that does have one.
+
+## What Social Media Can't Do
+
+Social media is great for engagement. It's terrible as your only online presence. Here's what it can't do well:
+
+- **Show up reliably in Google searches** — Google prioritizes websites over social pages for local results
+- **Display your full menu clearly** — Facebook posts get buried, and nobody wants to pinch-zoom a PDF photo
+- **Let people place orders** — unless you're paying for a third-party integration
+- **Look professional** — your page sits next to political arguments and cat videos
+- **Give you control** — Facebook changes algorithms constantly. One day your posts reach 500 people, the next day they reach 50
+
+## What a Restaurant Website Actually Needs
+
+It doesn't need to be complicated. A good restaurant website has five things:
+
+1. **Menu** — text-based, not a PDF photo. Text menus are searchable, accessible, and load fast
+2. **Hours and location** — with a Google Maps embed so people can tap and navigate
+3. **Phone number** — clickable on mobile so they can call with one tap
+4. **Photos** — real photos of your food and space, not stock images
+5. **Online ordering or reservation link** — if you offer either, make it obvious
+
+That's it. You don't need a blog, you don't need a newsletter signup, you don't need animations. You need the basics done well.
+
+## The Google Factor
+
+Here's what most restaurant owners don't realize: when someone searches "Italian restaurant Kansas City" or "brunch near me," Google pulls information from websites. If you don't have one, you're invisible in those results. Your Google Business Profile helps, but a website backing it up is what seals the deal.
+
+A website also gives you a place to put your Google reviews widget, your menu with actual SEO keywords (people search for "chicken parmesan" not "entrée #7"), and your story.
+
+## "But I'm on DoorDash and Uber Eats"
+
+Those platforms take 15-30% of every order. Having your own website with a direct ordering option — even a simple one — means more profit per order. Customers who order directly tend to be more loyal too.
+
+You don't need a fancy ordering system. Even a page that says "call us to order pickup" with your phone number is better than nothing.
+
+## The Real Cost
+
+A simple restaurant website costs less than a month of DoorDash commissions for most places. It's a one-time build that works for you 24/7, doesn't take a percentage of your sales, and actually shows up on Google.
+
+I build clean, fast restaurant sites that load in under two seconds and look good on every phone. No bloated templates, no monthly fees for the site itself. If your restaurant is still running on Facebook alone, you're leaving money on the table — literally.`,
+  },
+  {
+    slug: "what-your-church-website-should-include",
+    title: "What Your Church Website Should Include in 2026",
+    description: "Most church websites are outdated and hard to navigate. Here's exactly what visitors are looking for and what pages you actually need.",
+    date: "2026-06-26",
+    readTime: "6 min",
+    tags: ["Websites","Education"],
+    content: `## Your Church Website Is Often the First Visit
+
+Before someone walks through your doors on Sunday morning, they visit your website. That's just how it works now. Families moving to a new area, people coming back to church after years away, young adults looking for a community — they all Google first.
+
+If your website looks like it was built in 2012 and hasn't been updated since, that first impression is doing damage. Not because people are shallow, but because an outdated website signals that maybe the information on it isn't current either. Are these still your service times? Is this pastor still here? Do you still offer this program?
+
+## The Essential Pages
+
+### Homepage
+
+Your homepage needs to answer three questions in the first five seconds:
+
+- **What kind of church is this?** — denomination, style, vibe
+- **When and where do you meet?** — service times and address, front and center
+- **How do I visit?** — a clear "Plan Your Visit" or "I'm New Here" button
+
+Don't bury service times in a footer or on a separate page. People came to your site specifically for this information.
+
+### About Page
+
+This is where you tell your story. Include:
+
+- A brief history of the church
+- What you believe (statement of faith or core beliefs)
+- Your pastor and leadership team with photos and short bios
+- Your mission or vision
+
+People want to know who they'll be listening to before they show up. A photo and a paragraph about your pastor goes a long way.
+
+### Service Times and Location
+
+Even if it's on the homepage, give it its own page too. Include:
+
+- All service times (Sunday, midweek, special)
+- Address with a Google Maps embed
+- Parking information
+- What to expect (dress code, length of service, kids check-in process)
+
+The "what to expect" section is gold for first-time visitors. Walking into a new church is nerve-wracking. Telling people what to wear, where to park, and what happens when they arrive removes friction.
+
+### Ministries and Programs
+
+List what you offer — children's ministry, youth group, small groups, men's and women's groups, volunteer opportunities. Each one should have a short description, when it meets, and who to contact.
+
+### Sermons or Messages
+
+If you record sermons, make them available. This can be as simple as embedding a YouTube playlist or linking to a podcast. People want to hear your teaching before they commit to visiting.
+
+### Contact and Connect
+
+A simple contact form, your office phone number, office hours, and an email address. If you have a "connect card" for new visitors, put a digital version here too.
+
+## What Most Church Websites Get Wrong
+
+**Too much text on the homepage.** Your homepage is not a letter from the pastor. Save that for the about page.
+
+**Buried service times.** If someone has to click more than once to find when you meet, your site needs work.
+
+**No mobile optimization.** Over 70% of church website visits come from phones. If your site doesn't work well on mobile, you're losing visitors before they ever visit in person.
+
+**Outdated events.** Nothing says "we don't maintain this" like an events page advertising your 2024 Christmas program. If you can't keep events updated, remove the events page entirely.
+
+**Stock photos of diverse people holding hands.** Everyone can tell. Use real photos of your real congregation or no photos at all.
+
+## A Note on Streaming
+
+If your church live-streams services, make it dead simple to find the stream. A prominent "Watch Live" button on the homepage during service times. Link directly to the stream — don't make people hunt for it.
+
+## Keep It Simple
+
+Church websites don't need to be fancy. They need to be clear, current, and welcoming. The goal is to make someone feel comfortable enough to visit in person. Every page should serve that goal.
+
+I've built sites for churches and faith-based organizations that focus on exactly this — clean design, easy navigation, and the information visitors actually need. No bloated templates with fifty unused pages. Just what works.`,
+  },
+  {
+    slug: "ecommerce-for-small-business-getting-started",
+    title: "E-commerce for Small Business: Getting Started Without Losing Your Mind",
+    description: "Thinking about selling online? Here's a no-nonsense breakdown of your options, what it actually costs, and where most small businesses go wrong.",
+    date: "2026-06-27",
+    readTime: "6 min",
+    tags: ["Websites","Small Business"],
+    content: `## You Don't Need to Be Amazon
+
+The idea of "selling online" can feel overwhelming. You picture giant warehouses, complex inventory systems, and a website that costs $50,000 to build. But for most small businesses, e-commerce is way simpler than that.
+
+If you sell products — even just a handful — there's a right-sized solution for you. The trick is not overbuilding.
+
+## Three Levels of E-commerce
+
+### Level 1: Just a Few Products
+
+If you sell fewer than 20 products and don't need complex inventory tracking, you don't need Shopify or WooCommerce. You need a simple website with a buy button.
+
+**Options at this level:**
+
+- **Stripe Payment Links** — create a payment link for each product, put them on your website. No monthly fees beyond Stripe's standard processing (2.9% + 30 cents)
+- **Square Online** — free plan available, integrates with Square POS if you also sell in person
+- **A simple custom site** — a few product pages with a checkout flow. Clean, fast, no bloat
+
+This is where most small businesses should start. Don't pay $79/month for Shopify when you're selling six items.
+
+### Level 2: Growing Catalog
+
+If you have 20-200 products and need proper inventory management, categories, and search:
+
+- **Shopify Basic** — $39/month, handles most of what you need
+- **Square Online Plus** — $29/month, good if you're already using Square
+- **WooCommerce** — free plugin for WordPress, but you'll pay for hosting and likely some premium plugins
+
+At this level, the platform matters less than the execution. A well-organized Shopify store beats a messy custom build every time.
+
+### Level 3: Serious E-commerce
+
+Hundreds of products, complex variants, wholesale pricing, subscription boxes — this is where you need a real e-commerce platform and probably professional help setting it up.
+
+Most small businesses are not at this level. If you are, you probably already know it.
+
+## The Hidden Costs Nobody Mentions
+
+**Payment processing fees.** Every sale costs you 2.5-3% plus a fixed fee. That's true everywhere — Shopify, Square, Stripe, PayPal. Budget for it.
+
+**Photography.** Your product photos are your sales team online. Bad photos kill sales. You don't need a professional photographer, but you need decent lighting and a clean background. A $20 lightbox from Amazon can do wonders.
+
+**Shipping.** If you're shipping physical products, figure out your shipping strategy before you launch. Flat rate? Free over a certain amount? Real-time calculated rates? This affects your pricing and your margins.
+
+**Returns.** Have a clear return policy. Put it on your site. "No returns" is a valid policy for some products, but make it clear upfront.
+
+**Time.** Someone has to manage orders, update inventory, respond to customer questions, and ship packages. If that's you on top of running your business, plan accordingly.
+
+## Common Mistakes
+
+**Building too much too fast.** Start with your best-selling products. You can always add more later. Launching with 500 products and no traffic is just a lot of work for nothing.
+
+**Ignoring mobile.** Over 60% of online shopping happens on phones. If your checkout is painful on mobile, you're losing sales.
+
+**No product descriptions.** "Blue shirt, $25" is not a product description. Tell people the material, the sizing, what makes it special. Product descriptions are also how Google finds your products.
+
+**Complicated checkout.** Every extra step in your checkout process loses customers. Guest checkout should always be an option. Don't force account creation.
+
+## Starting Simple
+
+My recommendation for most small businesses dipping into e-commerce: start with the simplest solution that works. Sell a few things, see what resonates, then invest in scaling what works.
+
+I can build a clean product page with Stripe integration for a fraction of what a Shopify store costs over a year. If you're not sure what level of e-commerce you need, that's a conversation worth having before you commit to a $39/month platform.`,
+  },
+  {
+    slug: "anatomy-of-a-high-converting-landing-page",
+    title: "The Anatomy of a High-Converting Landing Page",
+    description: "Landing pages that convert visitors into customers all follow the same basic structure. Here's the formula and why it works.",
+    date: "2026-06-28",
+    readTime: "5 min",
+    tags: ["Websites","Marketing"],
+    content: `## Every Good Landing Page Follows a Pattern
+
+Whether you're selling a product, promoting a service, or collecting email signups, landing pages that convert well all share the same bones. It's not magic and it's not guesswork. It's structure.
+
+Here's the anatomy, from top to bottom.
+
+## 1. A Clear Headline
+
+Your headline should tell visitors exactly what you offer and why it matters to them. Not clever wordplay, not a mission statement — a clear value proposition.
+
+**Bad:** "Welcome to Our Company"
+**Bad:** "Innovative Solutions for Modern Challenges"
+**Good:** "Custom Websites for Kansas City Small Businesses — Fast, Affordable, No BS"
+
+You have roughly three seconds before someone decides to stay or leave. Your headline is doing all the heavy lifting in those three seconds.
+
+## 2. A Supporting Subheadline
+
+One sentence that adds context to your headline. If your headline is the hook, the subheadline is the brief explanation.
+
+**Example:** "I build clean, fast websites that help local businesses get found online and convert visitors into customers."
+
+## 3. A Strong Call to Action (Above the Fold)
+
+"Above the fold" means visible without scrolling. Your primary CTA should be right there — a button that says exactly what happens when they click it.
+
+- **"Get a Free Quote"** — clear, specific, low commitment
+- **"See My Work"** — good for portfolios and service businesses
+- **"Start Your Free Trial"** — standard for software
+
+Avoid vague CTAs like "Learn More" or "Get Started." People should know exactly what clicking that button does.
+
+## 4. Social Proof
+
+This is where you prove that other people trust you. Options include:
+
+- **Testimonials** — real quotes from real clients with names and businesses
+- **Review scores** — "4.9 stars on Google" with a link
+- **Client logos** — if you've worked with recognizable brands
+- **Numbers** — "127 websites built" or "Serving 50+ Kansas City businesses"
+
+Social proof should appear early on the page. It builds trust before you ask for anything.
+
+## 5. Benefits, Not Features
+
+Don't list what your product does. List what it does for the customer.
+
+**Feature:** "Built with Next.js and optimized hosting"
+**Benefit:** "Your site loads in under 2 seconds so visitors don't leave"
+
+**Feature:** "Responsive design included"
+**Benefit:** "Looks perfect on every phone, tablet, and computer"
+
+People don't care about the technology. They care about the outcome.
+
+## 6. Visual Evidence
+
+Show, don't just tell. This could be:
+
+- Screenshots of your work
+- Before/after comparisons
+- A short video walkthrough
+- Photos of your product in use
+
+A landing page with zero visuals feels empty and untrustworthy.
+
+## 7. Handle Objections
+
+Think about why someone might NOT take action, then address those concerns:
+
+- **"Is this going to be expensive?"** — show your pricing or say "starting at $X"
+- **"How long will it take?"** — "Most projects launch in 2-3 weeks"
+- **"What if I don't like it?"** — "Unlimited revisions until you're happy"
+
+An FAQ section near the bottom of the page is a natural place for this.
+
+## 8. A Final CTA
+
+Repeat your call to action at the bottom. Someone who scrolled through your entire page is interested — don't make them scroll back up to take action.
+
+## What to Leave Out
+
+- **Navigation menus** — landing pages should have one goal. A full nav bar gives people exits
+- **Multiple offers** — one page, one action. Don't try to sell three things at once
+- **Walls of text** — keep paragraphs short, use headers, leave white space
+- **Autoplay video or audio** — instant credibility killer
+
+## The One Metric That Matters
+
+Conversion rate. If 100 people visit your landing page and 5 fill out your form, that's a 5% conversion rate. The average landing page converts at 2-5%. A good one hits 5-10%. A great one goes higher.
+
+If your current website is getting traffic but not leads, the page structure is almost always the problem. It's not that people aren't interested — it's that the page isn't guiding them to take action.
+
+Every site I build follows these principles. It's not about making things pretty — it's about making things work.`,
+  },
+  {
+    slug: "how-long-does-it-take-to-build-a-website",
+    title: "How Long Does It Take to Build a Website? Honest Timelines",
+    description: "The real answer depends on what you need. Here are actual timelines for different types of websites so you can plan accordingly.",
+    date: "2026-06-29",
+    readTime: "5 min",
+    tags: ["Websites","Pricing"],
+    content: `## The Honest Answer: It Depends
+
+I know that's not what you want to hear. But "how long does it take to build a website?" is like asking "how long does it take to build a house?" A studio apartment and a five-bedroom home have very different timelines. Same with websites.
+
+Here's what you can actually expect.
+
+## Simple Business Website (1-2 Weeks)
+
+This is a 3-5 page site: homepage, about, services, contact, maybe a gallery or testimonials page.
+
+**What's included:** Custom design, mobile responsive, basic SEO, contact form, Google Maps embed, fast loading.
+
+**Why it takes 1-2 weeks:** The design and build might only take a few days, but the back-and-forth adds time. I send a draft, you review it, suggest changes, I revise. Most of the timeline is communication, not coding.
+
+**What speeds this up:** Having your content ready — text, photos, logo. The number one reason websites take longer than expected is waiting on content from the client.
+
+## Medium Business Website (2-4 Weeks)
+
+This is 5-15 pages with more complexity: multiple service pages, a blog, a portfolio or gallery, possibly a booking system or email signup integration.
+
+**What adds time:** More pages means more content to write, more designs to review, and more revisions. Integrations with third-party tools (booking systems, CRMs, email platforms) add complexity.
+
+**The content bottleneck:** I can build a 10-page website in a week. But writing quality content for 10 pages takes time. If you need help with copywriting, factor that into the timeline.
+
+## E-commerce Website (3-6 Weeks)
+
+Selling products online adds layers: product photography, descriptions, categories, payment processing, shipping configuration, tax settings, inventory management.
+
+**What takes the most time:** Product setup. If you have 50 products, each needs a title, description, photos, price, and category. That's a lot of data entry no matter who does it.
+
+**Testing matters:** E-commerce sites need thorough testing before launch. Payment processing, order confirmations, inventory updates — everything needs to work correctly before real money is involved.
+
+## What Slows Things Down
+
+These are the real reasons websites take longer than they should:
+
+1. **Waiting on content** — photos, text, logos, decisions about what to include
+2. **Slow feedback** — I send a draft Monday, don't hear back until the following Monday
+3. **Scope creep** — "Can we also add..." halfway through the project
+4. **Indecision** — going back and forth on design choices, colors, layouts
+5. **Too many decision-makers** — one point of contact is ideal
+
+## What Speeds Things Up
+
+1. **Have your content ready** before the project starts — even rough drafts help
+2. **Gather all your photos** in one folder
+3. **Pick 2-3 websites you like** so I understand your taste
+4. **Designate one person** to give feedback and make decisions
+5. **Respond to drafts quickly** — even "looks good" or "change X" keeps things moving
+
+## Red Flags in Timelines
+
+**"We can build your website in 24 hours."** Sure, they can install a template and swap out the placeholder text. That's not a custom website. That's a $50 Fiverr job, and it looks like one.
+
+**"This project will take 6 months."** For a small business website? No. That's agency timeline inflation. Someone is either overcomplicating things or not making your project a priority.
+
+**No timeline at all.** If a developer can't give you even a rough estimate, that's a red flag. Either they don't know what they're doing or they're juggling too many projects.
+
+## My Process
+
+I keep things simple. After we agree on scope, I build a first draft within a few days. We do 1-2 rounds of revisions. Then we launch. Most projects go from first conversation to live website in 1-3 weeks.
+
+The fastest project I've done was a one-page site delivered in two days. The longest was a multi-page site with custom features that took about four weeks, mostly because of content revisions. Both clients were happy because we set expectations upfront.
+
+If you need a website by a specific date, tell me that date. I'll tell you honestly whether it's doable.`,
+  },
+  {
+    slug: "mobile-first-design-why-it-matters",
+    title: "Mobile-First Design: Why It Matters More Than Ever in 2026",
+    description: "Over 60% of web traffic comes from phones. If your website wasn't designed for mobile first, it's working against you.",
+    date: "2026-06-30",
+    readTime: "5 min",
+    tags: ["Design","Websites"],
+    content: `## Most People Will Never See Your Website on a Computer
+
+That's not an exaggeration. For the average small business website, 60-75% of visitors are on their phone. For restaurants and local services, it's even higher. Your website is a mobile experience first and a desktop experience second.
+
+Yet most business websites are still designed on a big monitor and then "made responsive" as an afterthought. That's backwards.
+
+## What Mobile-First Actually Means
+
+Mobile-first design means you design for the smallest screen first, then scale up. Instead of cramming a desktop layout into a phone screen, you start with the phone experience and add complexity for bigger screens.
+
+This matters because:
+
+- **Prioritization** — a phone screen forces you to decide what's most important. That clarity benefits every version of your site
+- **Speed** — mobile-first sites tend to load faster because you're building lean from the start
+- **User behavior** — thumb-friendly buttons, readable text, easy navigation. These aren't afterthoughts, they're the foundation
+
+## What Bad Mobile Looks Like
+
+You've experienced this. You pull up a business website on your phone and:
+
+- **Text is tiny** — you have to pinch and zoom to read anything
+- **Buttons are too small** — you tap "Contact" and hit "About" instead
+- **The menu is broken** — the navigation doesn't collapse properly on mobile
+- **Images are huge** — a 5MB hero image loads over cellular data and takes forever
+- **Horizontal scrolling** — you have to scroll sideways to see the full page
+- **Pop-ups cover everything** — a newsletter popup takes over the entire phone screen with no way to close it
+
+Any one of these will make someone leave your site. Most bad mobile sites have three or four of them.
+
+## What Good Mobile Looks Like
+
+- **Text is readable without zooming** — 16px minimum font size for body text
+- **Buttons are thumb-sized** — at least 44x44 pixels, with space between them
+- **Navigation collapses into a clean menu** — usually a hamburger icon that opens a full-screen or slide-out menu
+- **Images are optimized** — compressed for fast loading, properly sized for the screen
+- **Phone numbers are clickable** — tap to call, not copy-paste
+- **Forms are simple** — minimal fields, large inputs, no tiny dropdowns
+
+## The Google Factor
+
+Google uses mobile-first indexing. That means Google evaluates the mobile version of your site for search rankings, not the desktop version. If your mobile experience is bad, your rankings suffer across all devices.
+
+This has been the case since 2019, but many businesses still haven't caught up. A site that ranks well despite a bad mobile experience is ranking well in spite of a significant handicap.
+
+## The Speed Connection
+
+Mobile users are often on slower connections — cellular data, spotty WiFi, older phones. A website that loads in 2 seconds on your office computer might take 8 seconds on someone's phone at a stoplight.
+
+Every second of load time costs you visitors. Google's data shows that 53% of mobile visitors abandon a site that takes more than 3 seconds to load. That's not a typo — more than half.
+
+## Quick Wins for Mobile
+
+If you can't rebuild your whole site right now, these changes make the biggest difference:
+
+1. **Compress your images** — use tools like TinyPNG or Squoosh to reduce file sizes by 50-80%
+2. **Make your phone number clickable** — wrap it in a tel: link
+3. **Increase font size** — if your body text is below 16px on mobile, bump it up
+4. **Test your forms** — fill out your own contact form on your phone. If it's frustrating, fix it
+5. **Check your CTA buttons** — can you easily tap them with your thumb?
+
+## The Bottom Line
+
+Your website is a mobile experience. The desktop version is a bonus. If you're investing in a website and not prioritizing mobile, you're building for the minority of your visitors.
+
+Every site I build is mobile-first by default. Not as an add-on, not as a checkbox — as the starting point. Because that's how your customers are actually experiencing your business online.`,
+  },
+  {
+    slug: "how-to-get-more-leads-from-your-website",
+    title: "How to Get More Leads From Your Website (Without Spending More on Ads)",
+    description: "Your website is getting visitors but not inquiries? The problem is almost always the same few things. Here's how to fix them.",
+    date: "2026-07-01",
+    readTime: "5 min",
+    tags: ["Websites","Marketing"],
+    content: `## Traffic Without Leads Is Just an Expense
+
+Getting people to your website is step one. Getting them to contact you, fill out a form, or call you is step two. A lot of small businesses invest in getting traffic — SEO, social media, even paid ads — but their website doesn't convert that traffic into leads. That's like paying for a billboard that doesn't have your phone number on it.
+
+Here's how to fix the conversion problem.
+
+## Make Your Contact Info Impossible to Miss
+
+This sounds basic but it's the most common issue I see. Your phone number should be:
+
+- **In the top right of every page** — desktop and mobile
+- **Clickable on mobile** — tap to call, not "please dial..."
+- **On the homepage above the fold** — visible without scrolling
+- **In the footer of every page** — where people naturally look for contact info
+
+If someone wants to call you and can't find your number in two seconds, they'll call someone else.
+
+## Have a Clear Call to Action on Every Page
+
+Every page on your website should answer the question: "what do I want the visitor to do next?" If the answer is "contact me," there should be a visible button or link to make that happen.
+
+**Good CTAs:**
+- "Get a Free Estimate"
+- "Schedule a Consultation"
+- "Call Now: (555) 123-4567"
+- "Text Us"
+
+**Bad CTAs:**
+- "Learn More" (about what?)
+- "Submit" (submit what?)
+- "Click Here" (where?)
+- No CTA at all (the most common problem)
+
+## Simplify Your Contact Form
+
+If your contact form asks for name, email, phone, company name, company size, budget range, project timeline, how they heard about you, and a detailed description of their project — that's too much. Most of those questions can wait until the first conversation.
+
+A contact form should have:
+- Name
+- Email or phone
+- A brief message field
+
+That's it. You can qualify leads after they reach out. The goal of the form is to start the conversation, not finish it.
+
+## Add Social Proof Near Your CTAs
+
+Put a testimonial right next to your contact form. Something like "Jacob built our website in two weeks and we've already gotten 10 new leads from it — Sarah, KC Bakery."
+
+When someone is on the fence about reaching out, a positive review from someone like them can tip the balance.
+
+## Speed Up Your Response Time
+
+This isn't a website design tip, but it matters enormously. If someone fills out your contact form and doesn't hear back for three days, they've already hired someone else. The businesses that respond within an hour win the lead almost every time.
+
+Set up email notifications for form submissions. Better yet, set up text notifications so you see them immediately.
+
+## Reduce Friction
+
+Every obstacle between "I'm interested" and "I reached out" costs you leads:
+
+- **Don't require account creation** to get a quote
+- **Don't hide your pricing** behind a "call for details" wall if you can give ranges
+- **Don't make people download something** before they can contact you
+- **Don't use CAPTCHA** unless spam is actually a problem — those puzzle things annoy real people
+
+## Add Multiple Contact Methods
+
+Some people want to call. Some want to email. Some want to text. Some want to fill out a form. Give them options.
+
+- Phone number (clickable)
+- Email address
+- Contact form
+- Text option (if applicable)
+- Live chat (if you can actually respond in real-time)
+
+The easier you make it to reach out in their preferred way, the more leads you'll get.
+
+## The "What Happens Next" Factor
+
+People hesitate when they don't know what happens after they fill out a form or make a call. Tell them.
+
+"Fill out the form below and I'll get back to you within a few hours with a free estimate. No pressure, no obligation."
+
+That one sentence removes anxiety and increases form submissions.
+
+## Track What's Working
+
+Install Google Analytics and set up goal tracking for form submissions and phone calls. Without this, you're guessing about what's working. With it, you can see which pages generate the most leads and double down on what works.
+
+These aren't complicated changes. Most of them take an afternoon to implement. But they're the difference between a website that looks nice and a website that actually generates business.`,
+  },
+  {
+    slug: "what-your-website-footer-is-missing",
+    title: "What Your Website Footer Is Missing (And Why It Matters)",
+    description: "Most business websites waste their footer space. Here's what should actually be there and why it's one of the most clicked areas of your site.",
+    date: "2026-07-02",
+    readTime: "4 min",
+    tags: ["Websites","Design"],
+    content: `## People Actually Read Your Footer
+
+This surprises most business owners. The footer — that section at the very bottom of every page — is one of the most visited areas of any website. When people can't find something, they scroll to the bottom. It's instinct at this point.
+
+If your footer just says "© 2026 Your Business" and nothing else, you're wasting valuable real estate.
+
+## What Your Footer Should Include
+
+### Contact Information
+
+Full address, phone number (clickable on mobile), and email address. This is the single most common thing people look for in a footer. Don't make them go to a separate contact page to find your phone number.
+
+### Business Hours
+
+Especially important for local businesses — restaurants, shops, service providers. People scroll to the footer specifically to check if you're open. Put it there.
+
+### Navigation Links
+
+A condensed version of your main navigation. Not every page, but the important ones: Home, About, Services, Contact. People who scroll to the bottom often do so because the main nav didn't help them find what they needed.
+
+### Social Media Links
+
+Small icons linking to your active social profiles. Emphasis on "active." Don't link to a Facebook page you haven't posted on since 2023.
+
+### Service Area
+
+If you serve a specific geographic area, mention it. "Serving Kansas City and the surrounding metro area" is a small line that does double duty — it helps visitors know you serve their area and it's a local SEO signal for Google.
+
+### Google Maps Embed
+
+For businesses with a physical location, a small embedded map in the footer is incredibly useful. People can see exactly where you are and get directions without leaving your site.
+
+## What to Leave Out
+
+- **Excessive legal disclaimers** — a privacy policy link is fine, but paragraphs of legal text in the footer look cluttered
+- **Newsletter signup (unless you actually send newsletters)** — an abandoned newsletter form is worse than no form
+- **Social media links to dead profiles** — only link to platforms where you're actually active
+- **Awards from 2018** — if it's not recent, it's not helping
+
+## The SEO Angle
+
+Your footer appears on every page of your site. That makes it a consistent place to reinforce local SEO signals. Your business name, city, and phone number in the footer of every page tells Google exactly who you are and where you operate.
+
+This isn't about keyword stuffing. It's about consistency. Your footer info should match your Google Business Profile, your Yelp listing, and every other place your business appears online.
+
+## Footer Design Tips
+
+- **Keep it organized** — use columns to separate contact info, links, and social icons
+- **Match your brand** — the footer should feel like part of your site, not an afterthought
+- **Make it readable** — light text on dark background (or vice versa) with enough contrast
+- **Don't hide it** — some sites have footers that blend into the background. Make sure people can actually see it
+
+## One Last Thing
+
+Update your copyright year. I know it seems trivial, but "© 2022" in your footer tells visitors you haven't touched your site in years. Either update it manually or use code that automatically displays the current year. Every site I build uses automatic year updates because nobody should have to remember to change a number every January.`,
+  },
+  {
+    slug: "google-ads-basics-for-small-businesses",
+    title: "Google Ads for Small Businesses: Is It Worth the Money?",
+    description: "Google Ads can work for small businesses, but most waste money on bad campaigns. Here's what to know before you spend a dollar.",
+    date: "2026-07-03",
+    readTime: "6 min",
+    tags: ["Google","Marketing"],
+    content: `## The Short Answer: It Depends on Your Business
+
+Google Ads can be incredibly effective for small businesses. They can also be an expensive black hole that drains your budget with nothing to show for it. The difference is almost always in the setup and management, not the platform itself.
+
+Here's what you need to understand before you start.
+
+## How Google Ads Actually Works
+
+When someone searches "plumber near me" or "custom birthday cakes Kansas City," Google shows ads at the top of the results. You bid to appear for specific keywords, and you pay when someone clicks your ad. That's the basic model.
+
+**Key terms you need to know:**
+
+- **CPC (Cost Per Click)** — what you pay each time someone clicks your ad
+- **Keywords** — the search terms you're bidding on
+- **Quality Score** — Google's rating of your ad relevance, which affects your cost
+- **Landing page** — the page people see after clicking your ad
+- **Conversion** — the action you want (phone call, form submission, purchase)
+
+## When Google Ads Makes Sense
+
+Google Ads work best when:
+
+- **People are actively searching for your service** — "emergency locksmith," "tax preparer near me," "roof repair Kansas City"
+- **Your service has a high customer value** — spending $200 to get a $5,000 customer is a great deal
+- **You have a specific, geographic market** — you can target just your city or service area
+- **Your website converts well** — sending paid traffic to a bad website is burning money
+
+## When Google Ads Doesn't Make Sense
+
+- **Your budget is under $500/month** — with low budgets, you can't collect enough data to optimize. You're essentially guessing
+- **You don't have a decent website** — ads bring people to your site. If the site doesn't convert, the ad spend is wasted
+- **You're in an ultra-competitive niche** — some keywords cost $50-100 per click. If that's your market, you need deep pockets or a different strategy
+- **You're selling something people don't search for** — if nobody's Googling your product, search ads won't help. You'd need social ads instead
+
+## The Biggest Mistakes Small Businesses Make
+
+### Using broad match keywords
+
+Google's default keyword matching is "broad match," which means your ad can show for loosely related searches. If you bid on "plumber," your ad might show for "plumber salary" or "how to become a plumber." Those clicks cost money and generate zero leads.
+
+Use phrase match or exact match keywords to control what searches trigger your ads.
+
+### No negative keywords
+
+Negative keywords tell Google what searches NOT to show your ad for. Without them, you'll pay for clicks from people searching for jobs, DIY instructions, or competitors by name.
+
+### Sending traffic to your homepage
+
+Your homepage is designed for general visitors. Someone who clicked an ad for "kitchen remodel Kansas City" should land on a page specifically about kitchen remodels, with a clear call to action. A dedicated landing page will convert 2-5x better than your homepage.
+
+### Not tracking conversions
+
+If you're running ads but not tracking what happens after someone clicks, you're flying blind. Set up conversion tracking for phone calls and form submissions at minimum. Without this, you don't know if your ads are actually generating business.
+
+### Set it and forget it
+
+Google Ads require ongoing management. Keywords need adjusting, bids need optimizing, ad copy needs testing. An unmanaged campaign wastes money every day.
+
+## A Realistic Budget
+
+For most local service businesses, a meaningful test requires $500-1,500/month in ad spend, plus whatever you pay for management (if you hire someone). Below $500/month, you're spreading too thin to learn anything useful.
+
+That said, a well-managed $500/month campaign targeting the right keywords in a local market can generate 10-30+ leads per month for many service businesses. The math works when your customer lifetime value is high enough.
+
+## DIY vs. Hiring Someone
+
+Managing Google Ads yourself is possible but time-consuming. Google makes the interface look simple, but the details matter enormously. A professional who knows what they're doing will typically get you better results for less ad spend because they know how to avoid the common money pits.
+
+If you do DIY, at minimum take Google's free Skillshop courses before spending a dollar.
+
+## The Website Connection
+
+Here's what I always tell clients: don't run Google Ads until your website is ready to convert that traffic. A fast, mobile-friendly site with clear calls to action and a simple contact form is the foundation. Without that, ads are just an expensive way to show people a website that doesn't work for them.
+
+Get the website right first. Then the ads become a multiplier instead of a money pit.`,
+  },
+  {
+    slug: "why-your-business-needs-a-privacy-policy",
+    title: "Why Your Business Website Needs a Privacy Policy (Even If You Think It Doesn't)",
+    description: "If your website collects any information at all — even just a contact form — you probably need a privacy policy. Here's why and how to get one.",
+    date: "2026-07-04",
+    readTime: "4 min",
+    tags: ["Websites","Legal"],
+    content: `## It's Not Just a Legal Formality
+
+If your website has a contact form, uses Google Analytics, has cookies of any kind, or collects email addresses — you need a privacy policy. That covers basically every business website in existence.
+
+This isn't about being overly cautious. Multiple laws require it, and the penalties for not having one are real.
+
+## What Laws Require It
+
+**CCPA/CPRA (California)** — if anyone from California visits your site and you collect any personal data, you need a privacy policy. Since you can't control who visits your website, this effectively applies to everyone.
+
+**GDPR (Europe)** — same idea but for European visitors. Even stricter requirements.
+
+**Various state laws** — Virginia, Colorado, Connecticut, Utah, and others have passed their own privacy laws. The trend is clear: more states are adding requirements, not fewer.
+
+You might think "I'm a small business in Kansas City, European laws don't apply to me." Technically, if a European person visits your site, they do. Practically, the risk is low. But having a privacy policy protects you regardless and costs nothing.
+
+## What It Should Include
+
+A privacy policy for a small business website doesn't need to be a 20-page legal document. It needs to cover:
+
+- **What information you collect** — names, emails, phone numbers from your contact form
+- **How you collect it** — contact forms, cookies, analytics tools
+- **What you do with it** — respond to inquiries, send newsletters (if applicable)
+- **Who you share it with** — third-party tools like Google Analytics, your email provider
+- **How people can contact you** about their data
+- **Cookie usage** — if you use Google Analytics, you use cookies
+
+## How to Get One
+
+**Option 1: Free privacy policy generators.** Termly, PrivacyPolicies.com, and others offer free generators. You answer questions about your site and they produce a policy. Good enough for most small businesses.
+
+**Option 2: A template from your industry.** Some industry associations provide privacy policy templates for their members.
+
+**Option 3: A lawyer.** If your business handles sensitive data (medical, financial, children's information), spend the money on a real lawyer. For a standard small business site, a generator is fine.
+
+## Where to Put It
+
+- A dedicated page on your site (usually /privacy-policy or /privacy)
+- Linked from your website footer
+- Referenced near any forms that collect information
+- Mentioned in your email signup (if you have one)
+
+## What Happens Without One
+
+**Technically:** you're in violation of privacy laws and could face fines. CCPA fines can reach $7,500 per violation.
+
+**Practically:** the bigger risk for most small businesses is platform requirements. Google Analytics requires that you have a privacy policy disclosing its use. Google Ads has similar requirements. Apple's App Store requires one. Many email marketing tools require one in their terms of service.
+
+**Trust-wise:** savvy customers look for privacy policies. Its absence doesn't necessarily lose you business, but its presence is a small trust signal that adds up with everything else.
+
+## Don't Overthink It
+
+A privacy policy is one of those things that takes 30 minutes to set up and protects you indefinitely. Use a free generator, put it on your site, link it from your footer, and move on.
+
+Every website I build includes a privacy policy page linked from the footer. It's a standard part of the build, not an upsell or an afterthought. If your current site doesn't have one, that's worth fixing today.`,
+  },
+  {
+    slug: "how-to-get-your-business-on-google-maps",
+    title: "How to Get Your Business on Google Maps (Step by Step)",
+    description: "If people can't find your business on Google Maps, you're invisible to local customers. Here's the simple process to get listed.",
+    date: "2026-07-05",
+    readTime: "4 min",
+    tags: ["Google","Local SEO"],
+    content: `## If You're Not on Google Maps, You Don't Exist Locally
+
+When someone searches "coffee shop near me" or "plumber in Overland Park," Google Maps results show up before anything else. If your business isn't on that map, you're not in the conversation. Period.
+
+Getting listed is free and takes about 15 minutes of active work. Here's exactly how.
+
+## Step 1: Go to Google Business Profile
+
+Go to business.google.com and sign in with a Google account. If you don't have a Google account for your business, create one — it's free.
+
+## Step 2: Search for Your Business
+
+Google may already have a listing for your business based on public data. Search your business name. If it appears, claim it. If not, click "Add your business."
+
+## Step 3: Enter Your Business Information
+
+- **Business name** — exactly as it appears in the real world. Don't stuff keywords in here ("Bob's Plumbing - Best Plumber Kansas City Cheap Plumber"). Google penalizes that
+- **Category** — pick the most specific category available. "Plumber" not "Home Services"
+- **Address** — your physical location. If you're a service-area business that goes to customers, you can hide your address and list service areas instead
+- **Phone number** — use a local number, not a toll-free number
+- **Website** — your website URL
+
+## Step 4: Verify Your Business
+
+Google needs to confirm you're a real business at a real location. Verification options vary:
+
+- **Postcard** — Google mails a postcard with a code to your business address. Takes 5-14 days
+- **Phone** — some businesses can verify by phone call or text
+- **Email** — occasionally available
+- **Video** — Google may ask you to record a short video showing your location
+
+Postcard is the most common method. It's annoying to wait, but it's a one-time thing.
+
+## Step 5: Optimize Your Profile
+
+Once verified, fill out everything:
+
+- **Business hours** — including holiday hours
+- **Business description** — 750 characters to describe what you do. Include your city and services naturally
+- **Photos** — exterior of your building (so people can find it), interior, team photos, examples of your work. Profiles with photos get 42% more direction requests
+- **Services or products** — list everything you offer with descriptions
+- **Attributes** — wheelchair accessible, free WiFi, women-owned, veteran-owned, etc.
+
+## Common Mistakes
+
+**Wrong category.** Your primary category is the biggest factor in what searches you appear for. Get it right. You can add secondary categories too.
+
+**Inconsistent information.** Your name, address, and phone number should be identical everywhere — your website, Google listing, Yelp, Facebook, everywhere. "123 Main St" and "123 Main Street" are technically different in Google's eyes.
+
+**No photos.** Listings without photos get significantly less engagement. Even phone photos are better than nothing.
+
+**Never responding to reviews.** Google factors your engagement into rankings. Respond to every review — positive and negative.
+
+## The Ongoing Part
+
+Getting listed is step one. Staying relevant requires:
+
+- **Posting updates** — Google Business Profile has a posts feature. Use it monthly at minimum
+- **Getting reviews** — ask happy customers to leave a review. More reviews = higher rankings
+- **Responding to reviews** — every single one
+- **Keeping hours current** — especially holidays and seasonal changes
+- **Adding new photos** — quarterly at least
+
+## Why This Matters More Than Almost Anything Else Online
+
+For local businesses, Google Maps is the front door. More people find local businesses through Google Maps than through websites, social media, or any other channel. A complete, optimized Google Business Profile is the single highest-ROI marketing activity for most local businesses.
+
+It's free. It takes minimal time. And it directly impacts whether people find you when they're ready to buy. If you haven't done this yet, stop everything else and do it now.`,
+  },
+  {
+    slug: "website-mistakes-that-make-you-look-unprofessional",
+    title: "7 Website Mistakes That Make Your Business Look Unprofessional",
+    description: "Your website might be driving customers away without you knowing it. These are the most common credibility killers and how to fix them.",
+    date: "2026-07-06",
+    readTime: "5 min",
+    tags: ["Websites","Design"],
+    content: `## Your Website Is Making a First Impression Whether You Like It or Not
+
+Most business owners never look at their own website from a customer's perspective. They built it, it works, they moved on. But every day, potential customers are visiting that site and making snap judgments about whether your business is trustworthy, professional, and worth their money.
+
+Here are seven mistakes that silently kill your credibility.
+
+## 1. Stock Photos That Look Like Stock Photos
+
+You know the ones. Diverse team of professionals high-fiving in a conference room. Woman laughing alone with a salad. Man in a hard hat pointing at something off-camera.
+
+These photos scream "we couldn't be bothered to use real images." They make every business look the same and they erode trust because visitors know they're fake.
+
+**The fix:** Use real photos. Your actual team, your actual workspace, your actual projects. Phone photos with decent lighting are infinitely better than polished stock images that have nothing to do with your business.
+
+## 2. Outdated Design
+
+Design trends change. A website that looked modern in 2018 looks dated now. Common signs of an outdated design:
+
+- Tiny text with cramped spacing
+- Chunky gradients and drop shadows everywhere
+- Flash elements or image carousels that auto-rotate
+- A layout that doesn't adapt to mobile screens
+- Color schemes that clash
+
+You don't need to redesign every year. But if your site looks like it belongs in a different decade, people assume your business is equally behind the times.
+
+## 3. Broken Links and Missing Pages
+
+Click a link and get a 404 error. Click a menu item and nothing happens. Click "View Our Gallery" and the page is empty. Each broken element tells visitors you don't maintain your online presence.
+
+**The fix:** Click every link on your site once a quarter. Use a free tool like Dead Link Checker to automate this. Fix or remove anything that's broken.
+
+## 4. No HTTPS (the Padlock)
+
+If your website URL starts with http:// instead of https://, browsers show a "Not Secure" warning. In 2026, there's no excuse for this. SSL certificates are free through Let's Encrypt and included with virtually every hosting provider.
+
+A "Not Secure" warning is one of the fastest ways to lose a visitor's trust, especially if you have any forms on your site.
+
+## 5. Typos and Grammar Errors
+
+A typo on a business website isn't a minor thing. It signals carelessness. If you can't be bothered to proofread your own website, what does that say about the care you put into your work?
+
+**The fix:** Read every page of your site out loud. You'll catch errors your eyes skip over. Better yet, have someone else read it.
+
+## 6. No Clear Way to Contact You
+
+If someone has to hunt for your phone number or email, most won't bother. They'll go to the next result. Your contact information should be:
+
+- In the header or top of every page
+- In the footer of every page
+- On a dedicated contact page
+- Clickable (phone numbers should use tel: links on mobile)
+
+## 7. Slow Loading
+
+A website that takes more than 3 seconds to load loses over half its visitors. People's patience for slow websites is essentially zero now.
+
+**Common culprits:** uncompressed images, too many plugins, cheap hosting, poorly written code, excessive third-party scripts.
+
+**The fix:** run your site through Google's PageSpeed Insights (it's free). It'll tell you exactly what's slowing things down.
+
+## The Compound Effect
+
+Any one of these issues is a small problem. But they stack. A site with stock photos AND broken links AND slow loading AND no HTTPS is actively working against your business. And you might not even know it because you haven't looked at your site critically in years.
+
+I build websites that avoid all of these from day one. Clean design, real content, fast loading, secure, and easy to maintain. If your current site has a few of these problems, sometimes a fresh build is faster and cheaper than patching everything.`,
+  },
+  {
+    slug: "why-every-page-needs-a-call-to-action",
+    title: "Why Every Page on Your Website Needs a Call to Action",
+    description: "If a visitor reaches the bottom of a page and doesn't know what to do next, you've lost them. Here's how to fix that on every page.",
+    date: "2026-07-07",
+    readTime: "4 min",
+    tags: ["Websites","Marketing"],
+    content: `## A Page Without a CTA Is a Dead End
+
+Imagine walking into a store, looking around, finding something interesting, and then... the employee just stares at you. No "can I help you?" No "would you like to try that on?" Nothing. You'd probably leave.
+
+That's what a website page without a call to action feels like. The visitor is interested enough to read your content, but you never tell them what to do next. So they leave.
+
+## What a Call to Action Actually Is
+
+A call to action (CTA) is simply a prompt that tells the visitor what to do next. It's usually a button or a link. Examples:
+
+- "Get a Free Quote"
+- "Call Us Today"
+- "Book Your Appointment"
+- "See Our Work"
+- "Download the Guide"
+
+The key word is "action." You're asking them to do something specific.
+
+## Why It Matters on Every Page
+
+**Homepage** — this one's obvious. But many homepages either have no CTA or have too many competing ones.
+
+**About page** — someone who reads your entire about page is interested in you. Don't let them drift away. "Like what you see? Let's talk about your project."
+
+**Service pages** — each service page should end with a CTA specific to that service. "Need a new roof? Get your free estimate."
+
+**Blog posts** — even informational content should guide people somewhere. "Want help implementing this? Reach out."
+
+**Gallery/portfolio** — if someone is looking at your work, they're considering hiring you. "Want results like these? Let's talk."
+
+## The Psychology Behind It
+
+People need direction. This isn't because they're indecisive — it's because the internet is overwhelming. Dozens of tabs, notifications pinging, kids yelling. A clear CTA cuts through the noise and makes the next step obvious.
+
+There's also a psychological principle called the "paradox of choice." When people have too many options (or no clear option), they do nothing. A single, clear CTA eliminates that paralysis.
+
+## How to Write a Good CTA
+
+**Be specific.** "Get a Free Quote" beats "Contact Us." The first tells you exactly what you'll get. The second is vague.
+
+**Use action words.** Start with a verb: get, call, book, schedule, download, see, start.
+
+**Reduce risk.** Words like "free," "no obligation," and "no commitment" lower the barrier. People are more likely to act when there's no perceived downside.
+
+**Create urgency when appropriate.** "Schedule this week and save 10%" works for time-sensitive offers. Don't manufacture fake urgency though — people see through that.
+
+## CTA Placement
+
+- **Above the fold** — visible without scrolling on every key page
+- **After key content sections** — when you've just made a compelling point
+- **At the bottom of every page** — for people who read all the way through
+- **In the navigation** — a "Get a Quote" button in your header that's always visible
+
+## Common CTA Mistakes
+
+**Too many CTAs competing.** "Sign up for our newsletter! Also get a quote! Also follow us on Instagram! Also download this PDF!" Pick one primary action per page.
+
+**Hidden CTAs.** A text link that says "contact us" buried in a paragraph is not a CTA. Make it a button. Make it visible. Make it stand out.
+
+**Buttons that don't look like buttons.** If your CTA is the same color as your background with no border, people won't recognize it as clickable.
+
+**"Submit" as button text.** Nobody wants to "submit" anything. What are they submitting? Change it to what they're actually getting: "Send My Message" or "Get My Quote."
+
+## The Difference It Makes
+
+Adding clear CTAs to every page of a website is one of the simplest changes that produces the biggest results. I've seen businesses double their inquiry rate just by making their phone number prominent and adding a "Get a Free Quote" button to every page.
+
+It's not a design trick. It's just good communication. Tell people what to do next, make it easy, and more of them will do it.`,
+  },
+  {
+    slug: "what-to-ask-before-hiring-a-web-developer",
+    title: "10 Questions to Ask Before Hiring a Web Developer",
+    description: "Hiring a web developer can feel overwhelming if you've never done it. These questions will help you separate the professionals from the amateurs.",
+    date: "2026-07-08",
+    readTime: "5 min",
+    tags: ["Websites","Small Business"],
+    content: `## Not All Web Developers Are Created Equal
+
+The web development world ranges from $50 Fiverr gigs to $50,000 agency projects. Somewhere in the middle is where most small businesses should be — but finding the right developer means asking the right questions upfront.
+
+Here are 10 questions that reveal whether a developer is a good fit for your project.
+
+## 1. "Can I See Examples of Your Recent Work?"
+
+This is the most important question. Look at their portfolio. Do the sites look modern? Do they load fast? Are they mobile-friendly? Do they look like real businesses or cookie-cutter templates?
+
+**Red flag:** No portfolio, or a portfolio full of sites that look identical.
+
+## 2. "Will I Own the Website When It's Done?"
+
+Some developers and agencies build your site on their own hosting and charge you a monthly fee to keep it running. If you leave, you lose your website. Make sure you own the code, the design, and the domain.
+
+**Red flag:** "We host it for you for $200/month" with no option to take your site elsewhere.
+
+## 3. "What Platform or Technology Will You Use?"
+
+Not because you need to understand the tech — but because it affects your future. A WordPress site is easy to find someone to maintain. A site built on a proprietary platform locks you in.
+
+**Good answers:** WordPress, Next.js, standard HTML/CSS, Webflow, Shopify (for e-commerce).
+**Red flag:** "Our proprietary platform" or no clear answer.
+
+## 4. "What's Your Timeline?"
+
+A simple business website should take 1-4 weeks. If someone says 3-6 months for a 5-page site, they're either overcomplicating it or you're not a priority.
+
+**Red flag:** No timeline or an extremely vague one.
+
+## 5. "What Do You Need From Me?"
+
+A good developer tells you upfront what they need: content, photos, logo, access to your domain, brand colors, examples of sites you like. If they don't ask for any of this, they're probably going to use placeholder content and charge you to fix it later.
+
+**Red flag:** "Just leave everything to us" with no discussion about content.
+
+## 6. "Is SEO Included?"
+
+Basic SEO — proper page titles, meta descriptions, heading structure, fast loading, mobile responsiveness — should be standard, not an upsell. If a developer builds you a site with no SEO consideration, it won't be found on Google.
+
+**Red flag:** "SEO is a separate package starting at $500/month."
+
+## 7. "What Happens After Launch?"
+
+Websites need maintenance — updates, security patches, content changes, backups. Who handles that? What does it cost? Is there a support period included?
+
+**Good answer:** "I include 30 days of support after launch, and here's what ongoing maintenance looks like."
+**Red flag:** "We'll cross that bridge when we come to it."
+
+## 8. "How Do Revisions Work?"
+
+Unlimited revisions sounds great, but what does it mean in practice? Clarify how many rounds of changes are included and what counts as a revision versus a scope change.
+
+**Good answer:** "Two rounds of revisions are included. Additional changes are billed hourly."
+**Red flag:** "Unlimited revisions" with no definition, or zero revisions included.
+
+## 9. "Can You Show Me a Live Site I Can Test?"
+
+A portfolio screenshot is one thing. A live site you can click through, test on your phone, and evaluate the load speed is another. Ask for URLs, not just images.
+
+**Red flag:** "Our sites are under NDA" or screenshots only.
+
+## 10. "What's the Total Cost? Are There Ongoing Fees?"
+
+Get the full picture. The build cost, any ongoing hosting fees, domain renewal, maintenance costs, email setup. A $2,000 website that costs $200/month in ongoing fees is a very different deal than a $3,000 website with no monthly costs.
+
+**Red flag:** Unclear pricing or fees that only appear after you've committed.
+
+## Trust Your Gut
+
+Beyond these questions, pay attention to how the developer communicates. Do they respond promptly? Do they explain things clearly without being condescending? Do they seem interested in your business or just closing a sale?
+
+The best developer for your business is someone who builds quality work, communicates clearly, and charges fairly. These questions help you find that person.`,
+  },
+  {
+    slug: "do-small-businesses-need-a-blog",
+    title: "Does Your Small Business Actually Need a Blog?",
+    description: "Everyone says small businesses need a blog. The truth is more nuanced. Here's when a blog helps, when it doesn't, and what to do instead.",
+    date: "2026-07-09",
+    readTime: "5 min",
+    tags: ["Content","Marketing"],
+    content: `## The Conventional Wisdom Is Half Right
+
+"Every business needs a blog!" You've heard this from marketing gurus, SEO experts, and probably your cousin who took a digital marketing course. The idea is that blogging brings traffic, establishes authority, and helps with SEO.
+
+That's all true — in theory. In practice, most small business blogs do none of those things because they're either abandoned after three posts or filled with content nobody searches for.
+
+## When a Blog Helps
+
+A blog genuinely benefits your business when:
+
+**You can commit to consistency.** One quality post per month beats twelve posts followed by six months of silence. Google and readers both reward consistency.
+
+**People search for answers in your industry.** If you're a plumber and people Google "why is my water heater making noise," a blog post answering that question brings potential customers to your site. They found your helpful answer, they see you're a plumber, they're in your area — that's a warm lead.
+
+**You have genuine expertise to share.** A landscaper writing about "when to plant tomatoes in Kansas City" is providing real value. A generic business writing about "10 tips for productivity" is not.
+
+**You're targeting long-tail keywords.** Your main pages target your core services. Blog posts can target the hundreds of specific questions people ask. "How much does it cost to replace a water heater in Kansas City" is a blog post waiting to happen.
+
+## When a Blog Doesn't Help
+
+**You won't maintain it.** An abandoned blog is worse than no blog. A "Latest Posts" section showing your last update was 18 months ago signals neglect.
+
+**Your industry isn't search-driven.** If your customers find you through referrals, networking, or foot traffic and not Google searches, a blog isn't going to move the needle.
+
+**You're writing for search engines, not people.** Blog posts stuffed with keywords that nobody would actually want to read hurt more than they help. Google is smarter than that now.
+
+**You're outsourcing to someone who doesn't understand your business.** Generic blog content written by a freelancer who has never met you or your customers is obvious and useless.
+
+## What to Write About (If You Do Blog)
+
+The best small business blog content answers real questions your customers ask:
+
+- **Questions you get asked repeatedly** — if five customers a week ask the same thing, that's a blog post
+- **How-to guides related to your service** — a painter writing about "how to choose exterior paint colors"
+- **Local content** — "best neighborhoods for first-time homebuyers in Kansas City"
+- **Behind-the-scenes** — project walkthroughs, before-and-afters, case studies
+- **Industry changes that affect customers** — new regulations, material costs, seasonal tips
+
+## Alternatives to a Blog
+
+If a blog isn't right for you, there are other ways to add fresh content to your site:
+
+- **A FAQ page that you update regularly** — answer new questions as they come up
+- **Project gallery with descriptions** — show your work with context
+- **Testimonials page** — add new reviews regularly
+- **Google Business Profile posts** — weekly updates that appear right on Google
+- **Social media** — if that's where your audience is, focus there instead
+
+## The Bottom Line
+
+A blog is a tool, not a requirement. If you can commit to publishing quality, relevant content consistently, a blog will absolutely help your business over time. If you can't — and there's no shame in that, you're running a business — put your energy into other things that will have more impact.
+
+If you decide to go the blog route and want it built into your website properly, that's something I include for clients who want it. Clean layout, fast loading, SEO-optimized structure. The writing is up to you — but the platform should never be the bottleneck.`,
+  },
+  {
+    slug: "what-is-web-hosting-and-how-to-choose",
+    title: "What Is Web Hosting? A Plain English Explanation",
+    description: "Web hosting is one of those things you need but nobody explains well. Here's what it actually is, what it costs, and what to look for.",
+    date: "2026-07-10",
+    readTime: "4 min",
+    tags: ["Websites","Basics"],
+    content: `## The Simplest Explanation
+
+Your website is made up of files — code, images, text. Those files need to live somewhere that's connected to the internet 24/7 so people can access them. That "somewhere" is a web host. You're essentially renting space on a computer (called a server) that stays online all the time.
+
+That's it. That's hosting.
+
+## Types of Hosting
+
+### Shared Hosting ($3-15/month)
+
+Your website lives on a server with hundreds or thousands of other websites. It's the cheapest option and it's fine for most small business websites.
+
+**Pros:** Cheap, easy to set up, no technical knowledge needed.
+**Cons:** Slower speeds if the server is overcrowded, limited resources.
+**Good for:** Small business websites, blogs, simple sites.
+
+### VPS Hosting ($20-80/month)
+
+Virtual Private Server. You still share a physical server, but you get a dedicated slice of resources. Better performance and more control.
+
+**Good for:** Websites with decent traffic, e-commerce sites, businesses that need more reliability.
+
+### Cloud/Static Hosting ($0-20/month)
+
+Services like Vercel, Netlify, or Cloudflare Pages host your site on a global network of servers. Often free or very cheap for simple sites. Extremely fast and reliable.
+
+**Good for:** Modern websites built with frameworks like Next.js, static sites, businesses that want the best performance.
+
+### Managed WordPress Hosting ($25-50/month)
+
+Hosting optimized specifically for WordPress. Includes automatic updates, backups, and security. Companies like WP Engine and Flywheel specialize in this.
+
+**Good for:** WordPress sites that need reliability and don't want to deal with technical maintenance.
+
+## What to Look For
+
+**Uptime guarantee.** Look for 99.9% uptime. That means your site should be accessible 99.9% of the time. If a host doesn't publish their uptime, that's a red flag.
+
+**Speed.** Your host affects how fast your site loads. A slow host means a slow site, no matter how well the site is built.
+
+**Support.** When something breaks at 2 AM, can you reach someone? 24/7 support is ideal, even if you rarely need it.
+
+**Backups.** Does the host automatically back up your site? How often? Can you restore a backup easily? Daily automatic backups should be standard.
+
+**SSL included.** An SSL certificate (the thing that makes your site HTTPS) should be free with your hosting. Most hosts include it now, but some still charge for it.
+
+## Hosts I Recommend for Small Businesses
+
+- **Vercel** — what I use for most client sites. Fast, reliable, generous free tier. Best for modern, custom-built sites
+- **SiteGround** — solid shared hosting with good support. Works well with WordPress
+- **Cloudflare Pages** — free tier, extremely fast global delivery
+- **DigitalOcean** — affordable VPS hosting if you need more power
+
+## What to Avoid
+
+- **Free hosting with ads** — your business site showing someone else's ads looks terrible
+- **Hosts that lock you in** — make sure you can export your site and move if needed
+- **"Unlimited everything" claims** — there's no such thing. Read the fine print
+- **GoDaddy hosting** — their domain service is fine, but their hosting is consistently slow and oversold
+
+## How Hosting Relates to Your Domain
+
+Your domain (like yourbusiness.com) and your hosting are separate things. Your domain is the address. Your hosting is the building. You can buy them from the same company or different companies.
+
+Think of it this way: you might buy your domain from Namecheap and host your site on Vercel. The domain points to the host, like an address points to a building.
+
+## The Takeaway
+
+Hosting doesn't need to be complicated or expensive. For most small business websites, you're looking at $0-20/month for hosting that's fast, reliable, and secure. Don't overpay, don't underpay, and make sure you can leave if you need to.
+
+If any of this sounds confusing, that's normal. It's one of those behind-the-scenes things that I handle for clients so they don't have to think about it.`,
+  },
+  {
+    slug: "why-you-should-never-use-a-free-website-builder",
+    title: "Free Website Builders: What They Don't Tell You",
+    description: "Free sounds great until you realize what you're giving up. Here's the real cost of 'free' website builders like Wix Free, Weebly, and others.",
+    date: "2026-07-11",
+    readTime: "5 min",
+    tags: ["Websites","Comparisons"],
+    content: `## "Free" Has a Price
+
+The pitch is tempting: build a website for free, no coding required, drag and drop. Companies like Wix, Weebly, and others offer free tiers that let you create a website without spending a dollar. For a personal hobby site, that might be fine. For a business? The hidden costs add up fast.
+
+## What You Get for Free
+
+Let's be honest about what free actually includes:
+
+- A website on their subdomain (like yourbusiness.wixsite.com/mysite)
+- Their branding and ads displayed on your site
+- Limited storage and bandwidth
+- Basic templates with limited customization
+- No custom domain unless you upgrade
+
+## The Problems for Businesses
+
+### Your URL Screams "I Didn't Invest in This"
+
+A URL like yourbusiness.wixsite.com tells customers two things: you're using a free tool, and you're not invested enough in your online presence to get a real domain. For a $10/year domain, that's a bad trade.
+
+### Ads on Your Site (That Aren't Yours)
+
+Free-tier builders place ads on your website. You're essentially giving away real estate on your own business site to advertise someone else's products. How does that look to a potential customer?
+
+### Limited SEO
+
+Free plans typically have restricted SEO capabilities. You can't properly customize page titles, meta descriptions, or heading structures. For a business trying to be found on Google, this is crippling.
+
+### No Analytics (or Very Basic)
+
+Understanding who visits your site, where they come from, and what they do is essential for any business website. Free plans either don't include analytics or provide extremely limited data.
+
+### You Don't Own Your Site
+
+Read the terms of service. On most free plans, you can't export your site. If you decide to move to a different platform, you're starting over from scratch. Your content, your design, your structure — none of it comes with you.
+
+### Slow Loading
+
+Free plans typically host your site on overcrowded shared servers with no performance optimization. Slow sites lose visitors and rank poorly on Google.
+
+## The Upgrade Trap
+
+Here's the real business model: get you started for free, then charge you to remove all the limitations that make the free version useless for a business.
+
+Wix's paid plans range from $17 to $159/month. Over three years, that's $612 to $5,724. And you still don't own your site — you're renting.
+
+For context, a custom-built website might cost $1,500-3,000 upfront with little to no monthly fees. You own it. You control it. You can move it anywhere.
+
+## When Free Makes Sense
+
+**Personal projects.** Building a portfolio for a class project? A fan site for your hobby? Free is fine.
+
+**Testing an idea.** Want to see if your business concept resonates before investing? A free site as a temporary landing page isn't the worst idea — as long as you upgrade quickly if the idea works.
+
+**You literally have zero dollars.** If the choice is between a free Wix site and no online presence at all, the Wix site wins. But understand it's temporary.
+
+## When Free Doesn't Make Sense
+
+**Any real business.** If you're trying to make money, your website is your storefront. A free website is the equivalent of a handwritten sign taped to a window. It works, technically, but it doesn't inspire confidence.
+
+**If you care about Google rankings.** The SEO limitations of free plans make them nearly invisible in search results.
+
+**If you want to look professional.** A yourname.wixsite.com URL with banner ads from Wix is not professional. Period.
+
+## The Better Path
+
+If budget is tight, there's a middle ground between free builders and expensive agencies. A custom-built simple website costs less than a year of most premium website builder plans, gives you full ownership, and actually performs well on Google.
+
+That's what I do — clean, fast, affordable websites for small businesses. No monthly platform fees, no ads on your site, no subdomain URLs. Just a real website that you own.`,
+  },
+  {
+    slug: "how-to-write-a-great-about-page",
+    title: "How to Write an About Page That Builds Trust",
+    description: "Your about page is one of the most visited pages on your site. Most businesses waste it. Here's how to write one that actually connects with visitors.",
+    date: "2026-07-12",
+    readTime: "5 min",
+    tags: ["Content","Websites"],
+    content: `## Your About Page Isn't About You
+
+That sounds contradictory, but it's the most important thing to understand. Visitors don't go to your about page because they're interested in your life story. They go there because they want to know if they can trust you with their money, their project, or their problem.
+
+Your about page should answer one question: "Why should I hire this person (or buy from this business)?"
+
+## Start With the Customer
+
+Before talking about yourself, acknowledge the person reading. What problem do they have? What are they looking for?
+
+**Bad opening:** "Founded in 2019, XYZ Company has been providing innovative solutions..."
+**Good opening:** "You need a website that works. One that loads fast, looks professional, and actually brings in customers. That's what I build."
+
+See the difference? The first talks about the company. The second talks about what the company does for the reader.
+
+## Then Tell Your Story (Briefly)
+
+After you've connected with the reader, share your background. Keep it relevant:
+
+- How did you get into this business?
+- What experience backs up your expertise?
+- What makes you different from competitors?
+
+People connect with stories, not resumes. "I started building websites for friends in college and realized small businesses were getting ripped off by agencies charging $10K for template sites" is more compelling than "I have 5 years of experience in web development and digital marketing."
+
+## Show Your Face
+
+Put a photo of yourself on your about page. A real photo, not a headshot from 2015. People want to see who they're doing business with. It builds trust in a way that text alone can't.
+
+If you have a team, show them too. Faces make businesses feel human.
+
+## Include Social Proof
+
+Your about page is a great place for:
+
+- A few of your best testimonials
+- Number of projects completed
+- Notable clients or partners
+- Relevant certifications or credentials
+
+Don't list every certification you've ever earned. Pick the ones that matter to your target customer.
+
+## What to Leave Out
+
+**Your entire biography.** Nobody needs to know where you went to elementary school. Keep it relevant to your business.
+
+**Corporate jargon.** "We leverage synergistic solutions to optimize client outcomes" tells the reader nothing. Speak like a human.
+
+**A timeline of your company history.** Unless your company's history is genuinely interesting or relevant, skip the "In 2019 we started... In 2020 we expanded..." format.
+
+**Mission statements that sound like every other mission statement.** "We're passionate about providing excellent customer service" — so is literally every other business page on the internet.
+
+## The Format
+
+A good about page doesn't need to be long. Here's a structure that works:
+
+1. **Opening hook** — connect with the reader's problem (2-3 sentences)
+2. **Your story** — how you got here and why you do this (1-2 paragraphs)
+3. **What makes you different** — your approach, values, or philosophy (1 paragraph)
+4. **Social proof** — testimonials, numbers, credentials (a few bullet points or quotes)
+5. **Call to action** — what should they do next? (1 sentence + a button)
+
+## One More Thing
+
+Update your about page. If it says "we've been in business for 3 years" and it's been 6 years — that's noticeable. If it references goals for 2024, it's outdated. Your about page should reflect your current business, not a snapshot from when you built the site.
+
+The about page is consistently one of the top 3 most visited pages on any business website. It deserves more than 15 minutes of effort and a stock photo. Write it like it matters — because it does.`,
+  },
+  {
+    slug: "how-to-handle-negative-reviews-online",
+    title: "How to Handle Negative Reviews Without Making Things Worse",
+    description: "A bad review doesn't have to be a disaster. How you respond matters more than the review itself. Here's the right way to handle it.",
+    date: "2026-07-13",
+    readTime: "5 min",
+    tags: ["Google","Small Business"],
+    content: `## A Negative Review Is Not the End of the World
+
+It feels personal. Someone publicly criticized your business — the thing you've poured your time, money, and energy into. Your first instinct is to defend yourself, explain what really happened, or fire back.
+
+Don't.
+
+How you respond to a negative review matters more than the review itself. Potential customers reading your reviews are watching how you handle criticism. A thoughtful response to a bad review can actually build more trust than another five-star review.
+
+## Step 1: Take a Breath
+
+Don't respond immediately. Give yourself at least an hour. You want to respond with professionalism, not emotion. A defensive or angry response will do more damage than the original review.
+
+## Step 2: Determine if It's Legitimate
+
+**Legitimate complaint:** The customer had a real experience and was genuinely dissatisfied. Even if you disagree with their characterization, something went wrong for them.
+
+**Fake or mistaken review:** Sometimes people review the wrong business, competitors post fake reviews, or someone who was never a customer leaves a review. These require a different approach (more on that below).
+
+## Step 3: Respond Publicly (and Well)
+
+For legitimate complaints, a good response follows this formula:
+
+1. **Thank them for the feedback** — "Thank you for sharing your experience"
+2. **Acknowledge the problem** — "I'm sorry to hear that your project didn't meet your expectations"
+3. **Take it offline** — "I'd like to make this right. Please reach out to me directly at [email/phone] so we can discuss this"
+4. **Keep it brief** — don't write a novel. 3-5 sentences is plenty
+
+**Example:** "Hi [Name], thank you for your feedback. I'm sorry your experience didn't meet the standard we aim for. I'd love the chance to make this right — could you reach out to me at jacob@builtsimple.dev so we can discuss this directly? I want to make sure this gets resolved."
+
+## What NOT to Do
+
+**Don't argue publicly.** Even if you're right, a public argument makes you look bad. Take it private.
+
+**Don't make excuses.** "Well, we were really busy that week" doesn't help. The customer doesn't care why it happened — they care that it happened.
+
+**Don't be sarcastic.** Sarcasm in review responses is a death sentence for your reputation.
+
+**Don't ignore it.** An unanswered negative review looks worse than a well-handled one. Silence says "we don't care."
+
+**Don't offer compensation publicly.** "Come back for a free meal" in a public response trains people to leave bad reviews for freebies. Handle compensation privately.
+
+## Handling Fake Reviews
+
+If you believe a review is fake:
+
+1. **Flag it** on the platform (Google, Yelp, etc.) as fraudulent
+2. **Respond politely** — "We don't have any record of this interaction. We'd like to look into this further — please contact us directly at [email]"
+3. **Don't accuse them of lying publicly** — even if it's obviously fake
+
+Google will sometimes remove clearly fake reviews, but it can take weeks and isn't guaranteed.
+
+## The Silver Lining of Negative Reviews
+
+This might sound strange, but a few negative reviews among many positive ones actually help your credibility. A business with nothing but perfect five-star reviews looks suspicious. Customers know that no business is perfect. A 4.6 average with a few handled-well negative reviews looks more authentic than a perfect 5.0.
+
+## Ask Happy Customers to Review
+
+The best defense against the occasional negative review is volume. If you have 50 positive reviews and one negative, that one barely registers. If you have 3 reviews and one is negative, it dominates.
+
+After a good interaction, ask for a review. Most happy customers are willing — they just don't think to do it on their own.
+
+## The Reputation Is the Business
+
+Your online reputation is one of your most valuable business assets. A few minutes spent crafting a thoughtful response to a negative review is time well spent. It shows potential customers that you care, you're professional, and you handle problems like an adult.`,
+  },
+  {
+    slug: "email-marketing-vs-social-media-for-small-business",
+    title: "Email Marketing vs Social Media: Where Should You Focus?",
+    description: "You don't have unlimited time. If you have to pick one marketing channel, here's why email beats social media for most small businesses.",
+    date: "2026-07-14",
+    readTime: "5 min",
+    tags: ["Email","Marketing"],
+    content: `## The Answer Might Surprise You
+
+Social media gets all the attention. It's flashy, it's public, and everyone's doing it. But if you forced me to choose one marketing channel for a small business, I'd pick email every time.
+
+Here's why.
+
+## You Own Your Email List
+
+This is the biggest difference. Your Instagram followers, your Facebook likes, your TikTok audience — you don't own any of that. Those platforms can change their algorithm tomorrow and your reach drops by 80%. It's happened before. It'll happen again.
+
+Your email list is yours. You collected those addresses. You can take them to any email platform. No algorithm decides whether your subscribers see your message. If you send an email, it goes to their inbox. Period.
+
+## The Numbers Don't Lie
+
+- **Email marketing ROI:** $36-42 for every $1 spent (average across industries)
+- **Social media organic reach:** 2-5% of your followers see any given post
+- **Email open rates:** 20-40% for small businesses
+- **Email click rates:** 2-5%
+
+Think about those numbers. If you have 1,000 followers on social media, maybe 20-50 of them see your post. If you have 1,000 email subscribers, 200-400 of them open your email, and 20-50 click through to your site. The email list is dramatically more effective.
+
+## Social Media Is Rented Land
+
+Facebook, Instagram, TikTok — you're building on someone else's property. They set the rules:
+
+- They decide what content gets shown
+- They change algorithms without warning
+- They can suspend or delete your account
+- They push you toward paid advertising to reach your own followers
+- They can (and have) shut down entire platforms
+
+Remember Vine? Google+? What happens to your audience when a platform dies?
+
+Email isn't going anywhere. It's been around for decades and it's still the primary way businesses communicate with customers.
+
+## When Social Media Makes Sense
+
+I'm not saying social media is useless. It's great for:
+
+- **Brand awareness** — getting your name in front of new people
+- **Community building** — engaging with your local market
+- **Visual businesses** — restaurants, salons, photographers, artists
+- **Customer service** — responding to questions and complaints quickly
+
+But social media is better at the top of the funnel (awareness) while email is better at the bottom (conversion).
+
+## When Email Makes Sense
+
+- **Driving repeat business** — "Hey, it's been 6 months since your last service"
+- **Promoting offers** — "20% off this week" reaches people who already know you
+- **Nurturing leads** — someone visited your site but didn't buy. Email can bring them back
+- **Sharing updates** — new products, schedule changes, company news
+- **Building relationships** — a monthly newsletter keeps you top of mind
+
+## The Smart Strategy: Use Both (But Prioritize Email)
+
+The best approach for most small businesses:
+
+1. **Build your email list** — add a signup to your website, ask in-person customers
+2. **Use social media to grow the list** — direct followers to sign up for exclusive offers
+3. **Email for conversion** — when you want people to take action, email them
+4. **Social for awareness** — keep posting, but don't stress about it
+
+## Getting Started With Email
+
+You don't need a sophisticated system. Start with:
+
+- **Mailchimp** — free for up to 500 subscribers, easy to use
+- **A simple signup form** on your website — "Get exclusive offers and updates"
+- **One email per month** — a quick update, a special offer, or helpful content
+- **Consistency** — whatever frequency you choose, stick with it
+
+## The Bottom Line
+
+If you're a small business with limited time (and who isn't?), email gives you more return per hour invested than social media. Social media is important, but email is where the money is.
+
+Want an email signup form on your website? That's a standard feature in every site I build. If your current site doesn't have one, it's a quick add that starts paying for itself immediately.`,
+  },
+  {
+    slug: "website-redesign-vs-starting-fresh",
+    title: "Website Redesign vs Starting From Scratch: Which Is Right for You?",
+    description: "Your website needs work. But should you fix what you have or start over? Here's how to decide without wasting time or money.",
+    date: "2026-07-15",
+    readTime: "5 min",
+    tags: ["Websites","Design"],
+    content: `## The Question Everyone Asks
+
+You know your website isn't working. Maybe it looks outdated, loads slowly, doesn't show up on Google, or just doesn't represent your business anymore. The question is: do you update what you have, or scrap it and start fresh?
+
+The answer depends on what's actually wrong.
+
+## When to Redesign (Fix What You Have)
+
+A redesign makes sense when the foundation is solid but the execution is dated.
+
+**Your site is on a good platform** — if it's built on WordPress, a modern framework, or a reputable builder, the underlying technology isn't the problem.
+
+**The structure works** — your pages make sense, navigation is logical, and people can find what they need. It just looks old.
+
+**Your content is good** — the text, photos, and information are current and accurate. The packaging just needs an update.
+
+**Budget is tight** — a redesign is typically cheaper than a full rebuild because you're working with existing assets.
+
+A redesign might include new colors, updated fonts, better layout, improved mobile experience, and fresh photos — all without changing the underlying platform or structure.
+
+## When to Start From Scratch
+
+Starting fresh makes sense when the problems go deeper than appearance.
+
+**Your site is on a dying platform** — built on Flash (yes, some still exist), an ancient WordPress theme with no updates, or a proprietary builder you can't escape. Redesigning on a bad foundation is like painting a house with a cracked foundation.
+
+**The site is painfully slow** — if load times are 5+ seconds and the cause is fundamental (bad hosting, bloated platform, massive plugins), a redesign won't fix it. You need a clean build.
+
+**You don't own it** — if your site was built by an agency on their proprietary system and you're paying monthly rent to keep it running, starting fresh gives you ownership.
+
+**Your business has fundamentally changed** — you offered 3 services, now you offer 12. You were local, now you're regional. The structure of the site no longer matches the business.
+
+**It's not mobile-friendly** — and the platform makes true mobile responsiveness impossible or impractical to retrofit.
+
+## The Cost Comparison
+
+**Redesign:** typically 30-60% of the cost of a new build. You're reusing the platform, some assets, and often some content. Timeline is shorter.
+
+**New build:** full cost, but you get a clean, modern foundation that will serve you for years. No inherited problems, no technical debt.
+
+The common mistake is choosing a redesign to save money when the real problems require a rebuild. You end up paying for the redesign AND then paying for the rebuild six months later when the same issues resurface.
+
+## Questions to Ask Yourself
+
+1. When was the site originally built?
+2. Can I update the content myself, or do I need to contact someone for every change?
+3. Is the site mobile-friendly?
+4. Does it load in under 3 seconds?
+5. Do I own the site and domain, or am I renting?
+6. Has my business changed significantly since the site was built?
+
+If the answers to most of these are concerning, a fresh build is probably the better investment.
+
+## What I Usually Recommend
+
+For most small businesses with websites older than 4-5 years, starting fresh is the better call. Technology, design standards, and Google's expectations have all evolved significantly. A modern build from scratch often costs less than trying to modernize an old site, and the result is dramatically better.
+
+A clean, custom-built website from 2026 loads faster, ranks better, converts more visitors, and costs less to maintain than a patched-up site from 2019. That's just the reality of how fast the web moves.`,
+  },
+  {
+    slug: "what-is-a-landing-page-and-do-you-need-one",
+    title: "What Is a Landing Page (and Does Your Business Need One)?",
+    description: "Landing pages aren't just for tech companies. Any business running ads, promotions, or campaigns can benefit from a focused landing page.",
+    date: "2026-07-16",
+    readTime: "4 min",
+    tags: ["Websites","Marketing"],
+    content: `## A Landing Page Is a Single-Purpose Page
+
+Your website has lots of pages — homepage, about, services, contact, blog. A landing page is different. It has one goal and one goal only. No navigation menu, no distracting links, just a focused message and a single call to action.
+
+Think of it this way: your website is your store. A landing page is a pop-up booth at a festival. It's designed to do one specific thing really well.
+
+## Examples of Landing Pages
+
+- **"Get a Free Quote" page** — for ad traffic, with a form and nothing else
+- **"Download Our Price Guide" page** — for email list building
+- **Event registration page** — all the event details plus a signup form
+- **Special promotion page** — "Spring cleaning special: 20% off" with a booking link
+- **Seasonal campaign page** — "Holiday catering menu" for a restaurant
+
+## Why They Work Better Than Your Homepage
+
+When someone clicks an ad, they have a specific intent. If your ad says "Free roof inspection" and the click takes them to your homepage, they have to hunt for the relevant information. Many won't bother.
+
+A landing page that matches the ad exactly — "Get Your Free Roof Inspection" with a form right there — converts dramatically better. There's no searching, no distraction, no confusion. The message matches and the action is clear.
+
+**The data backs this up:** landing pages convert 2-5x better than homepages for targeted campaigns.
+
+## When You Need a Landing Page
+
+**Running Google or Facebook ads.** Every ad campaign should point to a dedicated landing page, not your homepage. This alone can double your conversion rate.
+
+**Promoting a specific offer.** A seasonal special, a new service launch, or a limited-time deal deserves its own page with no distractions.
+
+**Collecting leads.** Want to build an email list? A landing page with a clear value proposition ("Get weekly lawn care tips") and a simple email form will outperform a sidebar widget on your homepage.
+
+**Testing a new service.** Before investing in a full page on your website, create a landing page to see if there's demand.
+
+## When You Don't Need One
+
+**For general brand awareness.** If you just want people to learn about your business, your regular website is fine.
+
+**If you're not running any campaigns.** Landing pages are tools for specific campaigns or offers. If you're not actively promoting something, you don't need one sitting around.
+
+## Landing Page Essentials
+
+A good landing page has:
+
+1. **A headline that matches the ad or promotion** — consistency builds trust
+2. **A clear description of the offer** — what do they get?
+3. **A single call to action** — one button, one form, one action
+4. **Social proof** — a testimonial or two
+5. **No navigation menu** — remove the distraction
+
+That's it. Less is genuinely more with landing pages.
+
+## The Cost
+
+A landing page is simpler than a full website. It's one page with one purpose. If you're already working with a developer, adding a landing page for a specific campaign is straightforward and affordable.
+
+I build landing pages as standalone projects or as add-ons to existing websites. They're one of the highest-ROI investments a small business can make, especially if you're spending money on advertising.`,
+  },
+  {
+    slug: "how-to-write-service-page-descriptions",
+    title: "How to Write Service Page Descriptions That Win Clients",
+    description: "Most service pages read like a boring list. Here's how to write descriptions that speak to your ideal customer and make them want to hire you.",
+    date: "2026-07-17",
+    readTime: "5 min",
+    tags: ["Content","Websites"],
+    content: `## The Problem With Most Service Pages
+
+Open any small business website and look at their services page. You'll probably find a bullet-point list that reads like an inventory:
+
+- Residential plumbing
+- Commercial plumbing
+- Water heater installation
+- Drain cleaning
+- Sump pump repair
+
+That's a list of things you do. It's not a service page. A real service page tells potential customers why they should hire you for that service, what the process looks like, and what they can expect.
+
+## Write for the Customer, Not for Yourself
+
+The biggest mistake is describing what you do instead of what the customer gets. Nobody wakes up excited about "residential plumbing services." They wake up with a flooded bathroom and they need someone to fix it — fast, affordably, and without making a mess.
+
+**Before:** "We provide comprehensive residential plumbing services including repair, installation, and maintenance."
+
+**After:** "Leaking faucet? Clogged drain? Running toilet driving you crazy? I handle residential plumbing repairs across Kansas City — usually same-day. You tell me the problem, I show up, fix it, and clean up after myself."
+
+The second version speaks to someone with a problem. It's specific, it's human, and it tells them what to expect.
+
+## Structure That Works
+
+For each service, use this framework:
+
+### The Problem
+
+Start with the pain point your customer is experiencing. "Your kitchen sink is backed up and the whole house smells." Immediately, the person reading knows they're in the right place.
+
+### The Solution
+
+Explain what you do to solve that problem. Not in technical jargon — in plain English. "I'll diagnose the clog, clear the line, and check the rest of your drainage to make sure it doesn't happen again."
+
+### The Process
+
+Walk them through what happens when they hire you. "Call or text me, I'll give you a time window, I show up on time, do the work, and you pay when the job's done. No surprise charges."
+
+People are anxious about hiring someone they don't know. Describing the process reduces that anxiety.
+
+### Social Proof
+
+A short testimonial from a customer who used that specific service. "Jacob fixed our backed-up kitchen drain in 30 minutes. He was on time, professional, and charged exactly what he quoted. — Mike, Overland Park"
+
+### Call to Action
+
+"Need your drain cleared? Call me at [number] or fill out the form below for a same-day estimate."
+
+## One Service Per Page (When It Matters)
+
+If you have 3-4 main services, give each one its own page. This is better for SEO (you can target specific keywords) and better for users (they find exactly what they need without scrolling past irrelevant services).
+
+A plumber should have separate pages for:
+- Drain cleaning
+- Water heater repair and installation
+- Leak detection and repair
+- Bathroom and kitchen remodels
+
+Each page targets different keywords and speaks to a different customer need.
+
+## The SEO Angle
+
+Individual service pages let you rank for specific searches. "Water heater installation Kansas City" is a search that leads to paying customers. A general "services" page that lists 15 things can't rank well for any specific term.
+
+Include your city/area naturally in the content. "I provide water heater installation across Kansas City, from Mission to Lee's Summit" tells Google exactly what you do and where.
+
+## Keep It Real
+
+Don't exaggerate. Don't use words like "premier" or "world-class" or "cutting-edge." These are filler words that every business uses and no customer believes. Instead, be specific and honest. "I've installed over 200 water heaters in the KC metro area" is more convincing than "premier water heater installation services."
+
+Your service pages are where prospects become clients. A little time spent making them specific, human, and clear pays off every single day your website is live.`,
+  },
+  {
+    slug: "why-your-website-needs-an-faq-page",
+    title: "Why Your Website Needs an FAQ Page (And What to Put on It)",
+    description: "An FAQ page saves you time, builds trust, and helps with SEO. Here's how to build one that actually works for your business.",
+    date: "2026-07-18",
+    readTime: "4 min",
+    tags: ["Websites","Content"],
+    content: `## The Most Underrated Page on Any Website
+
+Almost every business owner I talk to underestimates the FAQ page. They see it as boring, unnecessary, or a sign that their site isn't clear enough. In reality, a good FAQ page is one of the hardest-working pages on your site.
+
+Here's what it does:
+
+- **Saves you time** — stops you from answering the same emails and phone calls
+- **Builds trust** — shows transparency and confidence
+- **Helps with SEO** — FAQ content matches how people actually search
+- **Reduces friction** — answers objections before they become reasons not to hire you
+
+## Where to Get Your Questions
+
+This is easier than you think. Your FAQ content is already in your inbox.
+
+**Questions customers actually ask.** Go through your last 20-30 emails or messages. What do people ask before hiring you? Those are your FAQs.
+
+**Questions from phone calls.** Think about the most common things people ask when they call. "How much does it cost?" "How long does it take?" "Do you serve my area?"
+
+**Objections you encounter.** "Is it really worth paying for a custom website?" "Can't I just use Wix?" These are questions people have but might not ask — answer them proactively.
+
+**Questions your competitors answer.** Check their FAQ pages. If they're answering questions you're not, consider adding those too.
+
+## How to Write Good FAQ Answers
+
+**Keep them concise.** 2-5 sentences per answer. If an answer needs more than that, it should probably be its own page or blog post.
+
+**Answer directly.** Don't start with "Great question!" or "That's something we hear a lot." Just answer the question.
+
+**Be honest.** If you're expensive compared to competitors, explain why. If your timeline is longer, explain what they get for the wait. Honesty builds trust.
+
+**Link to relevant pages.** "For more detail on our process, see our How We Work page." This keeps people moving through your site.
+
+## Example FAQs for a Service Business
+
+- **How much does a website cost?** "Most of my small business websites fall between $1,500 and $3,000 depending on scope. I'll give you an exact quote after our first conversation."
+- **How long does the process take?** "Most projects launch in 1-3 weeks. The biggest factor is how quickly you can provide content and feedback."
+- **Do I own the website?** "Yes. You own everything — the code, the design, the domain. No monthly fees to keep what's yours."
+- **What if I need changes after launch?** "I include 30 days of support after launch for any tweaks. After that, changes are billed hourly at a reasonable rate."
+- **Do you work with businesses outside Kansas City?** "Absolutely. Most of my communication is over email and video calls anyway. Location doesn't matter."
+
+## The SEO Benefit
+
+People search in questions. "How much does a website cost for a small business?" "How long does it take to build a website?" "Do I need a custom website or can I use Wix?"
+
+If your FAQ page answers those questions with relevant content, Google can surface your page in those search results. Some FAQ answers even appear in Google's "People Also Ask" boxes — prime real estate in search results.
+
+## Formatting Tips
+
+- **Use actual question-and-answer format** — bold the question, put the answer below
+- **Group related questions** — pricing questions together, process questions together, etc.
+- **Start with the most common questions** — don't make people scroll to find the basics
+- **Keep it updated** — add new questions as they come in
+
+An FAQ page takes an afternoon to create and pays dividends for years. If your site doesn't have one, that's one of the easiest high-impact additions you can make.`,
+  },
+  {
+    slug: "before-and-after-website-what-to-expect",
+    title: "Before and After: What a Website Overhaul Actually Looks Like",
+    description: "Thinking about getting a new website but not sure what the difference will be? Here's what changes when you go from a dated site to a modern one.",
+    date: "2026-07-19",
+    readTime: "5 min",
+    tags: ["Websites","Design"],
+    content: `## The Transformation Is More Than Skin Deep
+
+When I say "new website," most people picture a fresh coat of paint — new colors, maybe a modern font. But a real website overhaul changes everything about how your business shows up online. The visual design is just the most obvious part.
+
+Here's what actually changes.
+
+## Speed
+
+**Before:** 6-8 second load time. Visitors on mobile wait... and wait... and leave.
+
+**After:** Under 2 seconds. Pages load almost instantly, even on cellular data.
+
+This alone can cut your bounce rate in half. Google also uses speed as a ranking factor, so faster loading = better search visibility.
+
+## Mobile Experience
+
+**Before:** Pinching to zoom, horizontal scrolling, tiny buttons, broken menus, text that's unreadable.
+
+**After:** Everything adapts to the screen. Text is readable, buttons are thumb-sized, navigation works perfectly, forms are easy to fill out.
+
+Since most of your visitors are on phones, this isn't a nice-to-have. It's the difference between a functional website and a frustrating one.
+
+## Google Rankings
+
+**Before:** Buried on page 3. Maybe not indexed at all. No proper meta titles, no heading structure, no local keywords.
+
+**After:** Proper SEO baked into every page. Page titles that include your service and city. Meta descriptions that make people want to click. Heading structure that helps Google understand your content. Schema markup that gives Google extra context.
+
+Rankings don't change overnight, but the foundation for improvement is set from day one.
+
+## Design and First Impressions
+
+**Before:** Looks like it was built in 2016. Tiny text, generic stock photos, cluttered layout, inconsistent colors. Visitors form a negative impression in under 3 seconds.
+
+**After:** Clean, modern, spacious design. Your brand colors applied consistently. Real photos. A clear visual hierarchy that guides the eye from headline to call to action.
+
+The visual impression isn't superficial. Studies show that 75% of people judge a business's credibility based on their website design. Fair or not, that's reality.
+
+## Conversion Rate
+
+**Before:** Visitors come, look around, and leave. Maybe 1 out of 100 fills out the contact form. Phone number is buried. No clear calls to action.
+
+**After:** Every page has a clear next step. Phone number is prominent and clickable. Contact form is simple and visible. Social proof is strategically placed near decision points. Conversion rate jumps to 3-5% or higher.
+
+For a business getting 500 website visitors a month, going from 1% to 3% conversion means going from 5 leads to 15 leads. Same traffic, triple the results.
+
+## Content Clarity
+
+**Before:** Walls of text, no hierarchy, corporate jargon, outdated information. Visitors can't quickly find what they need.
+
+**After:** Scannable content with clear headings. Each page has a purpose and communicates it quickly. Information is current and relevant. Visitors find what they need in seconds.
+
+## Trust Signals
+
+**Before:** No reviews displayed, no testimonials, no portfolio, no SSL certificate. The site provides no evidence that you're legitimate.
+
+**After:** Google reviews embedded, client testimonials with names, portfolio of recent work, HTTPS padlock, professional design that signals competence.
+
+## The Cumulative Effect
+
+None of these changes matter individually as much as they matter together. A fast site that also looks modern, ranks well, converts visitors, and builds trust — that's a website working as a business tool, not just an online brochure.
+
+The business owners I've worked with consistently say the same thing after their new site launches: "I didn't realize how much my old site was holding me back." The gap between a dated website and a modern one is bigger than most people expect until they see the before and after side by side.
+
+If you want to see what that transformation would look like for your business, reach out. I'll take a look at your current site and tell you honestly what needs to change and what it would take.`,
+  },
+  {
+    slug: "best-fonts-for-business-websites",
+    title: "Best Fonts for Business Websites (and Ones to Avoid)",
+    description: "Typography matters more than you think. The right font builds trust. The wrong one makes your business look amateur. Here's what to use.",
+    date: "2026-07-20",
+    readTime: "4 min",
+    tags: ["Design","Branding"],
+    content: `## Fonts Are the Voice of Your Website
+
+Think about it: every word on your site is displayed in a font. If the font is hard to read, everything else is wasted effort. If it looks cheap, your business looks cheap. If it's professional and clean, it quietly reinforces that you know what you're doing.
+
+You don't need to be a designer to choose good fonts. You just need to avoid a few common traps.
+
+## Fonts That Work for Almost Any Business
+
+**Inter** — clean, modern, highly readable at any size. One of the most popular fonts for professional websites in 2026. Free on Google Fonts.
+
+**Open Sans** — friendly and professional. Works great for body text. Been a web standard for years because it just works.
+
+**Lato** — slightly warmer than Open Sans. Good for businesses that want to feel approachable without sacrificing professionalism.
+
+**Roboto** — Google's go-to font. Extremely readable, works everywhere. A safe, solid choice.
+
+**Poppins** — geometric and modern. Great for headings. Gives a clean, contemporary feel.
+
+**DM Sans** — similar to Inter but with a slightly softer personality. Works beautifully for both headings and body text.
+
+## Fonts to Avoid on Business Websites
+
+**Comic Sans** — you knew this was coming. It's not professional. It's not quirky. It makes your business look like a school project.
+
+**Papyrus** — the default choice for massage therapists and yoga studios in 2008. Dated and overused.
+
+**Times New Roman** — it's for printed documents and college essays, not websites. On screen, it looks stiff and old-fashioned.
+
+**Any heavily decorative font for body text** — script fonts, blackletter fonts, and novelty fonts are fine for a logo or a single heading. Never use them for paragraphs of text.
+
+**System default fonts without intention** — if your site is using Arial or Helvetica just because that's the default and no one changed it, it looks like no one thought about the design.
+
+## Font Pairing Basics
+
+Most websites use two fonts: one for headings and one for body text. The key to good pairing is contrast — the two fonts should be different enough to create visual hierarchy but not so different they clash.
+
+**Safe pairings that work:**
+
+- Poppins (headings) + Inter (body)
+- Montserrat (headings) + Open Sans (body)
+- DM Sans (headings) + Lato (body)
+- Playfair Display (headings) + Roboto (body)
+
+The last pairing mixes a serif heading font with a sans-serif body font — a classic combination that works well for businesses that want to feel established.
+
+## Size and Spacing Matter More Than the Font Itself
+
+You could pick the perfect font and still make your text unreadable. Here's what matters:
+
+**Body text size:** 16px minimum on desktop, 16-18px on mobile. Anything smaller strains eyes.
+
+**Line height:** 1.5-1.75x the font size. This is the space between lines. Too tight and text feels cramped. Too loose and it floats apart.
+
+**Letter spacing:** Leave this at default for body text. Slightly increased letter spacing can work for headings.
+
+**Contrast:** Dark text on a light background, or light text on a dark background. Gray text on a white background is one of the most common readability problems I see.
+
+## Where to Get Fonts
+
+**Google Fonts** — free, huge library, easy to implement. This is where most web fonts come from.
+
+**Adobe Fonts** — included with Adobe Creative Cloud subscriptions. Larger selection, some exclusive fonts.
+
+**Font Squirrel** — free fonts that are specifically licensed for web use.
+
+Don't use fonts you found on a random download site. Licensing issues are real, and free fonts from sketchy sources often have missing characters or technical problems.
+
+## One Font Is Fine
+
+If choosing two fonts feels overwhelming, just pick one good sans-serif font (Inter, Open Sans, DM Sans) and use different weights for hierarchy. Bold for headings, regular for body text, light for captions. One well-used font looks better than two poorly paired ones.
+
+Typography is one of those invisible things that makes a big difference in how people perceive your business. You don't need to obsess over it, but you do need to get it right. Every site I build uses carefully chosen typography that's readable, professional, and appropriate for the brand.`,
+  },
+  {
+    slug: "should-your-business-accept-online-payments",
+    title: "Should Your Small Business Accept Online Payments?",
+    description: "If you're still invoicing by email and waiting for checks, you're slowing down your cash flow. Here's when online payments make sense and how to set them up.",
+    date: "2026-07-21",
+    readTime: "5 min",
+    tags: ["Small Business","Tools"],
+    content: `## The Short Answer: Probably Yes
+
+If any part of your business involves taking money from customers — and it does — making that process easier benefits everyone. You get paid faster. Customers pay more conveniently. Nobody has to mail a check in 2026.
+
+But "online payments" means different things for different businesses. Let's break it down.
+
+## What "Online Payments" Actually Means
+
+### Online Invoicing
+
+You send an invoice by email, the customer clicks a link and pays with a card or bank transfer. Services like Square, Stripe, and QuickBooks handle this.
+
+**Best for:** Service businesses, consultants, freelancers, contractors. Anyone who invoices after the work is done.
+
+### Website Checkout
+
+A customer buys something directly on your website — clicks "add to cart" or "buy now" and completes payment. Stripe, Square, or Shopify power this.
+
+**Best for:** Businesses selling products, digital goods, or pre-paid services.
+
+### Payment Links
+
+Simple URLs that take someone to a payment page. You can text them, email them, or put them on your website. No shopping cart, no checkout flow — just "click here to pay $X."
+
+**Best for:** Simple transactions. "Your deposit is $200, here's the link to pay." Stripe and Square both offer this for free.
+
+### Recurring Billing
+
+Automatic monthly or weekly charges for subscriptions, memberships, or ongoing services. Set it up once, get paid automatically.
+
+**Best for:** Subscription services, monthly retainers, membership businesses.
+
+## The Benefits
+
+**Faster payment.** Invoices with online payment links get paid 2-3x faster than invoices that require a check. The friction of finding a checkbook, writing a check, finding an envelope, and finding a stamp is enough to delay payment by weeks.
+
+**Better cash flow.** Money hits your account in 1-2 business days instead of waiting for checks to arrive and clear.
+
+**Professional appearance.** A branded invoice with a "Pay Now" button looks more professional than "please mail a check to..."
+
+**Automatic record keeping.** Every transaction is logged. Tax time becomes significantly easier.
+
+**Fewer awkward follow-ups.** Automatic payment reminders mean you don't have to call customers asking for money.
+
+## The Costs
+
+Every payment processor takes a cut:
+
+- **Stripe:** 2.9% + 30 cents per transaction
+- **Square:** 2.6% + 10 cents in person, 2.9% + 30 cents online
+- **PayPal:** 3.49% + 49 cents (higher than others)
+- **QuickBooks Payments:** 2.9% + 25 cents online
+
+For a $1,000 invoice, you're paying about $30 in processing fees. For most businesses, the faster payment and reduced administrative time more than make up for this.
+
+## Getting Set Up
+
+The simplest path:
+
+1. **Create a Stripe or Square account** — free to create, takes about 10 minutes
+2. **Connect it to your invoicing** — QuickBooks, FreshBooks, or just use Square/Stripe's built-in invoicing
+3. **Add a payment link to your website** — for deposits, quotes, or direct purchases
+4. **Set up automatic receipts** — both platforms do this automatically
+
+If you want payment functionality built into your website — a "Book Now" button that takes a deposit, a service page with a "Pay Here" link, or a simple product checkout — that's something I integrate into client sites regularly. It's not complicated and it makes a real difference in how quickly you get paid.
+
+## When to Keep It Simple
+
+Not every business needs a full e-commerce setup. If you're a contractor who sends 10 invoices a month, you don't need Shopify. You need Square invoicing. If you're a salon that takes deposits, you need a payment link on your website, not a shopping cart.
+
+Match the solution to the problem. The goal is to get paid faster and easier, not to build a complex payment system you don't need.`,
+  },
+  {
+    slug: "local-business-directory-listings-that-matter",
+    title: "Business Directory Listings That Actually Matter in 2026",
+    description: "Google Business Profile is just the start. Here are the other directory listings worth your time and the ones that aren't.",
+    date: "2026-07-22",
+    readTime: "4 min",
+    tags: ["Local SEO","Marketing"],
+    content: `## Not All Directories Are Created Equal
+
+Business directories used to matter a lot more than they do now. The Yellow Pages, Angi, Yelp — they were how people found businesses. In 2026, Google dominates. But that doesn't mean directories are useless. The right listings still help with SEO and occasionally drive direct business.
+
+The key is knowing which ones matter and not wasting time on the rest.
+
+## The Must-Have Listings
+
+### Google Business Profile
+
+This is number one by a mile. If you do nothing else, do this. Your Google Business Profile shows up in Maps, local search results, and the knowledge panel. It's free, it's essential, and it directly impacts whether local customers find you.
+
+### Yelp
+
+Love it or hate it, Yelp still shows up prominently in Google search results. A claimed, optimized Yelp profile with reviews adds credibility and visibility. Don't pay for Yelp ads — just claim your free listing.
+
+### Facebook Business Page
+
+Even if you don't use Facebook for marketing, having a business page helps with brand visibility and provides another place for reviews. Google sometimes pulls information from Facebook for search results.
+
+### Apple Maps (Apple Business Connect)
+
+iPhone users often use Apple Maps for directions and business lookup. Claim your listing at business.apple.com. It's free and takes 10 minutes.
+
+### Bing Places
+
+Bing has a much smaller market share than Google, but it still exists and some people use it. Bing Places is the equivalent of Google Business Profile. Claim it, fill it out, move on.
+
+## Industry-Specific Directories
+
+Depending on your business type, certain directories carry extra weight:
+
+- **Restaurants:** TripAdvisor, OpenTable, DoorDash/Uber Eats listings
+- **Home services:** HomeAdvisor, Thumbtack, Angi (formerly Angie's List)
+- **Legal:** Avvo, FindLaw, Martindale-Hubbell
+- **Medical:** Healthgrades, Zocdoc, WebMD
+- **Real estate:** Zillow, Realtor.com, Redfin
+
+These industry directories often rank well in Google for relevant searches. Being listed gives you another opportunity to show up.
+
+## The Ones That Don't Matter
+
+**Generic directories nobody uses.** Sites like YellowPages.com, Manta, Hotfrog, CitySearch — these are mostly link farms at this point. They won't drive business and their SEO value is negligible.
+
+**Paid directories.** If a directory wants you to pay for a basic listing, skip it unless there's a clear, direct business case. The free listings on major platforms are worth more than paid listings on obscure directories.
+
+**Directories that haven't been updated since 2015.** If the site itself looks abandoned, listing your business there doesn't help.
+
+## The NAP Consistency Rule
+
+Whatever directories you're listed on, your Name, Address, and Phone number must be identical everywhere. Not similar — identical.
+
+- "123 Main St" on your website and "123 Main Street" on Yelp = inconsistency
+- "Bob's Plumbing" on Google and "Bob's Plumbing LLC" on Facebook = inconsistency
+
+These inconsistencies confuse search engines and can hurt your local rankings. Pick one version and use it everywhere.
+
+## The Time Investment
+
+Here's my recommendation: spend one afternoon claiming and optimizing your listings on the major platforms (Google, Yelp, Facebook, Apple Maps, Bing, and your top industry directory). Then forget about it. Check in quarterly to make sure your information is still accurate.
+
+Don't spend hours every week managing 30 directory listings. The top 5-6 do 95% of the work. Focus there and spend the rest of your time on things that actually grow your business.`,
+  },
+  {
+    slug: "how-to-create-a-simple-booking-page",
+    title: "How to Add Online Booking to Your Website (Simply)",
+    description: "Letting customers book appointments directly on your website saves time and reduces no-shows. Here's the simplest way to set it up.",
+    date: "2026-07-23",
+    readTime: "4 min",
+    tags: ["Websites","Tools"],
+    content: `## Stop Playing Phone Tag
+
+If your business runs on appointments — haircuts, consultations, cleanings, lessons, repairs — you know the pain. Customer calls, you're busy. You call back, they're busy. Three days of phone tag later, maybe they book. Maybe they called someone else.
+
+Online booking eliminates this. Customer visits your site at 11 PM, picks a time that works, books it. Done. You wake up to a new appointment on your calendar.
+
+## The Simplest Options
+
+### Calendly (Free Plan Available)
+
+Calendly is the simplest booking tool for one-on-one appointments. You set your availability, share a link, and people book.
+
+- **Free plan:** 1 event type, connects to one calendar
+- **Standard plan:** $10/month for multiple event types and integrations
+- **Best for:** consultants, freelancers, one-on-one service providers
+
+Embed it on your website or just link to your Calendly page. Either works.
+
+### Square Appointments (Free for Individuals)
+
+If you already use Square for payments, their appointments feature integrates perfectly. Customers can book and pay in one flow.
+
+- **Free plan:** 1 staff member, unlimited appointments
+- **Plus plan:** $29/month for multiple staff, resources, and advanced features
+- **Best for:** salons, barbers, studios, any business with multiple staff
+
+### Cal.com (Free and Open Source)
+
+Similar to Calendly but open source. Great if you want more control and don't mind a slightly less polished interface.
+
+- **Free plan:** generous, handles most needs
+- **Best for:** tech-comfortable business owners who want flexibility
+
+### Acuity Scheduling ($16/month)
+
+Owned by Squarespace. More features than Calendly, including intake forms, packages, and gift certificates.
+
+- **Best for:** businesses that need customers to fill out information before the appointment
+
+## How to Add It to Your Website
+
+**Option 1: Embed it.** Most booking tools give you an embed code. Drop it into a page on your website and the booking calendar appears right there. This is the best option because customers never leave your site.
+
+**Option 2: Link to it.** Add a "Book Now" button on your website that opens your booking page in a new tab. Less seamless but still effective.
+
+**Option 3: Build it in.** For businesses with specific needs, a booking system can be custom-built into your website. More expensive but gives you complete control over the experience.
+
+## What to Include on Your Booking Page
+
+- **Service descriptions** with duration and price
+- **Your availability** — obvious, but some people forget to set this up properly
+- **A clear cancellation policy** — reduces no-shows
+- **An option to include notes** — "anything I should know before your appointment"
+- **Automated confirmation and reminder emails** — all the tools above handle this
+
+## Reducing No-Shows
+
+Online booking usually reduces no-shows on its own (people who actively book online are more committed than people who vaguely agree to "sometime Tuesday"). But you can reduce them further:
+
+- **Automated reminders** — email or text 24 hours before. Every booking tool offers this
+- **Require a deposit** — even $10 dramatically reduces no-shows. Square Appointments handles this well
+- **Easy rescheduling** — if it's easy to reschedule, people reschedule instead of just not showing up
+
+## The Business Case
+
+Every phone call you don't have to make is time saved. Every customer who books at midnight instead of calling during business hours is a customer you might have lost. Every no-show prevented is revenue preserved.
+
+Online booking isn't just convenient — it's a competitive advantage. Most of your local competitors are still doing phone-only scheduling. Being the business that's easy to book gives you an edge.
+
+I add booking integration to client websites as a standard feature when the business needs it. It's a small addition that makes a big difference in how your business operates day to day.`,
+  },
+  {
+    slug: "website-analytics-what-to-actually-track",
+    title: "Website Analytics: What to Track (and What to Ignore)",
+    description: "Google Analytics is overwhelming. Here are the only 5 metrics that actually matter for a small business website.",
+    date: "2026-07-24",
+    readTime: "4 min",
+    tags: ["Google","Marketing"],
+    content: `## Google Analytics Is Powerful and Overwhelming
+
+If you've ever opened Google Analytics, you know the feeling. Hundreds of reports, metrics with names like "engaged sessions per user," charts that go in every direction. It's a lot.
+
+Here's the good news: for a small business website, you only need to care about five metrics. Everything else is noise until you're ready for it.
+
+## Metric 1: Total Visitors (Users)
+
+How many people visited your website this month? This is your baseline number. If it's going up, your marketing is working. If it's flat or declining, something needs to change.
+
+**Where to find it:** Google Analytics > Reports > Life Cycle > Acquisition > Overview
+
+Don't obsess over daily numbers. Look at monthly trends. A slow Tuesday doesn't mean anything. A downward trend over three months means something.
+
+## Metric 2: Traffic Sources
+
+Where are your visitors coming from? Google Analytics breaks this into:
+
+- **Organic Search** — people who found you on Google
+- **Direct** — people who typed your URL or used a bookmark
+- **Social** — people who clicked from Facebook, Instagram, etc.
+- **Referral** — people who clicked a link on another website
+- **Paid** — people who clicked an ad
+
+This tells you what's working. If 80% of your traffic is from Google, invest more in SEO. If social media drives nothing, stop spending hours on Instagram.
+
+## Metric 3: Top Pages
+
+Which pages do people visit most? This reveals:
+
+- What content resonates
+- What services people are interested in
+- Whether your homepage is doing its job (it should be one of the top pages)
+
+**Where to find it:** Reports > Engagement > Pages and screens
+
+If your "About" page gets more visits than your "Services" page, people want to know who you are before they care about what you offer. That's useful information.
+
+## Metric 4: Bounce Rate / Engagement Rate
+
+**Bounce rate** is the percentage of visitors who leave after viewing only one page. A high bounce rate (over 70%) on your homepage means people are landing and leaving without exploring.
+
+In Google Analytics 4, the equivalent is **engagement rate** — the percentage of sessions where someone actually engaged (scrolled, clicked, or spent more than 10 seconds).
+
+A low engagement rate on a key page means the content or design isn't compelling enough to keep people there.
+
+## Metric 5: Conversions (Goals)
+
+This is the most important metric and the one most small businesses don't set up. A conversion is when someone does the thing you want — fills out the contact form, calls your phone number, books an appointment, makes a purchase.
+
+**You have to set this up manually** in Google Analytics or Google Tag Manager. Without conversion tracking, you know people visit your site but you don't know if those visits lead to business.
+
+Setting up basic conversion tracking takes 15-30 minutes and transforms Google Analytics from "interesting" to "actionable."
+
+## What to Ignore (For Now)
+
+- **Session duration** — unreliable and varies wildly
+- **Pages per session** — not necessarily meaningful. Someone who finds their answer quickly might be a better lead than someone who browses aimlessly
+- **Demographics** — interesting but rarely actionable for small businesses
+- **Real-time data** — watching visitors move through your site in real time is fascinating and completely unproductive
+- **Most custom reports** — until you're an analytics power user, the default reports are plenty
+
+## When to Check
+
+Once a month is enough for most small businesses. Set a calendar reminder. Spend 15 minutes reviewing the five metrics above. Note any trends. Make one adjustment based on what you see.
+
+That's it. You don't need to become a data analyst. You just need to know if your website is trending in the right direction and which channels are driving results.
+
+Google Analytics setup is something I include with every website I build. Not just the tracking code — but properly configured conversion tracking so you can see whether your website is actually generating business.`,
+  },
+  {
     slug: "how-to-set-up-a-professional-business-email",
     title: "How to Set Up a Professional Business Email",
     description: "Using a Gmail address for your business is costing you credibility. Here's how to get a professional email without overcomplicating it.",
