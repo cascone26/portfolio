@@ -2,12 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FadeIn from "../components/fade-in";
 import { posts } from "./posts";
+import BlogList from "../components/blog-list";
 
 export const metadata: Metadata = {
   title: "Blog",
   description:
     "Practical advice on websites, AI tools, SEO, and growing your small business online — by BuiltSimple.",
 };
+
+// Only send metadata to the client, not full post content
+const postSummaries = posts.map(({ slug, title, description, date, readTime, tags }) => ({
+  slug,
+  title,
+  description,
+  date,
+  readTime,
+  tags,
+}));
 
 export default function BlogPage() {
   return (
@@ -30,41 +41,7 @@ export default function BlogPage() {
       </section>
 
       <section className="pb-24 px-6">
-        <div className="max-w-3xl mx-auto space-y-4">
-          {posts.map((post, i) => (
-            <FadeIn key={post.slug} delay={i * 0.06}>
-              <div className="group glass rounded-2xl p-6 relative">
-                <div className="flex flex-wrap items-center gap-3 mb-3">
-                  <time className="text-xs text-muted" dateTime={post.date}>
-                    {new Date(post.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
-                  </time>
-                  <span className="text-muted/30">·</span>
-                  <span className="text-xs text-muted">{post.readTime} read</span>
-                  <span className="text-muted/30">·</span>
-                  <div className="flex gap-2 relative z-10">
-                    {post.tags.map((tag) => (
-                      <Link
-                        key={tag}
-                        href={`/blog/tag/${encodeURIComponent(tag.toLowerCase())}`}
-                        className="bg-accent/10 text-accent-light text-[11px] px-2 py-0.5 rounded-md hover:bg-accent/20 transition-colors"
-                      >
-                        {tag}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-                <Link href={`/blog/${post.slug}`}>
-                  <h2 className="font-semibold text-lg mb-2 group-hover:text-accent-light transition-colors">
-                    {post.title}
-                  </h2>
-                  <p className="text-muted text-sm leading-relaxed">
-                    {post.description}
-                  </p>
-                </Link>
-              </div>
-            </FadeIn>
-          ))}
-        </div>
+        <BlogList posts={postSummaries} />
       </section>
     </>
   );
