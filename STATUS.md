@@ -1,13 +1,13 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-02-24 (UI polish pass)
+2026-03-04
 
 ## Current State
 - Deployed at `https://builtsimple.dev`
 - GitHub: `https://github.com/cascone26/portfolio`
-- Vercel project: `cascone26s-projects/portfolio`
-- Custom domain: `builtsimple.dev` (pending DNS setup)
+- Vercel project: `cascone26s-projects/builtsimple`
+- Custom domain: `builtsimple.dev` (live)
 
 ## Site Structure (31 routes)
 - `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards)
