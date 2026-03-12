@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Services & Pricing",
   description:
     "Websites, AI chatbots, Google Business profiles, and more for small businesses in Kansas City. Transparent pricing, no surprises.",
+  alternates: {
+    canonical: "https://builtsimple.dev/services",
+  },
 };
 
 const services = [

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with BuiltSimple for a free website audit, AI automation consultation, or any web development project.",
+  alternates: {
+    canonical: "https://builtsimple.dev/contact",
+  },
 };
 
 export default function ContactPage() {

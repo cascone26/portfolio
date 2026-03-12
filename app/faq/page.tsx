@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "FAQ",
   description:
     "Frequently asked questions about working with BuiltSimple — pricing, timelines, process, and what to expect.",
+  alternates: {
+    canonical: "https://builtsimple.dev/faq",
+  },
 };
 
 const faqs = [

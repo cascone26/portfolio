@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Practical advice on websites, AI tools, SEO, and growing your small business online — by BuiltSimple.",
+  alternates: {
+    canonical: "https://builtsimple.dev/blog",
+  },
 };
 
 // Only send metadata to the client, not full post content

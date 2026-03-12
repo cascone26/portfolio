@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Work",
   description:
     "Portfolio of web and AI projects by BuiltSimple, including LessonDraft — an AI-powered lesson plan generator.",
+  alternates: {
+    canonical: "https://builtsimple.dev/work",
+  },
 };
 
 const projects = [

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Meet Jacob, the developer behind BuiltSimple — a web developer and GCU student based in Mission, KS building websites and AI tools for small businesses.",
+  alternates: {
+    canonical: "https://builtsimple.dev/about",
+  },
 };
 
 const skills = [

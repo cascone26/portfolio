@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
+    canonical: "https://builtsimple.dev",
     types: {
       "application/rss+xml": "https://builtsimple.dev/feed.xml",
     },
