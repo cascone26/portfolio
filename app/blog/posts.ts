@@ -9302,4 +9302,61 @@ The good news? Fixing these issues isn't as expensive or time-consuming as you m
 
 Your business deserves a website that works as hard as you do.`,
   },
+  {
+    slug: "signs-your-small-business-website-needs-makeover",
+    title: "5 Signs Your Small Business Website Needs a Makeover (And How to Know When It's Time)",
+    description: "Is your website hurting your business? Learn the 5 key warning signs that indicate it's time for a website redesign and how to modernize your online presence.",
+    date: "2026-03-12",
+    readTime: "4 min read",
+    tags: ["website design", "small business", "web development", "user experience", "business growth"],
+    content: `Your website is often the first impression potential customers have of your business. But when was the last time you really looked at it with fresh eyes? If you're like most small business owners, you probably built your site a few years ago and haven't given it much thought since.
+
+Here's the thing: what worked in 2020 might be actively hurting your business in 2024. Technology moves fast, customer expectations evolve, and search engines constantly update their algorithms. Let's dive into the five telltale signs that your website desperately needs a makeover.
+
+## 1. Your Site Looks Like It's From Another Decade
+
+We've all seen them – websites with Flash animations, tiny text, and color schemes that make your eyes water. If your site still has a "Best Viewed in Internet Explorer" banner or uses Comic Sans unironically, it's definitely time for an update.
+
+But outdated design isn't just about aesthetics. Modern websites follow current design principles that prioritize user experience. Clean layouts, plenty of white space, and intuitive navigation aren't just trendy – they're essential for keeping visitors engaged.
+
+A quick test: show your website to a teenager. If they immediately ask "when was this made?" in that particular tone, you have your answer.
+
+## 2. It Takes Forever to Load (Or Feels Like It)
+
+Page speed isn't just about user patience anymore – it's a crucial ranking factor for Google. If your site takes more than 3 seconds to load, you're losing customers faster than you can say "bounce rate."
+
+You can test your site's speed using Google's PageSpeed Insights tool. It's free and will give you a detailed breakdown of what's slowing things down. Common culprits include oversized images, too many plugins, and outdated hosting.
+
+Remember, many of your customers are browsing on their phones while waiting in line for coffee. They're not going to wait around for your site to load when your competitor's loads instantly.
+
+## 3. Your Mobile Experience is Painful
+
+More than half of all web traffic now comes from mobile devices. If your website doesn't look and function beautifully on smartphones and tablets, you're essentially turning away half your potential customers.
+
+Does your text require zooming to read? Are buttons too small to tap accurately? Do images get cut off or menus become unusable? These aren't minor inconveniences – they're business killers.
+
+Google now uses mobile-first indexing, which means they primarily use the mobile version of your site for ranking purposes. A poor mobile experience doesn't just frustrate users; it actively hurts your search rankings.
+
+## 4. You're Not Getting the Traffic (Or Leads) You Need
+
+Sometimes the problem isn't obvious visual issues – it's in the results. If your website traffic has plateaued or declined, if you're not getting inquiries through your contact forms, or if people visit but don't stick around, your site might be the bottleneck in your business growth.
+
+Modern websites aren't just digital brochures; they're conversion machines. They guide visitors toward specific actions, whether that's making a purchase, scheduling a consultation, or signing up for your newsletter. If your site isn't actively working to convert visitors into customers, it's just expensive digital real estate.
+
+## 5. Managing Your Site Feels Like Rocket Science
+
+If updating your website requires calling your nephew who "knows computers" or if adding a simple blog post feels like defusing a bomb, your site is working against you, not for you.
+
+Modern websites should be easy to update. You should be able to add new content, update your hours, or announce a sale without needing a computer science degree. Content management systems like WordPress have come a long way, and user-friendly builders like Webflow make updates intuitive.
+
+## What Comes Next?
+
+Recognizing these signs is the first step. The next step is deciding whether to tackle the redesign yourself or work with professionals who can ensure your new site not only looks great but actually drives business results.
+
+At BuiltSimple, we specialize in creating modern, mobile-friendly websites that work as hard as you do. We focus on clean design, fast loading times, and easy content management – because your website should help grow your business, not hold it back.
+
+A website makeover isn't just about keeping up with trends; it's about staying competitive, reaching more customers, and making sure your online presence reflects the quality of your business. Your customers deserve a great experience, and your business deserves a website that delivers results.
+
+Don't let an outdated website be the thing that's holding your business back. Take a hard look at your site today – your future customers will thank you.`
+  },
 ];
