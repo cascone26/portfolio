@@ -48,7 +48,7 @@ That's it. You don't need a blog, you don't need a newsletter signup, you don't 
 
 Here's what most restaurant owners don't realize: when someone searches "Italian restaurant Kansas City" or "brunch near me," Google pulls information from websites. If you don't have one, you're invisible in those results. Your Google Business Profile helps, but a website backing it up is what seals the deal.
 
-A website also gives you a place to put your Google reviews widget, your menu with actual SEO keywords (people search for "chicken parmesan" not "entrée #7"), and your story.
+A website also gives you a place to put your Google reviews widget, your menu with actual SEO keywords (people search for "chicken parmesan" not "entrée #7"), and your story. Plus, [Google Analytics](https://analytics.google.com/) (free) lets you see exactly how people find you and what they're looking for.
 
 ## "But I'm on DoorDash and Uber Eats"
 
@@ -174,7 +174,7 @@ This is where most small businesses should start. Don't pay $79/month for Shopif
 
 If you have 20-200 products and need proper inventory management, categories, and search:
 
-- **Shopify Basic** — $39/month, handles most of what you need
+- **[AFFILIATE:Shopify] Basic** — $39/month, handles most of what you need with built-in payment processing and mobile-optimized themes
 - **Square Online Plus** — $29/month, good if you're already using Square
 - **WooCommerce** — free plugin for WordPress, but you'll pay for hosting and likely some premium plugins
 
@@ -190,7 +190,7 @@ Most small businesses are not at this level. If you are, you probably already kn
 
 **Payment processing fees.** Every sale costs you 2.5-3% plus a fixed fee. That's true everywhere — Shopify, Square, Stripe, PayPal. Budget for it.
 
-**Photography.** Your product photos are your sales team online. Bad photos kill sales. You don't need a professional photographer, but you need decent lighting and a clean background. A $20 lightbox from Amazon can do wonders.
+**Photography.** Your product photos are your sales team online. Bad photos kill sales. You don't need a professional photographer, but you need decent lighting and a clean background. A $20 lightbox from Amazon can do wonders. For product mockups, graphics, and promotional images, [AFFILIATE:Canva] offers templates designed specifically for e-commerce.
 
 **Shipping.** If you're shipping physical products, figure out your shipping strategy before you launch. Flat rate? Free over a certain amount? Real-time calculated rates? This affects your pricing and your margins.
 
@@ -337,13 +337,13 @@ This is a 3-5 page site: homepage, about, services, contact, maybe a gallery or 
 
 **Why it takes 1-2 weeks:** The design and build might only take a few days, but the back-and-forth adds time. I send a draft, you review it, suggest changes, I revise. Most of the timeline is communication, not coding.
 
-**What speeds this up:** Having your content ready — text, photos, logo. The number one reason websites take longer than expected is waiting on content from the client.
+**What speeds this up:** Having your content ready — text, photos, logo. If you don't have a logo yet, [AFFILIATE:Canva] makes it easy to create professional-looking logos and graphics quickly. The number one reason websites take longer than expected is waiting on content from the client.
 
 ## Medium Business Website (2-4 Weeks)
 
 This is 5-15 pages with more complexity: multiple service pages, a blog, a portfolio or gallery, possibly a booking system or email signup integration.
 
-**What adds time:** More pages means more content to write, more designs to review, and more revisions. Integrations with third-party tools (booking systems, CRMs, email platforms) add complexity.
+**What adds time:** More pages means more content to write, more designs to review, and more revisions. Integrations with third-party tools (booking systems, CRMs, email platforms like [Google Workspace](https://workspace.google.com/) for business email) add complexity.
 
 **The content bottleneck:** I can build a 10-page website in a week. But writing quality content for 10 pages takes time. If you need help with copywriting, factor that into the timeline.
 
@@ -556,7 +556,7 @@ That one sentence removes anxiety and increases form submissions.
 
 ## Track What's Working
 
-Install Google Analytics and set up goal tracking for form submissions and phone calls. Without this, you're guessing about what's working. With it, you can see which pages generate the most leads and double down on what works.
+Install [Google Analytics](https://analytics.google.com/) (free) and set up goal tracking for form submissions and phone calls. Without this, you're guessing about what's working. With it, you can see which pages generate the most leads and double down on what works.
 
 These aren't complicated changes. Most of them take an afternoon to implement. But they're the difference between a website that looks nice and a website that actually generates business.`,
   },
@@ -608,7 +608,7 @@ For businesses with a physical location, a small embedded map in the footer is i
 
 ## The SEO Angle
 
-Your footer appears on every page of your site. That makes it a consistent place to reinforce local SEO signals. Your business name, city, and phone number in the footer of every page tells Google exactly who you are and where you operate.
+Your footer appears on every page of your site. That makes it a consistent place to reinforce local SEO signals. Your business name, city, and phone number in the footer of every page tells Google exactly who you are and where you operate. [Google Search Console](https://search.google.com/search-console) (free) can help you monitor how well these signals are working for your search visibility.
 
 This isn't about keyword stuffing. It's about consistency. Your footer info should match your Google Business Profile, your Yelp listing, and every other place your business appears online.
 
@@ -682,7 +682,7 @@ Your homepage is designed for general visitors. Someone who clicked an ad for "k
 
 ### Not tracking conversions
 
-If you're running ads but not tracking what happens after someone clicks, you're flying blind. Set up conversion tracking for phone calls and form submissions at minimum. Without this, you don't know if your ads are actually generating business.
+If you're running ads but not tracking what happens after someone clicks, you're flying blind. Set up conversion tracking for phone calls and form submissions at minimum. [Google Analytics](https://analytics.google.com/) (free) makes this straightforward — you can track form completions, phone clicks, and see which keywords actually drive business. Without this data, you don't know if your ads are actually generating business.
 
 ### Set it and forget it
 
@@ -1194,7 +1194,7 @@ Hosting optimized specifically for WordPress. Includes automatic updates, backup
 ## Hosts I Recommend for Small Businesses
 
 - **Vercel** — what I use for most client sites. Fast, reliable, generous free tier. Best for modern, custom-built sites
-- **SiteGround** — solid shared hosting with good support. Works well with WordPress
+- **[AFFILIATE:SiteGround]** — solid shared hosting with good support and great uptime. Works well with WordPress and includes free SSL certificates
 - **Cloudflare Pages** — free tier, extremely fast global delivery
 - **DigitalOcean** — affordable VPS hosting if you need more power
 
@@ -1209,7 +1209,7 @@ Hosting optimized specifically for WordPress. Includes automatic updates, backup
 
 Your domain (like yourbusiness.com) and your hosting are separate things. Your domain is the address. Your hosting is the building. You can buy them from the same company or different companies.
 
-Think of it this way: you might buy your domain from Namecheap and host your site on Vercel. The domain points to the host, like an address points to a building.
+Think of it this way: you might buy your domain from [AFFILIATE:Namecheap] (reliable and affordable domain registration) and host your site on Vercel. The domain points to the host, like an address points to a building.
 
 ## The Takeaway
 
