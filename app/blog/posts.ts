@@ -10353,4 +10353,65 @@ If you don't have an email signup form on your website yet, that's step one. If 
 
 Reach out, and let's make sure you're not leaving money on the table by ignoring your inbox.`
   },
+  {
+    slug: "common-website-design-mistakes",
+    title: "7 Website Design Mistakes Costing You Customers (And How to Fix Them)",
+    description: "Discover the most common website design mistakes small businesses make and learn practical fixes to turn more visitors into customers.",
+    date: "2026-03-13",
+    readTime: "7 min",
+    tags: ["web design", "small business", "website tips", "user experience"],
+    content: `Your website might be turning away customers before they even read about your services. After working with dozens of small businesses at BuiltSimple, I've seen the same design mistakes pop up again and again—and they're easier to fix than you think.
+
+## 1. Your Site Takes Forever to Load
+
+If your website takes more than 3 seconds to load, you're losing customers. Period. Studies show that 53% of mobile visitors abandon sites that take longer than 3 seconds to load.
+
+**The fix:** Compress your images before uploading them. Tools like TinyPNG or Squoosh make this dead simple—just drag and drop. If your site is built on WordPress, install a caching plugin like WP Super Cache. These small changes can cut your load time in half.
+
+## 2. Nobody Can Tell What You Actually Do
+
+You have about 5 seconds to tell visitors what you offer. If your homepage leads with something vague like "Innovative Solutions for Modern Businesses," you've already lost them.
+
+**The fix:** Put a clear headline above the fold that explains exactly what you do and who it's for. Compare "Welcome to Our Website" with "Custom Wedding Cakes in Kansas City." The second one works because it's specific.
+
+## 3. Your Contact Information Is Hidden
+
+I can't tell you how many websites make you hunt for a phone number or email address. If someone wants to hire you, make it ridiculously easy.
+
+**The fix:** Put your phone number in the header of every page. Add a prominent "Contact Us" button in your navigation. Better yet, include a simple contact form right on your homepage. At BuiltSimple, we always build contact options into the header and footer—because if someone's ready to reach out, we don't want them searching for how.
+
+## 4. Your Site Looks Terrible on Mobile
+
+Over 60% of web traffic comes from mobile devices now. If your site doesn't work perfectly on a phone, you're essentially closed for business to most of the internet.
+
+**The fix:** Test your site on your phone right now. Can you read everything without zooming? Are buttons easy to tap? Does the menu work smoothly? If not, it's time for a mobile-responsive redesign. Modern website builders like Webflow, Squarespace, or properly coded custom sites handle this automatically.
+
+## 5. You're Using Stock Photos That Scream "Stock Photo"
+
+You know the ones—diverse group of people laughing at a laptop, woman in a headset smiling unnaturally, guy in a suit shaking hands in an empty office. These generic images make your business feel generic.
+
+**The fix:** Use real photos of your actual business, team, products, or work. Even iPhone photos are better than obvious stock images. If you need stock photos, sites like Unsplash and Pexels offer more authentic-looking options. Better yet, invest in a quick photo shoot with a local photographer.
+
+## 6. Your Call-to-Action Is Weak (or Missing)
+
+Every page should guide visitors toward one clear action. "Learn more" is not a call-to-action—it's a snooze button.
+
+**The fix:** Be specific about what you want visitors to do. Instead of "Learn More," try "Get Your Free Quote," "Schedule a Consultation," or "See Our Work." Make these buttons stand out with contrasting colors and plenty of white space around them.
+
+## 7. Your Website Hasn't Been Updated Since 2015
+
+An outdated website makes potential customers wonder if your business is even still operating. Old copyright dates, broken links, and outdated information all scream "abandoned."
+
+**The fix:** Set a quarterly reminder to review your site. Update your copyright year, check that all links work, refresh testimonials, and add recent projects or blog posts. If your site is built on old technology or looks visibly dated, it might be time for a refresh. This is one of our most popular services at BuiltSimple—taking existing sites and giving them a modern update without starting from scratch.
+
+## The Bottom Line
+
+Your website is often the first impression people have of your business. These mistakes might seem small, but they add up to lost customers and missed opportunities.
+
+The good news? Most of these issues can be fixed in an afternoon, or with help from a professional who knows what they're doing. A well-designed website doesn't have to cost a fortune or take months—it just needs to be clear, fast, mobile-friendly, and focused on what your customers need.
+
+If you're looking at your site right now and recognizing a few of these mistakes, don't panic. Every business website can improve. Whether you tackle these fixes yourself or bring in help (we offer website refreshes starting at $150), the important thing is making your site work as hard as you do.
+
+Want a fresh pair of eyes on your website? Reach out to BuiltSimple for a free site review—we'll tell you exactly what's working and what's not.`
+  },
 ];
