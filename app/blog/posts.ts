@@ -10785,4 +10785,97 @@ We'll make sure your site looks great, works on every device, and actually shows
 
 Ready to stop losing customers to competitors with better websites? Let's talk.`
   },
+  {
+    slug: "choosing-domain-name-for-business",
+    title: "How to Choose the Perfect Domain Name for Your Small Business",
+    description: "A practical guide to selecting a domain name that helps customers find you online and builds trust in your brand.",
+    date: "2026-03-13",
+    readTime: "7 min",
+    tags: ["domain names", "branding", "getting started", "website basics"],
+    content: `Your domain name is often the first impression customers have of your business online. It's the address they'll type into their browser, share with friends, and remember when they need your services. So how do you choose one that works?
+
+## Keep It Simple and Memorable
+
+The best domain names are easy to say out loud and easy to spell. If you have to explain how to spell it over the phone, it's probably too complicated.
+
+Avoid hyphens, numbers, or unusual spellings. "TomsBakery.com" beats "Toms-Bakery.com" or "TomsBakery4U.com" every time. When someone hears your domain name, they should be able to type it correctly on the first try.
+
+## Include Your Business Name (Usually)
+
+If you already have an established business name, try to match it as closely as possible. If you're "Green Valley Plumbing" in real life, you want "GreenValleyPlumbing.com" if you can get it.
+
+Don't have a business name yet? Your domain search might actually help you decide. Sometimes finding that perfect available domain helps crystallize your brand identity.
+
+## The .com vs Everything Else Debate
+
+Yes, .com is still king. People default to typing .com after a business name, and it carries the most credibility. If your exact .com isn't available, here are your options:
+
+**Option 1:** Add a location or descriptor. "SmithPlumbing.com" is taken? Try "SmithPlumbingKC.com" or "SmithPlumbingPros.com."
+
+**Option 2:** Consider .co, .io, or industry-specific extensions like .design or .agency. These have become more accepted, though .com still wins for local businesses targeting less tech-savvy customers.
+
+**Option 3:** Come up with a different business name. If you're just starting out and "JonesLandscaping.com" is taken, maybe "GreenCraft.com" is available and even more memorable.
+
+## Location Matters for Local Businesses
+
+If you're a local business serving a specific area, including your city or region can actually help. "DenverRoofing.com" immediately tells customers where you operate and can help with local search results.
+
+This is especially useful if your business name is common. There might be a dozen "Elite Auto Repair" shops nationwide, but only one "EliteAutoKC.com."
+
+## Check Social Media Availability
+
+Before you fall in love with a domain, check if the matching social media handles are available. You don't want "SunnyDayBakery.com" if @SunnyDayBakery is taken on Instagram and Facebook.
+
+Tools like Namecheckr can search multiple platforms at once. Consistency across your domain and social handles makes your brand much easier to find.
+
+## Avoid Trademark Issues
+
+Do a quick Google search and check the USPTO trademark database before buying. Using a domain that's too similar to an existing trademark can lead to legal headaches and having to start over.
+
+This is especially important if you're in the same industry as the existing trademark holder. "AmazonPlumbing.com" might be technically available, but it's asking for trouble.
+
+## Where to Buy Your Domain
+
+Namecheap and Google Domains (now Squarespace Domains) are popular options with straightforward pricing. Expect to pay $10-15 per year for a .com.
+
+Avoid buying domains through website builders if possible. You want to own your domain independently so you can move it if you ever switch platforms.
+
+## What If Your Perfect Domain Is Taken?
+
+You have a few options:
+
+**Check if it's actually being used.** Many domains are parked but not actively used for a business. The owner might be willing to sell for a reasonable price.
+
+**Use a domain broker.** Services like Sedo can help negotiate purchases of owned domains, though this can get expensive fast.
+
+**Get creative with your business name.** Sometimes a taken domain is a sign to rethink your branding. You might land on something even better.
+
+## Don't Overthink It
+
+Here's the truth: your domain name matters, but it's not everything. A mediocre domain with a great website and excellent service will beat a perfect domain with a neglected online presence.
+
+Pick something clear, professional, and memorable, then focus on building a website that actually helps your customers. That's where the real work happens.
+
+## Ready to Build Your Website?
+
+Once you've secured your domain, you'll need a website to point it to. At BuiltSimple, we help small businesses get online with custom websites that actually work for your business. We'll handle the technical setup, design a site that converts visitors into customers, and make sure everything's optimized for search engines.
+
+We can even help with domain selection if you're still on the fence. [Get in touch](https://builtsimple.dev/contact) and let's build something great together.
+
+---
+
+**Quick Checklist for Choosing Your Domain:**
+
+- Easy to spell and pronounce
+- Matches or relates to your business name  
+- .com if possible
+- Short enough to remember (2-3 words max)
+- No hyphens or numbers
+- Includes location for local businesses
+- Social media handles available
+- No trademark conflicts
+- Purchased from a reputable registrar
+
+Take your time, but don't let perfect be the enemy of good. Once you've found a domain that checks most of these boxes, grab it before someone else does.`
+  },
 ];
