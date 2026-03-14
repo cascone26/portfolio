@@ -10114,4 +10114,77 @@ Remember, your website is often the first impression potential customers have of
 
 Whatever you decide, don't let perfect be the enemy of good. A simple, clean website that's live today is better than the perfect website that never gets finished.`
   },
+  {
+    slug: "common-website-design-mistakes-costing-customers",
+    title: "7 Website Design Mistakes That Are Costing You Customers (And How to Fix Them)",
+    description: "Discover the most common website design mistakes small businesses make and learn practical solutions to create a site that converts visitors into customers.",
+    date: "2026-03-13",
+    readTime: "6 min read",
+    tags: ["web design", "small business", "website mistakes", "user experience", "conversion"],
+    content: `Your website is often the first impression potential customers have of your business. Unfortunately, many small business websites are accidentally pushing visitors away with design mistakes that are completely fixable. Let's dive into the most common website design blunders and how you can avoid them.
+
+## 1. Your Website Takes Forever to Load
+
+If your website takes more than 3 seconds to load, you're losing customers. It's that simple. People are impatient online, and slow-loading sites make visitors hit the back button faster than you can say "loading screen."
+
+The culprit is usually oversized images, too many plugins, or cheap hosting. Compress your images using tools like TinyPNG, remove unnecessary plugins, and consider upgrading your hosting if you're on the cheapest plan available.
+
+## 2. Your Site Looks Like It's From 2005
+
+Outdated design screams "this business isn't keeping up with the times." If your website has flashing text, auto-playing music, or looks like a rainbow exploded on it, it's time for a refresh.
+
+Modern websites use clean layouts, plenty of white space, and consistent color schemes. Think Apple or Airbnb – simple, elegant, and focused on what matters most. At BuiltSimple, we specialize in creating modern, professional websites that reflect your business's current standards without breaking the bank.
+
+## 3. Mobile Users Can't Use Your Site
+
+Over 60% of web traffic now comes from mobile devices. If your website isn't mobile-friendly, you're literally turning away more than half your potential customers.
+
+This means tiny text that requires zooming, buttons too small to tap, and layouts that break on phones. Google also penalizes non-mobile-friendly sites in search results, so this mistake hits you twice.
+
+Test your site on your phone regularly, or use Google's Mobile-Friendly Test tool to see how you're doing.
+
+## 4. Visitors Can't Figure Out What You Actually Do
+
+Your homepage should answer "What do you do?" within seconds. Yet so many business websites bury this crucial information under vague taglines like "Solutions for Success" or "Your Partner in Excellence."
+
+Be specific. Instead of "We provide solutions," try "We fix broken HVAC systems in Denver." Clear, direct communication builds trust and helps visitors immediately understand if you're what they're looking for.
+
+## 5. Your Contact Information is Playing Hide and Seek
+
+Making it hard to contact you is like putting a "Closed" sign on your digital storefront. Your phone number, email, and address should be easy to find – ideally in your header, footer, and on a dedicated contact page.
+
+Bonus points for including your hours of operation and response times. Transparency builds confidence.
+
+## 6. You're Asking for Too Much, Too Soon
+
+Pop-ups that appear immediately asking for email addresses, lengthy contact forms requiring essays, or aggressive sales pitches right on the homepage will scare visitors away.
+
+Build trust first. Provide value through helpful content, clear service descriptions, or useful tools. Once visitors see you're legitimate and helpful, they'll be more willing to share their information.
+
+## 7. Your Website Doesn't Tell Visitors What to Do Next
+
+Every page should have a clear next step for visitors. Without obvious "call-to-action" buttons like "Get a Quote," "Schedule a Call," or "Learn More," people will just browse and leave.
+
+Make these buttons stand out with contrasting colors and action-oriented text. Guide your visitors toward becoming customers.
+
+## The Fix Doesn't Have to Be Overwhelming
+
+Seeing this list might feel overwhelming, but remember – you don't have to fix everything at once. Start with the biggest issues first (usually mobile-friendliness and loading speed), then work your way down.
+
+Many of these fixes are simpler than they appear. Sometimes it's just a matter of cleaning up your content, optimizing a few images, or reorganizing your navigation menu.
+
+## When to Call in the Pros
+
+If tackling these issues feels like learning a foreign language, that's completely normal. Website design involves technical skills that most business owners don't have time to master – and shouldn't have to.
+
+This is exactly why BuiltSimple exists. We handle all the technical stuff so you can focus on running your business. From fixing mobile responsiveness issues to creating clean, modern designs that actually convert visitors into customers, we make sure your website works as hard as you do.
+
+## Your Website Should Work for You, Not Against You
+
+Your website is one of your most important business tools. When it's working properly, it's generating leads, building credibility, and growing your customer base 24/7. When it's not, it's actively costing you money.
+
+Take an honest look at your current site. Which of these mistakes are you making? Pick one or two to tackle this month, and you'll start seeing the difference in how visitors interact with your business online.
+
+Remember, a great website doesn't have to be complicated – it just has to work for your customers and your business goals.`
+  },
 ];
