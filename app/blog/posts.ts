@@ -10682,4 +10682,107 @@ And if you need help pulling it all together (especially on the website front), 
 
 Ready to get your branding dialed in? Let's chat.`
   },
+  {
+    slug: "seo-tips-small-businesses",
+    title: "5 SEO Tips That Actually Work for Small Businesses in 2026",
+    description: "Practical, jargon-free SEO advice for small business owners who want more customers to find them online.",
+    date: "2026-03-13",
+    readTime: "6 min",
+    tags: ["SEO", "Small Business", "Marketing", "Google"],
+    content: `Let's be honest: SEO sounds complicated. You've probably heard terms like "meta tags" and "backlinks" and thought, "I just want people to find my business on Google."
+
+Good news—you don't need to become an SEO expert to get results. Here are five straightforward tips that'll help more local customers discover your business online.
+
+## 1. Claim Your Google Business Profile (Seriously, Do This First)
+
+If you haven't claimed your Google Business Profile, stop reading and do it now. This is the single most important thing you can do for local SEO.
+
+When someone searches "plumber near me" or "coffee shop in [your town]," Google shows a map with local businesses. That's your Google Business Profile in action.
+
+Make sure to:
+- Fill out every section completely
+- Add high-quality photos of your business
+- Encourage happy customers to leave reviews
+- Post updates regularly (yes, Google Business has a feed like social media)
+
+Think of it as your free billboard on Google. Most small businesses don't optimize this, so you'll already be ahead.
+
+## 2. Write for Humans, Not Robots
+
+Remember when websites used to stuff "best pizza Chicago best pizza delivery Chicago pizza near me" everywhere? Google hated that then, and it really hates it now.
+
+Instead, write naturally about what your customers actually care about:
+- What problems do you solve?
+- What questions do customers ask you repeatedly?
+- What makes your business different?
+
+If you're a landscaper, don't just list "landscaping services." Write about "Why Your Lawn Turns Brown in Summer (And How to Fix It)." That's what people are actually searching for.
+
+Google's gotten smart enough to understand real, helpful content. Write like you're explaining something to a friend, and you'll be fine.
+
+## 3. Get Your Name, Address, and Phone Number Consistent Everywhere
+
+This sounds boring, but it matters more than you'd think.
+
+If your website says "123 Main St" but your Facebook page says "123 Main Street" and Yelp has an old address, Google gets confused. Confused Google = lower rankings.
+
+Make sure your business information is identical across:
+- Your website
+- Google Business Profile
+- Facebook
+- Yelp
+- Any directory listings
+- Instagram bio
+
+Use the exact same format every single time. Yes, even the abbreviations.
+
+## 4. Make Sure Your Website Doesn't Suck on Mobile
+
+Over 60% of searches happen on phones now. If your website is hard to use on mobile, people will leave immediately—and Google notices.
+
+Test your site on your phone right now. Can you:
+- Read the text without zooming?
+- Tap buttons without hitting the wrong thing?
+- Find your phone number easily?
+- Load the page in under 3 seconds?
+
+If any of those are "no," you're losing customers. A mobile-friendly website isn't optional anymore—it's the baseline.
+
+At BuiltSimple, we build websites that work beautifully on every device from day one, because we know most of your customers are browsing on their lunch break or in the pickup line.
+
+## 5. Create Content That Answers Real Questions
+
+You don't need to become a blogger, but adding helpful content to your website is one of the best long-term SEO strategies.
+
+Think about what customers ask you all the time:
+- "How much does [service] cost?"
+- "How long does [project] take?"
+- "Do I need [specific thing]?"
+
+Write short, honest answers to those questions. Even a simple FAQ page can work wonders.
+
+Here's why this matters: when someone searches "how much does fence installation cost," and your website has a page that answers that question, Google might show your site. If they like what they read, they might call you.
+
+You're not trying to rank for everything—just the specific things your ideal customers are searching for.
+
+## The Truth About SEO
+
+SEO isn't about gaming the system or knowing secret tricks. It's about making it easy for people to find you when they're looking for what you offer.
+
+Focus on:
+- Being findable locally (Google Business Profile)
+- Having a fast, mobile-friendly website
+- Creating genuinely helpful content
+- Keeping your information consistent everywhere
+
+Do those things consistently, and you'll see results. It might take a few months, but it's worth it.
+
+## Need Help Getting Started?
+
+If you're looking at your current website and thinking "yeah, this probably needs work," we can help. At BuiltSimple, we specialize in building clean, fast, SEO-friendly websites for small businesses—without the corporate agency prices or confusing jargon.
+
+We'll make sure your site looks great, works on every device, and actually shows up when local customers search for what you do.
+
+Ready to stop losing customers to competitors with better websites? Let's talk.`
+  },
 ];
