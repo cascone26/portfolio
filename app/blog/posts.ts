@@ -10971,4 +10971,119 @@ And if you want to talk through your options with someone who gets small busines
 
 Ready to explore your options? Check out our services or reach out for a free consultation. We'd love to help you get online the right way.`
   },
+  {
+    slug: "how-to-choose-perfect-domain-name",
+    title: "How to Choose the Perfect Domain Name for Your Small Business",
+    description: "A straightforward guide to picking a domain name that helps customers find you online and remember your business.",
+    date: "2026-03-13",
+    readTime: "7 min read",
+    tags: ["domain names", "branding", "small business", "getting started"],
+    content: `Your domain name is often the first thing potential customers see when they look for you online. It's part of your brand, your business cards, and every email you send. So how do you pick a good one?
+
+## Keep It Simple and Memorable
+
+The best domain names are easy to say out loud and easy to remember. If someone hears your domain on the phone, they should be able to type it without asking you to spell it.
+
+Avoid hyphens, numbers, and unusual spellings. "Smith-Electric-Company.com" is harder to remember than "SmithElectric.com." And "4BestCleaning.com" makes people wonder: is it the number 4 or the word "for"?
+
+Your business name is usually your best bet. If you're Joe's Coffee Shop, try for JoesCoffeeShop.com or JoesCoffee.com. Simple.
+
+## Should You Use .com?
+
+Honestly? Yes, if you can get it.
+
+People default to typing ".com" without thinking. It's what everyone's trained to do. While extensions like .net, .co, or .biz work fine, .com is still the gold standard for businesses.
+
+That said, there are good alternatives now:
+- **.co** — Clean and professional
+- **.io** — Popular with tech companies
+- **.shop** — Great for e-commerce
+- Local extensions like **.us** if you're US-focused
+
+Just avoid anything too gimmicky. Your plumbing business probably doesn't need a .ninja domain.
+
+## What If Your Name Is Taken?
+
+This happens all the time. Here's what to do:
+
+**Add your location.** If "SmithPlumbing.com" is taken, try "SmithPlumbingKC.com" or "SmithPlumbingRaleigh.com." This actually helps with local SEO too.
+
+**Add your specialty.** "SmithResidentialPlumbing.com" or "SmithCommercialPlumbing.com" can work.
+
+**Get creative (but not too creative).** "GetSmithPlumbing.com" or "CallSmithPlumbing.com" can work, but avoid anything that sounds forced.
+
+**Consider buying it.** If the domain is parked or barely used, you can sometimes buy it from the owner. This can cost anywhere from $500 to several thousand dollars. Worth it? That depends on how attached you are to the exact name.
+
+## Keep It Short
+
+Shorter is almost always better. Every extra word is another chance for someone to mistype or forget part of your domain.
+
+Compare:
+- SmithElectric.com ✓
+- SmithElectricalServices.com ✗
+- SmithElectricalServicesAndRepair.com ✗✗
+
+See the difference? The shortest version is easiest to remember and type on a phone.
+
+## Think About SEO (But Don't Overthink It)
+
+Years ago, exact-match domains were huge for SEO. "BestDenverPlumber.com" would rank well just because of the domain name.
+
+That's less true now. Google cares more about your actual website content, reviews, and user experience than your domain name.
+
+That said, having a relevant word or two in your domain doesn't hurt. "SmithLandscaping.com" tells both humans and search engines what you do. Just don't stuff it with keywords.
+
+## Check Social Media Availability
+
+Before you commit to a domain, check if the matching social media handles are available. You want consistency across platforms.
+
+If you're going with "SmithCatering.com," check:
+- Instagram: @smithcatering
+- Facebook: facebook.com/smithcatering
+- LinkedIn: linkedin.com/company/smithcatering
+
+If the handles are taken, you might want to adjust your domain choice so everything matches. Having the same name everywhere makes it easier for customers to find and remember you.
+
+## Avoid Trademark Issues
+
+Do a quick Google search and check the USPTO trademark database before buying your domain. The last thing you want is a cease-and-desist letter after you've printed business cards and built your website.
+
+If you're using your own name (like "Smith Plumbing"), you're usually fine. But if you're creating a new brand name, make sure it's not already trademarked in your industry.
+
+## Where to Buy Your Domain
+
+Most domain registrars are fine, but here are the ones we recommend:
+
+**Namecheap** — Great prices, clean interface, good privacy protection. Domains typically run $10-15 per year.
+
+**Google Domains** (now Squarespace Domains) — Simple and reliable. Good if you're already using Google Workspace for email.
+
+**Porkbun** — Often the cheapest option with good features.
+
+Avoid GoDaddy's upsell tactics if you can. They're fine, but they'll try to sell you a dozen things you don't need at checkout.
+
+## Don't Forget Privacy Protection
+
+When you register a domain, your contact information becomes public in the WHOIS database. Privacy protection (sometimes called WHOIS protection) hides your personal details and shows the registrar's information instead.
+
+Most registrars offer this free now. If yours charges extra, it's usually worth the $5-10 per year to avoid spam and keep your home address private.
+
+## Ready to Build Your Website?
+
+Once you've got your domain, you'll need a website to go with it. That's where we come in.
+
+At BuiltSimple, we build clean, professional websites for small businesses — without the corporate price tag. We handle everything from setup to launch, and we can help you choose and connect your domain if you haven't bought one yet.
+
+We also offer Google Business Profile setup, which is crucial for getting found in local searches. Your domain name and your Google listing work together to build your online presence.
+
+## Final Thoughts
+
+Choosing a domain name doesn't have to be complicated. Keep it simple, keep it short, and make it match your business name as closely as possible.
+
+Don't agonize over finding the absolute perfect domain. A good domain plus a good website and good marketing will beat a perfect domain with nothing behind it.
+
+Get something that works, register it before someone else does, and move on to building your business.
+
+Need help setting up your website once you've got your domain? We'd love to chat. Reach out and let's get you online.`
+  },
 ];
