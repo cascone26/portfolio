@@ -10187,4 +10187,89 @@ Take an honest look at your current site. Which of these mistakes are you making
 
 Remember, a great website doesn't have to be complicated – it just has to work for your customers and your business goals.`
   },
+  {
+    slug: "analytics-basics-for-business-owners",
+    title: "Analytics Basics Every Business Owner Should Know",
+    description: "Learn what website analytics actually mean for your business and which metrics matter most. No tech degree required.",
+    date: "2026-03-13",
+    readTime: "7 min",
+    tags: ["analytics", "business tips", "website metrics", "google analytics"],
+    content: `# Analytics Basics Every Business Owner Should Know
+
+You've got a website. Great! But do you know if it's actually working for your business?
+
+Most business owners either ignore their website analytics completely or get overwhelmed by the endless numbers in Google Analytics. I get it—when you're running a business, deciphering data dashboards isn't exactly top priority.
+
+But here's the thing: your website analytics are like a report card for your online presence. They tell you what's working, what's not, and where you should focus your energy. And you don't need to be a data scientist to understand the basics.
+
+Let's break down what actually matters.
+
+## What Are Website Analytics, Anyway?
+
+Website analytics track how people interact with your site. Every visitor, every click, every form submission gets recorded (anonymously, of course). Think of it as security camera footage for your website—except instead of catching shoplifters, you're catching insights about your customers.
+
+The most common tool is Google Analytics, which is free and works for most small businesses. When we build websites at BuiltSimple, we always set up analytics from day one so you can start understanding your audience right away.
+
+## The 5 Metrics That Actually Matter
+
+Forget about bounce rates and session durations for now. Here are the numbers you should actually pay attention to:
+
+### 1. Total Visitors
+
+This one's simple: how many people are visiting your site? If you're running ads, posting on social media, or doing any marketing, you want to see this number trending upward. If it's flat or declining, that's your cue to ramp up your marketing efforts.
+
+### 2. Traffic Sources
+
+Where are people finding you? Google search? Facebook? Direct traffic (typing your URL directly)? This tells you which marketing channels are working. If you're spending money on Facebook ads but getting zero traffic from Facebook, that's valuable information.
+
+### 3. Top Pages
+
+Which pages get the most views? Your homepage will usually be #1, but what's #2 and #3? These are your MVPs. If your "Services" page gets tons of traffic but your "Contact" page doesn't, people might be interested but not ready to reach out. Maybe you need clearer calls-to-action.
+
+### 4. Conversion Rate
+
+This is the big kahuna. A "conversion" is whatever action you want visitors to take—filling out a contact form, making a purchase, calling you, booking an appointment. Your conversion rate is the percentage of visitors who actually do that thing.
+
+If 100 people visit your site and 3 fill out your contact form, that's a 3% conversion rate. For most small business websites, anywhere from 2-5% is pretty normal. If you're below 1%, something's not clicking (literally).
+
+### 5. Mobile vs. Desktop Traffic
+
+Here's a reality check: probably 60-70% of your visitors are on their phones. If your website looks like a hot mess on mobile, you're losing business. This metric tells you how important mobile optimization really is for your audience.
+
+## Tools You Actually Need
+
+**Google Analytics** is the industry standard. It's free, comprehensive, and integrates with everything. Yes, it can be overwhelming at first, but you only need to check those 5 metrics above. Set up a simple dashboard and ignore the rest.
+
+**Google Search Console** shows you how your site performs in Google search results. Which keywords are people using to find you? Are there any technical issues hurting your rankings? It's like Google Analytics' nerdy cousin, but incredibly useful.
+
+**Hotjar or Microsoft Clarity** (both have free plans) let you see recordings of actual people using your site. It sounds creepy, but it's anonymous and incredibly eye-opening. You'll spot confusing navigation, broken links, and friction points you'd never notice otherwise.
+
+For e-commerce sites, **Shopify Analytics** or your platform's built-in tools usually cover what you need without adding extra complexity.
+
+## What To Do With This Information
+
+Data without action is just trivia. Here's how to actually use your analytics:
+
+**Check your numbers monthly.** Set a calendar reminder. Spend 15 minutes looking at those 5 metrics. Are they going up, down, or staying flat? Why might that be?
+
+**Run experiments.** Change one thing at a time and see what happens. New call-to-action button? Different headline? Track the impact over a few weeks.
+
+**Double down on what works.** If blog posts drive tons of traffic, write more. If Instagram brings qualified leads, post more often there. Let the data guide your efforts.
+
+**Fix obvious problems.** If 80% of your traffic is mobile but your site is broken on phones, that's priority #1. If nobody can find your contact form, make it more prominent.
+
+## The Bottom Line
+
+You don't need to become a data expert. You just need to understand the story your numbers are telling you.
+
+Are people finding your site? Are they sticking around? Are they taking action? If the answer to any of those is "no" or "I don't know," that's where you focus your energy.
+
+At BuiltSimple, we don't just build websites and disappear. We set up analytics properly, create simple dashboards you'll actually use, and help you understand what the numbers mean for your business. Because a beautiful website that doesn't convert visitors into customers is just expensive art.
+
+Your website should work as hard as you do. Analytics help you make sure it does.
+
+---
+
+*Want a website that's built with analytics and conversions in mind from day one? Let's chat about how BuiltSimple can help your business grow online.*`
+  },
 ];
