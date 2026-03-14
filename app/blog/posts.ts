@@ -10272,4 +10272,85 @@ Your website should work as hard as you do. Analytics help you make sure it does
 
 *Want a website that's built with analytics and conversions in mind from day one? Let's chat about how BuiltSimple can help your business grow online.*`
   },
+  {
+    slug: "email-marketing-for-small-businesses",
+    title: "Email Marketing for Small Businesses: Why Your Business Needs a List (and How to Start)",
+    description: "Email marketing delivers the highest ROI of any marketing channel. Learn why every small business needs an email list and how to get started without the overwhelm.",
+    date: "2026-03-13",
+    readTime: "7 min",
+    tags: ["email marketing", "small business", "digital marketing", "customer retention"],
+    content: `# Email Marketing for Small Businesses: Why Your Business Needs a List (and How to Start)
+
+Let's talk about something that might sound old-school but is absolutely crushing it for small businesses: email marketing.
+
+While everyone's obsessing over the latest social media platform, email quietly delivers an average ROI of $36 for every $1 spent. That's not a typo. Email marketing works, and it works especially well for small businesses.
+
+Here's why—and more importantly, how you can start building your own email list without feeling overwhelmed.
+
+## Why Email Marketing Still Wins
+
+**You own your list.** This is the big one. Instagram could change its algorithm tomorrow and tank your reach. Facebook could start charging you to reach your own followers (oh wait, they already do). But your email list? That's yours. No platform can take it away or change the rules on you.
+
+**People actually check their email.** Your customers check their inbox multiple times a day. They might scroll past your social post without thinking twice, but an email lands right in their personal space. It's direct, it's intimate, and it gets attention.
+
+**Email drives sales.** Those "we miss you" emails with a discount code? The new product announcements? The helpful tips that remind people you exist? They work. Email subscribers are more likely to buy from you than social media followers, and they tend to spend more when they do.
+
+## What to Actually Send
+
+This is where most small business owners freeze up. "What do I even send people?"
+
+Here's the secret: you don't need to be a copywriting genius. You just need to be helpful and human.
+
+**Welcome new subscribers warmly.** When someone joins your list, send them a friendly welcome email. Tell them what to expect, maybe offer a first-time discount, and introduce yourself. This is your first impression—make it count.
+
+**Share what you know.** You're an expert in your field, even if you don't feel like one. Share tips, answer common questions, explain how your products or services solve real problems. A landscaper could send seasonal lawn care tips. A bakery could share the story behind their signature recipe.
+
+**Keep people in the loop.** New products, special hours, upcoming sales, community events you're participating in—your email list wants to hear about this stuff. These are people who raised their hand and said "yes, tell me more about your business."
+
+**Don't overthink the frequency.** Once a week is great. Twice a month works too. Monthly is fine if that's all you can manage. Just be consistent. Pick a schedule you can actually stick to.
+
+## How to Actually Build Your List
+
+Okay, so how do you get people to sign up in the first place?
+
+**Make it stupid easy.** Put a signup form on your website. Make it prominent—above the fold on your homepage, in your footer, maybe as a pop-up (just don't make it annoying). At BuiltSimple, we build these signup forms right into our clients' websites, often with a compelling lead magnet to boost conversions.
+
+**Offer something valuable.** A discount code, a helpful guide, a checklist, exclusive early access to sales—give people a reason to hand over their email address. What does your ideal customer need that you could provide?
+
+**Promote your list everywhere.** Add a link to your email list in your social media bios. Mention it in your Instagram stories. Put a QR code on your business cards or receipts. Ask customers at checkout if they'd like to join.
+
+**Collect emails in person.** If you have a physical location, keep a simple tablet or clipboard at checkout. "Want to hear about our sales and specials? Join our email list!" You'd be surprised how many people will sign up.
+
+## Tools That Make It Easy
+
+You don't need fancy enterprise software to get started with email marketing.
+
+**Mailchimp** is free up to 500 subscribers and super beginner-friendly. It's what we typically recommend for clients just starting out.
+
+**ConvertKit** is great if you're a creator or coach—it's designed for people who create content.
+
+**Klaviyo** is powerful for e-commerce businesses. It integrates beautifully with Shopify and other platforms.
+
+Start simple. Pick one tool, set up a basic welcome email, and go from there. You can always upgrade or switch later.
+
+If setting up email automation sounds overwhelming, we can help. BuiltSimple offers email automation setup as a service—we'll handle the technical setup, design your templates, and even help you plan your first few campaigns. You focus on running your business; we'll make sure your emails actually work.
+
+## The Biggest Email Marketing Mistake
+
+Want to know the #1 mistake small businesses make with email marketing?
+
+Not starting.
+
+They overthink it, get paralyzed by perfection, and never send that first email. Meanwhile, their competitors are building relationships and making sales.
+
+Your first email doesn't need to be perfect. It just needs to exist. Start building your list today, send something helpful tomorrow, and improve as you go.
+
+Your future self—and your bank account—will thank you.
+
+## Ready to Get Started?
+
+If you don't have an email signup form on your website yet, that's step one. If your website feels outdated or you're not sure how to add one, we'd love to help. At BuiltSimple, we specialize in building clean, effective websites for small businesses—complete with email capture forms, automation setup, and everything else you need to actually use email marketing.
+
+Reach out, and let's make sure you're not leaving money on the table by ignoring your inbox.`
+  },
 ];
