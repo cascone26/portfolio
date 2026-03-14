@@ -10610,4 +10610,76 @@ Your customers are already checking their email every day. Might as well be ther
 
 *Need help getting your email marketing up and running? BuiltSimple can set up everything from signup forms to automated campaigns. [Learn more about our email automation services](https://builtsimple.dev).*`
   },
+  {
+    slug: "branding-tips-small-business",
+    title: "5 Branding Tips That'll Make Your Small Business Unforgettable",
+    description: "Simple, actionable branding advice for small business owners who want to stand out without breaking the bank.",
+    date: "2026-03-13",
+    readTime: "6 min read",
+    tags: ["branding", "small business", "marketing", "design"],
+    content: `# 5 Branding Tips That'll Make Your Small Business Unforgettable
+
+Let's get real: when most people hear "branding," they think it's either too expensive, too complicated, or just for the big guys with marketing departments. But here's the truth—good branding isn't about having a massive budget. It's about being consistent, authentic, and memorable.
+
+Whether you're running a coffee shop, a consulting firm, or a lawn care service, these five tips will help you build a brand that sticks in people's minds (in a good way).
+
+## 1. Your Logo Doesn't Have to Be Perfect—But It Does Need to Exist
+
+You don't need to spend $5,000 on a logo. You really don't. But you *do* need something that looks professional and represents your business.
+
+If you're just starting out, tools like **Canva** or **Looka** can help you create a clean, simple logo for free or cheap. The key is to pick something you can use consistently across your website, social media, business cards, and anywhere else your business shows up.
+
+Once you have a logo, resist the urge to redesign it every six months. Consistency builds recognition.
+
+## 2. Pick Your Colors (and Stick With Them)
+
+This one's huge. You know how you can spot a Starbucks from a mile away because of that green? That's not an accident.
+
+Choose 2-3 colors that represent your business and use them *everywhere*. Your website, your Instagram posts, your email signatures—keep it cohesive. When people see those colors repeatedly, they'll start associating them with your brand.
+
+Not sure where to start? Tools like **Coolors** or **Adobe Color** can help you generate color palettes that actually look good together. And if you're building or refreshing your website, having a clear color scheme makes the design process so much smoother. (That's something we help with at BuiltSimple—making sure your site looks polished and on-brand from day one.)
+
+## 3. Find Your Voice (and Use It Consistently)
+
+Are you the friendly neighborhood expert? The no-nonsense pro who gets stuff done? The quirky, fun business that doesn't take itself too seriously?
+
+Figure out your brand's personality, and let it shine through in everything you write. Your website copy, social media posts, email newsletters—it should all *sound* like the same person.
+
+Here's a quick test: if someone read your Instagram caption and your website's About page, would they feel like they came from the same business? If not, it's time to tighten things up.
+
+And don't try to sound like everyone else. If you're naturally conversational, lean into that. If you're more formal and professional, own it. Authenticity beats perfection every time.
+
+## 4. Show Up Where Your Customers Are (Not Everywhere)
+
+You don't need to be on TikTok, Instagram, Facebook, LinkedIn, Twitter, Pinterest, and YouTube. Please don't do that to yourself.
+
+Instead, figure out where your customers actually hang out and focus your energy there. If you run a B2B consulting business, LinkedIn might be your jam. If you're a bakery, Instagram is probably a better bet.
+
+Once you've picked your platform(s), post consistently. It doesn't have to be daily, but it should be regular. Share behind-the-scenes content, customer wins, tips related to your industry—anything that reminds people you exist and you're good at what you do.
+
+And make sure your website ties it all together. Your social media might get people interested, but your website is where they'll decide whether to actually hire you or buy from you. (If your site needs a refresh, that's literally what we do at BuiltSimple—clean, professional websites that convert visitors into customers.)
+
+## 5. Be Consistent (Even When It Feels Boring)
+
+This is the big one. You could have the best logo, the perfect color scheme, and a killer Instagram feed—but if you're inconsistent, none of it matters.
+
+Consistency is what builds trust. When people see your business showing up regularly, looking professional, and delivering on what you promise, they start to remember you. And more importantly, they start to trust you.
+
+That means:
+- Using the same logo everywhere
+- Sticking to your color palette
+- Posting regularly (even if it's just once a week)
+- Keeping your website up to date
+- Showing up with the same tone and energy across all platforms
+
+It's not flashy, but it works.
+
+## Final Thoughts
+
+Branding doesn't have to be overwhelming. Start small, stay consistent, and let your personality shine through. You don't need a huge budget or a marketing degree—you just need to show up as yourself, in a way that feels professional and cohesive.
+
+And if you need help pulling it all together (especially on the website front), that's what we're here for. At BuiltSimple, we build clean, professional websites for small businesses that actually represent who you are and what you do. No fluff, no overcomplicated designs—just a site that works.
+
+Ready to get your branding dialed in? Let's chat.`
+  },
 ];
