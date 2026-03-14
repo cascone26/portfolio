@@ -10414,4 +10414,94 @@ If you're looking at your site right now and recognizing a few of these mistakes
 
 Want a fresh pair of eyes on your website? Reach out to BuiltSimple for a free site review—we'll tell you exactly what's working and what's not.`
   },
+  {
+    slug: "ecommerce-basics-small-business",
+    title: "E-Commerce Basics for Small Businesses: Your Guide to Selling Online",
+    description: "Ready to sell online? Learn the essential e-commerce basics every small business owner needs to know before launching their online store.",
+    date: "2026-03-13",
+    readTime: "7 min",
+    tags: ["e-commerce", "online sales", "small business", "web design"],
+    content: `# E-Commerce Basics for Small Businesses: Your Guide to Selling Online
+
+Thinking about selling your products online? You're not alone. More small businesses than ever are adding e-commerce to their websites—and for good reason. Online sales give you the chance to reach customers beyond your local area and make money while you sleep.
+
+But if you've never set up an online store before, the whole thing can feel overwhelming. Where do you even start? Let's break down the e-commerce basics every small business owner should know.
+
+## Do You Really Need E-Commerce?
+
+Before we dive in, let's make sure e-commerce makes sense for your business. Not every business needs to sell online, and that's okay.
+
+E-commerce is a great fit if you:
+- Sell physical products that can be shipped
+- Offer digital products like courses, templates, or guides
+- Want to accept orders outside of business hours
+- Have customers asking to buy from you online
+- Want to expand beyond your local market
+
+If you're a service-based business (like a hair salon or law office), you might not need a full store. A simple booking system or contact form might be all you need. But if you're selling products, e-commerce opens up a whole new world of possibilities.
+
+## Choosing Your E-Commerce Platform
+
+This is the biggest decision you'll make. Your platform is the foundation of your online store, so it needs to work for your business—not against it.
+
+The most popular options are:
+
+**Shopify** is the go-to for product-focused businesses. It's designed specifically for e-commerce, which means everything you need is built in. The downside? Monthly fees start at $39, and they take a small cut of each sale unless you use Shopify Payments.
+
+**WooCommerce** is a plugin that turns a WordPress website into a store. It's free to use (you just pay for hosting), and it's incredibly flexible. But it requires more technical setup, and you'll need to manage updates and security yourself.
+
+**Square Online** works great if you already use Square for in-person payments. It syncs your inventory across both channels, which is a lifesaver for businesses with a physical location. The free plan is generous, too.
+
+**Squarespace** is best if you want a beautiful store without much technical hassle. It's more limited than the other options, but if you're selling a small number of products and care about design, it's worth considering.
+
+At BuiltSimple, we typically build stores on WooCommerce or Shopify, depending on the client's needs. WooCommerce gives us more control for custom features, while Shopify is faster to launch and easier for our clients to manage day-to-day.
+
+## Essential Features Your Store Needs
+
+No matter which platform you choose, your store needs these basics:
+
+**Product pages with good photos.** Your customers can't touch or see your products in person, so your photos need to do the heavy lifting. Multiple angles, close-ups of details, and images showing scale all help. You don't need a professional photographer—a smartphone and good natural light work fine.
+
+**Clear product descriptions.** Don't just list features. Tell customers what problem your product solves or how it'll make their life better. Include dimensions, materials, and any other details that might affect their decision.
+
+**A simple checkout process.** Every extra step you add is another chance for someone to abandon their cart. Ask for only the information you truly need, and let people check out as guests without creating an account.
+
+**Multiple payment options.** At minimum, accept credit cards. But also consider adding PayPal, Apple Pay, or Google Pay. The easier you make it to pay, the more sales you'll get.
+
+**Mobile-friendly design.** More than half of online shopping happens on phones. If your store doesn't work well on mobile, you're leaving money on the table.
+
+**Security.** You need an SSL certificate (that little padlock in the browser bar) to protect customer information. Most platforms include this, but double-check.
+
+## The Stuff Nobody Warns You About
+
+Here's where things get real. E-commerce isn't just about having a pretty website. There's behind-the-scenes work you need to handle:
+
+**Shipping is complicated.** You need to figure out rates, packaging materials, handling time, and what to do about returns. Start simple—maybe offer flat-rate shipping at first until you get a feel for your costs.
+
+**Inventory management matters.** Nothing's worse than selling something you don't have. Even if you're starting small, track what's in stock. Most platforms have built-in inventory management.
+
+**You'll need policies.** Returns, refunds, shipping times, privacy—put it all in writing. It protects you and sets clear expectations for customers.
+
+**Taxes are your responsibility.** Depending on where you and your customers are located, you might need to collect sales tax. This gets complicated fast, so talk to an accountant.
+
+**Marketing isn't optional.** Building a store doesn't mean customers will magically show up. You'll need to drive traffic through social media, email marketing, SEO, or ads.
+
+## Starting Small Is Smart
+
+You don't need to launch with 500 products and every feature under the sun. Start with your best-sellers or a limited product line. Test the waters. Learn what your customers want. Then expand.
+
+Some of the most successful online stores started with just a handful of products and grew from there. It's better to do a few things really well than to spread yourself too thin.
+
+## Getting Help
+
+Setting up e-commerce isn't rocket science, but it does take time and attention to detail. If you'd rather focus on running your business than wrestling with website settings, that's what we're here for.
+
+At BuiltSimple, we build custom e-commerce sites for small businesses that are ready to sell online. We handle the technical setup, make sure everything works smoothly, and train you on how to manage your store once it's live. Whether you need a simple shop with 10 products or something more complex, we'll build something that fits your business.
+
+## Ready to Start Selling?
+
+E-commerce opens up real opportunities for small businesses. Yes, there's a learning curve. Yes, it takes work. But if you've got products people want and you're willing to put in the effort, selling online can transform your business.
+
+Start by picking a platform that makes sense for your needs. Focus on the basics first. And remember—every successful online store started exactly where you are right now.`
+  },
 ];
