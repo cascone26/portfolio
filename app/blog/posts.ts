@@ -10,6 +10,71 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "teacher-website-design",
+    title: "Teacher Website Design: Essential Features Every Educator Needs in 2026",
+    description: "Learn what essential features every teacher website needs in 2026. From lesson sharing to parent communication, discover how to build an effective educational website.",
+    date: "2026-03-16",
+    readTime: "7 min",
+    tags: ["Education", "Web Design", "Teachers"],
+    content: `Teachers don't need fancy websites. You need functional ones. As education shifts further into the digital space, having a professional website isn't just about looking tech-savvy — it's about saving time and serving students better. But most website builders don't understand what educators actually need.
+
+Here's what matters for teacher websites in 2026, based on working with dozens of educators.
+
+## Lesson Plan Sharing Without the Hassle
+
+The biggest challenge teachers face online is organizing and sharing materials. You've got PDFs, Google Docs, PowerPoint presentations, and worksheet files scattered everywhere. Your website should bring order to this chaos.
+
+What works: Create a simple resource library with clear categories. Math worksheets in one section, reading assignments in another. Use password protection for student-only materials — you don't need everything public. Most importantly, make downloads one-click simple. Parents and students won't navigate complex menus to find homework.
+
+Skip the fancy learning management system unless you're teaching fully online. For most classroom teachers, a clean file organization system beats complicated software every time.
+
+## Parent Communication That Actually Happens
+
+Email gets buried. Paper notices disappear in backpacks. Your website can be the reliable communication channel parents actually check — if you set it up right.
+
+Start with a prominent announcement banner for urgent updates. Snow day? Test tomorrow? Put it right at the top where nobody misses it. Add an events calendar that syncs with Google Calendar so you update once and it appears everywhere. Include a simple contact form that goes straight to your professional email, not your personal one.
+
+The key is making updates easy for you. If posting an announcement takes more than 30 seconds, you won't do it consistently. Choose tools that work with your existing workflow, not against it.
+
+## Classroom Technology That Enhances, Not Complicates
+
+2026's classroom runs on Google Workspace, Zoom, and increasingly, AI tools. Your website should connect these pieces, not add another layer of complexity.
+
+Embed your Google Classroom directly if you use it. Link to Zoom for parent conferences. If you're using AI tools for personalized learning, explain them clearly to parents who might have concerns. Your website becomes the hub that connects all these tools, rather than another platform to manage.
+
+Mobile responsiveness isn't optional anymore. Over 70% of parents check school information on their phones. If your site doesn't work perfectly on mobile, you're creating barriers to parent engagement.
+
+## Budget-Friendly Solutions That Actually Work
+
+Most teachers pay for classroom supplies out of pocket. Your website shouldn't be another expense. The good news: you don't need to spend much to get professional results.
+
+WordPress.com's free tier works for basic teacher sites. Google Sites is completely free and integrates perfectly with other Google tools. If you want more features, premium WordPress themes designed for education typically cost $30-60 — once, not monthly.
+
+Avoid monthly subscription services unless they provide clear value. That $15/month website builder becomes $180/year, which could buy a lot of classroom supplies instead.
+
+## Security Without the Paranoia
+
+Student privacy is non-negotiable, but you don't need enterprise-level security for a classroom website. Follow these basics:
+
+Never post student photos without written parent permission. Use first names only, or better yet, no names at all. Password-protect any pages with student work or grades. Keep sensitive communications in email, not on public web forms.
+
+For FERPA compliance, the simplest approach is best: don't store any student educational records on your website. Use it for communication and resource sharing, not as a gradebook.
+
+## Getting Started Without Getting Overwhelmed
+
+You don't need every feature on day one. Start with three essential pages: a homepage with current announcements, an about page so parents know who you are, and a resources page for common downloads.
+
+Add features as you need them. Event calendar can wait until you have events. Blog can wait until you have time to write. Don't let perfect be the enemy of functional.
+
+## Making It Sustainable
+
+The best teacher website is one you'll actually maintain. Choose systems that fit your schedule. Batch updates on Sunday evenings. Use templates for recurring content. Automate what you can.
+
+Remember: your website supports your teaching. It shouldn't become another full-time job. Start small, focus on what helps your students most, and expand only when it genuinely saves you time.
+
+Parents and students need to reach you and access resources. Everything else is optional. Build for their needs and your sanity — that's teacher website design that actually works.`
+  },
+  {
     slug: "why-page-speed-matters-for-your-small-business-website",
     title: "Why Page Speed Matters for Your Small Business Website",
     description: "A slow website costs you customers. Learn why page speed is critical for small business websites, how it affects SEO and conversions, and what you can do to fix it.",
