@@ -84,7 +84,7 @@ Focus on enrollment conversion before adding fancy features. A fast, clear, mobi
 
 Your school delivers an exceptional education. Your website should make that obvious to every parent who visits.
 
-Looking to build a [professional education website](/blog/teacher-portfolio-website) or start an [online tutoring business](/blog/how-to-start-tutoring-business-online)? We help education businesses create websites that convert visitors into students.`
+Looking to build a [professional education website](/blog/teacher-portfolio-website) or start an [online tutoring business](/blog/how-to-start-a-tutoring-business-online)? We help education businesses create websites that convert visitors into students.`
   },
   {
     slug: "online-course-creation-for-teachers",
