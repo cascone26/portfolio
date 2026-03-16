@@ -10,6 +10,86 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-page-speed-matters-for-your-small-business-website",
+    title: "Why Page Speed Matters for Your Small Business Website",
+    description: "A slow website costs you customers. Learn why page speed is critical for small business websites, how it affects SEO and conversions, and what you can do to fix it.",
+    date: "2026-03-15",
+    readTime: "6 min",
+    tags: ["Performance", "SEO", "Websites"],
+    content: `## Your Website Is Slower Than You Think
+
+Most small business owners have never checked how fast their website loads. They open it on their office Wi-Fi, it looks fine, and they move on. But your customers aren't on your office Wi-Fi. They're on a spotty cell connection in a parking lot, trying to find your hours before they drive somewhere else.
+
+Google has data on this: **53% of mobile visitors leave a page that takes longer than 3 seconds to load.** Three seconds. That's not a lot of time, but it's an eternity on the internet. If your site takes 5 or 6 seconds — which is common for small business sites built on bloated templates — you're losing more than half your potential visitors before they even see your homepage.
+
+## What Page Speed Actually Affects
+
+Website page speed isn't just about convenience. It touches every part of your online presence:
+
+- **Search rankings** — Google uses page speed as a ranking factor. Slower sites get pushed down in search results, which means fewer people find you in the first place
+- **Conversion rates** — every extra second of load time drops conversions by roughly 7%. If your site generates leads or sales, slow speed is literally costing you money
+- **Bounce rate** — visitors who wait too long just leave. They don't bookmark your site and come back later. They go to your competitor
+- **User experience** — a fast site feels professional and trustworthy. A slow site feels broken, even if it eventually loads
+- **Mobile performance** — over 60% of web traffic is mobile now. Mobile connections are slower than desktop, so speed problems get amplified on phones
+
+## Why Most Small Business Sites Are Slow
+
+The usual culprits are predictable, and none of them are your fault:
+
+### Bloated Page Builders
+
+Website builders like Wix, Squarespace, and WordPress with heavy themes load massive amounts of JavaScript and CSS that your site doesn't need. A simple five-page business site shouldn't require 3MB of code, but many template-based sites do.
+
+### Unoptimized Images
+
+That beautiful hero image on your homepage might be a 4MB file straight from a camera. It should be a 100KB WebP image. Most site owners don't know the difference, and most page builders don't optimize images properly by default.
+
+### Too Many Plugins
+
+WordPress sites are notorious for this. Every plugin adds scripts, styles, and database queries. Twenty plugins later, your site takes 8 seconds to load and nobody can figure out why.
+
+### Cheap Hosting
+
+That $3/month hosting plan puts your site on a shared server with hundreds of other websites. When traffic spikes — even modest spikes — everything slows to a crawl.
+
+## How to Check Your Page Speed
+
+You don't need to be technical to check this. Go to **Google PageSpeed Insights** and enter your website URL. It will give you a score from 0 to 100 for both mobile and desktop, plus specific recommendations for improvement.
+
+Here's what the scores mean:
+- **90-100** — excellent, your site is fast
+- **50-89** — needs improvement, you're leaving performance on the table
+- **0-49** — poor, this is actively hurting your business
+
+Most small business sites I audit score between 30 and 60 on mobile. That's the range where you're visibly losing customers.
+
+## What You Can Do About It
+
+Some fixes are quick and free. Others require rebuilding. Here's the honest breakdown:
+
+### Quick Wins
+1. **Compress your images** — use a tool like TinyPNG or Squoosh to shrink images before uploading them
+2. **Remove unused plugins** — if you're on WordPress, deactivate and delete anything you're not actively using
+3. **Enable caching** — most hosts have a caching option in their control panel. Turn it on
+4. **Use a CDN** — services like Cloudflare have free tiers that serve your site from servers closer to your visitors
+
+### The Real Fix
+
+If your site scores below 50 on mobile, quick fixes won't get you where you need to be. The real fix is a lightweight, purpose-built site that loads in under 2 seconds on any connection.
+
+That means ditching the bloated template and building something clean. No unnecessary JavaScript, no 47 font files, no tracking scripts you forgot about. Just the content your customers need, delivered fast.
+
+## Speed Is a Competitive Advantage
+
+Here's what most people miss: when every competitor in your area has a slow, template-based site, being fast makes you stand out. A customer comparing two plumbers — one site loads instantly with clear pricing and a phone number, the other takes 6 seconds and shows a loading spinner — which one are they calling?
+
+Website page speed isn't a vanity metric. It's the foundation of your entire online presence. A site that loads fast converts better, ranks higher, and makes a better first impression. Every other investment in your online marketing — SEO, ads, social media — works harder when your website is fast.
+
+## Stop Losing Customers to Load Times
+
+If your site takes more than 3 seconds to load on mobile, you're losing business every single day. Run the PageSpeed test, see where you stand, and decide what to do about it. If the score makes you wince, I build fast, clean websites for small businesses that load in under 2 seconds. No bloat, no page builders, no excuses. Reach out and let's talk about making your site work as hard as you do.`,
+  },
+  {
     slug: "why-your-restaurant-needs-a-website-not-just-social-media",
     title: "Why Your Restaurant Needs a Website (Not Just Social Media)",
     description: "A Facebook page is not a website. Here's why restaurants that rely only on social media are losing customers to competitors who have a real site.",
@@ -11194,5 +11274,198 @@ If managing all this sounds overwhelming, that's exactly why we created our webs
 Your website is often the first impression potential customers have of your business. Make sure it's secure, trustworthy, and always ready to serve them.
 
 *Need help securing your website or want someone to handle maintenance for you? [Get in touch with BuiltSimple](https://builtsimple.dev) and let's talk about keeping your site safe and running smoothly.*`
+  },
+  {
+    slug: "how-to-use-customer-testimonials-to-grow-your-business",
+    title: "How to Use Customer Testimonials to Grow Your Business Online",
+    description: "Customer testimonials for small business are one of the most powerful marketing tools you have. Learn how to collect, display, and leverage them to win more customers.",
+    date: "2026-03-15",
+    readTime: "7 min",
+    tags: ["Marketing", "Social Proof", "Small Business", "Websites"],
+    content: `## The Most Underused Marketing Tool You Already Have
+
+Every small business owner has happy customers. The problem is that most of those happy customers never tell anyone about it — at least not publicly. Meanwhile, potential customers are searching online, reading reviews, and looking for proof that you're worth their money before they ever pick up the phone.
+
+Customer testimonials for small business websites aren't optional anymore. They're expected. And the businesses that collect and display them well are winning customers that their competitors are losing.
+
+## Why Testimonials Work Better Than Anything You Could Say About Yourself
+
+There's a psychological principle called **social proof** — people look to others' behavior to decide what to do. When a stranger sees that 47 other people had a great experience with your plumbing company, that matters more than any tagline you could write.
+
+Here's what the data says:
+
+- **92% of consumers** read online reviews before making a purchase decision
+- **88% trust online reviews** as much as personal recommendations
+- Displaying testimonials can **increase conversions by up to 34%**
+
+You can tell people you're reliable, fast, and affordable all day long. But when a real customer says it, people believe it.
+
+## How to Collect Testimonials Without Being Awkward
+
+Most business owners know testimonials are valuable. The hard part is actually asking for them. Here's how to make it painless for everyone:
+
+### Ask at the Right Moment
+
+The best time to ask for a testimonial is right after you've delivered great results. The customer is happy, the experience is fresh, and they're most willing to help.
+
+- For service businesses: ask within 24-48 hours of completing the job
+- For product businesses: follow up 1-2 weeks after purchase
+- For ongoing services: ask after a major milestone or win
+
+### Make It Easy
+
+Don't ask someone to "write a testimonial." That sounds like homework. Instead, ask a specific question:
+
+- "What was the biggest difference you noticed after we worked together?"
+- "What would you tell a friend who was thinking about hiring us?"
+- "What problem were you trying to solve when you found us?"
+
+These prompts give people a starting point and result in much better testimonials than "Great service, would recommend."
+
+### Use Multiple Channels
+
+Some people prefer to leave a Google review. Others would rather send a quick text. Meet your customers where they are:
+
+- Send a direct link to your Google Business Profile
+- Follow up via email with a simple form
+- Ask in person and offer to write it up for their approval
+- Text a link to your preferred review platform
+
+### Create a Simple System
+
+The businesses that get the most testimonials aren't the ones with the best service — they're the ones with a consistent process. Set a reminder to ask every single customer, every single time. Automate it if you can.
+
+## Where to Display Customer Testimonials for Maximum Impact
+
+Collecting testimonials is only half the battle. Where you put them matters just as much.
+
+### Your Homepage
+
+Your homepage is usually the first page people see. Include 2-3 of your best testimonials prominently — not buried at the bottom. Place them near your call-to-action buttons. When someone is deciding whether to contact you, a glowing review right next to the "Get a Quote" button can be the push they need.
+
+### Dedicated Testimonials Page
+
+Create a page specifically for testimonials and reviews. This gives potential customers a place to browse through proof at their own pace. Organize them by service type if you offer multiple services.
+
+### Service Pages
+
+Match testimonials to the specific service they're about. If someone is looking at your kitchen remodeling page, show them a testimonial from a customer who loved their kitchen remodel — not a generic "great company" review.
+
+### Google Business Profile
+
+Your Google Business Profile reviews show up directly in search results. These are often the first testimonials a potential customer sees, before they even visit your website. Prioritize getting reviews here.
+
+## What Makes a Great Testimonial
+
+Not all testimonials are created equal. "Great company!" is nice, but it doesn't convince anyone. The best testimonials share three things:
+
+### 1. A Specific Problem
+
+"Our old website was embarrassing. We were losing customers to competitors who looked more professional online." This tells the reader: "This business helps people like me."
+
+### 2. A Concrete Result
+
+"Within two months of launching our new site, we were getting 3-4 new inquiries per week instead of 1-2 per month." Numbers and specifics are powerful. They turn a vague endorsement into proof.
+
+### 3. An Emotional Reaction
+
+"I finally feel proud handing out my business card because I know the website behind it looks professional." Emotion connects. It helps the reader imagine feeling the same way.
+
+## Common Mistakes to Avoid
+
+### Using Fake or Generic Testimonials
+
+Potential customers can smell fake testimonials instantly. "Amazing service! 10/10!" attributed to "J.S." doesn't build trust — it destroys it. Always use real names, real photos if possible, and real businesses.
+
+### Hiding Testimonials in Hard-to-Find Places
+
+If your testimonials are on a page that takes three clicks to reach, they're not helping you. Put them where people are already looking: your homepage, your service pages, and your contact page.
+
+### Never Updating Them
+
+A testimonial from 2019 tells potential customers you haven't impressed anyone lately. Keep your testimonials current. Aim to add new ones every quarter at minimum.
+
+### Only Collecting Star Ratings
+
+Five stars is nice, but words are what sell. A five-star rating with a detailed story is worth ten five-star ratings with no text. When asking for reviews, encourage people to share their experience in a sentence or two.
+
+## Video Testimonials: The Next Level
+
+If you want to take your social proof to the next level, ask happy customers for a quick video testimonial. It doesn't need to be produced — a 30-second phone video is perfectly fine. Video testimonials feel more authentic and are harder to fake, which makes them more persuasive.
+
+Tips for video testimonials:
+- Keep them under 60 seconds
+- Ask the customer to mention what problem you solved
+- Film in good lighting with clear audio
+- Get permission to use the video on your website and social media
+
+## Turning Testimonials Into a Growth Engine
+
+The most effective small businesses treat customer testimonials as a core marketing strategy, not an afterthought. Here's the system:
+
+1. **Deliver great work** — this is the foundation everything else depends on
+2. **Ask every customer** — make it part of your standard process
+3. **Display them strategically** — put them where they'll influence decisions
+4. **Share them on social media** — a customer quote makes great content
+5. **Update regularly** — fresh testimonials signal an active, trusted business
+
+## Ready to Put Your Best Customers to Work?
+
+Your happy customers are your most convincing salespeople. They just need you to ask, and they need a place to be heard. Start by asking your three most recent happy customers for a testimonial this week. You might be surprised how willing they are to help.
+
+If your website doesn't have a good place to showcase testimonials, or if you want help building a site that turns social proof into real leads, [reach out to BuiltSimple](https://builtsimple.dev). We build websites designed to earn trust and convert visitors into customers.
+
+*Want a website that makes your testimonials work harder? [Contact BuiltSimple](https://builtsimple.dev) and let's build something your customers will rave about.*`
+  },
+  {
+    slug: "how-to-use-google-search-console-small-business",
+    title: "How to Use Google Search Console for Your Small Business Website",
+    description: "Google Search Console is a free tool that shows you exactly how your website performs in search results. Learn how to set it up, read the data, and use it to get more traffic.",
+    date: "2026-03-16",
+    readTime: "7 min",
+    tags: ["SEO", "Google", "Tools"],
+    content: `## OUTLINE — Google Search Console for Small Business
+
+### 1. What Is Google Search Console (And Why Should You Care)?
+- Free tool from Google that shows how your site appears in search results
+- Unlike Google Analytics (which tracks visitors on your site), Search Console shows what happens *before* people click — what queries trigger your site, your average position, click-through rates
+- Keyword: google search console small business
+
+### 2. How to Set Up Google Search Console
+- Step-by-step: go to search.google.com/search-console, add your property
+- Verification methods (DNS, HTML tag, Google Analytics connection)
+- Common mistakes: verifying the wrong version (www vs non-www, http vs https)
+- Takes a few days to start collecting data
+
+### 3. Understanding the Performance Report
+- The four key metrics: total clicks, total impressions, average CTR, average position
+- What each metric actually means in plain English
+- How to filter by query, page, country, device, date range
+- Why impressions without clicks still matter (you're showing up but not getting picked)
+
+### 4. Finding Your Quick-Win Keywords
+- How to find queries where you rank on page 2 (positions 8-20) — these are your best opportunities
+- Sort by impressions with low clicks to find terms people search but don't click your result for
+- How small content tweaks (better title tags, meta descriptions) can move you from page 2 to page 1
+
+### 5. Using the URL Inspection Tool
+- How to check if Google has indexed a specific page
+- What to do if a page isn't indexed
+- How to request indexing for new or updated pages
+- Common indexing issues small business sites run into
+
+### 6. Fixing Issues Google Finds
+- The Coverage/Pages report: what errors, warnings, and excluded pages mean
+- Mobile usability issues and how to fix them
+- Core Web Vitals — what the scores mean and why they matter
+- How to prioritize: fix errors first, then warnings
+
+### 7. Making Search Console Part of Your Monthly Routine
+- Check it once a month — don't obsess over daily fluctuations
+- What to look for: trending queries, pages losing traffic, new errors
+- How to use the data to plan new content or update existing pages
+- CTA: BuiltSimple can help you turn Search Console data into an actionable plan
+
+*This is an outline. Full post coming soon.*`
   },
 ];
