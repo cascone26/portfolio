@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import FadeIn from "../../components/fade-in";
+import ContactForm from "../../components/contact-form";
 
 export const metadata: Metadata = {
   title: "Websites for Contractors in Kansas City",
@@ -11,6 +12,13 @@ export const metadata: Metadata = {
 export default function ContractorsPage() {
   return (
     <>
+      {/* Limited-time offer banner */}
+      <section className="bg-accent/10 border-b border-accent/20 py-3 px-6 text-center">
+        <p className="text-sm text-accent-light font-medium">
+          March special: Free site mockup for your business — no cost, no commitment. Just reply to see what your site could look like.
+        </p>
+      </section>
+
       <section className="relative pt-16 pb-12 px-6">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full bg-blue-500/[0.06] blur-[120px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
@@ -99,39 +107,23 @@ export default function ContractorsPage() {
           </FadeIn>
 
           <FadeIn delay={0.35}>
-            <div className="glass rounded-2xl p-8">
+            <div className="glass rounded-2xl p-8 mb-8">
               <h2 className="font-semibold text-xl mb-4">
-                Let&apos;s talk
+                Ready to get started?
               </h2>
-              <p className="text-muted text-sm leading-relaxed mb-4">
-                I&apos;m Jacob — I build websites for local businesses around KC.
-                Just me, not an agency. I live in Mission.
+              <p className="text-muted text-sm leading-relaxed mb-2">
+                Get a free mockup — no obligation. Fill out the form below, or
+                give me a call.
               </p>
-              <p className="text-muted text-sm leading-relaxed mb-6">
-                Email me at{" "}
+              <p className="mb-6">
                 <a
-                  href="mailto:cobo.cascone@gmail.com"
-                  className="text-accent-light hover:underline"
+                  href="tel:8165205652"
+                  className="text-accent-light text-lg font-semibold hover:underline"
                 >
-                  cobo.cascone@gmail.com
-                </a>{" "}
-                or just reply to my email. I&apos;ll get back to you within 24
-                hours.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <a
-                  href="mailto:cobo.cascone@gmail.com"
-                  className="btn-gradient inline-flex items-center gap-2 text-white font-semibold px-5 py-2.5 rounded-lg text-sm"
-                >
-                  Send me an email
+                  (816) 520-5652
                 </a>
-                <Link
-                  href="/services"
-                  className="btn-outline text-white font-semibold px-5 py-2.5 rounded-lg text-sm"
-                >
-                  See all services
-                </Link>
-              </div>
+              </p>
+              <ContactForm />
             </div>
           </FadeIn>
         </div>

@@ -250,6 +250,88 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Social proof — What I've Built */}
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <FadeIn>
+            <div className="text-center mb-12">
+              <p className="text-xs uppercase tracking-widest text-accent-light mb-4 font-medium">
+                What I&apos;ve Built
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
+                Real projects.{" "}
+                <span className="gradient-text">Real results.</span>
+              </h2>
+              <p className="text-muted text-sm">
+                Trusted by KC businesses &middot; 10+ projects completed &middot; 5+ sites shipped and live
+              </p>
+            </div>
+          </FadeIn>
+          <div className="grid md:grid-cols-3 gap-4">
+            <FadeIn delay={0.1}>
+              <div className="glass rounded-2xl p-7 text-center">
+                <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">LessonDraft</h3>
+                <p className="text-muted text-sm leading-relaxed">
+                  AI-powered lesson plan generator. Full SaaS with auth,
+                  Stripe payments, and real paying users.
+                </p>
+                <a
+                  href="https://lessondraft.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-light text-sm mt-3 inline-block hover:underline"
+                >
+                  lessondraft.com
+                </a>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <div className="glass rounded-2xl p-7 text-center">
+                <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Restaurant Demo</h3>
+                <p className="text-muted text-sm leading-relaxed">
+                  Menu, hours, location, mobile-friendly. Everything a
+                  restaurant customer needs in seconds.
+                </p>
+                <a
+                  href="https://restaurant-beta-roan.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-light text-sm mt-3 inline-block hover:underline"
+                >
+                  View demo
+                </a>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.3}>
+              <div className="glass rounded-2xl p-7 text-center">
+                <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Contractor Demo</h3>
+                <p className="text-muted text-sm leading-relaxed">
+                  Services, quote requests, reviews. Clean layout built to
+                  convert visitors into calls.
+                </p>
+                <a
+                  href="https://contractor-pearl.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-light text-sm mt-3 inline-block hover:underline"
+                >
+                  View demo
+                </a>
+              </div>
+            </FadeIn>
+          </div>
+        </div>
+      </section>
+
       {/* Gradient CTA banner */}
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 gradient-mesh" />
