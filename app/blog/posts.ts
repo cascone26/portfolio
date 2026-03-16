@@ -10,6 +10,83 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "school-website-design",
+    title: "School Website Design: 7 Essential Features That Convert Parents Into Enrolled Students",
+    description: "Learn the essential school website design features that convert visitors into enrolled students. Expert tips for private schools, academies, and education businesses.",
+    date: "2026-03-16",
+    readTime: "6 min",
+    tags: ["Education", "Web Design", "Schools", "Enrollment"],
+    content: `Your school's website is often a parent's first impression of your educational program. Yet most school websites are built around administrative convenience, not parent conversion. They bury enrollment information, hide tuition costs, and load slowly on mobile devices.
+
+In 2026, private schools and education businesses face increasing competition for enrollment. Parents research an average of five schools before scheduling a single tour. Your website needs to do more than exist — it needs to convert. Here are seven essential features that turn casual browsers into enrolled students.
+
+## 1. Clear Value Proposition Above the Fold
+
+Parents decide whether to keep reading within three seconds of landing on your homepage. Your unique value must be immediately obvious — no scrolling required.
+
+Skip the education jargon. "Rigorous academic environment fostering holistic development" means nothing to a parent comparing schools during their lunch break. Instead, lead with outcomes: "College prep academy with 98% university acceptance rate" or "Small class sizes averaging 12 students with individualized learning plans."
+
+Your homepage headline should answer one question: why should a parent choose your school over every other option in the area?
+
+## 2. Streamlined Admissions Process
+
+Every extra click between "I'm interested" and "application submitted" costs you enrollments. Your online application forms must work flawlessly on mobile — parents research schools on their phones during work breaks, commutes, and kid activities.
+
+Include virtual tour scheduling directly on your admissions page. Post your admission timeline, requirements, and next steps clearly. Parents shouldn't have to call your office to learn basic information about how to apply.
+
+The goal is removing friction. If a motivated parent visits your site at 10 PM on a Tuesday, they should be able to start the enrollment process without waiting for office hours.
+
+## 3. Social Proof That Builds Trust
+
+Schools require a higher trust threshold than typical businesses. You're asking parents to hand over their children and thousands of dollars annually. Generic stock photos and vague promises won't cut it.
+
+Feature parent testimonials with real names and photos. Showcase student achievement stories, college acceptances, and competition results. Display faculty credentials prominently — parents want to know who's teaching their kids.
+
+Hard metrics build confidence fast: class sizes, teacher-to-student ratios, graduation rates, and standardized test performance. Accreditation badges and awards should be visible without scrolling.
+
+## 4. Transparent Pricing and Financial Information
+
+Nothing kills enrollment momentum like hidden tuition costs. Parents who can't find pricing information assume they can't afford it — and leave your site for a competitor that's upfront about costs.
+
+List tuition clearly. Break down additional fees for activities, materials, and technology. Present financial aid options, scholarship opportunities, and payment plans alongside your pricing. Parents need to see the full picture to make a decision.
+
+Frame tuition as an investment. Connect costs to outcomes: college preparation, small class advantages, and specialized programs that public schools don't offer.
+
+## 5. Mobile-First Parent Communication
+
+Your website isn't just for prospective families. Current parents interact with your school website daily — checking calendars, accessing portals, and reading announcements. If these features don't work on mobile, you're creating frustration that spreads through parent networks.
+
+Ensure your parent portal is fully responsive. Integrate school calendars that sync with phone calendars. Make phone numbers click-to-call and addresses click-to-navigate. Emergency notification systems should be prominent and tested regularly.
+
+A school website that serves current families well becomes your best marketing tool through word-of-mouth referrals.
+
+## 6. Local SEO for Geographic Targeting
+
+Private schools compete within geographic boundaries. When parents search "best private schools in [your city]," your website needs to appear. This requires intentional local SEO strategy.
+
+Create location-specific landing pages if you serve multiple areas. Optimize for "private school near [neighborhood]" keywords. Claim and maintain your Google Business Profile with current photos, hours, and reviews. Showcase community involvement and local partnerships.
+
+Include clear directions, campus maps, and accessibility information. Parents need to visualize the daily logistics of getting their children to and from your school.
+
+## 7. Professional Design That Reflects Your Standards
+
+Your website quality signals your institutional quality. An outdated, cluttered, or slow-loading website tells parents you don't invest in excellence — even if your classrooms tell a different story.
+
+Clean layouts, professional photography of your actual campus, and consistent branding communicate competence. Fast load times and intuitive navigation show attention to detail. Accessibility compliance demonstrates inclusivity.
+
+Your website should feel like walking into your school: organized, welcoming, and clearly focused on student success.
+
+## Start Converting Today
+
+Audit your current website from a parent's perspective. Navigate your admissions process on a phone. Try to find tuition information within two clicks. Time how long your pages take to load.
+
+Focus on enrollment conversion before adding fancy features. A fast, clear, mobile-friendly website that answers parent questions will outperform a visually stunning site that buries critical information every time.
+
+Your school delivers an exceptional education. Your website should make that obvious to every parent who visits.
+
+Looking to build a [professional education website](/blog/teacher-portfolio-website) or start an [online tutoring business](/blog/how-to-start-tutoring-business-online)? We help education businesses create websites that convert visitors into students.`
+  },
+  {
     slug: "online-course-creation-for-teachers",
     title: "Online Course Creation for Teachers: Turn Your Expertise Into Passive Income in 2026",
     description: "Transform your teaching expertise into profitable online courses. Complete guide for educators including course planning, platform selection, marketing strategies, and website essentials for course sales.",
