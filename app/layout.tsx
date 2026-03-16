@@ -19,15 +19,24 @@ export const metadata: Metadata = {
     "We build websites and AI tools for small businesses in the Kansas City area. Fast, affordable, no tech jargon.",
   keywords:
     "web developer Kansas City, small business website KC, AI automation Kansas City, BuiltSimple, website design Mission KS",
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "BuiltSimple | Web & AI Solutions",
     description:
       "We build websites and AI tools for small businesses in Kansas City.",
     type: "website",
     url: "https://builtsimple.dev",
+    siteName: "BuiltSimple",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
+    title: "BuiltSimple | Web & AI Solutions",
+    description:
+      "We build websites and AI tools for small businesses in Kansas City.",
   },
   alternates: {
     canonical: "https://builtsimple.dev",
