@@ -1,57 +1,101 @@
-# Blog Outline: How to Design a Contact Form That Actually Gets Filled Out
+# Blog Outline: How to Create a Professional Teacher Portfolio Website That Gets You Hired
 
-**Target Keyword:** small business contact form best practices
-**Secondary Keywords:** website contact form design, lead capture form, contact form optimization
-**Word Count Target:** ~800 words
-**Audience:** Small business owners with a website who aren't getting enough form submissions
+**Target Keyword:** "teacher portfolio website"
+**Search Volume:** High (teachers need portfolio websites for job applications, tenure reviews, and freelance tutoring)
+**Target Audience:** Teachers seeking employment, private tutors, education consultants, teachers building side businesses
+
+## Title: How to Create a Professional Teacher Portfolio Website That Gets You Hired
+
+## Meta Description:
+Learn how to build a professional teacher portfolio website that showcases your skills and gets you hired. Essential features, examples, and step-by-step guidance for educators.
+
+## Article Structure (7 sections, ~800 words total)
+
+### 1. Why Every Teacher Needs a Portfolio Website in 2026
+**Key Points:**
+- Digital-first hiring processes in education
+- Stand out from PDF resumes and basic applications
+- Show, don't tell your teaching effectiveness
+- Essential for substitute teachers and freelance educators
+- Creates professional credibility for parent-facing roles
+
+### 2. Essential Pages Every Teacher Portfolio Website Must Have
+**Key Points:**
+- About page with teaching philosophy and background
+- Teaching experience and achievements
+- Lesson plans and curriculum samples (password-protected if needed)
+- Student testimonials and parent feedback
+- Professional development and certifications
+- Contact and availability information
+
+### 3. Showcasing Your Teaching Materials Without Copyright Issues
+**Key Points:**
+- Create sample lessons specifically for your portfolio
+- Use anonymized student work examples (with permission)
+- Showcase curriculum design and planning skills
+- Display classroom setup and organization photos
+- Include before/after learning outcome examples
+- Protect student privacy while demonstrating impact
+
+### 4. Design Elements That Make Principals Take Notice
+**Key Points:**
+- Clean, professional layout that's easy to navigate
+- Mobile-friendly design (principals review on phones)
+- Fast loading times and professional imagery
+- Consistent branding and color scheme
+- Clear call-to-action for interview requests
+- Professional headshot and contact information
+
+### 5. SEO Strategies to Get Found by Hiring Committees
+**Key Points:**
+- Optimize for local education job searches
+- Use education-specific keywords naturally
+- Include location-based terms for school districts
+- Create content around teaching specializations
+- Link to professional education profiles (LinkedIn, district pages)
+- Optimize images with descriptive alt text
+
+### 6. Technical Setup for Teachers (No Coding Required)
+**Key Points:**
+- Recommended website builders for education portfolios
+- Domain name best practices for teachers
+- Professional email setup and contact forms
+- Password protection for sensitive teaching materials
+- Basic analytics to track portfolio views
+- Backup and maintenance considerations
+
+### 7. Common Portfolio Mistakes That Cost Teachers Job Opportunities
+**Key Points:**
+- Overloading with too much content
+- Poor mobile optimization
+- Broken links to lesson plans or resources
+- Unprofessional email addresses or contact info
+- Missing or outdated contact information
+- Copyright violations with teaching materials
+- Not updating portfolio regularly
+
+## Call-to-Action:
+Ready to build your professional teacher portfolio website? BuiltSimple specializes in creating clean, effective websites for education professionals. Contact us for a free consultation on your teaching portfolio website.
+
+## Related Keywords to Include:
+- teaching portfolio examples
+- education website design
+- teacher resume website
+- online teaching portfolio
+- substitute teacher portfolio
+- education consultant website
+- tutoring website design
+
+## Internal Links:
+- Link to "Teacher Website Design" post
+- Link to "How to Write a Great About Page"
+- Link to "Website Mistakes That Make You Look Unprofessional"
 
 ---
 
-## 1. Your Contact Form Is Probably Scaring People Away
-- Most small business contact forms ask for too much information
-- Every extra field reduces completion rates by ~10%
-- The goal: make it as easy as texting a friend
-
-## 2. The Only Fields You Actually Need
-- Name, email, and message — that's it for most service businesses
-- When phone number makes sense (urgent services like plumbing, HVAC)
-- When extra fields are justified (booking forms, quote requests with project details)
-- Rule of thumb: if you wouldn't ask it in a first conversation, don't put it on the form
-
-## 3. Where to Put Your Form (Hint: Not Just the Contact Page)
-- Contact page is obvious, but most visitors never go there
-- Embed a short form on your homepage, service pages, and blog posts
-- Sticky CTA buttons that link to the form on mobile
-- The footer form trick — always visible, always accessible
-
-## 4. What to Say Around the Form
-- The headline above your form matters more than the form itself
-- Bad: "Contact Us" — Good: "Get a Free Quote in 24 Hours"
-- Set expectations: what happens after they submit? How fast will you respond?
-- Add a line about privacy — "We won't spam you" goes a long way
-
-## 5. Mobile Form Design — Where Most People Will Fill It Out
-- Over 60% of small business website traffic is mobile
-- Large tap targets, proper input types (email keyboard for email fields, phone keyboard for phone)
-- Single column layout only — no side-by-side fields on mobile
-- Auto-scroll to the form when CTA is tapped
-
-## 6. What Happens After They Hit Submit
-- Thank you page vs. inline confirmation message
-- Immediate auto-reply email builds trust and sets expectations
-- Notification setup: get form submissions to your phone, not buried in a spam folder
-- Follow up within 1 hour if possible — response time is a competitive advantage
-
-## 7. Simple Tweaks That Boost Submissions
-- Change the button text from "Submit" to something specific ("Get My Free Quote")
-- Add social proof near the form (star rating, review count, "trusted by X businesses")
-- Remove navigation distractions on dedicated landing pages
-- A/B test one thing at a time — button color is the least important thing to test
-
----
-
-**Internal Linking Opportunities:**
-- "How to Get More Leads From Your Website"
-- "The Anatomy of a High-Converting Landing Page"
-- "Why Every Page on Your Website Needs a Call to Action"
-- "How to Write a Call to Action That Works"
+**Notes:**
+- Target length: 800 words
+- Focus on actionable, practical advice
+- Include specific examples and real scenarios
+- Address both traditional teaching jobs and freelance opportunities
+- Emphasize professional credibility and standing out in competitive market
