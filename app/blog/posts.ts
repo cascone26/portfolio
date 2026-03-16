@@ -10,6 +10,85 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "online-course-creation-for-teachers",
+    title: "Online Course Creation for Teachers: Turn Your Expertise Into Passive Income in 2026",
+    description: "Transform your teaching expertise into profitable online courses. Complete guide for educators including course planning, platform selection, marketing strategies, and website essentials for course sales.",
+    date: "2026-03-16",
+    readTime: "6 min",
+    tags: ["Education", "Online Business", "Teachers", "Passive Income"],
+    content: `Teachers are leaving the profession at record rates, burned out by low pay and impossible workloads. But here's what most educators don't realize: your classroom skills are exactly what the online learning market needs. You already know how to teach, engage, and assess — skills that translate directly into profitable online courses.
+
+The global online education market hit $350 billion in 2025, with individual educators earning anywhere from $1,000 to $50,000+ per month from their courses. The difference isn't luck or marketing budget — it's strategic planning and execution.
+
+## Why Teachers Excel at Course Creation
+
+You have every advantage. Instructional design, student engagement, curriculum development, assessment strategies — these aren't skills you need to learn, they're tools you use every day. While other course creators fumble through lesson planning basics, you already know what works.
+
+Plus, you have built-in credibility. Parents trust teachers. Professionals respect educational expertise. Other educators see you as a peer worth learning from. This trust factor cuts through the noise that drowns out amateur course creators.
+
+The flexible schedule doesn't hurt either. Summer breaks, winter recess, and weekends give you dedicated creation time that 9-to-5 professionals don't have.
+
+## Choosing Your Course Topic
+
+Start with what you already teach, but think beyond your grade level. A third-grade reading teacher could create courses for parents helping struggling readers, educators transitioning to elementary, or homeschool families needing structured literacy programs.
+
+The key is validation. Before you create anything, research demand. Use Google Trends to check keyword popularity. Browse course marketplaces like Udemy and Teachable to see what's selling in your subject area. Join Facebook groups where your target audience gathers and listen to their pain points.
+
+Price research is crucial. Educational courses typically range from $49 for basic skills to $497+ for comprehensive certification programs. Teachers selling to other teachers usually price lower ($29-$149), while those targeting parents or professionals can charge more ($97-$397).
+
+## Planning Your Course Structure
+
+Think modules, not chapters. Break your content into 4-7 main topics, each containing 3-5 short lessons. Aim for 10-15 minute videos — long enough to provide value, short enough to maintain attention.
+
+Your classroom assessment skills translate perfectly to online. Quizzes, assignments, discussion prompts, and reflection exercises keep students engaged and improve completion rates. High completion rates lead to better reviews and more sales.
+
+Don't overplan. Start with a "minimum viable course" — your core teaching content delivered clearly. You can always add advanced modules later once you see what students need most.
+
+## Platform Selection Strategy
+
+Teachable and Thinkific are educator favorites for good reason. Both handle payment processing, student management, and course hosting without technical complexity. Teachable takes 5% + payment fees on their basic plan, while Thinkific charges $49/month for comparable features.
+
+Avoid Udemy for premium courses. Yes, they have massive traffic, but you're competing on price in a race to the bottom. Use it for market testing with a $19.99 course, then drive successful students to your own platform for advanced training.
+
+For tech-savvy teachers, self-hosted options like LearnDash (WordPress) or Circle Communities offer more control but require more setup time.
+
+## Building Your Course Business Website
+
+Your course platform handles learning delivery, but you need a [professional website](/blog/teacher-portfolio-website) for marketing, credibility, and SEO. Essential pages include:
+
+- Course catalog with clear descriptions and outcomes
+- Instructor bio establishing your credentials
+- Student testimonials and success stories
+- Free resource downloads to capture email addresses
+- Blog targeting your audience's search terms
+
+Landing page optimization matters. Students buy outcomes, not features. Instead of "8 modules covering phonics fundamentals," try "Help your struggling reader gain confidence and catch up to grade level in 60 days."
+
+## Marketing That Actually Works
+
+Content marketing beats paid ads for course sales. Create helpful blog posts, free worksheets, and mini video lessons that demonstrate your teaching quality. This builds trust and captures email addresses from interested prospects.
+
+Email marketing is your revenue engine. Offer a free mini-course or resource guide in exchange for email signups, then nurture subscribers with weekly value-driven content. When you launch a paid course, this list becomes your first customers.
+
+Partner with teacher influencers, education bloggers, and school districts for promotion. Most educators are happy to share quality resources with their networks.
+
+## Scaling Beyond Your First Course
+
+Once your first course proves successful, create learning pathways. A teacher who sells a classroom management course could add advanced behavior intervention training, parent communication strategies, or new teacher mentorship programs.
+
+Live components increase revenue per student. Monthly Q&A calls, group coaching sessions, or mastermind communities let you charge premium prices for ongoing access to your expertise.
+
+Track completion rates, student feedback, and revenue per student. This data guides your next course topics and pricing decisions.
+
+## Ready to Start?
+
+The biggest mistake is waiting for perfect clarity before starting. Pick your strongest teaching subject, validate demand with simple research, and create your first course. Every teacher has knowledge worth monetizing — the only question is whether you'll act on it.
+
+Your teaching expertise is your competitive advantage. Stop trading time for money and start building the business that gives you professional freedom and financial security.
+
+Ready to expand beyond courses? Consider starting an [online tutoring business](/blog/online-tutoring-website-guide) alongside your course offerings for additional revenue streams.`
+  },
+  {
     slug: "teacher-portfolio-website",
     title: "How to Create a Professional Teacher Portfolio Website That Gets You Hired",
     description: "Learn how to build a professional teacher portfolio website that showcases your skills and gets you hired. Essential features, examples, and step-by-step guidance for educators.",
@@ -19,6 +98,8 @@ export const posts: BlogPost[] = [
     content: `In 2026, a PDF resume isn't enough. School districts, private academies, and tutoring platforms all expect to see your work before they schedule an interview. A teacher portfolio website gives you the space to show — not just tell — what you bring to a classroom.
 
 Whether you're applying for your first teaching position, chasing tenure, or building a freelance tutoring business, here's exactly how to build a portfolio website that gets results.
+
+If you're specifically interested in tutoring, check out our guide on [building an online tutoring website](/blog/online-tutoring-website-guide) that attracts students.
 
 ## Why Every Teacher Needs a Portfolio Website
 
