@@ -10,6 +10,91 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "teacher-portfolio-website",
+    title: "How to Create a Professional Teacher Portfolio Website That Gets You Hired",
+    description: "Learn how to build a professional teacher portfolio website that showcases your skills and gets you hired. Essential features, examples, and step-by-step guidance for educators.",
+    date: "2026-03-16",
+    readTime: "6 min",
+    tags: ["Education", "Web Design", "Teachers", "Portfolio"],
+    content: `In 2026, a PDF resume isn't enough. School districts, private academies, and tutoring platforms all expect to see your work before they schedule an interview. A teacher portfolio website gives you the space to show — not just tell — what you bring to a classroom.
+
+Whether you're applying for your first teaching position, chasing tenure, or building a freelance tutoring business, here's exactly how to build a portfolio website that gets results.
+
+## Why Every Teacher Needs a Portfolio Website
+
+Hiring in education has gone digital-first. Principals and department heads review dozens of applications per opening. A well-built portfolio website instantly separates you from the stack of one-page resumes on their desk.
+
+For substitute teachers and freelance educators, it's even more critical. Parents hiring private tutors want proof you know what you're doing. A portfolio website gives them that confidence before they ever meet you. It's your professional credibility on display 24/7.
+
+## Essential Pages Your Portfolio Must Have
+
+Keep it focused. You don't need twenty pages — you need the right ones.
+
+**About page:** Share your teaching philosophy, background, and what drives you as an educator. This is where principals get a sense of who you are beyond your credentials.
+
+**Teaching experience:** List your positions, grade levels, and subjects. Include specific achievements — test score improvements, programs you launched, awards you earned.
+
+**Lesson samples:** Showcase two or three original lesson plans or curriculum units. These prove you can plan effectively and think creatively.
+
+**Testimonials:** Parent feedback, administrator evaluations, or colleague endorsements carry serious weight. Even two or three strong quotes make a difference.
+
+**Certifications and professional development:** List your credentials, continuing education, and any specialized training.
+
+**Contact page:** Make it dead simple for someone to reach you. Include a contact form, professional email, and your availability.
+
+## Showcasing Teaching Materials the Right Way
+
+This is where most teacher portfolios stumble. You want to demonstrate your skills without running into copyright or privacy issues.
+
+Create sample lessons specifically for your portfolio rather than uploading materials owned by your school district. Use anonymized examples of student progress — never include student names or identifiable information without written permission. Before-and-after learning outcome data is powerful when it's presented ethically.
+
+Photos of classroom setups, bulletin boards, and organized learning spaces show your environment design skills without exposing student identities. Shoot these when the classroom is empty.
+
+## Design Elements That Make Principals Take Notice
+
+Principals reviewing your portfolio are busy. They'll spend maybe 90 seconds on your site before deciding whether to dig deeper. Make those seconds count.
+
+**Clean layout:** No clutter, no walls of text. Use white space generously and keep navigation simple.
+
+**Mobile-friendly design:** Over half of hiring managers review applications on their phones. If your site doesn't look good on mobile, you've already lost.
+
+**Fast loading times:** Heavy images and embedded videos slow everything down. Compress your photos and keep page sizes lean.
+
+**Professional headshot:** A friendly, professional photo builds instant trust. Skip the vacation selfie.
+
+**Clear call-to-action:** Every page should make it obvious how to contact you or request an interview.
+
+## SEO Strategies to Get Found Locally
+
+A portfolio website does double duty when hiring committees can find you through search. Optimize for local education searches by including your city, state, and nearby school districts naturally in your content.
+
+Use education-specific keywords like "certified math teacher" or "elementary reading specialist" in your page titles and headings. Link to your LinkedIn profile and any district or university pages that reference you. Add descriptive alt text to every image — search engines can't see your classroom photos without it.
+
+If you specialize in a subject or grade level, create a dedicated page for it. A page titled "High School AP Chemistry Teacher Portfolio" ranks far better than a generic "My Work" page.
+
+## Technical Setup Without the Headache
+
+You don't need to code anything. Modern website builders handle the technical side so you can focus on content.
+
+Choose a clean, professional template — avoid anything flashy or trendy. Your domain name should be simple: your name or a variation of it. Set up a professional email address that matches your domain.
+
+Add password protection for sensitive materials like detailed curriculum documents. Set up basic analytics so you can see when your portfolio gets traffic — useful for knowing if a school is reviewing your application. Keep backups of everything and update your portfolio at least once per semester.
+
+## Mistakes That Cost Teachers Opportunities
+
+The most common portfolio killer is overloading. You don't need every lesson plan you've ever written — pick your three to five best examples. Quality beats quantity every time.
+
+Other frequent mistakes: broken links to resources, outdated contact information, unprofessional email addresses, and forgetting to update after each school year. Check your site quarterly for broken links and stale content.
+
+Perhaps the biggest mistake is never building one at all. In a competitive job market, the teacher with a professional online presence will always have an edge over one without.
+
+## Ready to Build Your Portfolio?
+
+A professional teacher portfolio website doesn't have to be complicated or expensive. It just needs to clearly showcase your strengths and make it easy for the right people to find you.
+
+[BuiltSimple](https://builtsimple.dev) specializes in creating clean, effective websites for education professionals. [Get in touch](/contact) for a free consultation on your teaching portfolio website.`,
+  },
+  {
     slug: "teacher-website-design",
     title: "Teacher Website Design: Essential Features Every Educator Needs in 2026",
     description: "Learn what essential features every teacher website needs in 2026. From lesson sharing to parent communication, discover how to build an effective educational website.",
