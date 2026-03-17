@@ -10,6 +10,112 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "small-business-website-security-guide",
+    title: "Small Business Website Security: 8 Essential Steps to Protect Your Business From Hackers",
+    description: "Protect your small business from cyber attacks with this essential website security guide. Learn the 8 must-have security measures every small business website needs.",
+    date: "2026-03-17",
+    readTime: "5 min",
+    tags: ["Website Security", "Small Business", "Cybersecurity", "Website Protection", "Business Safety"],
+    content: `
+Small businesses are prime targets for cybercriminals. With 43% of cyberattacks specifically targeting small businesses, your website needs protection beyond a basic password. The average data breach costs small businesses $2.98 million — often enough to force closure.
+
+Most small business owners assume they're too small to attract hackers' attention. This assumption is exactly what makes them vulnerable. Here's your complete guide to securing your website before it's too late.
+
+## Why Hackers Love Small Businesses
+
+Hackers don't target small businesses out of spite — they target them because it works. Small businesses typically have weaker security than large corporations but often handle valuable customer data and financial transactions.
+
+Consider this: a local bakery recently lost 15,000 customer records including credit card information, facing $50,000 in lawsuits and regulatory fines. The breach happened because their website used default passwords and hadn't been updated in two years.
+
+Three factors make small businesses attractive targets:
+- **Limited IT resources**: Most small businesses don't have dedicated cybersecurity staff
+- **Valuable data with weak protection**: Customer information, payment details, and business data with minimal security
+- **Gateway to larger networks**: Small businesses often work with larger companies, providing hackers a backdoor to bigger targets
+
+## The 5 Biggest Website Security Threats
+
+Understanding the threats helps you prepare proper defenses:
+
+**Malware Injections**: Malicious code inserted into your website that steals visitor data or redirects them to harmful sites. Often spread through outdated plugins or themes.
+
+**Brute Force Attacks**: Automated programs that try thousands of password combinations to break into your admin panel. With tools readily available online, even novice hackers can launch these attacks.
+
+**SQL Injection**: Attacks that target database vulnerabilities through contact forms or search functions. Hackers insert malicious code that can expose your entire customer database.
+
+**Cross-Site Scripting (XSS)**: Malicious scripts embedded in your website that steal visitor information or impersonate your site to collect login credentials.
+
+**DDoS Attacks**: Coordinated attacks that flood your website with traffic, making it inaccessible to real customers and potentially crashing your server.
+
+## The 5 Non-Negotiable Security Basics
+
+Every small business website needs these fundamental protections:
+
+### 1. SSL Certificates
+Your website URL should show "https://" with a lock icon. SSL certificates encrypt data between your website and visitors, protecting sensitive information like contact forms and payment details. Most hosting providers offer free SSL certificates — ensure yours is properly installed and configured.
+
+### 2. Software Updates
+Outdated software is the #1 cause of website breaches. Set up automatic updates for your content management system (WordPress, Shopify, etc.) and all plugins. Check for updates weekly if automatic updates aren't available.
+
+### 3. Strong Password Security
+Implement the three-layer password system:
+- **Complex passwords**: 12+ characters with mixed case, numbers, and symbols
+- **Unique passwords**: Different passwords for every account
+- **Two-factor authentication**: Adds a second verification step beyond your password
+
+This system alone prevents 81% of data breaches according to Microsoft security research.
+
+### 4. Regular Backups
+Follow the "3-2-1 backup rule": 3 copies of your data, on 2 different storage types, with 1 stored off-site. Automated daily backups ensure you can restore your website quickly if something goes wrong.
+
+### 5. Secure Hosting
+Your hosting provider is your first line of defense. Ensure they offer:
+- Regular security scans and malware detection
+- Firewalls and intrusion detection systems
+- 24/7 monitoring and incident response
+- Regular server software updates
+
+## Advanced Protection Measures
+
+Once you've covered the basics, consider these additional security layers:
+
+**Web Application Firewall (WAF)**: Filters malicious traffic before it reaches your website. Services like Cloudflare offer affordable WAF protection for small businesses.
+
+**Security Monitoring**: Automated tools that scan your website daily for vulnerabilities, malware, and suspicious activity. Many hosting providers include this, or you can use services like Sucuri or Wordfence.
+
+**File Permission Settings**: Properly configured file permissions prevent unauthorized access to sensitive website files. Your developer or hosting provider can help set these correctly.
+
+**Employee Training**: Most security breaches involve human error. Train staff on recognizing phishing emails, using secure passwords, and following security protocols.
+
+## When Disaster Strikes: Emergency Response
+
+Despite your best efforts, breaches can still happen. Prepare with this emergency checklist:
+
+1. **Immediate Response**: Change all passwords, contact your hosting provider, and document everything
+2. **Assessment**: Determine what data was compromised and how the breach occurred
+3. **Cleanup**: Remove malicious code, patch vulnerabilities, and restore from clean backups
+4. **Communication**: Notify affected customers and comply with legal reporting requirements
+5. **Prevention**: Implement additional security measures to prevent future incidents
+
+## Security on a Budget
+
+Effective website security doesn't require a massive budget:
+
+**Free Tools**: Google Search Console alerts, basic SSL certificates, WordPress security plugins, and hosting provider security features often provide excellent protection at no cost.
+
+**Low-Cost Solutions**: Premium security plugins ($50-100/year), SSL certificates with extended validation ($100-200/year), and professional security monitoring ($20-50/month) offer significant protection for minimal cost.
+
+**Cost Comparison**: Investing $50/month in security prevention is dramatically cheaper than the $50,000+ recovery costs from a major breach.
+
+## Protecting Your Business
+
+Website security isn't a one-time setup — it's an ongoing responsibility. Start with the five non-negotiable basics, then gradually implement advanced protection measures as your business grows.
+
+The cost of prevention is always lower than the cost of recovery. Don't wait for a breach to take security seriously. Your customers trust you with their information — make sure that trust is well-placed.
+
+Ready to secure your website? Start with a security audit of your current setup, implement the five basics within the next week, and schedule monthly security reviews to stay protected.
+`,
+  },
+  {
     slug: "website-lead-generation-machine",
     title: "How to Turn Your Small Business Website Into a Lead Generation Machine (7 Proven Strategies)",
     description: "Learn 7 proven strategies to transform your small business website into a consistent lead generation machine. Real examples and actionable tips that work.",
