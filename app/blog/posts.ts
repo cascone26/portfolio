@@ -10,6 +10,116 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "building-strong-online-presence-small-business",
+    title: "Building a Strong Online Presence for Your Small Business in 2026",
+    description: "Your small business needs more than just a website to succeed online. Here's how to build a complete digital presence that actually brings in customers.",
+    date: "2026-03-17",
+    readTime: "6 min",
+    tags: ["Small Business", "Online Marketing", "Digital Presence"],
+    content: `
+Your small business needs more than just a website to succeed online. You need a complete digital presence — and most business owners don't understand what that actually means.
+
+## What "online presence" actually means
+
+Having an online presence isn't just throwing up a Facebook page and calling it a day. It's about being findable, credible, and accessible everywhere your customers are looking for businesses like yours.
+
+There are six core components that matter:
+
+- **Your website** (the foundation everything else points to)
+- **Google Business Profile** (where most local searches end)
+- **Social media** (the right platforms for your business type)
+- **Online reviews** (the most powerful form of social proof)
+- **Local directories** (consistency across the web)
+- **Email marketing** (staying in touch with customers)
+
+Here's the reality: 73% of consumers research businesses online before visiting or calling. If you're not showing up in those searches — or if what they find looks sketchy — you're losing customers before you even know they exist.
+
+## Your website is command central
+
+Everything else in your digital presence should point back to your website. It's the one thing you actually own and control. Social media platforms change their rules, Google updates their algorithms, but your website is yours.
+
+What small businesses actually need:
+
+- **Mobile-first design** — 60%+ of your traffic comes from phones
+- **Fast loading speed** — people will leave if it takes more than 3 seconds
+- **Clear contact information** — make it dead simple for people to reach you
+- **What you do and where you do it** — no guessing games
+
+You don't need animations, fancy graphics, or a blog with 50 posts. You need clean, fast, and functional.
+
+## Google Business Profile matters more than your website
+
+For local businesses, your Google Business Profile is often more important than your actual website. When someone searches "plumber near me," they see the Google Maps pack with three local businesses. That's powered by your Business Profile.
+
+This is where the "3-pack" lives — those three businesses that show up at the top of local search results. Getting there can transform your business.
+
+Complete profile optimization means:
+- Every field filled out accurately
+- Professional photos of your work and team
+- Consistent posting of updates and offers
+- Active review collection and response strategy
+
+## Managing your online reputation
+
+Reviews are the modern equivalent of word-of-mouth referrals. A few bad reviews can tank your business, while consistent 5-star reviews create a snowball effect that brings in more customers.
+
+Focus on the platforms that actually matter: Google (most important), Facebook, and industry-specific sites. Don't spread yourself thin trying to manage reviews on 10 different platforms.
+
+Ask for reviews right after you've done good work — timing is everything. Make it easy by sending a direct link. Most people are happy to help if you just ask.
+
+## Social media that actually works
+
+You don't need to be everywhere. Pick the platforms where your customers actually spend time:
+
+- **Facebook** — still king for local businesses and older demographics
+- **Instagram** — visual businesses (restaurants, salons, contractors showing their work)
+- **LinkedIn** — B2B services, professional services
+
+Post consistently rather than perfectly. Share photos of your work, happy customers, and behind-the-scenes content. Engage with your local community — comment on other local businesses' posts, share community events.
+
+## Local directories and citations
+
+Your business name, address, and phone number (NAP) need to be exactly the same everywhere online. Inconsistencies confuse Google and hurt your rankings.
+
+The directories that actually matter in 2026:
+- Google Business Profile
+- Facebook
+- Yelp
+- Apple Maps
+- Industry-specific platforms (Angie's List for contractors, etc.)
+
+Clean up any inconsistencies. If your website says "Bob's Plumbing LLC" but Google says "Bob's Plumbing" and Yelp says "Bobs Plumbing LLC" — fix that.
+
+## Putting it all together
+
+The 80/20 rule applies here: 20% of your digital presence activities will drive 80% of your results.
+
+**High-impact activities:**
+1. Optimized Google Business Profile
+2. Professional, mobile-friendly website
+3. Consistent review collection
+4. NAP consistency across platforms
+
+**Lower priority:**
+- Daily social media posting
+- Complex SEO strategies
+- Paid advertising (until the basics are solid)
+
+Start with the foundation — website and Google Business Profile — then build out from there. Don't try to do everything at once.
+
+## Simple monthly checklist
+
+- **Week 1:** Check Google Business Profile for questions, respond to reviews
+- **Week 2:** Post update to Google Business Profile and social media
+- **Week 3:** Ask recent customers for reviews
+- **Week 4:** Check NAP consistency across directories
+
+That's it. Fifteen minutes a week keeps your online presence active and growing.
+
+Your online presence isn't a "set it and forget it" thing, but it doesn't have to be a full-time job either. Get the foundation right, stay consistent, and you'll outperform most of your local competition.
+    `,
+  },
+  {
     slug: "why-every-small-business-needs-a-website",
     title: "Why Every Small Business Needs a Website in 2026",
     description:
