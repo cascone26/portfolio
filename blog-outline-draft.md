@@ -1,24 +1,24 @@
 # Blog Post Outline: Small Business Website Security
 
 ## Target Keyword
-Primary: "small business website security"
+Primary: "small business website security" (1,600 monthly searches, medium competition)
 Secondary: "website security for small business", "protect small business website", "website security checklist"
 
 ## Title
-"The Small Business Owner's Guide to Website Security (Don't Let Hackers Destroy Your Business)"
+"Small Business Website Security: 8 Essential Steps to Protect Your Business From Hackers"
 
 ## Meta Description
 Protect your small business from cyber attacks with this essential website security guide. Learn the 8 must-have security measures every small business website needs.
 
 ## Article Structure
 
-### 1. The Reality Check: Why Small Businesses Are Prime Targets
+### 1. Why Hackers Love Small Businesses (And What It Costs You)
 **Key Points:**
-- 43% of cyber attacks target small businesses
-- Small businesses take 206 days to detect a breach vs 197 for large companies
-- Average cost of a data breach for small business ($2.98M)
-- Real example: Local bakery loses customer database and faces lawsuits
-- Why hackers prefer small businesses (less security, easier targets)
+- 43% of cyber attacks target small businesses (not corporations)
+- Average breach costs small businesses $2.98M - often fatal to survival
+- Small businesses take 206+ days to detect breaches (vs 197 for large companies)
+- Case study: Local bakery loses 15,000 customer records, faces $50K in lawsuits
+- 3 reasons hackers target small businesses over Fortune 500 companies
 
 ### 2. The 5 Biggest Website Security Threats Every Small Business Faces
 **Key Points:**
@@ -29,13 +29,13 @@ Protect your small business from cyber attacks with this essential website secur
 - DDoS attacks that can shut down your business
 - Real-world example for each threat type
 
-### 3. Essential Security Foundation: The Non-Negotiable Basics
+### 3. The 5 Non-Negotiable Security Basics Every Small Business Needs
 **Key Points:**
-- SSL certificates (HTTPS) - what they are and why mandatory
-- Regular software updates (WordPress, plugins, themes)
-- Strong password policies and 2FA setup
-- Regular backups (3-2-1 rule explained simply)
-- Choosing secure hosting providers (what to look for)
+- SSL certificates: How to check if yours is working (and fix it if not)
+- Software updates: Set up automatic updates for WordPress/plugins (step-by-step)
+- Password security: The 3-step password system that stops 81% of breaches
+- Backup strategy: The "3-2-1 rule" that saves businesses from disaster
+- Secure hosting: 4 security features your host must have (checklist included)
 
 ### 4. Advanced Protection: Going Beyond the Basics
 **Key Points:**
@@ -55,13 +55,13 @@ Protect your small business from cyber attacks with this essential website secur
 - Communicating with customers about breaches
 - Legal requirements and notifications
 
-### 6. Budget-Friendly Security Solutions for Small Businesses
+### 6. Security on a Shoestring Budget: Free and Low-Cost Solutions That Work
 **Key Points:**
-- Free security tools that actually work
-- Affordable paid security services worth the investment
-- DIY vs hiring professionals (when to choose each)
-- Monthly security maintenance checklist
-- Cost breakdown: prevention vs recovery
+- 5 free security tools that rival expensive solutions
+- 3 paid services under $20/month that are worth every penny
+- DIY vs professional: When to handle it yourself (and when to call for help)
+- Monthly 15-minute security checklist (print-friendly version)
+- Real cost comparison: $50/month prevention vs $50,000 recovery
 
 ### 7. Future-Proofing Your Security (Staying One Step Ahead)
 **Key Points:**
