@@ -10,6 +10,109 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "website-maintenance-for-small-business",
+    title: "Website Maintenance for Small Business: The Complete Guide to Keeping Your Site Running Smoothly",
+    description: "Wondering what website maintenance involves for your small business? Here's everything you need to know about costs, tasks, and whether to DIY or hire help.",
+    date: "2026-03-17",
+    readTime: "5 min",
+    tags: ["Small Business", "Website Tips", "DIY", "Website Maintenance"],
+    content: `
+Your website isn't a "set it and forget it" investment. Just like your physical storefront needs regular upkeep, your website requires ongoing maintenance to keep it secure, fast, and effective at bringing in customers.
+
+Yet 42% of small business websites haven't been updated in over a year. If you're one of them, you're not just missing opportunities — you're actively losing potential customers.
+
+## The Hidden Costs of Neglecting Website Maintenance
+
+When you skip website maintenance, you're gambling with your business reputation. Here's what's at stake:
+
+**Security vulnerabilities** can expose customer data and destroy trust overnight. A single hack can cost small businesses an average of $25,000 in recovery costs, not counting lost revenue and damaged reputation.
+
+**Slow loading speeds** kill conversions. For every second your site takes to load, you lose 7% of potential customers. If your site takes 5 seconds to load instead of 2, you're losing 21% of your traffic before they even see your content.
+
+**Broken links and outdated content** make you look unprofessional. Nothing screams "this business doesn't care" like a contact form that doesn't work or business hours from 2019.
+
+**Search ranking drops** happen when Google's algorithms change and your site doesn't keep up. One algorithm update can tank your traffic by 50% if your site has technical issues.
+
+## Essential Monthly Website Maintenance Tasks
+
+Create a monthly routine with these critical tasks:
+
+**Security updates** — Update your CMS, plugins, and themes. Run security scans to check for vulnerabilities. This takes 30 minutes but prevents disasters.
+
+**Backups** — Create full site and database backups. Store them somewhere separate from your hosting. When (not if) something breaks, you'll thank yourself.
+
+**Performance testing** — Use Google PageSpeed Insights to check your site speed. Optimize images that are slowing things down. A fast site converts better and ranks higher.
+
+**Content review** — Check for broken links using free tools like Broken Link Checker. Update your contact information, business hours, and pricing if anything changed.
+
+**Analytics review** — Look at your traffic patterns, form submissions, and conversion rates. Spot problems early when they're easier to fix.
+
+**User experience check** — Test your contact forms, check how your site looks on mobile, and make sure your most important pages load correctly.
+
+## Quarterly and Annual Maintenance Tasks
+
+Beyond monthly maintenance, schedule these bigger tasks:
+
+**Quarterly content audits** help you identify outdated blog posts, service descriptions that need updating, and new content opportunities your competitors might be missing.
+
+**Annual renewals** for your domain and hosting need planning ahead. Nothing kills business faster than an expired website. Also check your SSL certificate and renew before it expires.
+
+**Security reviews** should happen at least annually. If you're handling customer data or payments, consider professional security audits.
+
+## DIY vs. Professional Maintenance: What Makes Sense?
+
+Some tasks are perfect for DIY:
+- Content updates and blog posts
+- Basic performance monitoring
+- Simple backup creation
+- Checking for broken links
+
+But hire professionals for:
+- Security hardening and vulnerability fixes
+- Code updates and technical troubleshooting
+- Performance optimization beyond basic image compression
+- Technical SEO improvements
+
+**Cost reality check:** DIY maintenance takes 2-4 hours monthly. Professional services run $50-200 monthly. Calculate your hourly rate and decide what makes sense.
+
+Red flags that scream "get professional help": repeated security issues, site crashes, mysterious ranking drops, or technical errors you can't understand.
+
+## Website Maintenance Tools and Costs
+
+**Free tools** that every business should use:
+- Google PageSpeed Insights for speed testing
+- Google Search Console for SEO monitoring
+- GTmetrix for performance analysis
+
+**Paid tools worth considering:**
+- Security plugins like Wordfence ($99/year)
+- Backup services like UpdraftPlus ($70/year)
+- Uptime monitoring like Pingdom ($15/month)
+
+**Professional services** typically cost $600-2,400 annually depending on your site complexity and business needs.
+
+## Creating Your Maintenance Schedule
+
+Start with this monthly checklist:
+- Week 1: Security updates and backups
+- Week 2: Performance and content review
+- Week 3: Analytics and user experience check
+- Week 4: Planning next month's improvements
+
+Set up automated monitoring for uptime, security, and performance. Many issues can be caught and fixed before customers notice.
+
+Schedule professional check-ups quarterly if you're doing mostly DIY maintenance, or annually if you have ongoing professional support.
+
+**Warning signs** to watch for: sudden traffic drops, slow loading speeds, security warnings, broken functionality, or ranking decreases. Address these immediately — waiting makes them exponentially harder to fix.
+
+## Take Action Now
+
+Website maintenance isn't optional — it's business insurance. Start with the monthly checklist above, and remember: 30 minutes of prevention beats 30 hours of disaster recovery.
+
+Your website works 24/7 for your business. Give it the care it deserves, and it'll keep bringing in customers for years to come.
+`
+  },
+  {
     slug: "building-strong-online-presence-small-business",
     title: "Building a Strong Online Presence for Your Small Business in 2026",
     description: "Your small business needs more than just a website to succeed online. Here's how to build a complete digital presence that actually brings in customers.",
