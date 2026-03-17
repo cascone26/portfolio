@@ -645,4 +645,103 @@ Every website I build comes with SEO basics baked in — proper page titles, met
 If you want more dedicated SEO work, we can talk about that. But for most small businesses, the basics done well are more than enough to get results.
     `,
   },
+  {
+    slug: "local-business-marketing-strategies",
+    title: "7 Local Business Marketing Strategies That Actually Work in 2026",
+    description: "Practical, no-fluff marketing strategies for local businesses that want more customers without wasting money on stuff that doesn't work.",
+    date: "2026-03-17",
+    readTime: "5 min read",
+    tags: ["marketing", "local business", "small business", "SEO", "Google Business Profile"],
+    content: `# 7 Local Business Marketing Strategies That Actually Work in 2026
+
+Let's skip the generic advice. You don't need someone telling you to "be on social media" or "build a brand." You need customers walking through your door, calling your number, or filling out your contact form.
+
+Here are seven strategies that actually move the needle for local businesses — based on what we've seen work for real shop owners, contractors, and service providers.
+
+## 1. Claim and Optimize Your Google Business Profile
+
+This is the single highest-ROI thing most local businesses can do, and it's free.
+
+When someone searches "plumber near me" or "best pizza in [your town]," Google pulls from Business Profiles first. If yours isn't claimed, complete, and up to date, you're invisible.
+
+Here's what to do:
+
+- **Claim your profile** at business.google.com if you haven't already
+- **Fill out every single field** — hours, services, description, attributes
+- **Add real photos** of your business, your team, your work (not stock photos)
+- **Post updates weekly** — Google rewards active profiles
+- **Respond to every review** — yes, even the bad ones
+
+Most of your competitors have a half-filled profile with photos from 2019. Beat them by just being thorough.
+
+## 2. Get Serious About Reviews
+
+Reviews aren't just nice to have. They're how people decide whether to call you or the other guy.
+
+The businesses that win at reviews don't wait and hope. They have a system:
+
+- Ask every happy customer for a review (in person, via text, or email)
+- Make it easy — send them a direct link to your Google review page
+- Respond to reviews within 24 hours
+- Don't stress about the occasional bad review — how you respond matters more than the review itself
+
+Aim for a steady stream of new reviews rather than a burst followed by silence. Google notices consistency.
+
+## 3. Build a Website That Works For You
+
+Your website should do one job: turn visitors into customers. That's it.
+
+A lot of local business websites look nice but don't actually convert. They're missing basics like:
+
+- A clear description of what you do and where you do it
+- Your phone number and address front and center
+- A simple way to request a quote or book an appointment
+- Fast load times (if your site takes more than 3 seconds to load, people leave)
+- Mobile-friendly design (most local searches happen on phones)
+
+You don't need a fancy website. You need a fast, clear one that makes it dead simple to contact you. That's exactly what we build at [BuiltSimple](https://builtsimple.dev) — clean sites for small businesses that actually drive calls and bookings, not just look pretty.
+
+## 4. Show Up in Local Search Results
+
+Local SEO sounds technical, but the basics are straightforward:
+
+- **Use location-specific keywords** on your website ("roof repair in Mesa, AZ" not just "roof repair")
+- **Get listed in local directories** — Yelp, Bing Places, Apple Maps, your local chamber of commerce
+- **Keep your name, address, and phone number consistent** everywhere online (seriously, mismatched info confuses Google)
+- **Create pages for each service area** if you serve multiple towns
+
+You don't need to become an SEO expert. Just cover these basics and you'll be ahead of 80% of local competitors.
+
+## 5. Use Email to Stay Top of Mind
+
+Email isn't dead. For local businesses, it's one of the cheapest ways to keep past customers coming back.
+
+You don't need to send newsletters every week. Even a monthly email with a seasonal tip, a special offer, or a project showcase keeps you in people's heads.
+
+Tools like [Mailchimp](https://mailchimp.com) or [MailerLite](https://mailerlite.com) have free tiers that work great for small lists. Start collecting emails from every customer interaction and you'll build a valuable list over time.
+
+## 6. Partner With Other Local Businesses
+
+This one's underrated. Find businesses that serve the same customers but aren't your competitors, and cross-promote.
+
+A real estate agent partners with a home inspector. A wedding photographer partners with a florist. A gym partners with a meal prep service.
+
+It costs nothing, it builds trust through association, and it doubles your exposure overnight. Leave flyers at each other's locations, share each other's posts, or run a joint promotion.
+
+## 7. Track What's Working (and Stop What Isn't)
+
+The biggest mistake we see? Businesses spending money on marketing with no idea what's actually bringing in customers.
+
+Ask every new customer how they found you. Check your Google Business Profile insights monthly. Look at your website analytics to see where traffic comes from.
+
+If most of your leads come from Google but you're spending all your budget on Facebook ads that get likes but no calls — that's a problem you can fix.
+
+## Start With One Thing
+
+You don't have to do all seven at once. Pick the one you're weakest on and focus there for a month. For most local businesses, that's going to be Google Business Profile or their website.
+
+If your website is the weak link, [we can help with that](https://builtsimple.dev). We build fast, affordable sites for small businesses that show up in search and convert visitors into customers. No bloat, no fluff — just a site that works.
+
+The best marketing strategy is the one you actually follow through on. Pick one, do it well, and build from there.`
+  },
 ];
