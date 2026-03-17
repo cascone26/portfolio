@@ -10,6 +10,102 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "website-lead-generation-machine",
+    title: "How to Turn Your Small Business Website Into a Lead Generation Machine (7 Proven Strategies)",
+    description: "Learn 7 proven strategies to transform your small business website into a consistent lead generation machine. Real examples and actionable tips that work.",
+    date: "2026-03-17",
+    readTime: "4 min",
+    tags: ["Lead Generation", "Small Business", "Website Optimization", "Digital Marketing", "Business Growth"],
+    content: `
+Your website should work while you sleep, bringing in leads and customers even when you're not actively promoting your business. But most small business websites are digital business cards — they look nice but don't generate phone calls, emails, or customers.
+
+The difference between a website and a lead generation machine comes down to strategy. Here are 7 proven tactics that can transform your site from a passive brochure into an active sales tool.
+
+## Strategy #1: Optimize Your Contact Forms
+
+Most contact forms fail because they ask for too much information. The more fields you add, the fewer people will complete them. Stick to the 3-field rule: name, email, and either phone number OR message.
+
+Place forms above the fold on your homepage and at the end of key service pages. For mobile users, ensure form fields are large enough to tap easily and enable autocomplete for faster completion.
+
+A local contractor reduced their contact form from 8 fields to 3 and saw submissions increase by 65% in the first month.
+
+## Strategy #2: Create Irresistible Lead Magnets
+
+A lead magnet is a valuable free resource you offer in exchange for contact information. The best lead magnets solve a specific problem your customers face:
+
+- **Service businesses**: Free consultation, instant quote, or checklist
+- **Retail**: Discount codes or buying guides
+- **B2B**: Templates, worksheets, or mini-courses
+
+An HVAC company created a "Winter Preparation Checklist" as a lead magnet. They went from 2 leads per month to 25 leads per month during heating season.
+
+Place lead magnets strategically — in exit-intent popups, at the end of blog posts, and as content upgrades related to specific pages.
+
+## Strategy #3: Master Your Call-to-Action (CTA) Game
+
+Every page needs a clear next step. Use action words that create urgency: "Get," "Start," "Claim," "Download." Your CTA buttons should contrast with your site's color scheme and have plenty of white space around them.
+
+Don't be afraid of multiple CTAs per page — place them naturally throughout longer content. Test different button colors and text to see what converts best for your audience.
+
+## Strategy #4: Build Trust With Social Proof
+
+Trust matters more than features when it comes to generating leads. Prospects need to see that others have worked with you successfully. Display:
+
+- Customer reviews and testimonials
+- Case studies with specific results
+- Company logos you've worked with
+- Industry certifications or awards
+
+Place social proof near your contact forms and on key landing pages. According to conversion studies, displaying testimonials can increase form submissions by up to 34%.
+
+## Strategy #5: Speed Up Your Site
+
+Page speed directly impacts lead generation. [For every second your site takes to load, you lose potential customers](/blog/is-your-slow-website-killing-your-sales). Mobile users are especially impatient — 53% will abandon a site that takes longer than 3 seconds to load.
+
+Quick wins include:
+- Compressing images before uploading
+- Using browser caching
+- Choosing better hosting
+- Optimizing for mobile first
+
+Test your speed using Google PageSpeed Insights. A restaurant improved their reservation rate by 40% simply by reducing page load time from 8 seconds to 3 seconds.
+
+## Strategy #6: Optimize for Local Search Intent
+
+If you serve local customers, optimize for "near me" searches. Most local intent searches happen on mobile devices, often from people ready to buy.
+
+Update your Google Business Profile with current information, encourage reviews, and create location-specific pages if you serve multiple areas. [Use local keywords naturally in your content](/blog/what-are-keywords-and-why-should-you-care).
+
+Local search optimization works: businesses with complete Google Business Profiles receive 70% more location visits than those with incomplete information.
+
+## Strategy #7: Follow Up Fast
+
+The 5-minute rule matters: companies that respond to leads within 5 minutes are 100 times more likely to connect than those who wait 30 minutes.
+
+Set up automated email responses for immediate acknowledgment, but don't rely solely on automation. Personal follow-up within hours, not days, separates you from competitors who are slow to respond.
+
+Consider simple CRM tools that alert you immediately when someone submits a form or calls your business.
+
+## Your 30-Day Action Plan
+
+**Week 1**: Audit your current forms and CTAs. Are they asking for too much? Are the next steps clear?
+
+**Week 2**: Create one lead magnet and test your site speed. Fix the biggest speed issues first.
+
+**Week 3**: Add social proof and improve trust signals throughout your site.
+
+**Week 4**: Set up tracking and follow-up systems to measure what's working.
+
+## From Website to Lead Generation Machine
+
+These strategies work, but they require consistent implementation. Start with the quick wins — optimizing forms and improving site speed — then build toward more sophisticated tactics like lead magnets and automation.
+
+The businesses that treat their website as a lead generation system, not a digital brochure, consistently outperform their competition. Your website can work while you sleep, but only if you give it the tools to do the job.
+
+Ready to audit your website's lead generation potential? Most small business websites have 3-5 obvious improvements that could double their lead generation within 30 days.
+`,
+  },
+  {
     slug: "mobile-responsive-design-small-business-guide",
     title: "Is Your Website Mobile-Friendly? The Small Business Guide to Responsive Design That Actually Converts",
     description: "Learn why mobile responsive design is crucial for small businesses and how to ensure your website works perfectly on all devices to boost sales and customer satisfaction.",
