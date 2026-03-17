@@ -10,6 +10,97 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "is-your-slow-website-killing-your-sales",
+    title: "Is Your Slow Website Killing Your Sales? The Small Business Guide to Website Speed Optimization",
+    description: "Stop losing customers to slow load times. Learn proven website speed optimization techniques that small businesses can implement to boost conversions and improve Google rankings.",
+    date: "2026-03-17",
+    readTime: "4 min",
+    tags: ["Website Speed", "SEO", "Small Business", "Performance"],
+    content: `
+When Maria's jewelry store website took 8 seconds to load on mobile, she didn't think much of it. "People will wait if they want our products," she figured. But after three months of declining online sales, she discovered the truth: 53% of mobile users abandon sites that take longer than 3 seconds to load.
+
+That slow website was literally killing her sales.
+
+If you're getting website traffic but low conversions, your site speed might be the hidden culprit. There are [other signs your website is losing customers](/blog/signs-your-website-is-losing-customers) too, but speed is often the biggest factor. The good news? Most speed issues are fixable without hiring a developer.
+
+## Why Website Speed Actually Matters for Your Business
+
+Google uses your site speed as a ranking factor. Slower sites rank lower, which means fewer people find you. But even worse, the customers who do find you often leave before they buy anything.
+
+Here's the business impact: If you normally convert 3% of your visitors into customers, and your slow site causes 50% of people to leave early, you've just cut your sales in half. For a business getting 1,000 monthly visitors, that's the difference between 30 sales and 15 sales.
+
+Google measures three key speed metrics called Core Web Vitals:
+- **Largest Contentful Paint (LCP)**: How long your main content takes to load
+- **First Input Delay (FID)**: How quickly your site responds to user clicks
+- **Cumulative Layout Shift (CLS)**: Whether your page jumps around while loading
+
+You don't need to memorize these terms, but you do need to know they directly affect your Google rankings.
+
+## Test Your Website Speed (Free Tools)
+
+Before fixing anything, you need to know where you stand. Use these free tools:
+
+**Google PageSpeed Insights** (pagespeed.web.dev): Enter your website URL and get scores from 0-100. Anything below 50 needs immediate attention. 50-89 needs improvement. 90+ is excellent.
+
+**GTmetrix** (gtmetrix.com): Gives you more detailed analysis and shows exactly what's slowing down your site.
+
+Test both your homepage and your most important product or service pages. Mobile speed is more important than desktop since most traffic is mobile now.
+
+## The Biggest Speed Killers for Small Businesses
+
+**Oversized Images**: This is the #1 problem. That beautiful 5MB photo from your photographer needs to be compressed. Images should rarely be larger than 1MB, and many can be under 500KB.
+
+**Cheap Hosting**: Bargain $3/month hosting might save money upfront, but it costs you customers. Shared hosting with hundreds of other websites slows everything down.
+
+**Too Many Plugins**: WordPress sites often accumulate plugins over time. Each one can slow down your site, especially if they load scripts on every page.
+
+**Third-Party Widgets**: Social media feeds, chat widgets, review systems, and tracking codes all add loading time. Each one might only add half a second, but they add up quickly.
+
+## Quick Fixes You Can Do Today
+
+**Compress Your Images**: Use TinyPNG.com or Kraken.io to compress images without losing quality. Upload your images there, download the compressed versions, and replace them on your website.
+
+**Enable Caching**: Most website platforms have caching options in their settings. Turn them on. Caching stores a copy of your website so it loads faster for repeat visitors.
+
+**Remove Unnecessary Plugins**: Delete any plugins or widgets you're not actively using. If you haven't touched it in six months, you probably don't need it.
+
+**Upgrade Your Hosting**: Good hosting is the foundation of a fast website. Spend $15-30/month on quality hosting instead of $3/month on bargain hosting.
+
+**Use a CDN**: Cloudflare's free plan speeds up your website by serving it from servers closer to your visitors. Most hosting companies can help you set this up.
+
+## When to Call a Professional
+
+Some optimizations require technical expertise:
+- Code minification and compression
+- Database optimization for WordPress sites
+- Setting up critical path CSS
+- Implementing lazy loading for images
+- Server-side optimizations
+
+If your PageSpeed scores are still below 70 after trying the quick fixes, or if the technical recommendations seem overwhelming, it's worth hiring a developer for a few hours of optimization work. Not sure whether to [DIY or hire a professional](/blog/diy-website-vs-hiring-developer)? Consider the time investment versus the technical complexity.
+
+## Measuring Your Success
+
+After making changes, test your site speed again in a week. You should see improvement in:
+- PageSpeed Insights scores
+- Your Google Analytics bounce rate (should decrease)
+- Time spent on site (should increase)
+- Conversion rates (should increase over time)
+
+Set a calendar reminder to check your site speed monthly. Websites tend to slow down over time as you add content and features. This is just one part of proper [website maintenance for small businesses](/blog/website-maintenance-for-small-business).
+
+## The Bottom Line
+
+A fast website isn't just nice to have — it's essential for your business success. Start with the quick fixes today, and you'll likely see immediate improvements in both your Google rankings and customer experience.
+
+Remember Maria's jewelry store? After optimizing her website speed, her online sales increased by 40% within two months. The same customers who were abandoning her slow site started completing purchases on her fast one.
+
+Your website speed is fixable. Your customers are waiting — just not for very long.
+
+Ready to speed up your website but need expert help? Get a professional speed audit to identify exactly what's slowing down your site and prioritize the fixes that will have the biggest impact on your business.
+    `
+  },
+  {
     slug: "what-are-keywords-and-why-should-you-care",
     title: "What Are Keywords and Why Should You Care? (A Small Business Guide)",
     description: "Confused about SEO keywords? Learn what keywords are, why they matter for your small business, and how to find the right ones without getting overwhelmed.",
