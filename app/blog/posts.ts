@@ -10,6 +10,107 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "what-are-keywords-and-why-should-you-care",
+    title: "What Are Keywords and Why Should You Care? (A Small Business Guide)",
+    description: "Confused about SEO keywords? Learn what keywords are, why they matter for your small business, and how to find the right ones without getting overwhelmed.",
+    date: "2026-03-17",
+    readTime: "4 min",
+    tags: ["SEO", "Small Business", "Digital Marketing", "Keywords"],
+    content: `
+Sarah spent $2,000 on a beautiful website for her Kansas City bakery. Professional photos, elegant design, easy navigation — it had everything. Six months later, she was getting maybe one customer per week from her website while her competitor down the street was booked solid.
+
+The difference? Sarah's competitor understood something Sarah didn't: **keywords**.
+
+Don't let this be your story. Understanding keywords isn't complicated, and by the end of this article, you'll know exactly how to use them to help customers find your business online.
+
+## What Are Keywords? (The Simple Answer)
+
+Keywords are simply the words and phrases people type into Google when they're looking for businesses like yours.
+
+Think about it: when someone needs a plumber, they don't search for "residential and commercial plumbing solutions provider." They search for "plumber near me" or "emergency plumber Kansas City."
+
+Your website needs to speak the same language your customers use when they search. That's all keywords are — matching what people actually search for, not what you think sounds professional.
+
+## Why Keywords Matter for Your Business
+
+Google's job is to show people the websites that best match what they're searching for. Without the right keywords on your website, you're invisible — even if you're the best business in your area.
+
+Here's a real example: Two pizza shops in the same neighborhood. One ranks #1 on Google for "best pizza Kansas City" and gets 50+ online orders daily. The other doesn't show up until page 3 and struggles to fill tables.
+
+Both make great pizza. The difference? The successful shop understood that customers search for "best pizza" not "authentic Italian cuisine" or "artisanal wood-fired dining experience."
+
+## The Types of Keywords That Matter Most
+
+Not all keywords are created equal. Focus on these four types:
+
+**Location Keywords**: "Kansas City plumber," "barber shop downtown," "wedding photographer Overland Park." These help people find you when they're looking for local businesses.
+
+**Service Keywords**: "emergency plumbing," "men's haircut," "wedding cake." These match exactly what you offer.
+
+**Problem Keywords**: "clogged drain," "bad haircut fix," "last minute catering." People often search for problems, not solutions.
+
+**Buying Keywords**: "hire a plumber," "book appointment," "get quote." These catch people ready to spend money.
+
+## How to Find Your Keywords (The Free Way)
+
+You don't need expensive tools. Start with these free methods:
+
+**Use Google Autocomplete**: Type your service into Google and see what appears. If you're a dentist, type "dentist" and Google will suggest "dentist near me," "dentist open Saturday," "dentist emergency." These are real searches people make.
+
+**Check "People Also Ask"**: Scroll down on any search result page. Google shows you related questions people search for. Pure gold for keyword ideas.
+
+**Ask Your Customers**: When someone calls or visits, ask "How did you find me?" or "What did you Google?" You'll be surprised what people actually search for.
+
+**Use Google Business Profile Insights**: If you have a Google Business Profile, check your insights. It shows you exactly what search terms brought people to your listing.
+
+## Common Keyword Mistakes Small Businesses Make
+
+Avoid these costly mistakes:
+
+**Using Industry Jargon**: You might offer "comprehensive automotive diagnostics," but customers search for "car repair" or "check engine light."
+
+**Being Too Broad**: "Restaurant" has millions of competitors. "Italian restaurant Kansas City" is much easier to rank for and brings better customers.
+
+**Ignoring Location**: 80% of mobile searches include location. Don't forget "near me" and your city name.
+
+**Forgetting Voice Search**: People talk differently than they type. Include conversational phrases like "where can I get my car fixed" or "who does wedding cakes in Kansas City."
+
+## Where to Put Your Keywords
+
+Once you know your keywords, use them in these places:
+
+**Page Titles**: Most important spot. Your homepage title should include your main keyword.
+
+**Headers and Subheaders**: Break up your content with keyword-rich headings.
+
+**Throughout Your Content**: Use keywords naturally in your text. Don't stuff them in awkwardly.
+
+**Image File Names**: Instead of "IMG_1234.jpg," use "kansas-city-plumber-fixing-sink.jpg."
+
+**Meta Descriptions**: The text that appears under your link in search results.
+
+**Google Business Profile**: Your business description, services, and posts.
+
+## Quick Wins: 3 Things You Can Do Today
+
+1. **Update Your Homepage Title**: Add your main keyword and location. Change "Welcome to Bob's Business" to "Bob's Plumbing Services | Emergency Plumber Kansas City."
+
+2. **Optimize Your Contact Page**: Include location-specific keywords. Instead of just an address, add "Serving Kansas City, Overland Park, and surrounding areas."
+
+3. **Create Service Pages**: Make separate pages for each service you offer, using the keywords customers actually search for.
+
+Each of these takes 10 minutes or less but will make a noticeable difference in 2-4 weeks.
+
+## Start Speaking Your Customers' Language
+
+Keywords aren't about gaming the system — they're about helping your ideal customers find you when they need what you offer. The businesses that succeed online are simply the ones that make it easy for customers to discover them.
+
+Ready to get your phone ringing with new customers? Start with these keyword basics, and you'll be amazed how much easier it becomes to connect with people actively looking for your services.
+
+*Need help choosing the right keywords for your specific business? Let's talk about how the right SEO strategy can transform your online presence.*
+    `
+  },
+  {
     slug: "website-maintenance-for-small-business",
     title: "Website Maintenance for Small Business: The Complete Guide to Keeping Your Site Running Smoothly",
     description: "Wondering what website maintenance involves for your small business? Here's everything you need to know about costs, tasks, and whether to DIY or hire help.",
