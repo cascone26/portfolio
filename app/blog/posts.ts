@@ -10,6 +10,99 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "mobile-responsive-design-small-business-guide",
+    title: "Is Your Website Mobile-Friendly? The Small Business Guide to Responsive Design That Actually Converts",
+    description: "Learn why mobile responsive design is crucial for small businesses and how to ensure your website works perfectly on all devices to boost sales and customer satisfaction.",
+    date: "2026-03-17",
+    readTime: "4 min",
+    tags: ["Responsive Design", "Mobile", "Small Business", "Web Design"],
+    content: `
+More than 60% of all web traffic now comes from mobile devices. That number keeps climbing every year. Yet a surprising number of small business websites still look broken on a phone screen — tiny text, buttons you can't tap, menus that disappear off the edge.
+
+If your website doesn't work on mobile, you're turning away the majority of your potential customers before they even see what you offer.
+
+Take a local restaurant that put their full menu online as a PDF. On desktop, it looked great. On a phone, customers had to pinch and zoom just to read it. Online orders dropped. Foot traffic from search declined. When they finally switched to a responsive layout, mobile orders jumped 40% in the first month.
+
+This guide breaks down what mobile responsive design actually means, why it matters for your bottom line, and how to make sure your site is ready.
+
+## What Is Mobile Responsive Design?
+
+Mobile responsive design means your website automatically adjusts its layout to fit whatever screen it's being viewed on — phone, tablet, laptop, or desktop monitor. Instead of building a separate "mobile version" of your site, one website adapts to all of them.
+
+Think of it like water. Pour water into a glass, it takes the shape of the glass. Pour it into a bowl, it takes the shape of the bowl. A responsive website works the same way — the content reshapes itself to fit the container.
+
+This matters beyond just looks. Google uses mobile-first indexing, meaning it primarily looks at the mobile version of your site when deciding where to rank you in search results. If your site isn't mobile-friendly, you're [hurting your SEO](/blog/what-are-keywords-and-why-should-you-care) whether you realize it or not.
+
+## The Business Cost of Ignoring Mobile Users
+
+Here's what happens when your website doesn't work well on phones:
+
+- **Higher bounce rates.** Over 70% of mobile users will leave a site that takes too long to load or looks broken. They don't try again — they go to your competitor.
+- **Lost local customers.** Most "near me" searches happen on mobile. If someone searches for your type of business on their phone and your site is unusable, that customer is gone.
+- **Lower conversion rates.** Mobile users convert at roughly half the rate of desktop users on average. But on well-optimized responsive sites, that gap shrinks significantly.
+
+A local plumber redesigned their site to be fully responsive and saw contact form submissions increase by 35% within two months. The service didn't change. The prices didn't change. The website just finally worked on the devices people were actually using.
+
+## Signs Your Website Isn't Mobile-Friendly
+
+Pull up your website on your phone right now and check for these problems:
+
+- **Text is too small to read** without pinching to zoom in
+- **Buttons are too small or too close together** to tap accurately with a thumb
+- **You have to scroll sideways** to see all the content
+- **Images overflow** off the edge of the screen
+- **The navigation menu** is hard to find or use
+- **Pages load slowly** on a cellular connection
+
+If you hit even one of these, your mobile visitors are having a bad experience. If you hit three or more, you're almost certainly losing business because of it.
+
+## The Essential Elements of Good Mobile Design
+
+A properly responsive website needs these things working together:
+
+**Flexible layouts.** Content should stack vertically on narrow screens instead of sitting side by side. A three-column desktop layout becomes a single scrollable column on mobile.
+
+**Readable text.** Body text should be at least 16px on mobile so people can read without zooming. Headlines should scale down proportionally.
+
+**Touch-friendly buttons.** Tap targets need to be at least 44x44 pixels with enough spacing between them. Nothing frustrates mobile users more than accidentally tapping the wrong link.
+
+**Optimized images.** Large images that look sharp on desktop will [slow your site to a crawl](/blog/is-your-slow-website-killing-your-sales) on mobile. Responsive images serve the right size file for each device.
+
+**Simplified navigation.** A hamburger menu or collapsible nav works much better on small screens than trying to cram a full menu bar into 375 pixels of width.
+
+## How to Test Your Website
+
+You don't need technical skills to check if your site is responsive:
+
+**Use Google's Mobile-Friendly Test.** Search for "Google Mobile-Friendly Test," enter your URL, and get a pass/fail result with specific issues listed.
+
+**Test on real devices.** Open your site on your phone, a family member's tablet, and any other devices you can get your hands on. Automated tools catch some issues but miss others.
+
+**Check your browser's dev tools.** In Chrome, press F12 and click the device toggle icon. This lets you preview your site at different screen sizes right from your computer.
+
+Pay attention to every page, not just your homepage. Your contact page, service pages, and any forms all need to work on mobile too.
+
+## Getting Your Website Mobile-Ready
+
+You have a few paths depending on your situation:
+
+**If you're using a modern website builder** (Squarespace, Wix, Shopify), your site probably has some level of responsiveness built in. But "some" isn't enough — you still need to preview every page on mobile and fix layout issues.
+
+**If you have an older custom website,** it may need a full redesign. Retrofitting responsiveness onto a site built without it is often harder than starting fresh with a modern framework.
+
+**If you're not sure where to start,** a professional can audit your current site and tell you exactly what needs fixing. Sometimes it's a few CSS tweaks. Sometimes it's a rebuild. Either way, you'll know what you're dealing with.
+
+Cost varies widely — a few hundred dollars for minor fixes, a few thousand for a full responsive redesign. But consider the cost of doing nothing: every month with a broken mobile experience is a month of lost customers.
+
+## Mobile-First Is Business-First
+
+Your customers are on their phones. Your website needs to meet them there. Mobile responsive design isn't a technical luxury — it's a basic requirement for any business that wants to be found online and convert visitors into customers.
+
+Start by testing your site today. If it fails, don't ignore it. Every day you wait is another day potential customers bounce to a competitor whose site actually works on the device in their hand.
+
+Need help figuring out where your website stands? [Get in touch](/contact) for a free mobile responsiveness audit.`
+  },
+  {
     slug: "is-your-slow-website-killing-your-sales",
     title: "Is Your Slow Website Killing Your Sales? The Small Business Guide to Website Speed Optimization",
     description: "Stop losing customers to slow load times. Learn proven website speed optimization techniques that small businesses can implement to boost conversions and improve Google rankings.",
