@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import FadeIn from "../../components/fade-in";
 import ContactForm from "../../components/contact-form";
 
