@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import LayoutShell from "./components/layout-shell";
+import OneSignalProvider from "./components/OneSignalProvider";
 import "./globals.css";
 
 const geist = Geist({
@@ -103,7 +104,9 @@ export default function RootLayout({
           />
         </div>
 
-        <LayoutShell>{children}</LayoutShell>
+        <OneSignalProvider>
+          <LayoutShell>{children}</LayoutShell>
+        </OneSignalProvider>
         <Analytics />
       </body>
     </html>
