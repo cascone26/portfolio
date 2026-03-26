@@ -129,6 +129,32 @@ export default function LessonDraftSocialCaseStudy() {
               </p>
             </div>
           </FadeIn>
+
+          <FadeIn>
+            <div className="glass rounded-2xl p-8 text-center">
+              <h2 className="text-xl font-bold mb-2 tracking-tight">
+                Want AI automation for your business?
+              </h2>
+              <p className="text-muted mb-6">
+                I build custom automation pipelines that save hours every week —
+                social media, email, reporting, and more.
+              </p>
+              <div className="flex flex-wrap gap-3 justify-center">
+                <Link
+                  href="/contact"
+                  className="px-6 py-2.5 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-500 transition-colors"
+                >
+                  Start a project
+                </Link>
+                <Link
+                  href="/services"
+                  className="px-6 py-2.5 rounded-lg border border-slate-700 text-slate-300 font-medium hover:border-slate-500 hover:text-white transition-colors"
+                >
+                  View services
+                </Link>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
     </>

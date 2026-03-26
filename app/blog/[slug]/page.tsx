@@ -266,6 +266,26 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Service CTA */}
+      <section className="pb-8 px-6">
+        <div className="max-w-3xl mx-auto">
+          <FadeIn>
+            <div className="glass rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex-1 text-center sm:text-left">
+                <p className="font-semibold text-sm mb-1">Need help with your business website?</p>
+                <p className="text-muted text-xs">Free audit, no pressure — I&apos;ll tell you what&apos;s working and what&apos;s not.</p>
+              </div>
+              <Link
+                href="/contact"
+                className="shrink-0 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-500 transition-colors"
+              >
+                Get a free audit
+              </Link>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Related posts */}
       {relatedPosts.length > 0 && (
         <section className="pb-12 px-6">
@@ -336,6 +356,7 @@ export default async function BlogPostPage({ params }: Props) {
 
 function formatInline(text: string): string {
   return text
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-accent-light link-underline">$1</a>')
     .replace(/\*\*(.+?)\*\*/g, '<strong class="text-foreground font-semibold">$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>');
 }
