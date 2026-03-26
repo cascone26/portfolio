@@ -8,7 +8,8 @@ export async function POST(request: NextRequest) {
   }
 
   const response = NextResponse.json({ success: true });
-  response.cookies.set("admin_session", "authenticated", {
+  const sessionToken = process.env.ADMIN_SESSION_TOKEN || "authenticated";
+  response.cookies.set("admin_session", sessionToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",

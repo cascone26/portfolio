@@ -9,7 +9,8 @@ export function middleware(request: NextRequest) {
   }
 
   const session = request.cookies.get("admin_session")?.value;
-  if (session !== "authenticated") {
+  const expectedToken = process.env.ADMIN_SESSION_TOKEN || "authenticated";
+  if (session !== expectedToken) {
     return NextResponse.redirect(new URL("/admin/login", request.url));
   }
 
