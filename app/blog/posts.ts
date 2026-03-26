@@ -2413,4 +2413,331 @@ Make that decision easy: show your results, be clear about what you offer, and m
 Ready for a website that books clients while you're busy training? [Let's talk](/contact) — I build sites specifically for fitness professionals.
     `,
   },
+  {
+    slug: "website-tips-for-dentists-dental-offices",
+    title: "Website Tips for Dentists and Dental Offices: What Patients Actually Need to See",
+    description: "Most dental office websites are generic and forgettable. Here's what your dental practice website actually needs to attract new patients, rank locally, and fill your schedule.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Dental", "Healthcare", "Local Business"],
+    content: `
+Patients searching for a new dentist are nervous. They're evaluating your office before they ever set foot in it — and your website is the first impression. A generic dental website with stock photos of perfect teeth and a contact form buried on page three isn't going to convert.
+
+Here's what a dental office website actually needs to turn searchers into scheduled patients.
+
+## New patient friction kills appointments
+
+The most important thing your dental website can do is make it easy to become a new patient. Every extra click, every missing piece of information, every form that requires a phone call to complete costs you a booking.
+
+Your website needs to answer these questions immediately:
+
+- **Are you accepting new patients?** — Say it explicitly. "Accepting New Patients" in your header or hero section.
+- **Do you take my insurance?** — List every insurance plan you accept. This is a hard filter for most patients.
+- **Can I book online?** — If you use a scheduling system like Dentrix, Carestream, or NexHealth, embed the booking widget. Patients who can book at 10pm on a Tuesday will.
+- **What is your new patient process?** — A simple "What to expect on your first visit" section removes anxiety and reduces no-shows.
+
+If a potential patient has to call to ask whether you take their insurance, many won't. They'll move to the next result.
+
+## Before-and-after photos earn trust (and bookings)
+
+Dentistry is a visual service. Cosmetic work especially — veneers, Invisalign, teeth whitening, crowns — all benefit enormously from real patient photos showing real results.
+
+### How to use before-and-after photos effectively
+
+- **Get patient consent** and document it — HIPAA-compliant releases before posting anything
+- **Show the full transformation** — close-up shots of the smile, good lighting, consistent background
+- **Label the procedure** — "Porcelain veneers, 6 teeth" or "Invisalign treatment, 14 months"
+- **Include the patient's story** if they're willing — "Sarah came to us self-conscious about her smile. Here's her result after 8 months."
+- **Separate by service** — don't lump all your photos together. A cosmetic page should show cosmetic work. An orthodontics page should show orthodontic results.
+
+Stock photos of gleaming Hollywood smiles actively hurt your credibility. Patients know what a real smile looks like, and fake photos signal that you don't have real results to show.
+
+## Must-haves for a dental office website
+
+### 1. Insurance and payment information
+List every insurance carrier you accept, including whether you're in-network or out-of-network. Also list financing options — CareCredit, Sunbit, in-house payment plans. Money anxiety is one of the top reasons people avoid the dentist. Address it directly.
+
+### 2. Doctor and staff bios with real photos
+Patients choose a dentist, not a practice. A bio with a real headshot, dental school, years in practice, and a sentence about the doctor's philosophy ("I believe dental care shouldn't be stressful — my goal is to make every visit as comfortable as possible") builds trust before they walk in.
+
+### 3. Google reviews prominently displayed
+A dental practice with 200+ five-star Google reviews will win over a practice with a fancier website and 12 reviews every time. Pull your best reviews onto your homepage. Make sure your review link is easy to find for post-appointment requests.
+
+### 4. Service-specific pages
+Don't list all your services on one page. Create dedicated pages for:
+- General dentistry and cleanings
+- Cosmetic dentistry (veneers, whitening, bonding)
+- Orthodontics (Invisalign, braces)
+- Emergency dental care
+- Pediatric services (if you see children)
+- Dental implants and oral surgery (if applicable)
+
+Each page can rank separately in Google for relevant searches like "Invisalign dentist Kansas City" or "emergency dental care near me."
+
+### 5. Emergency contact pathway
+Dental emergencies happen. A patient with a broken tooth or severe pain needs to reach you immediately. Make your emergency number and after-hours process crystal clear — don't bury it.
+
+## What dental office websites don't need
+
+- **A "Dental Health Blog" with posts no one reads.** Generic content like "5 Tips for Better Flossing" doesn't drive local patients. Your time and budget are better spent on Google Business Profile maintenance and getting reviews.
+- **A virtual tour or 3D office walkthrough.** These slow your site down and most patients skip them. A few good photos of your waiting room and treatment rooms are enough.
+- **Multiple location pages for an office with one location.** Don't try to game local SEO with fake location pages. It doesn't work and it looks unprofessional.
+
+## SEO priorities for dental practices
+
+Local SEO is how patients find dentists. Here's where to focus:
+
+**Google Business Profile first.** Your GBP listing is what appears in map searches for "dentist near me." Complete every field, add photos regularly, and respond to every review. Read the [Google Business Profile guide](/blog/google-business-profile-free-tool) for the full setup process.
+
+**Target neighborhood and city keywords.** Your website copy should naturally include your city and nearby neighborhoods — "dentist in Overland Park," "serving Leawood, Prairie Village, and Mission Hills." Don't stuff keywords unnaturally; include them where they make sense.
+
+**Service-specific pages get individual rankings.** "Invisalign dentist Kansas City" is a completely different search than "family dentist Kansas City." A dedicated Invisalign page can rank for that specific query while your homepage ranks for general dentist searches.
+
+**Patient reviews drive local rankings.** Google's algorithm weights both the number and recency of reviews. A practice getting 2-3 new reviews a week consistently outranks one with 50 old reviews and none in the past year. Build a review request process into your checkout workflow.
+
+## What this should cost
+
+A professional dental office website with a homepage, 6-8 service pages, doctor bios, insurance list, before-and-after gallery, and contact/booking integration should cost $500-900 from a competent developer. Full-service dental website companies often charge $200-400/month for a template you don't own. A one-time build you control is the better long-term investment.
+
+See [transparent pricing at BuiltSimple](/pricing) — no monthly contracts, no surprise fees.
+
+## The bottom line
+
+Your dental website is competing against every other practice within a 10-mile radius. Patients are looking for someone they can trust, who takes their insurance, has good reviews, and makes it easy to get started.
+
+Give them that information immediately, show real photos of real results, and make booking frictionless. That's what fills chairs.
+
+Ready for a dental website that actually generates new patient appointments? [Let's talk](/contact) — I build professional websites for healthcare and service businesses across the Kansas City area.
+    `,
+  },
+  {
+    slug: "website-tips-for-auto-repair-shops",
+    title: "Website Tips for Auto Repair Shops: How to Get More Cars in Your Bays",
+    description: "Most auto repair shop websites do nothing to build trust or generate appointments. Here's what your mechanic website actually needs — and what's a waste of money.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Auto Repair", "Mechanic", "Local Business"],
+    content: `
+A car problem is stressful. Customers are anxious about cost, worried about being taken advantage of, and looking for a shop they can trust. Most auto repair websites do nothing to address these concerns — they're a logo, a phone number, and a stock photo of a lifted car.
+
+Your website can be the reason a nervous first-time customer picks up the phone and calls you instead of the dealership. Here's how.
+
+## Transparency is your competitive advantage
+
+Auto repair has a trust problem. Customers have heard the horror stories — unnecessary repairs, padded estimates, condescending service advisors. The shops that win online are the ones that lead with transparency.
+
+### What transparency looks like on a website
+
+- **Diagnostic fee policy:** State your diagnostic fee upfront. "We charge a $75 diagnostic fee, which is waived if you approve the repair." Hiding this invites suspicion and earns bad reviews when customers are surprised at checkout.
+- **"We'll call before we start anything"** — Put this in your header or hero. It's the #1 thing customers worry about (surprise charges), and making it a promise on your homepage builds immediate trust.
+- **Labor rate:** You don't have to publish exact prices, but "Our labor rate is $X/hour" or a price range for common jobs signals honesty.
+- **Estimates:** If you offer free estimates (even over the phone), say so prominently.
+
+Shops that are transparent about how they charge outperform shops that hide this information, even if their rates are actually higher.
+
+## Build a proper service menu
+
+Customers search specifically. They're not searching for "auto repair shop" — they're searching for "brake job near me" or "check engine light diagnosis Kansas City." A website with individual service pages captures these searches.
+
+### Services that deserve their own page
+
+- Oil changes and scheduled maintenance
+- Brake repair and replacement
+- Engine diagnostics and check engine light
+- Transmission repair and service
+- AC and heating repair
+- Tires and alignment
+- Suspension and steering
+- Fleet and commercial vehicle service (if you offer it)
+
+Each page should include:
+- **What the service involves** in plain language (not mechanic jargon)
+- **Common symptoms or reasons a customer might need it** — "squealing brakes," "shaking steering wheel," "car pulling to one side"
+- **Approximate price range or starting price** where possible
+- **Turnaround time** — same-day, while you wait, etc.
+- **A clear call-to-action** — call to schedule, or book online
+
+A page titled "Brake Repair in Lenexa" will rank for that search. A general "Services" page won't.
+
+## Certifications and credentials belong front and center
+
+Customers want to know their car is in qualified hands. Don't hide your credentials.
+
+### What to display prominently
+
+- **ASE certification badges** — every certified tech should be listed with their certification level
+- **Years in business** — "Serving Kansas City since 1998" is a powerful trust signal
+- **Brands you specialize in** — if you specialize in European imports, American trucks, or fleet vehicles, say so
+- **Affiliations** — NAPA AutoCare, AAA approved, BBB accredited
+- **Warranty policy** — "All repairs come with a 24-month/24,000-mile warranty" removes a major objection
+
+If you're ASE-certified but bury it in an "About" page no one reads, you're leaving credibility on the table.
+
+## Reviews are how customers decide
+
+No purchase decision is more anxiety-inducing than choosing a mechanic. Reviews are the #1 tool customers use to feel confident about a shop they've never used before.
+
+### How to use reviews on your auto repair website
+
+- **Embed 4-5 of your best Google reviews on your homepage** — include the customer's first name, star rating, and the specific service mentioned
+- **Create a dedicated "Reviews" page** with 15-20 of your best reviews
+- **Respond to every Google review** — positive and negative. How you handle a bad review tells customers more about your business than the review itself.
+- **Make it easy to leave a review** — include a review link in your follow-up text or receipt email
+
+After every job, text the customer a direct link to your Google review page. Most customers are happy to leave one if you make it a single tap.
+
+## The appointment booking question
+
+Most auto repair customers prefer to call. But many — especially younger customers — will choose a shop specifically because it offers online booking.
+
+Options range from a simple contact form with "Preferred date and time" fields to full scheduling integrations like Tekmetric, Mitchell1, or Shop-Ware. Even a basic form that says "Request an appointment — we'll confirm within 2 hours" reduces the friction of calling and captures leads outside business hours.
+
+## What auto repair websites don't need
+
+- **Fancy video backgrounds or animations.** A customer who just got a warning light on the highway doesn't want to watch your intro video. Speed and clarity win. Aim for under 2 seconds load time.
+- **A blog with DIY repair tips.** Your customers aren't going to fix their own brakes after reading your blog post. Generic automotive content rarely drives local repair leads.
+- **Real-time chat widgets.** Unless someone is actively monitoring it during business hours, an unanswered chat creates a worse impression than no chat at all.
+
+## SEO priorities for auto repair shops
+
+**Google Business Profile is non-negotiable.** The map pack (those three results at the top of "mechanic near me" searches) is where the majority of local repair leads come from. See the [Google Business Profile setup guide](/blog/google-business-profile-free-tool) to get it right.
+
+**Target problem-based searches.** Customers search for their symptom, not your service. "Car makes grinding noise when braking," "check engine light on," "AC not blowing cold air" — these are real searches you can rank for with service pages written in plain language.
+
+**Service area pages help.** If you serve multiple cities or neighborhoods, create brief location-specific pages ("auto repair in Olathe," "mechanic serving Shawnee and Lenexa") that naturally incorporate those city names.
+
+**Consistent NAP across the web.** Your Name, Address, and Phone number need to be identical everywhere — your website, Google Business Profile, Yelp, Facebook, and any directory listings. Inconsistencies confuse Google and suppress your local rankings.
+
+## What this should cost
+
+A professional auto repair website with a homepage, 6-8 service pages, certifications section, reviews display, and contact/booking form should cost $450-800. Beware of automotive marketing companies charging $150-300/month for a template you don't own and can't take with you.
+
+See [straightforward pricing at BuiltSimple](/pricing) — one-time builds, no monthly fees.
+
+## The bottom line
+
+Your potential customers are nervous about trusting a stranger with their car. Your website's job is to remove that anxiety before they ever call you.
+
+Lead with transparency, show your credentials, let your reviews do the talking, and make it easy to schedule. Do those four things better than the shop down the street, and you'll win the customer every time.
+
+Ready for an auto repair website that builds trust and books appointments? [Let's talk](/contact) — I build websites for service businesses across Kansas City.
+    `,
+  },
+  {
+    slug: "website-tips-for-real-estate-agents",
+    title: "Website Tips for Real Estate Agents: How to Stand Out and Generate Leads Online",
+    description: "Generic real estate websites with IDX feeds don't generate leads — they generate bounce rates. Here's what your realtor website actually needs to win clients in a competitive market.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Real Estate", "Realtor", "Local Business"],
+    content: `
+Every real estate agent has a website. Most of them look identical — a photo of a smiling agent in a blazer, an IDX home search widget, and a contact form. Buyers and sellers looking for an agent see dozens of these and remember none of them.
+
+Your website needs to answer a harder question than "here are houses for sale." It needs to answer: why should I work with you specifically?
+
+## Your agent bio needs to work harder
+
+The first thing most buyers and sellers do after getting a referral or finding an agent online is look them up. Your about page is often the deciding factor between getting the call or losing the client to someone else.
+
+### What a strong agent bio includes
+
+- **Your specific market expertise** — not "I serve the greater KC area" but "I've closed 140+ transactions in Johnson County over the past 8 years, primarily in the $400K-750K range"
+- **Your background and what brought you to real estate** — a paragraph of genuine story builds connection. Former accountant who bought three investment properties before getting licensed is more memorable than "passionate about helping families find their dream home"
+- **A real, professional photo** — not a glamour shot from 2012. Updated every 2-3 years.
+- **Client results** — "Helped 23 families buy their first home last year" is concrete. "Dedicated to your success" is noise.
+- **Community ties** — local schools attended, neighborhoods you've lived in, community involvement. Clients want an agent who actually knows the area.
+
+Your bio page gets more traffic than almost anything else on your website. Treat it as a sales page, not an afterthought.
+
+## Neighborhood pages are your SEO foundation
+
+Buyers search neighborhoods, not agents. "Homes for sale in Brookside," "Prairie Village real estate," "Leawood neighborhoods" — these are real searches with real buyer intent.
+
+### What a strong neighborhood page includes
+
+- **Honest neighborhood overview** — what kind of buyers it attracts, price ranges, new construction vs. established homes, walkability, vibe
+- **School district information** — this is a primary search factor for families. Be specific: elementary, middle, and high school names, district ratings
+- **Current listings in that area** (via IDX integration)
+- **Your sold listings in that neighborhood** — proof that you actually work there
+- **Commute and location context** — distance to downtown KC, major employers, highways
+
+A page titled "Living in Prairie Village, KS: Neighborhood Guide" can rank well for people actively researching that area. Generic IDX search pages don't rank for anything.
+
+## IDX integration: what it actually does (and doesn't do)
+
+IDX (Internet Data Exchange) is the MLS feed that puts live listings on your website. It's expected on a real estate agent site, but it's commonly misunderstood.
+
+### What IDX does
+
+- Shows live, searchable MLS listings
+- Keeps buyers on your site instead of Zillow
+- Captures leads when buyers create saved searches
+
+### What IDX doesn't do
+
+- Drive organic search traffic (these pages are mostly duplicate content Google ignores)
+- Differentiate you from any other agent with the same IDX feed
+- Convince a seller to list with you
+
+IDX is a useful feature, but it's a retention tool, not an acquisition tool. Don't build your entire website strategy around it.
+
+## Sold listings build credibility better than anything else
+
+For sellers especially, recent sold transactions are the most persuasive content on your website. Not testimonials, not credentials — actual sales.
+
+### How to showcase your sales history
+
+- **A "Recent Sales" or "Sold Listings" page** with photos, neighborhoods, price ranges, and days on market
+- **Specific stats if they're strong** — "Average 4 days on market, 103% of list price for my listings in 2025"
+- **Brief case studies for notable deals** — "Helped these clients sell in a tough market by repositioning the price and staging strategy — went under contract in 6 days"
+- **Testimonials tied to specific transactions** — "Sarah helped us navigate a bidding war and we closed $15K under asking" is more credible than a generic 5-star review
+
+If you're newer and don't have a large transaction history, showcase the quality of each deal rather than volume. Depth beats breadth.
+
+## Lead capture beyond "contact me"
+
+A contact form is the floor, not the ceiling. Buyers and sellers rarely contact an agent they've never met until they're already pretty far along in the process. Build in earlier touchpoints.
+
+### Effective lead capture tools for real estate websites
+
+- **Home valuation tool** — "What's your home worth?" is one of the highest-converting offers in real estate. Even a basic form that triggers a personal CMA (comparative market analysis) response works. Tools like HomeBot or Cloud CMA can automate this.
+- **Buyer's guide download** — "First-time Buyer's Guide to Johnson County" as a PDF exchange for an email address
+- **Market report signup** — monthly neighborhood stats delivered by email keep you top-of-mind with people who aren't ready to transact yet
+- **Saved search creation** — prompt buyers to save their search criteria so you can alert them to new listings
+
+Every lead capture touchpoint should be tied to something genuinely useful, not just "sign up for my newsletter."
+
+## What real estate agent websites don't need
+
+- **Generic market commentary copied from a brokerage template.** "The spring market is heating up!" posts from a corporate content library look exactly like what they are. Skip it or write something original.
+- **A separate website for every listing.** Individual property websites used to be common. Now most buyers find listings through your IDX or Zillow, and maintaining separate sites is rarely worth the effort.
+- **A "Testimonials" page separate from everywhere else.** Testimonials work best when they're contextual — on your about page, near your contact form, on neighborhood pages. A dedicated testimonials page that no one navigates to does nothing.
+
+## SEO priorities for real estate agents
+
+Local SEO for real estate is competitive. Zillow, Realtor.com, and the big brokerages dominate generic search terms. Your opportunity is in specificity.
+
+**Neighborhood content wins where portals lose.** Zillow shows listings. It doesn't explain what it's actually like to live in a neighborhood, what the schools are like, or where the good coffee shops are. That's your angle.
+
+**Long-tail seller searches.** "How to sell a house in Leawood," "best realtor in Overland Park," "what's my home worth in Mission Hills" — these specific searches have lower competition than generic terms and higher buyer/seller intent.
+
+**Google Business Profile for agents.** Yes, you should have one even as an individual agent. Complete your profile, add photos of recent sales (with permission), and get client reviews there. See the [full GBP guide](/blog/google-business-profile-free-tool) for setup details.
+
+**Internal linking between neighborhood pages.** If you have pages for Brookside, Waldo, and Westport, link between them naturally ("If you like the walkability of Brookside, you might also consider..."). This helps Google understand your site structure and keeps visitors exploring.
+
+## What this should cost
+
+A real estate agent website with a homepage, agent bio, neighborhood guides, IDX integration, sold listings gallery, and lead capture tools typically runs $600-1,000. Brokerage-provided sites are free but look generic and are a dead end if you ever change brokerages. Owning your own site is the right long-term investment.
+
+See [what BuiltSimple charges](/pricing) — straightforward, no ongoing fees.
+
+## The bottom line
+
+In a crowded market, the agents who win online are the ones who are specific. Specific about where they work, who they work with, what results they get, and why someone should trust them with the biggest financial transaction of their life.
+
+Stop looking like every other agent website. Show your work, own your neighborhoods, and make it easy for buyers and sellers to take the next step.
+
+Ready for a real estate website that actually generates leads? [Let's talk](/contact) — I build websites for professionals across the Kansas City market.
+    `,
+  },
 ];
