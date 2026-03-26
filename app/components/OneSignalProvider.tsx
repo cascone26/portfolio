@@ -8,7 +8,7 @@ export default function OneSignalProvider({ children }: { children?: React.React
     OneSignal.init({
       appId: process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID || '',
       serviceWorkerParam: { scope: '/' },
-      allowLocalhostAsSecureOrigin: true,
+      allowLocalhostAsSecureOrigin: process.env.NODE_ENV === 'development',
     });
   }, []);
 

@@ -29,5 +29,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...blogPages];
+  const tags = Array.from(new Set(posts.flatMap((p) => p.tags)));
+  const tagPages: MetadataRoute.Sitemap = tags.map((tag) => ({
+    url: `${baseUrl}/blog/tag/${encodeURIComponent(tag.toLowerCase())}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.4,
+  }));
+
+  return [...staticPages, ...blogPages, ...tagPages];
 }

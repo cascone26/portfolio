@@ -241,7 +241,7 @@ export default function WebsitePlanningChecklist() {
               <h2 className="text-lg font-bold mb-4">Related Blog Posts</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 <Link
-                  href="/blog/how-much-does-a-small-business-website-cost-in-kansas-city-2026-guide"
+                  href="/blog/how-much-does-a-small-business-website-cost-in-kansas-city"
                   className="group glass rounded-2xl p-5 block"
                 >
                   <h3 className="font-semibold text-sm group-hover:text-accent-light transition-colors leading-snug">
@@ -253,7 +253,7 @@ export default function WebsitePlanningChecklist() {
                   </p>
                 </Link>
                 <Link
-                  href="/blog/best-type-of-website-for-restaurants-salons-and-contractors-2026"
+                  href="/blog/best-website-for-restaurants-salons-contractors-2026"
                   className="group glass rounded-2xl p-5 block"
                 >
                   <h3 className="font-semibold text-sm group-hover:text-accent-light transition-colors leading-snug">
