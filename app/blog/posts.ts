@@ -1995,4 +1995,422 @@ The key is working with someone who asks about your business first, not someone 
 Need a website built for how your industry actually works? [Let's talk](/contact) — I'll tell you exactly what you need and what you don't.
     `,
   },
+  {
+    slug: "website-tips-for-plumbers-hvac-companies",
+    title: "Website Tips for Plumbers and HVAC Companies: What Actually Gets You Calls",
+    description: "Most plumber and HVAC websites look the same and convert terribly. Here's what your website actually needs to generate leads — and what's wasting your money.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Plumbing", "HVAC", "Local Business"],
+    content: `
+A homeowner's basement is flooding. Their AC dies on a 100-degree day. Their water heater is leaking all over the garage floor.
+
+They grab their phone and Google "plumber near me" or "emergency AC repair." Your website has about 3 seconds to convince them to call you instead of the next guy in the results.
+
+Most plumber and HVAC websites fail this test. They load slowly, bury the phone number, and look like they were built in 2012. Here's what actually works.
+
+## Your phone number is your most important feature
+
+This sounds obvious, but most trade websites get it wrong. Your phone number needs to be:
+
+- **In the top right corner of every page** — sticky header that follows as they scroll
+- **Click-to-call on mobile** — one tap, ringing. Not "copy this number and paste it into your dialer"
+- **Large enough to read without squinting** — 18px minimum, bold
+- **Accompanied by your hours** — "Call 24/7" or "Mon-Sat 7am-6pm" right next to the number
+
+If someone has to scroll down or click "Contact" to find your phone number, you've already lost the emergency call. That customer called your competitor while your page was still loading.
+
+## Emergency vs. scheduled work — design for both
+
+Plumbers and HVAC companies handle two very different types of customers:
+
+1. **Emergency customers** — need help right now, will call the first credible company they find
+2. **Planned project customers** — getting quotes for a new furnace, water heater replacement, bathroom remodel
+
+Your homepage needs to serve both. The emergency customer needs the phone number and a "we're available now" signal. The project customer needs service pages, pricing info, and trust signals like reviews and photos.
+
+### How to structure your homepage
+
+- **Hero section:** Phone number, "24/7 Emergency Service" badge, one-sentence value prop ("Licensed plumber serving KC since 2008"), and a clear call-to-action button
+- **Services snapshot:** 4-6 cards linking to individual service pages (drain cleaning, water heater, sewer line, etc.)
+- **Trust bar:** License number, years in business, "fully insured," BBB rating — all in one horizontal strip
+- **Reviews section:** Pull 3-5 of your best Google reviews directly onto the page
+- **Service area:** List every city and neighborhood you serve. This is as much for Google as it is for the customer.
+
+## Individual service pages are your secret weapon
+
+This is the single biggest mistake trade websites make: lumping everything onto one "Services" page.
+
+Google ranks pages, not websites. If you have one "Services" page that mentions plumbing, HVAC, drain cleaning, and water heaters, you're competing against specialists who have dedicated pages for each.
+
+### Create a separate page for each service you offer
+
+- Water heater repair and installation
+- Drain cleaning and sewer repair
+- AC repair and installation
+- Furnace repair and installation
+- Garbage disposal repair
+- Sump pump service
+- Bathroom and kitchen plumbing
+- Commercial plumbing/HVAC
+
+Each page should include:
+- **What the service involves** in plain language
+- **Common signs the customer needs this service** (helps with search queries like "why is my water heater making noise")
+- **Your service area** mentioned naturally
+- **Photos of your actual work** — not stock photos
+- **A call-to-action** at the top and bottom of the page
+
+A page titled "Water Heater Repair in Overland Park" will outrank a generic "Services" page every single time for that search.
+
+## Photos matter more than you think
+
+Homeowners are letting you into their house. They want to see that you're professional, your truck is clean, and your work looks good. Stock photos of a guy in a hard hat holding a wrench actively hurt your credibility because everyone can tell they're fake.
+
+### Photos you should have on your website
+
+- **Your truck or van** — branded, clean, parked in a driveway
+- **Your team** — even a quick group photo builds trust
+- **Before-and-after shots** of real jobs (water heater installs, AC units, bathroom plumbing)
+- **You at work** — wearing a uniform, doing the job
+
+You don't need a professional photographer. Phone photos in good lighting are fine. The authenticity matters more than the production quality.
+
+## Reviews are your #1 sales tool
+
+For home service businesses, reviews aren't optional. They're the primary way homeowners decide who to call. A plumber with 47 five-star Google reviews will beat a plumber with a fancier website and 3 reviews every time.
+
+### How to use reviews on your website
+
+- **Pull your best Google reviews onto your homepage** — 3-5 reviews with the customer's first name and star rating
+- **Create a dedicated "Reviews" page** with 15-20 of your best
+- **Include the specific service mentioned** — "Fixed our leaking water heater same day" is better than "Great service!"
+- **Link to your Google Business Profile** so visitors can verify they're real
+
+### How to get more reviews
+
+After every job, send a text with a direct link to your Google review page. Don't ask in person and hope they remember — text the link while you're still in the driveway. The close rate drops dramatically after 24 hours.
+
+## What plumber and HVAC websites don't need
+
+- **Live chat widgets.** You're under a sink or on a roof. You can't answer a chat in real time, and an unanswered chat is worse than no chat at all.
+- **Blog posts about "5 signs your furnace needs repair."** These rarely drive leads for local trades. Your time is better spent getting Google reviews and keeping your Google Business Profile updated.
+- **Exact pricing on the website.** Every job is different. "Starting at" prices are fine for simple services (drain cleaning, AC tune-up), but avoid quoting complex jobs online.
+- **Fancy animations or video backgrounds.** Someone with a broken pipe doesn't want to wait for your parallax effect to load. Speed wins. Aim for under 2 seconds.
+- **Social media feeds.** Most plumbers and HVAC companies don't post enough on social media to make an embedded feed look good. Skip it unless you're genuinely active.
+
+## The Google Business Profile connection
+
+For plumbers and HVAC companies, your [Google Business Profile](/blog/google-business-profile-free-tool) is arguably more important than your website. It's what shows up in the map pack — those three businesses that appear at the top of "plumber near me" searches.
+
+But your website reinforces your GBP. Google uses your website to verify your services, service area, and legitimacy. A strong website with service-specific pages helps your GBP rank higher.
+
+**Critical GBP actions:**
+- Fill out every field completely
+- Add photos regularly (at least monthly)
+- Post updates weekly (finished jobs, seasonal tips)
+- Respond to every review — good and bad
+- Make sure your name, address, and phone number match your website exactly
+
+## What this should cost
+
+A professional plumber or HVAC website with a homepage, 6-8 service pages, reviews section, and contact form should cost $400-700 from someone who understands trade businesses. If someone quotes you $3,000+ for a brochure site, they're overcharging.
+
+Avoid website builders that lock you into $200+/month hosting contracts. You should own your site and be able to move it if you want.
+
+## The bottom line
+
+Your website's job is simple: make the phone ring. Every design decision, every page, every word should be evaluated against that goal. If it doesn't help someone decide to call you, it doesn't belong on your site.
+
+Emergency customers need your number instantly. Project customers need to see that you're licensed, insured, reviewed, and professional. Give them both what they're looking for, and your website becomes your best lead generator.
+
+Ready for a website that actually gets you calls? [Let's talk](/contact) — I build websites specifically for trades and home service businesses.
+    `,
+  },
+  {
+    slug: "website-tips-for-landscapers-lawn-care",
+    title: "Website Tips for Landscapers and Lawn Care Companies: Turn Visitors Into Estimates",
+    description: "Your landscaping website should book estimates, not just look pretty. Here's exactly what lawn care and landscaping companies need on their website to convert visitors into paying customers.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Landscaping", "Lawn Care", "Local Business"],
+    content: `
+Landscaping is one of the most visual businesses out there. Your work literally transforms how a property looks. But most landscaping websites don't take advantage of this — they use stock photos of perfect lawns that could be anyone's work and bury their contact info behind three clicks.
+
+Here's what your landscaping or lawn care website actually needs to generate leads, and what you can skip.
+
+## Before-and-after photos are your entire sales pitch
+
+No other industry benefits from before-and-after photos as much as landscaping. A side-by-side of an overgrown yard turned into a clean, mulched, edged property sells your work better than any words on the page.
+
+### Photo rules for landscaping websites
+
+- **Always shoot before AND after** — train your crew to take a phone photo before starting every job
+- **Same angle, same lighting** — the comparison is the point. Stand in the same spot for both shots
+- **Show the full scope** — wide shots of the whole yard, not just a close-up of one bush
+- **Include seasonal variety** — spring cleanups, summer mowing stripes, fall leaf removal, snow removal if you offer it
+- **Label the work done** — "Full yard renovation: sod installation, retaining wall, mulch beds, landscape lighting" under each set
+
+Put your best 8-10 before-and-after sets on a dedicated "Our Work" page, and feature 2-3 of the most dramatic transformations on your homepage.
+
+## Separate your services clearly
+
+Landscaping companies usually offer a wide range of services, and lumping them together confuses both customers and Google.
+
+### Create individual pages for each service category
+
+**Maintenance services:**
+- Weekly/bi-weekly lawn mowing
+- Edging and trimming
+- Leaf removal and fall cleanup
+- Spring cleanup and mulching
+- Fertilization and weed control
+- Aeration and overseeding
+
+**Design and installation:**
+- Landscape design
+- Sod installation
+- Retaining walls and hardscaping
+- Patio and walkway installation
+- Landscape lighting
+- Irrigation/sprinkler systems
+- Tree and shrub planting
+
+**Seasonal:**
+- Snow removal and ice management
+- Holiday lighting installation
+
+Each page should describe the service, show photos of your work, mention your service area, and have a clear "Get a Free Estimate" button.
+
+Why bother with all these pages? Because someone searching "retaining wall installation Olathe" will find your dedicated retaining wall page. They won't find your generic "Services" page that mentions retaining walls in one bullet point.
+
+## Pricing: the question everyone asks
+
+Every landscaper gets the same question: "How much does it cost?" You don't have to list exact prices, but giving ranges or "starting at" pricing builds trust and pre-qualifies leads.
+
+### What to include
+
+- **Lawn mowing starting prices** based on lot size ("Starting at $35/visit for lots up to 5,000 sq ft")
+- **Cleanup package ranges** ("Spring cleanups typically run $150-400 depending on yard size")
+- **A note that custom projects require an estimate** ("Every landscaping project is unique — we'll provide a free on-site estimate")
+
+Listing at least starting prices filters out customers outside your budget and attracts the ones who can afford your work. You'll spend less time on estimates that go nowhere.
+
+## Make "Get a Free Estimate" your primary call to action
+
+For landscaping companies, the conversion action is almost always a free estimate. Make this dead simple:
+
+- **"Get a Free Estimate" button in your header** — visible on every page
+- **Short form:** Name, phone, email, address, brief description of what they need. That's it. Don't ask for lot size, square footage, or 10 other fields.
+- **Phone number visible** for people who'd rather call
+- **Response time promise** — "We'll get back to you within 24 hours" sets expectations and builds trust
+
+Some landscapers use scheduling tools to let customers book estimate appointments directly. If you can commit to specific time slots, this reduces back-and-forth and increases booking rates.
+
+## Service area: be specific and repeat it
+
+Landscaping is hyper-local. You drive to the job. Fuel costs and drive time matter. Your website should make your service area crystal clear.
+
+### How to handle service area
+
+- **Dedicated "Service Area" page** listing every city, suburb, and neighborhood you serve
+- **Mention your area on every service page** naturally ("We provide lawn mowing services across Overland Park, Leawood, Prairie Village, and Lenexa")
+- **Consider a simple map** showing your coverage area
+- **Be honest about travel limits** — if you don't go past a certain highway, say so. It saves you and the customer time.
+
+This also helps with local SEO. When someone searches "landscaper in Leawood," Google looks for pages that mention Leawood. If your only mention of Leawood is buried in a footer, you're losing that search to a competitor who has it in page content.
+
+## Seasonal content keeps your site relevant
+
+Landscaping is seasonal. Your website should reflect what you're offering right now.
+
+### Simple seasonal updates
+
+- **Update your homepage hero image** each season (green lawn in summer, fall colors in autumn, snow removal in winter)
+- **Feature seasonal services prominently** — push snow removal in November, spring cleanup in March
+- **Add a seasonal tip or note** to the homepage ("Now booking spring cleanups — schedule by March 15 for priority pricing")
+
+You don't need a blog for this. Just update your homepage a few times a year to match what customers are searching for right now.
+
+## What landscaping websites don't need
+
+- **E-commerce for selling plants or materials.** Unless retail sales are a major revenue stream, skip it. The complexity isn't worth it.
+- **A blog about "10 best plants for shade."** Gardening content attracts DIYers, not customers. Your photos sell your work better than articles do.
+- **Video tours of every project.** One or two short videos are fine, but a video library is overkill. Photos are faster to browse and easier to update.
+- **Client login portals.** For recurring maintenance customers, texting or emailing invoices works fine. A portal adds complexity without adding value for most companies.
+- **Social media feeds.** Unless you're posting regularly with quality content, an empty or outdated social feed hurts more than it helps.
+
+## Reviews and testimonials
+
+Like all home service businesses, reviews drive decisions. Homeowners want to see that their neighbors had a good experience.
+
+### Best review practices for landscapers
+
+- **Feature reviews that mention specific services** — "They transformed our backyard with a new patio and landscape lighting" converts better than "Great company!"
+- **Include the neighborhood or city** if the reviewer mentions it — this helps local SEO
+- **Ask for reviews after the first mow or completed project** — text a direct link to your Google review page before you leave the property
+- **Respond to every review** on Google — it shows you're active and engaged
+
+## The Google Business Profile advantage
+
+Your [Google Business Profile](/blog/google-business-profile-free-tool) is critical for landscaping. When someone searches "lawn care near me," the map pack results get most of the clicks.
+
+- **Add photos of completed projects regularly** — Google rewards profiles that get fresh photos
+- **Post weekly updates** — "Just finished this patio installation in Prairie Village" with a photo
+- **List every service as a GBP service** — this helps Google match you to specific searches
+- **Keep your hours, phone, and service area accurate**
+
+## What a landscaping website should cost
+
+A solid landscaping website with a homepage, 6-10 service pages, photo gallery, reviews section, and estimate request form should run $400-700. Add a few hundred if you want a custom service area map or scheduling integration.
+
+If someone quotes you $150/month for a "landscaping website package" that you don't own, do the math: that's $1,800/year for a template you can't take with you. A one-time build that you own is almost always the better deal.
+
+## Get started
+
+Your landscaping website should do two things: show your best work and make it easy to request an estimate. Everything else is secondary. Get the photos right, build out your service pages, and make that estimate button impossible to miss.
+
+Need a website built for how landscaping businesses actually work? [Let's talk](/contact) — I'll tell you exactly what you need and what you can skip.
+    `,
+  },
+  {
+    slug: "website-tips-for-personal-trainers-gyms",
+    title: "Website Tips for Personal Trainers and Gyms: How to Book More Clients Online",
+    description: "Most personal trainer websites look like a resume. Here's how to build a website that actually books clients — whether you train in-person, online, or both.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Personal Training", "Fitness", "Local Business"],
+    content: `
+Personal training is a trust-based business. People are hiring you to change their body, their habits, and often their confidence. A website that looks like a LinkedIn profile with a stock photo of dumbbells isn't going to cut it.
+
+Your website needs to do one thing: convince a stranger that you're the right person to help them reach their goals. Here's how.
+
+## Lead with transformation, not credentials
+
+Most personal trainer websites open with a headshot, a list of certifications, and a bio that reads like a resume. "NASM Certified Personal Trainer, ACE Group Fitness Instructor, BS in Exercise Science..."
+
+Your potential client doesn't care about your certifications. They care about results. Lead with what you've done for people like them.
+
+### What your homepage should communicate in 5 seconds
+
+- **Who you help** — "I help busy professionals in their 30s-50s get strong and stay consistent"
+- **What the result looks like** — "Lose 20 lbs, gain energy, and actually enjoy working out"
+- **How to start** — "Book a free consultation" button, front and center
+
+Save the credentials for an "About" section further down the page. They're important for credibility, but they're not the hook.
+
+## Client transformations are your best marketing
+
+Before-and-after photos, client testimonials, and success stories are the most persuasive content on your website. Nothing else comes close.
+
+### How to showcase transformations
+
+- **Before-and-after photos** with the client's permission — include timeframe ("12 weeks") and what they achieved
+- **Short written testimonials** — 2-3 sentences about their experience. "I lost 30 pounds in 4 months and actually look forward to my workouts now" hits harder than a paragraph
+- **Video testimonials** if you can get them — even a 30-second phone video of a client saying "this changed my life" is worth more than a professionally produced promo
+- **Specific numbers** — pounds lost, muscle gained, races completed, PRs hit. Specificity builds believability.
+
+Put 3-4 of your best transformations on the homepage. Create a dedicated "Results" or "Success Stories" page with 10-15 more.
+
+## Clearly define your services and pricing
+
+Personal training pricing is all over the map, and most trainer websites are vague about what they offer. This frustrates potential clients and wastes your time on discovery calls with people who can't afford your rates.
+
+### What to list on your services page
+
+**For in-person trainers:**
+- 1-on-1 personal training (per session and package pricing)
+- Small group training (2-4 people)
+- Number of sessions per week options
+- Session length (30, 45, or 60 minutes)
+- Location (your gym, their home, a park, etc.)
+
+**For online trainers:**
+- What's included (custom programming, check-ins, nutrition guidance, app access)
+- How communication works (weekly check-ins, unlimited messaging, video calls)
+- Different tier options if you offer them
+
+**Pricing approach:**
+- List your prices or at minimum "starting at" prices. Trainers who hide pricing lose potential clients who assume it's out of their budget — many of them could afford you.
+- If you offer packages (e.g., "12 sessions for $X"), show the per-session savings vs. drop-in rates
+- "Book a free consultation" as the next step for anyone who wants to learn more
+
+## Online training needs its own section
+
+If you offer online training, don't just mention it as a bullet point under "Services." Online training has a completely different value proposition and attracts different clients than in-person.
+
+### What online training clients need to see
+
+- **How it works** — step by step, from sign-up to daily workouts. Remove the mystery.
+- **What platform/app you use** — TrueCoach, TrainHeroic, or your own system
+- **What's included** — custom programming, form video reviews, nutrition plans, messaging access
+- **Who it's for** — "Perfect for experienced lifters who know their way around a gym but want expert programming and accountability"
+- **Sample week** — show what a typical week of programming looks like (Monday: Upper body strength, Tuesday: Conditioning, etc.)
+- **Pricing** — monthly subscription vs. per-block pricing
+
+## Your "About" page is more personal than most businesses
+
+For personal trainers, the About page is one of the most visited pages on the site. Clients are choosing a person, not a company. They want to know who you are.
+
+### What to include
+
+- **Your story** — why you got into fitness, what drives you. Keep it honest and human. "I was 50 pounds overweight in college and discovered strength training" connects more than "I have a passion for helping others achieve their fitness goals."
+- **Your training philosophy** — do you focus on strength? Functional movement? Athletic performance? Body composition? Say it clearly so the right clients self-select.
+- **A real photo** — not a flexing mirror selfie. A photo of you training a client, or a friendly, approachable headshot. You want to look like someone a new client would feel comfortable working with.
+- **Your certifications** — listed here, not as the headline of your homepage
+
+## Scheduling and booking
+
+Make it as easy as possible to book a first session or consultation. Every extra step loses potential clients.
+
+### Best booking setup for trainers
+
+- **Embed a scheduling tool** directly on your site — Calendly, Acuity, or your gym's booking system. Don't just link to it; embed it so they never leave your page.
+- **Offer a free intro session or consultation** — lower the barrier. "Book a free 15-minute call" or "Try a free session" removes risk for the prospect.
+- **Show available times** — if your calendar shows you have openings Tuesday and Thursday evenings, that might be exactly when they're available. Visibility drives action.
+- **Confirmation + reminder emails** — automate these. No-shows kill your schedule and your revenue.
+
+## What personal trainer websites don't need
+
+- **A blog about "5 best exercises for abs."** Fitness content is the most saturated content category on the internet. You're competing with Men's Health, Muscle & Fitness, and 10 million Instagram influencers. Your blog won't rank for these searches, and the people reading "best ab exercises" are DIYers, not potential clients.
+- **An e-commerce store** selling supplements, apparel, or workout programs (unless that's a major revenue stream — for most trainers, it's a distraction).
+- **A generic stock photo of someone working out.** Use your own photos. A real photo of you training a real client in your actual gym beats a stock photo of a model every time.
+- **A complicated "Training Programs" matrix.** If you offer too many options, people freeze. Offer 2-3 clear options maximum.
+- **Social media feeds** unless you post consistently. An Instagram feed that hasn't been updated in 6 weeks makes you look inactive.
+
+## Social proof beyond testimonials
+
+### Additional trust signals for trainers
+
+- **Social media following** — if you have a strong Instagram or TikTok presence, mention the follower count. "Join 15,000+ people following my training tips on Instagram" is social proof.
+- **Media mentions** — been featured in a local publication, podcast, or news segment? Add a "Featured In" logo bar.
+- **Client count** — "Trained 200+ clients since 2019" is a simple but powerful number.
+- **Specializations and populations** — if you specialize in postpartum fitness, senior fitness, or training athletes, say so prominently. Specialization attracts premium clients.
+
+## Local SEO for personal trainers
+
+If you train clients in person, local search matters. When someone Googles "personal trainer near me" or "personal trainer in [your city]," your website and Google Business Profile determine whether they find you.
+
+### Local SEO checklist
+
+- **Include your city and neighborhood** in your page titles ("Personal Trainer in Westport, Kansas City")
+- **Create your [Google Business Profile](/blog/google-business-profile-free-tool)** and keep it updated with photos, posts, and responses to reviews
+- **List your training location** clearly — gym name and address, or "in-home training available in [service area]"
+- **Get Google reviews** — ask every client. Text them the link after a great session.
+
+## What a personal trainer website should cost
+
+A solid personal trainer website with a homepage, about page, services page with pricing, results/transformations gallery, and embedded booking should cost $350-600. You don't need a complex site — you need a clear, fast, professional one.
+
+Avoid monthly website subscriptions from fitness marketing companies. Many charge $100-200/month for a template site you don't own. A one-time build that you control is the better investment.
+
+## The bottom line
+
+Your potential clients are deciding between you and the other trainer they found on Google. They're comparing photos, reading reviews, checking prices, and looking for someone who understands their goals.
+
+Make that decision easy: show your results, be clear about what you offer, and make booking frictionless. That's it. Everything else is noise.
+
+Ready for a website that books clients while you're busy training? [Let's talk](/contact) — I build sites specifically for fitness professionals.
+    `,
+  },
 ];
