@@ -1,25 +1,42 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-03-04
+2026-03-26
 
 ## Current State
 - Deployed at `https://builtsimple.dev`
 - GitHub: `https://github.com/cascone26/portfolio`
 - Vercel project: `cascone26s-projects/builtsimple`
 - Custom domain: `builtsimple.dev` (live)
+- Next.js 16.1.6 + Tailwind CSS v4 + Framer Motion
 
-## Site Structure (31 routes)
-- `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards)
-- `/services` — Services & pricing (6 services + how it works)
-- `/work` — Portfolio grid (LessonDraft, Social Autoposter, placeholder)
+## Site Structure (91+ routes)
+
+### Public Pages
+- `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards, trust bar)
+- `/services` — Services & pricing (6 services + how it works + delivery timelines)
+- `/work` — Portfolio grid (LessonDraft, Social Autoposter)
 - `/work/lessondraft` — LessonDraft case study with screenshot
 - `/work/lessondraft-social` — Autoposter case study
 - `/about` — About me (bio, skills, tech stack)
-- `/faq` — FAQ (10 questions)
+- `/faq` — FAQ (10 questions, click-to-expand accordion)
 - `/contact` — Contact form (Formspree) + phone/email/location
-- `/blog` — Blog listing (8 posts)
-- `/blog/[slug]` — 8 individual blog posts with prev/next nav
+- `/products` — 28 digital products with Stripe payment integration
+- `/thank-you` — Post-purchase confirmation page
+
+### Industry Landing Pages
+- `/for/contractors` — Contractor-specific landing page
+- `/for/fitness` — Fitness business landing page
+- `/for/restaurants` — Restaurant landing page
+- `/for/salons` — Salon/beauty landing page
+
+### Blog (19 posts)
+- `/blog` — Blog listing with tag filtering
+- `/blog/[slug]` — 19 individual blog posts with prev/next nav, related posts, JSON-LD
+- `/blog/tag/[tag]` — 38 tag pages (auto-generated from post tags)
+- Dynamic OG images per blog post (`opengraph-image.tsx`)
+
+### Admin Dashboard
 - `/admin` — Private dashboard (password-gated, not in public nav)
 - `/admin/login` — Password login
 - `/admin/clients` — Client tracker with status filtering
@@ -29,12 +46,23 @@
 - `/admin/scripts` — Sales talking points
 - `/admin/revenue` — Revenue computed from clients data
 - `/admin/notes` — To-do list
+- `/admin/tax` — Tax reference
+
+## SEO
+- OG/Twitter cards on all pages
+- Dynamic OG images for blog posts (per-post title + read time)
+- Root OG image for non-blog pages
+- JSON-LD structured data (Organization, WebSite, BlogPosting, Breadcrumbs)
+- `sitemap.ts` covers all 91+ routes
+- `robots.ts` allows all, blocks `/admin/`
+- RSS feed at `/feed.xml`
+- Canonical URLs on all blog posts
 
 ## Admin Dashboard
 - Password gate via `ADMIN_PASSWORD` env var (set on Vercel)
 - Middleware protects all `/admin/*` routes except `/admin/login`
 - HttpOnly cookie auth, 7-day expiry
-- Sidebar nav with 8 sections
+- Sidebar nav with 9 sections
 - All data in TypeScript files (`app/admin/data/`) — edit and redeploy to update
 - Not indexed by search engines (noindex, nofollow)
 - Uses react-markdown for contract rendering
@@ -55,18 +83,18 @@
 - Phone: 816-520-5652
 - Location: Mission, KS
 
-## Recent Changes (Feb 24 UI polish)
-- FAQ page: click-to-expand accordion (one open at a time, animated)
-- Hero: replaced code snippet with visual mockup of a small business website
-- Contact form: JS handling with success/loading/error states (Formspree + fetch)
-- Trust bar: rewritten with concrete SMB claims (24hr response, 1-2 weeks, no contracts, custom)
-- Services: added delivery timelines and price-driver notes to each card
+## Recent Changes
+- **2026-03-26**: Dynamic OG images for all 19 blog posts (per-post title/read time)
+- **2026-03-26**: STATUS.md updated to reflect actual site structure (91+ routes)
+- **2026-03-22**: OneSignal push notification integration (needs env var)
+- **2026-03-22**: Node >=20 engines field added
+- **2026-02-24**: FAQ accordion, hero mockup, contact form handling, trust bar, service timelines
 
 ## Known Issues
-- None currently
+- Next.js 16 middleware deprecation warning (Clerk-independent, no migration path yet)
+- OneSignal push notifications configured but `NEXT_PUBLIC_ONESIGNAL_APP_ID` not set in Vercel env
 
 ## Next Up
-- Connect builtsimple.dev domain in Vercel (if not already done)
-- Consider adding more project screenshots to work page
 - Testimonials (once clients exist)
 - Headshot/photo (needs Jacob to provide one)
+- More project screenshots on work page
