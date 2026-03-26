@@ -1748,4 +1748,251 @@ DIY tools are better than ever, but they don't replace expertise. A website buil
 
 Figure out what your website needs to *do* for your business, then pick the path that gets you there without burning you out. And if you're not sure where you fall, it never hurts to get a quick quote and compare it against the hours you'd spend doing it yourself. The math usually tells the story.`
   },
+  {
+    slug: "how-much-does-a-small-business-website-cost-in-kansas-city",
+    title: "How Much Does a Small Business Website Cost in Kansas City? (2026 Guide)",
+    description: "Real pricing for KC small business websites — from Overland Park to downtown. What local agencies charge, what you actually need, and how to avoid overpaying.",
+    date: "2026-03-26",
+    readTime: "6 min",
+    tags: ["Websites", "Pricing", "Local Business", "Kansas City", "Small Business"],
+    content: `
+If you run a small business in Kansas City and you've started looking into getting a website, you've probably noticed something: nobody gives you a straight answer on price.
+
+You'll find agencies in the Crossroads quoting $5,000. WordPress freelancers on Upwork quoting $300. Wix telling you it's free (it's not). The range is so wide it's useless.
+
+Here's what a small business website actually costs in Kansas City in 2026 — with real numbers, real comparisons, and none of the runaround.
+
+## What KC agencies typically charge
+
+Kansas City has a solid web design scene. Agencies along the Country Club Plaza, in the Crossroads Arts District, and across the state line in Overland Park all serve small businesses. But their pricing reflects their overhead.
+
+**Typical KC agency pricing:**
+- **Basic brochure site (3-5 pages):** $2,500 - $8,000
+- **Custom design with CMS:** $5,000 - $15,000
+- **E-commerce:** $8,000 - $25,000+
+- **Ongoing retainer:** $500 - $2,000/month
+
+That's not a scam — agencies have designers, project managers, account reps, and office space. You're paying for all of it. For a larger business that needs complex strategy, it can make sense. For a barbershop in Waldo or a landscaper in Lee's Summit? It's overkill.
+
+## What freelancers in KC charge
+
+Kansas City has a growing freelance community. You'll find web developers at Plexpod, the Freelance Exchange KC meetups, and on local Facebook groups.
+
+**Typical KC freelancer pricing:**
+- **Template-based site:** $500 - $1,500
+- **Custom design:** $1,500 - $4,000
+- **WordPress with customization:** $800 - $3,000
+
+The quality varies a lot. Some freelancers do excellent work. Others will hand you a barely-modified template and disappear. Always ask to see recent work and get references from other KC businesses.
+
+## What a small business website should actually cost
+
+For most Kansas City small businesses — restaurants in Westport, salons in Brookside, HVAC companies in Olathe, tutors in Prairie Village — here's what you really need:
+
+**$350-600 gets you a complete, professional website:**
+- 3-5 pages (home, about, services, contact, maybe a gallery or menu)
+- Mobile-friendly design (over 65% of KC web traffic is on phones)
+- Fast loading — under 2 seconds
+- Basic [SEO so you show up in local searches](/blog/seo-for-local-businesses)
+- Google Business Profile optimization guidance
+- Contact form, click-to-call, embedded Google Map
+- You own everything when it's done
+
+That's not a stripped-down starter site. That's a real website that does its job: tells people what you do, where you are, and how to hire you.
+
+## The Kansas City local SEO factor
+
+Here's something most web designers won't mention: in a metro like KC, your website's biggest job isn't looking pretty. It's **showing up when someone searches "plumber near me" or "best salon in Overland Park."**
+
+A cheap template site won't rank. It won't have:
+- **Location-specific content** that tells Google you serve KC, Independence, Blue Springs, Lenexa, and surrounding areas
+- **Schema markup** that helps Google understand your business type, hours, and service area
+- **Fast load times** that Google rewards in search rankings
+- **Mobile optimization** that keeps visitors from bouncing back to the search results
+
+When someone searches "Kansas City [your service]," your website needs to compete with other local businesses who already invested in this. A $200 Fiverr site won't cut it.
+
+## The "monthly payment" trap in KC
+
+Some KC web companies advertise "websites starting at $0 down" or "$99/month." Sounds great until you do the math:
+
+- $99/month × 24-month contract = **$2,376**
+- $149/month × 36 months = **$5,364**
+- And you still don't own the site when the contract ends
+
+I've talked to Kansas City business owners who paid $3,000+ over two years and then lost their website when they canceled. The company owned the domain, the hosting, everything.
+
+**The better model:** Pay once, own it forever. If you want help later, that's optional — not mandatory.
+
+## What about DIY options?
+
+If you're bootstrapping a new business — maybe you just opened a food truck at City Market or started a cleaning service — here are the honest trade-offs:
+
+**Squarespace/Wix ($16-33/month):**
+- Looks decent out of the box
+- You'll spend 20-40 hours building it
+- Limited SEO control
+- Slower than custom-built sites
+- Annual cost: $192-$396 (forever)
+
+**WordPress.com ($25-45/month):**
+- More flexible than Squarespace
+- Steeper learning curve
+- Plugin costs add up ($50-200/year for essentials)
+- Security maintenance is on you
+- Annual cost: $300-$540+
+
+**Custom-built by a developer ($350-600 one-time):**
+- Built for your specific business
+- Fast, clean, no bloat
+- SEO done right from day one
+- You own everything
+- Annual cost: $0-$50 (just hosting/domain)
+
+After 2 years, the DIY route costs more than paying someone to build it right. And that doesn't count your time.
+
+## Questions KC business owners always ask
+
+### "Do I really need a website if I have a Facebook page?"
+
+Yes. Facebook controls who sees your posts (and it's shrinking every year). When someone Googles your business, they expect a website. No website = no credibility for a lot of people. Your [Google Business Profile helps](/blog/google-business-profile-free-tool), but a website is the foundation.
+
+### "Should I wait until my business is more established?"
+
+No. Your website is how new customers find you. Waiting means missing every search for "Kansas City [your service]" that happens between now and whenever you finally get around to it. Even a simple 3-page site puts you on the map.
+
+### "Can I just use my Google Business Profile?"
+
+GBP is essential — but it's not a replacement for a website. Your GBP listing actually ranks better when it links to a real website. Google sees it as a signal of legitimacy.
+
+## How to pick the right option for your KC business
+
+**If you're just starting out and money is extremely tight:** Build a simple Squarespace site yourself. It's better than nothing. Upgrade later.
+
+**If you want it done right without overpaying:** Hire someone who specializes in small business websites. Not an agency with a downtown office. One person who actually builds the thing.
+
+**If you have a complex business (e-commerce, booking, multiple locations):** An agency or experienced freelancer may be worth it. Get 3 quotes and compare.
+
+## Bottom line for Kansas City businesses
+
+A professional small business website in Kansas City should cost $350-600. Not $5,000. Not $99/month forever. One price, you own it, it works.
+
+Your competitors in Overland Park, Lee's Summit, and downtown KC already have websites that show up in Google searches. Every month without one is customers you're handing to them.
+
+Ready to stop wondering about pricing? [Get a real quote in 24 hours](/contact) — no contracts, no surprises.
+    `,
+  },
+  {
+    slug: "best-website-for-restaurants-salons-contractors-2026",
+    title: "The Best Type of Website for Restaurants, Salons, and Contractors in 2026",
+    description: "Not every business needs the same website. Here's exactly what restaurants, salons, and contractors should prioritize — and what's a waste of money.",
+    date: "2026-03-26",
+    readTime: "6 min",
+    tags: ["Web Design", "Small Business", "Restaurants", "Local Business"],
+    content: `
+A restaurant doesn't need the same website as a roofing company. A hair salon doesn't need what works for a law firm. But most web designers build the same generic template for everyone and call it done.
+
+Your website should be built around how your customers actually find you and decide to buy from you. Here's what that looks like for three of the most common small business types.
+
+## Restaurants and food businesses
+
+When someone searches for a restaurant, they want three things fast: the menu, the location, and whether it's open right now. Everything else is secondary.
+
+### What a restaurant website must have
+
+- **Menu on the homepage** — not buried behind two clicks. If your menu is a PDF, make it a webpage instead. PDFs are terrible on phones and invisible to Google.
+- **Hours and location above the fold** — the first thing someone sees, no scrolling required
+- **Click-to-call phone number** — one tap to order or reserve
+- **Google Maps embed** — so people can get directions instantly
+- **Online ordering link** — if you use DoorDash, Uber Eats, Toast, or your own system, make it prominent
+- **Photos of actual food** — not stock photos. Real shots from your kitchen. Even phone photos beat generic stock images.
+
+### What restaurants don't need
+
+- **A blog.** Nobody reads a restaurant blog. Put that energy into your Google Business Profile posts instead.
+- **An "about the chef" page nobody visits.** A short bio on the homepage is plenty.
+- **Fancy animations.** They slow your site down. Hungry people won't wait 4 seconds for your parallax hero to load.
+- **A custom reservation system.** Use OpenTable, Resy, or a simple "call us" button. Don't reinvent the wheel.
+
+### Restaurant SEO priority
+
+Your [Google Business Profile](/blog/google-business-profile-free-tool) matters more than your website for local restaurant searches. But your website reinforces it. Include your city name, neighborhood, and cuisine type in your page titles and descriptions.
+
+**Example:** "Tony's Wood-Fired Pizza | Authentic Italian in Westport, Kansas City" beats "Tony's Pizza | Home" every time.
+
+## Salons and beauty businesses
+
+Salon clients book based on trust. They want to see your work, read reviews, and book without calling. Your website is a portfolio and a booking engine.
+
+### What a salon website must have
+
+- **Portfolio/gallery of real work** — hair transformations, nail art, lash extensions, whatever you specialize in. Before-and-after shots are gold.
+- **Online booking** — embedded directly on the site. Square Appointments, Vagaro, Booksy, or Fresha. The fewer clicks to book, the more bookings you get.
+- **Service menu with prices** — or at minimum "starting at" prices. People hate calling just to find out what a haircut costs. List your prices and you'll attract more of the right clients.
+- **Staff bios with photos** — clients pick their stylist by vibe. A photo and a sentence about their specialty goes a long way.
+- **Reviews/testimonials** — pull your best Google reviews onto the site. Social proof converts browsers into bookings.
+- **Instagram feed** — if you're active on Instagram (and most salons should be), embed your feed. It shows fresh, recent work without you updating the website constantly.
+
+### What salons don't need
+
+- **E-commerce** (unless you sell products heavily — most salons shouldn't prioritize this online)
+- **A separate "gallery" page with 200 photos.** Show your 12 best shots. Quality over quantity.
+- **Blog content about hair care tips.** It rarely drives salon bookings. Your time is better spent on Instagram and Google reviews.
+
+### Salon SEO priority
+
+Target "[service] near [neighborhood]" searches. "Balayage salon Brookside" or "nail salon Overland Park" are the searches that turn into bookings. Make sure your service pages mention specific services and your location. Link your website to your Google Business Profile.
+
+## Contractors and home service businesses
+
+Plumbers, electricians, roofers, HVAC techs, landscapers, painters — your website's job is to build trust fast and make it easy to call or request a quote. That's it.
+
+### What a contractor website must have
+
+- **Click-to-call on every page** — visible, big, impossible to miss. Most contractor leads come from phone calls, not forms.
+- **Service area listed clearly** — "Serving Kansas City, Overland Park, Olathe, Lee's Summit, and surrounding areas." Be specific. This helps Google too.
+- **Service pages for each offering** — don't lump everything on one page. "Residential Plumbing," "Water Heater Repair," "Drain Cleaning" should each be their own page. More pages = more chances to show up in Google for specific searches.
+- **Photos of real jobs** — finished projects, before-and-after, your team at work. Stock photos of a guy in a hard hat hurt more than they help. People can tell.
+- **Reviews prominently displayed** — contractor businesses live and die by reviews. Pull your top Google reviews onto the homepage.
+- **License and insurance info** — homeowners check. Put your license number and "fully insured" in the footer at minimum. Builds instant trust.
+- **Simple quote request form** — name, phone, email, brief description. Don't ask for 15 fields. The shorter the form, the more submissions you get.
+
+### What contractors don't need
+
+- **Online booking.** Unlike salons, contractor work requires a conversation or on-site estimate. A "request a quote" form or phone call is the right conversion action.
+- **A pricing page with exact numbers.** Every job is different. "Starting at" pricing is fine, but don't lock yourself into numbers that vary by job scope.
+- **Chat widgets.** Most contractors can't respond in real-time during the workday because they're on a job site. A chat widget that goes unanswered is worse than not having one.
+- **Video backgrounds or heavy animations.** Your site needs to load fast, especially on cell phones at a job site where someone's toilet just broke.
+
+### Contractor SEO priority
+
+This is where [the right keywords](/blog/what-are-keywords-and-why-should-you-care) make a huge difference. Create individual pages for each service you offer in each area you serve. "Water Heater Repair in Lee's Summit" as a page title will outrank a generic "Services" page every single time.
+
+## The common thread
+
+Regardless of your industry, every small business website needs to answer three questions in under 5 seconds:
+
+1. **What do you do?**
+2. **Where do you do it?**
+3. **How do I hire you?**
+
+If a visitor has to scroll, click around, or squint to figure out any of those — [you're losing customers](/blog/signs-your-website-is-losing-customers).
+
+## What this actually costs
+
+Here's the thing most business owners don't realize: a well-built, industry-specific small business website doesn't have to cost thousands. A restaurant site, a salon site, and a contractor site are different — but they're all achievable in the $350-600 range when you work with someone who understands small businesses.
+
+The key is working with someone who asks about your business first, not someone who hands you a template and says "fill in the blanks."
+
+## Pick your path
+
+**If you're a restaurant:** Focus on mobile menu + Google Business Profile. Those two things will drive more customers than anything else.
+
+**If you're a salon:** Invest in great photos and embed your booking system. Make it frictionless to book.
+
+**If you're a contractor:** Build out service-specific pages, plaster your phone number everywhere, and collect Google reviews like your business depends on it — because it does.
+
+Need a website built for how your industry actually works? [Let's talk](/contact) — I'll tell you exactly what you need and what you don't.
+    `,
+  },
 ];
