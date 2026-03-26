@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import FadeIn from "../components/fade-in";
 import { posts } from "./posts";
 import BlogList from "../components/blog-list";
