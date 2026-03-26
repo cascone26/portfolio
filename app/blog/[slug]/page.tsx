@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FadeIn from "../../components/fade-in";
+import BlogEmailCapture from "../../components/blog-email-capture";
 import { posts } from "../posts";
 
 interface Props {
@@ -254,6 +255,15 @@ export default async function BlogPostPage({ params }: Props) {
               })}
           </article>
         </FadeIn>
+      </section>
+
+      {/* Email capture CTA */}
+      <section className="pb-4 px-6">
+        <div className="max-w-3xl mx-auto">
+          <FadeIn>
+            <BlogEmailCapture />
+          </FadeIn>
+        </div>
       </section>
 
       {/* Related posts */}

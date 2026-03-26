@@ -7,6 +7,7 @@ const quickLinks = [
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
   { href: "/blog", label: "Blog" },
+  { href: "/resources/website-planning-checklist", label: "Free Checklist" },
 ];
 
 export default function Footer() {
