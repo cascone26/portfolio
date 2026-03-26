@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Websites for Restaurants in Kansas City",
   description:
     "Custom websites for restaurants, cafes, and food businesses in the Kansas City area. Menus, hours, online ordering — everything your customers are looking for.",
+  alternates: {
+    canonical: "https://builtsimple.dev/for/restaurants",
+  },
 };
 
 export default function RestaurantsPage() {

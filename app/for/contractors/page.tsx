@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Websites for Contractors in Kansas City",
   description:
     "Custom websites for plumbers, electricians, roofers, landscapers, and service businesses in the Kansas City area. Get found by customers who are searching right now.",
+  alternates: {
+    canonical: "https://builtsimple.dev/for/contractors",
+  },
 };
 
 export default function ContractorsPage() {

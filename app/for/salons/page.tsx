@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Websites for Salons & Beauty Studios in Kansas City",
   description:
     "Custom websites for salons, barbershops, spas, and beauty studios in the Kansas City area. Show off your work and let clients book online.",
+  alternates: {
+    canonical: "https://builtsimple.dev/for/salons",
+  },
 };
 
 export default function SalonsPage() {

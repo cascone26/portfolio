@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Digital Products",
   description:
     "Beautifully designed digital templates for teachers, professionals, and anyone looking to get organized. Instant download after purchase.",
+  alternates: {
+    canonical: "https://builtsimple.dev/products",
+  },
 };
 
 interface Product {

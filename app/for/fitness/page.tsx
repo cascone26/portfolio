@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Websites for Gyms & Fitness Studios in Kansas City",
   description:
     "Custom websites for gyms, personal trainers, yoga studios, and fitness businesses in the Kansas City area. Help people find you and sign up online.",
+  alternates: {
+    canonical: "https://builtsimple.dev/for/fitness",
+  },
 };
 
 export default function FitnessPage() {
