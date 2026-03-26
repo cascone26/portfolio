@@ -104,8 +104,48 @@ const steps = [
 ];
 
 export default function ServicesPage() {
+  const servicesSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "BuiltSimple Services",
+    description: "Web development and AI automation services for small businesses in Kansas City.",
+    itemListElement: services.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Service",
+        name: s.title,
+        description: s.description,
+        provider: {
+          "@type": "LocalBusiness",
+          name: "BuiltSimple",
+          url: "https://builtsimple.dev",
+        },
+        areaServed: {
+          "@type": "City",
+          name: "Kansas City",
+        },
+        offers: {
+          "@type": "Offer",
+          price: s.price.replace(/[^0-9.-]/g, "").split("-")[0],
+          priceCurrency: "USD",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: s.price.replace(/[^0-9.-]/g, "").split("-")[0],
+            priceCurrency: "USD",
+            description: s.price,
+          },
+        },
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
+      />
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 right-0 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="absolute top-10 left-[5%] w-[400px] h-[300px] rounded-full bg-purple-500/[0.04] blur-[100px] pointer-events-none" />

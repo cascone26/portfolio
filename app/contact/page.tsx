@@ -12,8 +12,32 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact BuiltSimple",
+    description: "Get in touch with BuiltSimple for a free website audit, AI automation consultation, or any web development project.",
+    mainEntity: {
+      "@type": "LocalBusiness",
+      name: "BuiltSimple",
+      url: "https://builtsimple.dev",
+      telephone: "816-520-5652",
+      email: "cobo.cascone@gmail.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Mission",
+        addressRegion: "KS",
+        addressCountry: "US",
+      },
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="absolute top-10 right-[10%] w-[350px] h-[250px] rounded-full bg-purple-500/[0.04] blur-[100px] pointer-events-none" />

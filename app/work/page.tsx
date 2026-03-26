@@ -31,8 +31,37 @@ const projects = [
 ];
 
 export default function WorkPage() {
+  const portfolioSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "BuiltSimple Portfolio",
+    description: "Portfolio of web and AI projects by BuiltSimple, including LessonDraft — an AI-powered lesson plan generator.",
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: projects.map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "SoftwareApplication",
+          name: p.name,
+          description: p.description,
+          applicationCategory: "WebApplication",
+          ...(p.url ? { url: p.url } : {}),
+          author: {
+            "@type": "Person",
+            name: "Jacob Cascone",
+          },
+        },
+      })),
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(portfolioSchema) }}
+      />
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 left-0 w-[500px] h-[300px] rounded-full bg-indigo-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="max-w-5xl mx-auto relative">

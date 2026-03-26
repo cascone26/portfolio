@@ -12,8 +12,19 @@ export const metadata: Metadata = {
 };
 
 export default function FitnessPage() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Websites for Gyms & Fitness Studios in Kansas City",
+    description: "Custom websites for gyms, personal trainers, yoga studios, and fitness businesses in the Kansas City area.",
+    provider: { "@type": "LocalBusiness", name: "BuiltSimple", url: "https://builtsimple.dev" },
+    areaServed: { "@type": "City", name: "Kansas City" },
+    serviceType: "Web Development for Fitness Businesses",
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       {/* Limited-time offer banner */}
       <section className="bg-accent/10 border-b border-accent/20 py-3 px-6 text-center">
         <p className="text-sm text-accent-light font-medium">

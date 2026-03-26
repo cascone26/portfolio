@@ -211,8 +211,41 @@ const categories: Category[] = [
 ];
 
 export default function ProductsPage() {
+  const allProducts = categories.flatMap((cat) => cat.products);
+  const productsSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "BuiltSimple Digital Products",
+    description: "Beautifully designed digital templates for teachers, professionals, and anyone looking to get organized.",
+    numberOfItems: allProducts.length,
+    itemListElement: allProducts.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Product",
+        name: p.name,
+        description: p.description,
+        offers: {
+          "@type": "Offer",
+          price: p.price.replace("$", ""),
+          priceCurrency: "USD",
+          availability: "https://schema.org/InStock",
+          url: p.link,
+        },
+        brand: {
+          "@type": "Brand",
+          name: "BuiltSimple",
+        },
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
+      />
       {/* Hero */}
       <section className="relative pt-12 pb-16 px-6">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full bg-blue-500/[0.07] blur-[120px] pointer-events-none" />

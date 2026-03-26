@@ -42,8 +42,37 @@ const skills = [
 ];
 
 export default function AboutPage() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About BuiltSimple",
+    description: "Meet Jacob, the developer behind BuiltSimple — building websites and AI tools for small businesses in Kansas City.",
+    mainEntity: {
+      "@type": "Person",
+      name: "Jacob Cascone",
+      jobTitle: "Web Developer",
+      description: "Web developer and GCU student building websites and AI tools for small businesses in Kansas City.",
+      knowsAbout: ["Web Development", "AI Automation", "Next.js", "React", "TypeScript", "Supabase"],
+      worksFor: {
+        "@type": "Organization",
+        name: "BuiltSimple",
+        url: "https://builtsimple.dev",
+      },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Mission",
+        addressRegion: "KS",
+        addressCountry: "US",
+      },
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <section className="relative pt-12 pb-12 px-6">
         <div className="absolute top-0 left-1/3 w-[500px] h-[300px] rounded-full bg-blue-500/[0.05] blur-[100px] pointer-events-none" />
         <div className="max-w-3xl mx-auto relative">
