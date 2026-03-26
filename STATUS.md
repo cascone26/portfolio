@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-03-26
+2026-03-26 (evening)
 
 ## Current State
 - Deployed at `https://builtsimple.dev`
@@ -30,9 +30,9 @@
 - `/for/restaurants` — Restaurant landing page
 - `/for/salons` — Salon/beauty landing page
 
-### Blog (19 posts)
+### Blog (27 posts)
 - `/blog` — Blog listing with tag filtering
-- `/blog/[slug]` — 19 individual blog posts with prev/next nav, related posts, JSON-LD
+- `/blog/[slug]` — 27 individual blog posts with prev/next nav, related posts, JSON-LD
 - `/blog/tag/[tag]` — 38 tag pages (auto-generated from post tags)
 - Dynamic OG images per blog post (`opengraph-image.tsx`)
 
@@ -84,7 +84,9 @@
 - Location: Mission, KS
 
 ## Recent Changes
-- **2026-03-26**: Dynamic OG images for all 19 blog posts (per-post title/read time)
+- **2026-03-27**: 3 industry-specific SEO blog posts (plumbers/HVAC, landscapers, personal trainers) — 24 total
+- **2026-03-26**: 3 more industry SEO posts (dentists, auto repair shops, real estate agents) — 27 total
+- **2026-03-26**: Dynamic OG images for all blog posts (per-post title/read time)
 - **2026-03-26**: STATUS.md updated to reflect actual site structure (91+ routes)
 - **2026-03-22**: OneSignal push notification integration (needs env var)
 - **2026-03-22**: Node >=20 engines field added

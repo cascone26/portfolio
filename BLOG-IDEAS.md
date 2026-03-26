@@ -147,5 +147,5 @@ Ready to write. Tell Claude "do the blog posts" to execute.
 
 **Total: 105 ideas**
 
-Current blog count: 20 published
+Current blog count: 27 published
 After executing all: 125 posts
