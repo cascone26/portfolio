@@ -74,6 +74,31 @@ export default function RootLayout({
                   },
                 },
                 {
+                  "@type": "LocalBusiness",
+                  name: "BuiltSimple",
+                  url: "https://builtsimple.dev",
+                  description:
+                    "Web development and AI automation for small businesses in Kansas City.",
+                  areaServed: {
+                    "@type": "City",
+                    name: "Kansas City",
+                    containedInPlace: {
+                      "@type": "State",
+                      name: "Missouri",
+                    },
+                  },
+                  founder: {
+                    "@type": "Person",
+                    name: "Jacob Cascone",
+                  },
+                  priceRange: "$$",
+                  serviceType: [
+                    "Web Development",
+                    "AI Automation",
+                    "Website Design",
+                  ],
+                },
+                {
                   "@type": "WebSite",
                   name: "BuiltSimple",
                   url: "https://builtsimple.dev",
