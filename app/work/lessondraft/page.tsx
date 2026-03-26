@@ -52,7 +52,7 @@ export default function LessonDraftCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <BrowserFrame url="lessondraft.com" className="pulse-glow">
               <Image
-                src="/screenshots/lessondraft.png"
+                src="/screenshots/lessondraft.jpg"
                 alt="LessonDraft homepage — AI-powered lesson plan generator"
                 width={1376}
                 height={860}

@@ -237,7 +237,7 @@ export default function Home() {
             <FadeIn delay={0.2} direction="left">
               <BrowserFrame url="lessondraft.com" className="pulse-glow">
                 <Image
-                  src="/screenshots/lessondraft.png"
+                  src="/screenshots/lessondraft.jpg"
                   alt="LessonDraft — AI-powered lesson plan generator for teachers"
                   width={1376}
                   height={860}
