@@ -7,7 +7,7 @@
 
 const activeSessions = new Map<string, number>(); // token -> expiry (ms since epoch)
 
-const SESSION_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+const SESSION_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 export function createSession(): string {
   const token = crypto.randomUUID();
