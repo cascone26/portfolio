@@ -8,6 +8,7 @@ const quickLinks = [
   { href: "/contact", label: "Contact" },
   { href: "/blog", label: "Blog" },
   { href: "/resources/website-planning-checklist", label: "Free Checklist" },
+  { href: "/referral-program", label: "Refer & Earn $200" },
 ];
 
 export default function Footer() {

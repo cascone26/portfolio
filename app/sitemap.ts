@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/for/fitness`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/for/restaurants`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/for/salons`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/referral-program`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
