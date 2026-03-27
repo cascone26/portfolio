@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-03-26 (evening)
+2026-03-27 (early morning)
 
 ## Current State
 - Deployed at `https://builtsimple.dev`
@@ -84,6 +84,8 @@
 - Location: Mission, KS
 
 ## Recent Changes
+- **2026-03-27**: Fixed deployment timeout issue with fresh git push (deployment now stable)
+- **2026-03-27**: Blog content updates (now 29+ posts)
 - **2026-03-27**: 3 industry-specific SEO blog posts (plumbers/HVAC, landscapers, personal trainers) — 24 total
 - **2026-03-26**: 3 more industry SEO posts (dentists, auto repair shops, real estate agents) — 27 total
 - **2026-03-26**: Dynamic OG images for all blog posts (per-post title/read time)

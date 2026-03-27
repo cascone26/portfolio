@@ -13,6 +13,7 @@ const links = [
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
   { href: "/blog", label: "Blog" },
+  { href: "/referral-program", label: "Refer & Earn" },
 ];
 
 export default function Nav() {
