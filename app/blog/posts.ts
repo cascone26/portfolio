@@ -2624,6 +2624,266 @@ Ready for an auto repair website that builds trust and books appointments? [Let'
     `,
   },
   {
+    slug: "website-tips-for-accountants-bookkeepers",
+    title: "Website Tips for Accountants and Bookkeepers: What Clients Actually Need to See",
+    description: "Most accounting and bookkeeping websites are generic and forgettable. Here's what your firm's website actually needs to attract quality clients, rank locally, and grow your practice.",
+    date: "2026-03-26",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Accounting", "Bookkeeping", "Local Business"],
+    content: `
+People searching for an accountant or bookkeeper are handing over sensitive financial information to a near-stranger. Your website needs to answer one question before anything else: why should I trust you with my money?
+
+Most accounting and bookkeeping websites fail this test. They're full of generic stock photos of calculators and handshakes, vague promises about "maximizing your return," and zero personality. Here's what actually converts visitors into clients.
+
+## Lead with who you serve, not what you do
+
+Every accountant does taxes. Every bookkeeper reconciles accounts. What makes you different is who you do it for and how well you understand their specific situation.
+
+### Examples: weak vs. strong positioning
+
+**Weak:** "We provide comprehensive accounting and tax services for individuals and businesses of all sizes."
+
+**Strong:** "We specialize in accounting for small business owners and self-employed professionals in the KC metro. If you've outgrown DIY software but aren't ready for a big firm, we're the right fit."
+
+**Weak:** "Full-service bookkeeping for all industries."
+
+**Strong:** "Bookkeeping for service businesses: contractors, consultants, agencies, and trades. We know your industry's quirks — job costing, seasonal cash flow, subcontractor 1099s."
+
+Specificity earns trust faster than comprehensiveness. The client who fits your niche will choose you over a generalist every time.
+
+## Must-haves for an accounting or bookkeeping website
+
+### 1. Clear services with plain-language descriptions
+
+Don't list "tax planning," "tax preparation," "bookkeeping," and "payroll" without explaining what each actually involves. A small business owner may not know the difference between tax preparation and tax planning — or whether they need both.
+
+Write a short paragraph under each service. What does it include? Who needs it? What's the outcome? "Monthly bookkeeping — we reconcile your accounts, categorize transactions, and deliver a clean P&L and balance sheet by the 10th of each month so you always know where you stand."
+
+### 2. Pricing transparency (even if it's ranges)
+
+Accounting firms often refuse to publish prices because every situation is different. That's understandable — but something is better than nothing. A prospect who can't get any pricing signal from your site will move on to the next option.
+
+Options that work:
+- **"Starting at" pricing** — "Tax preparation for self-employed individuals starts at $350"
+- **Package tiers** — "Basic Bookkeeping ($299/mo): up to 150 transactions, monthly P&L, quarterly check-in"
+- **"Let's talk pricing"** — at minimum, link to a free consultation form with a note that you provide a custom quote after understanding their situation
+
+Publishing nothing signals either that you're expensive or that you don't want the client to know. Neither is good.
+
+### 3. Your credentials, prominently
+
+Clients want to know you're qualified. Don't bury this.
+
+- **CPA license** — state, license number (some clients will verify)
+- **QuickBooks ProAdvisor, Xero certification, or similar**
+- **Years in practice**
+- **Professional memberships** — AICPA, state CPA societies, NACPB for bookkeepers
+- **Education background** if relevant
+
+A simple "About" section with a real photo and these credentials builds more trust than a testimonial carousel.
+
+### 4. Real client results (not just testimonials)
+
+Generic reviews ("Great accountant! Very professional!") aren't meaningless, but they don't sell. Results sell.
+
+- "Saved our client $14K in taxes by restructuring their business entity from sole prop to S-Corp"
+- "Helped a restaurant owner get 3 years of books cleaned up after their previous bookkeeper left a mess — filed all overdue returns, no penalties"
+- "Caught $8,200 in missed deductions on a new client's prior year return that we amended"
+
+You don't need to identify the client by name. Industry and outcome are enough. These specifics make your work tangible.
+
+### 5. Clear onboarding process
+
+One of the biggest barriers to hiring an accountant is not knowing what happens next. Answer it before they have to ask.
+
+A simple "How it works" section:
+1. **Free 20-minute discovery call** — we learn about your situation and you can ask questions
+2. **Custom proposal** — we send a scope and flat monthly rate within 24 hours
+3. **Onboarding** — we set up your software access, gather historical records, and get caught up
+4. **Ongoing work** — we handle the books and check in monthly
+
+Removing this uncertainty converts more fence-sitters.
+
+## What accounting websites don't need
+
+- **A generic tax tips blog.** "10 deductions you might be missing" posts are everywhere. They rank for nothing local and don't differentiate you. Skip it unless you're genuinely committed to consistent, original content.
+- **A photo of a calculator, a pen on paper, or a handshake.** These stock photos are on literally every competitor's site. Either use a real photo of yourself or your office, or use no photo at all.
+- **A chat widget that no one monitors.** A client with a tax question who starts a chat and gets an auto-response will not convert. Skip it unless someone actively manages it.
+- **Awards and badges from organizations the client has never heard of.** "Five Star Professional" badges from obscure rating agencies look like purchased awards because they often are. Stick to credentials that mean something (CPA, EA, ProAdvisor).
+
+## SEO priorities for accountants and bookkeepers
+
+Accounting is a competitive local search market, but it's very winnable with specific targeting.
+
+**Google Business Profile is essential.** Most people searching for an accountant start with Google. Your Business Profile is what appears in the map pack. Complete every field, add photos, collect reviews, and post monthly. Read the [full Google Business Profile guide](/blog/google-business-profile-free-tool) for details.
+
+**Target problem-based searches.** Clients search for their problem, not your service. "Small business taxes Kansas City," "QuickBooks bookkeeper Overland Park," "catch up bookkeeping," "S-Corp tax filing KC" — these specific searches have real intent and low competition compared to "accountant near me."
+
+**Individual service pages outperform one Services page.** A dedicated page for "Small Business Tax Preparation" will rank for that term. A bullet point on a combined Services page won't. Build out a page per service.
+
+**Niche down to rank up.** "Accountant for restaurants Kansas City" is dramatically easier to rank for than "Kansas City accountant" — and it attracts better-fit clients.
+
+## What this should cost
+
+A professional accounting or bookkeeping website with a homepage, 4-6 service pages, an about section with credentials, client results, and a contact/consultation form should cost $400-700. Accounting-specific website platforms that charge $100-200/month for a template you don't own are rarely worth it for a solo practitioner or small firm.
+
+See [straightforward pricing at BuiltSimple](/pricing) — flat-rate builds you own outright.
+
+## The bottom line
+
+Accounting clients are choosing someone to trust with their most sensitive financial information. Your website should make that decision easy by being specific about who you serve, showing real credentials, and removing every possible barrier to getting started.
+
+Stop looking like every other accounting website. Show your specialization, make pricing approachable, and explain what it's actually like to work with you.
+
+Ready for an accounting or bookkeeping website that generates quality leads? [Let's talk](/contact) — I build websites for professional service businesses across Kansas City.
+    `,
+  },
+  {
+    slug: "website-tips-for-photographers",
+    title: "Website Tips for Photographers: How to Book More Clients With Your Portfolio Site",
+    description: "A photography portfolio website can be gorgeous and still fail to book clients. Here's exactly what your photographer website needs — and what's getting in the way.",
+    date: "2026-03-26",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Photography", "Portfolio", "Local Business"],
+    content: `
+A photography website has one job: get the inquiry. It's not a gallery for other photographers to admire. It's not a place to post every session you've ever shot. It's a conversion tool for potential clients who are deciding whether to book you.
+
+Most photographer websites fail at this job — not because the photos are bad, but because the site buries the information clients need, loads too slowly, or makes it unclear what happens when someone wants to book.
+
+## Curation over volume
+
+The single most common photographer website mistake: too many photos.
+
+If you have 400 photos on your site, visitors can't tell which ones represent your best work. They scroll until they stop. Your strongest images get lost among average ones.
+
+### Rules for photo selection
+
+- **Show your best 30-40 images per gallery category, not 200+**
+- **If you shoot multiple genres** (weddings, portraits, commercial), separate them clearly — a bride looking at your portrait work doesn't want to scroll through product photos to find wedding galleries
+- **Cull ruthlessly.** If you're unsure whether an image belongs, it doesn't. Your weakest image sets the floor for how clients perceive your work.
+- **Lead with your best photo,** not your most recent. Your hero image is your first impression — make it your strongest shot.
+- **Show variety within consistency.** Clients want to see different lighting conditions, locations, and subjects — but with a coherent visual style that's distinctly yours.
+
+If you're a wedding photographer who also does headshots and product work, you need three separate, clearly labeled galleries. Don't blend them.
+
+## What clients actually want to see
+
+Beyond the photos themselves, here's what potential clients are looking for:
+
+### Real pricing (or at minimum, ranges)
+
+Photographers often avoid publishing prices because "every project is different." The result: potential clients bounce to a competitor who gives them a starting point.
+
+You don't need to list every package. But you do need to answer the question every client has before they inquire: "Can I even afford this?"
+
+Options that work:
+- **"Wedding collections start at $2,800"**
+- **"Portrait sessions from $350 — includes 1-hour shoot and digital gallery"**
+- **A brief "Investment" page** with starting prices and what's included at each tier
+- **"Contact me for pricing" only works if you respond fast.** A 48-hour response time loses the lead.
+
+The photographers who publish pricing get fewer inquiries but higher conversion rates — and spend less time quoting people who can't afford their rates.
+
+### Clear packages and deliverables
+
+What do clients get? This should be explicit, not vague.
+
+Weak: "Wedding photography coverage and digital files"
+
+Strong: "8 hours of coverage, two photographers, online gallery of 600+ edited images delivered within 4 weeks, print release, and a complimentary engagement session"
+
+Clients comparing photographers need apples-to-apples information. Give it to them.
+
+### Your style and personality
+
+Clients aren't just hiring a photographer — they're hiring someone to spend hours with them at one of the biggest moments of their life, or to make them feel comfortable in front of a camera. Your website should communicate who you are.
+
+- **A short bio that sounds like you,** not a press release. "I'm Sarah — I shoot weddings across the KC metro and I genuinely love the chaos of getting ready in a hotel room at 8am" is more compelling than "Sarah is a passionate photographer dedicated to capturing your special moments."
+- **A real photo of yourself.** Not just a shadow or behind-the-lens shot. Clients want to know who they're meeting.
+- **Brief client testimonials that mention the experience,** not just the photos — "Sarah made us feel so relaxed" is as valuable as "the photos are stunning."
+
+## Must-haves for a photography website
+
+### 1. Fast loading
+
+Photography websites are image-heavy, which means they're prone to being brutally slow. Slow sites kill conversions.
+
+- **Use a web-optimized format** (WebP) and compress every image — a 4MB JPEG doesn't belong on a website
+- **Use lazy loading** so images below the fold load as the visitor scrolls
+- **Avoid full-page loading animations** — if clients have to wait for a splash screen before seeing photos, many will leave
+
+A 3-second load time costs you bookings. Test your speed at [Google PageSpeed Insights](https://pagespeed.web.dev/) and fix what's broken.
+
+### 2. A mobile experience that actually works
+
+Most clients will look at your website on their phone. If your galleries require pinch-zooming, take 10 seconds to load, or have tiny contact buttons, you're losing mobile visitors.
+
+- **Test your site on an actual phone**, not just a desktop browser resize
+- **Contact buttons should be tap-friendly** — large enough to tap without zooming
+- **Galleries should scroll vertically on mobile,** not require horizontal swiping
+
+### 3. An inquiry form that's easy to fill out
+
+The simpler the form, the more submissions you get. Ask for:
+- Name
+- Email and phone
+- Type of session or event
+- Date (if applicable)
+- How they found you
+
+Don't ask for their address, their budget range, every member of their wedding party, and their life story. You can get that information once they've reached out.
+
+### 4. Booking and payment process clearly explained
+
+First-time clients don't know what booking a photographer involves. Answering this removes a major friction point:
+
+"To book: fill out the inquiry form, we'll schedule a call, I'll send a contract and invoice for the retainer, and you're officially on the calendar."
+
+## What photography websites don't need
+
+- **An elaborate intro animation.** That spinning logo reveal eats 2-3 seconds before the client sees a single photo. Cut it.
+- **Music that autoplays.** It's 2026. Don't do this.
+- **A "Client Login" portal no one uses.** If you're delivering galleries through a third-party service (Cloudspot, Pixieset, ShootProof), link directly to the delivery gallery — don't build a fake login page that just redirects there.
+- **Instagram feeds embedded on every page.** These slow your site down and send traffic away from your site to Instagram. Link to your Instagram from a social icon in the footer and leave it at that.
+- **Session previews in your main gallery.** If you do a lot of sessions, you may be tempted to share previews everywhere. Resist. Curate the gallery separately from the blog. Clients browsing your portfolio want your best work, not your most recent work.
+
+## SEO priorities for photographers
+
+Photography SEO is driven almost entirely by location + specialty.
+
+**The searches that matter:**
+- "Wedding photographer Kansas City"
+- "Newborn photographer Overland Park"
+- "Brand photographer KC"
+- "Family portrait photographer Leawood"
+- "Senior portrait photographer Shawnee"
+
+Your website needs to rank for the combination of what you shoot and where you shoot it.
+
+**How to get there:**
+
+- **Separate gallery pages per specialty** — a wedding photography page, a portrait page, a commercial page, each with its own keyword-rich title and description
+- **Location in page titles and headings** — "Wedding Photographer in Kansas City, KS | Sarah Doe Photography"
+- **Blog posts about specific venues** — "A Wedding at The Brass on Baltimore" ranks for searches from couples researching that venue and shows up to clients who've already booked there
+- **Alt text on every photo** — "Bride and groom portrait at The Venue in Overland Park, KS" helps Google understand what's in your images
+- **Google Business Profile** for photographers is underutilized and effective — see the [full setup guide](/blog/google-business-profile-free-tool)
+
+## What this should cost
+
+A professional photography website with a homepage, 3-4 gallery categories, about page, pricing/investment page, and a contact form should cost $400-700. Photography-specific platforms like Pixieset or Squarespace charge $15-40/month and offer limited SEO control. A custom-built site you own, with proper SEO structure, outperforms a monthly subscription platform over a 2-3 year window.
+
+See [what BuiltSimple charges](/pricing) — no monthly fees, no contracts.
+
+## The bottom line
+
+A beautiful gallery that doesn't load fast, doesn't explain pricing, and makes it hard to inquire is a portfolio — not a business tool. Your website should be both.
+
+Curate ruthlessly, show pricing, answer the common questions, and make the inquiry form impossible to miss. Do those things and your website will actually book clients, not just impress them.
+
+Ready for a photography website that generates inquiries? [Let's talk](/contact) — I build portfolio sites for creative professionals across Kansas City.
+    `,
+  },
+  {
     slug: "website-tips-for-real-estate-agents",
     title: "Website Tips for Real Estate Agents: How to Stand Out and Generate Leads Online",
     description: "Generic real estate websites with IDX feeds don't generate leads — they generate bounce rates. Here's what your realtor website actually needs to win clients in a competitive market.",
