@@ -8,7 +8,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Too many attempts" }, { status: 429 });
   }
 
-  const { password } = await request.json();
+  let password: string;
+  try {
+    ({ password } = await request.json());
+  } catch {
+    return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
+  }
 
   if (password !== process.env.ADMIN_PASSWORD) {
     return NextResponse.json({ error: "Wrong password" }, { status: 401 });
