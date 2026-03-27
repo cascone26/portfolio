@@ -2414,6 +2414,55 @@ Ready for a website that books clients while you're busy training? [Let's talk](
     `,
   },
   {
+    slug: "website-for-dentists",
+    title: "Why Every Dentist Needs a Professional Website in 2025",
+    description: "Dental offices without a professional website miss new patient leads daily. Here's what your dental practice site needs to rank locally, build trust, and fill your schedule.",
+    date: "2026-03-27",
+    readTime: "6 min",
+    tags: ["Dental", "Healthcare", "Web Design", "Local Business", "Patient Acquisition"],
+    content: `
+A professional website for dentists is one of the highest-ROI investments a dental practice can make. New patients searching for a dentist in your area will find — and choose — whoever has the most credible, informative, and easy-to-navigate online presence. If that isn't your practice, it's your competitor's.
+
+Whether you run a solo practice or a multi-location dental office, your website is how you convert "dentist near me" searches into booked appointments.
+
+## Why Dental Offices Need a Professional Website
+
+Most people searching for a new dentist are either new to an area, recently lost their insurance, or are looking to switch providers. These are high-value patients actively looking to establish care — and they're making their decision based heavily on what they find online.
+
+A professional dental website lets you capture those patients at the moment of search. When your practice ranks for "family dentist in [city]" or "emergency dental care near me," you're reaching people who are ready to book. Without a website that ranks and converts, that traffic goes to whoever does.
+
+Your website also works outside of office hours. An online appointment request form, clear information about your services, and answers to common questions mean a prospective patient can take action at 10pm without waiting for your front desk to open. That convenience translates directly into new patient volume.
+
+Beyond new patients, your website communicates professionalism and care quality before anyone walks through your door. For dental practices, where patient anxiety is common, a calming, well-organized website reduces friction and builds the trust that gets people to pick up the phone.
+
+## What a Dental Practice Website Should Include
+
+An effective website for a dental office goes beyond a services list and a map pin. It should include:
+
+- **Service pages for each treatment type** — general, cosmetic, restorative, pediatric, orthodontics, emergency — each with enough detail to answer common patient questions
+- **Online appointment request form** — ideally integrated with your practice management software, but even a simple form is far better than phone-only scheduling
+- **Doctor and staff bios with photos** — patients want to know who will be treating them; a friendly team photo and brief bio goes a long way toward reducing anxiety
+- **Patient testimonials and reviews** — display Google review highlights or specific patient stories that speak to the experience, comfort, and results
+- **Insurance information** — a clear list of accepted insurances reduces phone calls and disqualifies the wrong leads early
+- **New patient resources** — downloadable intake forms, FAQ pages, and what-to-expect content make the first visit feel less intimidating
+- **Local SEO optimization** — location-specific pages and keywords ensure you show up when patients in your area are searching
+
+## Why a Custom Site Beats Templates
+
+Generic dental website templates exist specifically for dental offices, which means every practice using one looks the same. Stock photos of gleaming teeth and vague copy about "comprehensive care" don't differentiate your practice — they blend you into the background.
+
+A custom-built dental website is built around your specific services, your team, your location, and the patients you want to attract. Properly structured service pages with location signals help you rank for the searches that matter. Fast load times and mobile-first design keep the experience smooth for patients browsing on their phones.
+
+A custom site also grows with your practice. Adding new services, a second location, or a blog with patient education content is straightforward — not constrained by a template's limitations.
+
+Template platforms come with monthly fees that add up. A custom site built properly is an asset you own, not a subscription you're paying indefinitely for a site that looks like everyone else's.
+
+At [BuiltSimple](https://builtsimple.dev), we build professional websites for dental offices that rank locally, build patient trust, and make it easy to book appointments. Clear pricing, no ongoing fees, and a site your practice will actually be proud of.
+
+[**Get your dental practice website built →**](/contact)
+    `,
+  },
+  {
     slug: "website-tips-for-dentists-dental-offices",
     title: "Website Tips for Dentists and Dental Offices: What Patients Actually Need to See",
     description: "Most dental office websites are generic and forgettable. Here's what your dental practice website actually needs to attract new patients, rank locally, and fill your schedule.",
@@ -2624,6 +2673,55 @@ Ready for an auto repair website that builds trust and books appointments? [Let'
     `,
   },
   {
+    slug: "website-for-accountants",
+    title: "Why Every Accountant Needs a Professional Website in 2025",
+    description: "CPAs and accounting firms without a professional website are leaving clients on the table. Here's why your firm needs a site and what it should include to convert visitors into clients.",
+    date: "2026-03-27",
+    readTime: "6 min",
+    tags: ["Accounting", "CPA", "Web Design", "Small Business", "Professional Services"],
+    content: `
+A professional website for accountants might feel like a low priority when most of your clients come from referrals. But that logic has a ceiling. A strong website for your accounting firm turns those warm referrals into confirmed appointments, attracts clients who are actively searching, and builds the credibility that justifies your rates.
+
+For CPAs and accounting firms looking to grow, your website is your most valuable sales tool — and most accounting websites are doing the bare minimum.
+
+## Why Accountants and CPAs Need a Professional Website
+
+The referral pipeline is real, but it's not enough on its own. When someone gets a referral to your firm, the first thing they do is Google you. If your site looks outdated, loads slowly, or doesn't answer basic questions about your services and pricing, you lose that referral before you ever speak to them.
+
+Beyond referrals, there's a large pool of clients actively searching for accountants online. Searches like "CPA near me," "small business accountant in [city]," or "tax preparation for self-employed" represent people who need help right now. If your firm doesn't rank for those terms, you don't exist to them.
+
+A professional website also lets you work smarter: online intake forms, a scheduling tool, and a client portal can eliminate dozens of back-and-forth emails per week. That's time you get back, and it signals to clients that you run an organized, modern practice.
+
+## What an Accounting Firm Website Should Include
+
+An effective website for accountants goes beyond a services list and a phone number. It should include:
+
+- **Clear service pages** — break out tax preparation, bookkeeping, payroll, advisory, and business accounting as separate sections so search engines (and clients) understand what you offer
+- **Who you serve** — specify whether you work with individuals, small businesses, self-employed professionals, specific industries, or all of the above
+- **Credentials and certifications** — display your CPA designation, enrolled agent status, or any specialized certifications prominently
+- **Client testimonials** — specific results ("helped us reduce our tax liability by $14,000") are far more persuasive than generic praise
+- **Online scheduling or contact form** — make it trivially easy for a prospective client to take the first step
+- **FAQ section** — answer common questions about your process, fees, and what clients need to bring to an initial meeting
+- **Location and local signals** — even if you work remotely, local search relevance matters for clients who prefer working with someone nearby
+
+The goal is to reduce friction between "I need an accountant" and "I booked a consultation with you."
+
+## Why a Custom Site Beats Templates
+
+Template website builders get you online quickly, but they produce generic results that look identical to every other professional services firm. For accountants, where trust and differentiation are everything, generic is a liability.
+
+A custom-built accounting website is structured for local SEO — meaning your service pages are built around the exact keywords your ideal clients search. Fast load times, clear navigation, and strong calls-to-action convert more of the visitors you do get.
+
+There's also the credibility signal. An accounting firm handling sensitive financial data should look the part. A polished, fast, professional website says you take your business seriously — and by extension, that you'll take your clients' finances seriously.
+
+Template sites also come with ongoing subscription fees and limitations you'll eventually outgrow. A properly built custom site is an asset you own, not a service you're renting.
+
+At [BuiltSimple](https://builtsimple.dev), we build professional websites for accountants and CPAs that are fast, optimized for local search, and designed to convert visitors into clients. Straightforward pricing, no monthly fees.
+
+[**Get your accounting firm website built →**](/contact)
+    `,
+  },
+  {
     slug: "website-tips-for-accountants-bookkeepers",
     title: "Website Tips for Accountants and Bookkeepers: What Clients Actually Need to See",
     description: "Most accounting and bookkeeping websites are generic and forgettable. Here's what your firm's website actually needs to attract quality clients, rank locally, and grow your practice.",
@@ -2736,6 +2834,57 @@ Accounting clients are choosing someone to trust with their most sensitive finan
 Stop looking like every other accounting website. Show your specialization, make pricing approachable, and explain what it's actually like to work with you.
 
 Ready for an accounting or bookkeeping website that generates quality leads? [Let's talk](/contact) — I build websites for professional service businesses across Kansas City.
+    `,
+  },
+  {
+    slug: "website-for-photographers",
+    title: "Why Every Photographer Needs a Professional Website in 2025",
+    description: "Instagram isn't enough. Photographers and studios need a professional website to attract clients, rank in local search, and build a booking pipeline they actually own.",
+    date: "2026-03-27",
+    readTime: "6 min",
+    tags: ["Photography", "Web Design", "Portfolio", "Small Business", "Local Business"],
+    content: `
+A professional website for photographers is the difference between clients finding you through search and clients only finding you if they already know to look. Social media drives discovery, but a website for your photography business closes the deal — it's where browsers become bookings.
+
+Whether you shoot weddings, portraits, commercial work, or events, your website is your most powerful sales tool. And most photography websites are leaving clients and revenue on the table.
+
+## Why Photographers Need Their Own Website
+
+Instagram and social platforms change their algorithms constantly. Reach that existed last year may not exist next year, and no social platform will ever let you rank in Google search. A website you own is the only place where your work can be found by someone actively searching "wedding photographer in [city]" or "newborn portrait photographer near me."
+
+Those search terms represent people with intent — they're not scrolling passively, they're looking to book. If your photography business doesn't rank for those terms, you're invisible to your highest-quality leads.
+
+Owning your website also means owning your booking pipeline. No platform fees, no algorithm dependency, no competing with a dozen other photographers in a marketplace. Your site, your brand, your leads.
+
+A professional photography website also signals legitimacy. When a couple is deciding who to trust with their wedding photos, a polished website with a clear gallery, pricing information, and a booking form reads as more professional than a photographer who only has a social profile.
+
+## What a Photography Website Should Include
+
+A high-converting photographer website needs more than a gallery. It should include:
+
+- **Organized portfolio galleries** — group your work by type (weddings, portraits, commercial, events) so prospective clients can immediately find examples relevant to their needs
+- **Clear service descriptions** — explain what's included in each package, what the experience is like, and what makes your approach distinct
+- **Transparent pricing or pricing ranges** — hiding pricing creates friction; clients who need to know a ballpark before inquiring will leave without contacting you
+- **About page with your photo and story** — clients hire photographers they connect with; let your personality show
+- **Easy booking or inquiry form** — reduce the steps between "I love their work" and "I reached out"
+- **Client testimonials** — specific, detailed testimonials about the experience and final results build trust fast
+- **Local SEO signals** — location-specific pages and keywords help you rank for searches in your market
+
+Every page should guide visitors toward an inquiry or booking. Don't make them hunt for your contact form.
+
+## Why a Custom Site Beats Templates
+
+Template portfolio builders like Squarespace, Format, or Pixieset look clean out of the box, but they all have a ceiling. The SEO is limited, the customization is constrained, and every photographer using the same template looks roughly the same. Differentiation is hard when you're working from a cookie-cutter foundation.
+
+A custom-built photography website is designed around how your clients search and what they need to see to book. Fast load times matter especially for image-heavy sites — slow galleries lose clients before they've seen your best work. Proper image optimization, lazy loading, and mobile-first design keep the experience smooth.
+
+A custom site also lets you build landing pages for specific services or locations — "engagement photographer in [neighborhood]" or "corporate headshots in [city]" — that generate targeted leads without paying for ads.
+
+Template subscriptions add up over time. A custom site is an asset you own and control indefinitely.
+
+At [BuiltSimple](https://builtsimple.dev), we build professional websites for photographers that showcase your work, rank in local search, and convert visitors into bookings. No ongoing fees, no bloated agency pricing.
+
+[**Get your photography website built →**](/contact)
     `,
   },
   {
@@ -2881,6 +3030,55 @@ A beautiful gallery that doesn't load fast, doesn't explain pricing, and makes i
 Curate ruthlessly, show pricing, answer the common questions, and make the inquiry form impossible to miss. Do those things and your website will actually book clients, not just impress them.
 
 Ready for a photography website that generates inquiries? [Let's talk](/contact) — I build portfolio sites for creative professionals across Kansas City.
+    `,
+  },
+  {
+    slug: "website-for-real-estate-agents",
+    title: "Why Every Real Estate Agent Needs a Professional Website in 2025",
+    description: "A professional website helps real estate agents generate leads, build trust, and stand out in a crowded market. Here's what your site needs and why templates fall short.",
+    date: "2026-03-27",
+    readTime: "6 min",
+    tags: ["Real Estate", "Realtor", "Web Design", "Lead Generation", "Local Business"],
+    content: `
+A professional website for real estate agents is no longer optional — it's the difference between a steady pipeline of leads and chasing every referral. Buyers and sellers start their search online, and if you don't have a credible web presence, you're invisible before the conversation even starts.
+
+Whether you're an independent realtor or part of a brokerage, owning your own website gives you control over your brand, your leads, and your long-term business — something a brokerage portal never will.
+
+## Why Real Estate Agents Need Their Own Website
+
+Brokerage-provided sites look identical to every other agent at your firm. There's no differentiation, no SEO value in your name, and if you ever switch brokerages, you lose everything. Your own domain and website travels with you.
+
+Beyond portability, a custom website lets you rank for the searches that matter: "real estate agent in [your city]," "homes for sale in [neighborhood]," or "top realtor in [market]." These are high-intent searches from people actively ready to buy or sell — the exact leads you want.
+
+Your website also works while you sleep. An IDX home search tool, a home valuation widget, and a clear contact form can capture leads at 2am that you'd otherwise miss entirely. Passive lead generation is one of the biggest advantages a professional site gives you over word-of-mouth alone.
+
+## What a Real Estate Agent Website Should Include
+
+A high-converting realtor website isn't just a digital business card. It should include:
+
+- **Agent bio with a strong photo** — buyers and sellers hire people they feel they can trust, and a real, professional photo goes further than any stock image
+- **Neighborhood guides** — pages targeting specific areas you work establish you as a local expert and rank well in search
+- **IDX or MLS search integration** — let visitors browse listings directly on your site so they have a reason to stay and come back
+- **Sold listings gallery** — showing past transactions builds credibility fast; highlight notable sales with brief context
+- **Testimonials and reviews** — specific client stories ("helped us close in 12 days over asking") are far more convincing than generic praise
+- **Lead capture forms** — at minimum, a home valuation request form and a buyer consultation request
+- **Local market stats** — even a simple monthly update positions you as the go-to expert in your area
+
+Every page should have a clear call-to-action. Visitors shouldn't have to guess what to do next.
+
+## Why a Custom Site Beats Template Platforms
+
+Zillow profiles and brokerage sites have a ceiling. They control your visibility, own your leads, and compete with you directly. Template builders like Squarespace or Wix get you online quickly but produce generic results that rank poorly and don't reflect your specific market expertise.
+
+A custom-built real estate website is structured around how buyers and sellers actually search. Dedicated neighborhood pages, proper meta tags, fast load times, and mobile-first design all contribute to better rankings and more conversions.
+
+There's also trust signaling. A polished, fast, professionally designed site signals that you run your business seriously — which is exactly the reassurance someone needs before hiring you to handle the largest transaction of their life.
+
+The cost difference between a template site and a properly built custom site is modest. The lead quality difference is not.
+
+At [BuiltSimple](https://builtsimple.dev), we build real estate agent websites that are fast, locally optimized, and designed to generate leads — not just look good. No bloated agency fees, no ongoing subscriptions. You own the site.
+
+[**Get your real estate website built →**](/contact)
     `,
   },
   {
