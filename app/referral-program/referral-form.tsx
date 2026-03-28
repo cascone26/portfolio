@@ -67,8 +67,8 @@ export default function ReferralForm() {
 
   return (
     <form onSubmit={handleSubmit} className="glass rounded-2xl p-7 space-y-5">
-      {/* Hidden field to identify this as a referral submission */}
-      <input type="hidden" name="form_type" value="referral" />
+      {/* Source tracking */}
+      <input type="hidden" name="source" value="referral-program" />
 
       <div className="grid sm:grid-cols-2 gap-5">
         <div>

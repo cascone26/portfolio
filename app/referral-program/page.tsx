@@ -116,8 +116,8 @@ export default function ReferralProgramPage() {
               Referral Program
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-              Earn $200 for Every{" "}
-              <span className="gradient-text-blue">Client You Send Our Way</span>
+              Refer a Business,{" "}
+              <span className="gradient-text-blue">Earn $200</span>
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>

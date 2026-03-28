@@ -23,6 +23,7 @@
 - `/contact` — Contact form (Formspree) + phone/email/location
 - `/products` — 28 digital products with Stripe payment integration
 - `/thank-you` — Post-purchase confirmation page
+- `/referral-program` — Refer a business, earn $200 (Formspree form, source tracking, footer + nav linked)
 
 ### Industry Landing Pages
 - `/for/contractors` — Contractor-specific landing page
