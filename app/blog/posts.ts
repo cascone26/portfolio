@@ -3198,4 +3198,482 @@ Stop looking like every other agent website. Show your work, own your neighborho
 Ready for a real estate website that actually generates leads? [Let's talk](/contact) — I build websites for professionals across the Kansas City market.
     `,
   },
+  {
+    slug: "website-tips-for-accountants-tax-professionals",
+    title: "Website Tips for Accountants and Tax Professionals: What Clients Actually Need to See",
+    description: "Most accountant and CPA websites are generic and forgettable. Here's what your accounting or tax practice website actually needs to attract quality clients, rank locally, and grow year-round.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Accounting", "Tax", "Local Business"],
+    content: `
+People looking for an accountant or tax professional are handing over their most sensitive financial information to someone they've never met. Before they pick up the phone, they've already decided whether to trust you — and they made that decision on your website.
+
+Most accounting and CPA websites fail this test. Generic stock photos of calculators, vague promises about "maximizing your return," and zero differentiation. Here's what actually converts visitors into clients.
+
+## Lead with who you serve, not what you do
+
+Every CPA does taxes. Every tax professional does returns. What separates you is who you work with and how well you understand their specific situation.
+
+### Weak vs. strong positioning
+
+**Weak:** "We provide comprehensive tax and accounting services for individuals and businesses."
+
+**Strong:** "We specialize in tax strategy for self-employed professionals, freelancers, and small business owners in the KC metro. If you're tired of overpaying because your previous accountant didn't understand your business model, we should talk."
+
+Specificity closes clients faster than comprehensiveness. The right prospect will choose a specialist over a generalist every time.
+
+## Must-haves for an accounting or tax website
+
+### 1. Plain-language service descriptions
+
+Don't just list "tax preparation," "tax planning," and "bookkeeping" without explaining what each involves. A small business owner may not know whether they need tax planning, advisory services, or both — or what the difference is.
+
+Write one clear paragraph per service. What does it include? Who needs it? What does the client actually get? "Annual tax preparation — we handle your personal and business returns, look for every deduction specific to your situation, and explain exactly what we filed and why."
+
+### 2. Pricing transparency — even if it's just ranges
+
+Tax and accounting firms often resist publishing prices because "every situation is different." That's understandable, but publishing nothing signals either that you're expensive or that you don't want prospects to know. Neither is good.
+
+Options that work:
+- **Starting prices** — "Individual returns starting at $250"
+- **Package tiers** — "Business Tax Package ($1,200/year): federal + state returns, quarterly estimated tax planning, one strategy call"
+- **Free consultation offer** — "We'll review your situation and provide a custom quote — schedule a free 20-minute call"
+
+Giving some pricing signal keeps qualified prospects engaged and filters out tire-kickers who will waste your time.
+
+### 3. Credentials front and center
+
+Don't bury your CPA designation in the footer. It's your primary trust signal — put it in your header, your bio, and your service pages.
+
+What to feature:
+- **CPA license** (state + license number if you're comfortable — some clients verify)
+- **Enrolled Agent status** if applicable
+- **Years in practice**
+- **Specializations** — QuickBooks ProAdvisor, IRS representation, specific industries
+- **AICPA or state CPA society membership**
+
+A real photo of you alongside these credentials builds more trust than any testimonial carousel.
+
+### 4. Results, not testimonials
+
+"Great accountant, very professional" is meaningless. Specific outcomes are not.
+
+- "Helped a client restructure from sole prop to S-Corp, saving $9,400 in self-employment tax in year one"
+- "Filed 3 years of overdue returns for a freelance client with no penalties — got them compliant and back on track"
+- "Caught $6,800 in missed deductions on a first-year client's prior return and amended it"
+
+You don't need to name the client. Industry + outcome is enough. These specifics make your expertise tangible.
+
+### 5. A clear "What happens next" section
+
+One of the biggest barriers to hiring an accountant is not knowing what the process looks like. Answer it before they have to ask.
+
+Simple "How it works":
+1. **Free discovery call** — 20 minutes, we understand your situation
+2. **Custom proposal** — scope and flat fee sent within 48 hours
+3. **Onboarding** — we gather your documents and prior-year returns
+4. **Ongoing work** — you get clean, timely work and a point of contact who knows your file
+
+Reducing this uncertainty converts fence-sitters.
+
+## What accounting websites don't need
+
+- **A generic tax tips blog.** "10 deductions you're missing" content is everywhere, ranks for nothing local, and doesn't differentiate you. Skip it unless you're committed to genuinely original content.
+- **Stock photos of calculators, pens, or handshakes.** These are on every competitor's site. Use a real photo of yourself or your office, or skip it entirely.
+- **A chat widget no one monitors.** A prospective client who starts a chat and gets an auto-response won't convert. Skip it unless someone actively manages it during business hours.
+- **Mystery pricing.** If you charge $800 for a business return and refuse to put any number on your website, you'll lose qualified prospects who move on to whoever gives them a signal.
+
+## SEO priorities for accountants and tax professionals
+
+Local SEO for accountants is competitive, but highly specific searches are very winnable.
+
+**Google Business Profile is non-negotiable.** When someone searches "CPA near me" or "tax preparer in [city]," the map pack gets the majority of clicks. Complete every field, add photos, collect reviews, and post regularly. Read the [full Google Business Profile guide](/blog/google-business-profile-free-tool) for setup details.
+
+**Target problem-based searches.** Clients search for their problem, not your service title:
+- "Self-employed taxes Kansas City"
+- "Small business accountant Overland Park"
+- "S-Corp election CPA KC"
+- "Catch-up bookkeeping Kansas City"
+
+These specific searches have real intent and low competition compared to "accountant near me."
+
+**One page per service.** A dedicated page for "Small Business Tax Preparation" can rank for that term. A bullet point on a combined Services page cannot.
+
+**Seasonal content.** Tax season drives massive search volume in January through April. A page titled "2025 Tax Preparation for Small Business Owners in Kansas City" can rank fast during peak season.
+
+## What this should cost
+
+A professional accounting or tax website with a homepage, 4-6 service pages, an about section with real credentials, client results, and a contact/consultation form should cost $400-700. Accounting-specific website platforms that charge $100-200/month for a template you don't own are rarely worth it for a solo practitioner or small firm.
+
+See [straightforward pricing at BuiltSimple](/pricing) — flat-rate builds you own outright.
+
+## The bottom line
+
+Tax and accounting clients are choosing someone to trust with their most sensitive financial information. Your website should make that decision easy by being specific about who you serve, showing real credentials, and removing every possible barrier to getting started.
+
+Stop looking like every other CPA website. Show your specialization, make pricing approachable, and explain what it's actually like to work with you.
+
+Ready for an accounting or tax website that generates quality client leads? [Let's talk](/contact) — I build websites for professional service businesses across Kansas City.
+    `,
+  },
+  {
+    slug: "website-tips-for-photographers-videographers",
+    title: "Website Tips for Photographers and Videographers: How to Book More Clients Online",
+    description: "A photography or videography website can look stunning and still fail to book clients. Here's exactly what your creative business website needs — and what's getting in the way.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Photography", "Videography", "Local Business"],
+    content: `
+A photography or videography website has one job: get the inquiry. It's not a gallery for other creatives to admire. It's not a place to showcase every session you've ever shot. It's a conversion tool for clients who are deciding whether to book you.
+
+Most photographer and videographer websites fail at this — not because the work is bad, but because the site buries what clients need to see, loads too slowly, or makes it unclear what happens when someone wants to book.
+
+## Curation over volume
+
+The single most common mistake: too much content.
+
+If you have 400 photos or a dozen full-length videos on your site, visitors can't tell which work represents your best. They scroll until they stop. Your strongest images and films get lost among average ones.
+
+### Rules for portfolio selection
+
+- **Photos: show your best 30-40 per category, not 200+**
+- **Videos: 3-5 highlight reels or full films, not your entire archive**
+- **If you shoot multiple genres** — weddings, portraits, commercial, events — separate them clearly. A bride doesn't want to scroll through brand videos to find wedding work.
+- **Cull ruthlessly.** Your weakest piece sets the floor for how clients perceive your work.
+- **Lead with your best, not your most recent.** Your hero reel is your first impression — make it your strongest.
+
+For videographers especially: one tight 2-minute highlight reel that represents your style is worth more than ten full-length wedding films. Clients won't watch everything — give them a reason to reach out.
+
+## What clients actually want to see
+
+Beyond the work itself, here's what potential clients are looking for:
+
+### Real pricing (or at minimum, ranges)
+
+Photographers and videographers often avoid publishing prices because "every project is different." The result: potential clients bounce to a competitor who gives them a starting point.
+
+Options that work:
+- **"Wedding collections start at $2,800"**
+- **"Portrait sessions from $350"**
+- **"Video packages from $1,500 — includes same-day edit and highlight film"**
+- **A brief "Investment" or "Pricing" page** with starting rates and what each tier includes
+
+The creatives who publish pricing get fewer inquiries but higher conversion rates — and spend less time quoting people who can't afford their rates.
+
+### Explicit packages and deliverables
+
+What do clients actually get? Be specific.
+
+**Weak:** "Wedding photography and video coverage with digital files"
+
+**Strong:** "8 hours of photo + video coverage, two photographers, a 4-minute highlight film, online gallery of 500+ edited images, and full ceremony + reception footage — all delivered within 6 weeks"
+
+Clients comparing multiple creatives need clear information. Give it to them.
+
+### Your personality and style
+
+Clients aren't just hiring technical skills — they're hiring someone to spend hours with them, often at major life events. Your website should communicate who you are.
+
+- **A short bio that sounds like you**, not a press release. "I'm a KC-based photographer and filmmaker who lives for the moments no one else catches" reads better than "passionate about capturing your special moments."
+- **A real photo of yourself.** Not just behind-the-lens shots. Clients want to know who's showing up.
+- **Testimonials that mention the experience**, not just the results — "They made us feel so at ease" is as valuable as "the photos are gorgeous."
+
+## Must-haves for a photographer or videographer website
+
+### 1. Fast loading — especially critical for visual work
+
+Photography and video sites are prone to being brutally slow. Slow sites kill conversions before the work even gets seen.
+
+- **Compress every image** — use WebP format, keep files under 200KB where possible
+- **Host videos on Vimeo or YouTube**, not directly on your server
+- **Avoid full-page intro animations** — if clients wait 3 seconds for a splash screen before seeing any work, most will leave
+- **Test at [Google PageSpeed Insights](https://pagespeed.web.dev/)** and fix what's flagged
+
+### 2. A mobile experience that actually works
+
+Most clients will look at your site on their phone. If galleries require pinch-zooming, videos don't play inline, or contact buttons are tiny — you're losing the majority of your traffic.
+
+Test your site on an actual phone, not just a desktop browser resize.
+
+### 3. A simple inquiry form
+
+The shorter the form, the more submissions you get. Ask for:
+- Name
+- Email and phone
+- Type of session or project
+- Date (if applicable)
+- How they found you
+
+Don't ask for their address, full event timeline, and guest count before they've even spoken with you.
+
+### 4. A clear booking process
+
+First-time clients don't know how booking a photographer or videographer works. One short paragraph removes this friction:
+
+"Fill out the inquiry form → we'll schedule a quick call → I'll send a contract and invoice for the retainer → you're officially on the calendar."
+
+## What photography and videography websites don't need
+
+- **Intro animations and loading screens.** They eat seconds before the client sees a single frame of your work. Cut them.
+- **Autoplay audio.** It's 2026.
+- **Embedded Instagram feeds.** These slow your site down and push visitors off your site toward Instagram. A footer icon is enough.
+- **Client portal login pages that just redirect to Pixieset or Frame.io.** Link directly to the delivery service — don't build a fake login experience.
+- **Blog posts about every session you shoot.** Posting sneak peeks for every client clutters your site with content that helps no one. Curate your gallery separately and keep it tight.
+
+## SEO priorities for photographers and videographers
+
+Search visibility for creative businesses is driven almost entirely by location + specialty.
+
+**The searches that matter:**
+- "Wedding photographer Kansas City"
+- "Videographer for weddings KC"
+- "Brand photographer Overland Park"
+- "Newborn photographer near me"
+- "Corporate video production Kansas City"
+
+Your website needs to rank for the combination of what you create and where.
+
+**How to get there:**
+
+- **Separate pages per specialty** — a wedding photography page, a portrait page, a commercial video page — each with its own title, description, and gallery
+- **Location in your page titles and headings** — "Wedding Photographer + Videographer in Kansas City | [Your Name]"
+- **Blog posts about specific venues** — "A Wedding at The Brass on Baltimore" can rank for couples researching that venue and doubles as work to add to your portfolio
+- **Alt text on every image** — "Couple's first dance at The Venue in Leawood, KS" helps Google understand what it's indexing
+- **Google Business Profile** — underutilized by creatives and highly effective; see the [full setup guide](/blog/google-business-profile-free-tool)
+
+## What this should cost
+
+A professional photography or videography website with a homepage, 3-4 gallery or portfolio categories, an about page, a pricing or investment page, and a contact form should cost $400-700. Platform subscriptions like Squarespace or Pixieset run $15-40/month and offer limited SEO control. A custom-built site you own outperforms a subscription platform over a 2-3 year window on both visibility and flexibility.
+
+See [what BuiltSimple charges](/pricing) — no monthly fees, no contracts.
+
+## The bottom line
+
+A stunning portfolio that loads slowly, hides pricing, and makes it hard to inquire is a personal gallery — not a business tool. Your website needs to be both.
+
+Curate ruthlessly, show pricing, explain your process, and make the inquiry form impossible to miss. Do those things and your site will book clients, not just impress them.
+
+Ready for a photography or videography website that generates actual inquiries? [Let's talk](/contact) — I build creative portfolio sites across Kansas City.
+    `,
+  },
+  {
+    slug: "website-tips-for-real-estate-agents-realtors",
+    title: "Website Tips for Real Estate Agents: How to Generate Leads Online in 2026",
+    description: "Most real estate agent websites look identical and generate zero leads. Here's what your realtor website actually needs to attract buyers and sellers — and what's wasting your budget.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Real Estate", "Realtor", "Lead Generation", "Local Business"],
+    content: `
+Buyers and sellers start their search online. If your real estate website looks like every other agent at your brokerage — or worse, you're only relying on the brokerage portal — you're invisible to the clients who are actively looking.
+
+A real estate agent website isn't just about having a web presence. It's about owning your brand, ranking in local search, and capturing leads at all hours. Here's what actually works.
+
+## The problem with brokerage-provided websites
+
+Brokerage portals look identical to every other agent at your firm. There's no differentiation, Google can't rank you separately from your brokerage domain, and if you ever switch brokerages — which most agents do at some point — you lose everything you built.
+
+Your own domain and website is portable. It builds SEO authority in your name. It gives you a platform to differentiate on your market knowledge, your neighborhoods, and your results.
+
+## What a real estate agent website actually needs
+
+### 1. A compelling agent bio with a strong photo
+
+Buyers and sellers hire people, not websites. Your bio and photo are the most important conversion elements on your site.
+
+- **Get a professional headshot.** Not a candid, not a phone selfie. A clean, approachable photo where you look like someone a client can trust with the largest financial transaction of their life.
+- **Write a bio that's about the client, not about you.** "I've helped 80+ KC families find the right home — here's how I make the buying process less stressful" is better than a list of years in business and certifications.
+- **Include your specialty and market area.** "I specialize in first-time buyers in the Northland" or "I focus on Brookside, Waldo, and South KC listings" tells clients immediately whether you're the right agent for them.
+
+### 2. Neighborhood guide pages
+
+This is the single biggest SEO opportunity most agents miss. Dedicated neighborhood pages — one per area you work — can rank for searches like "homes in Brookside KC" or "best neighborhoods in Overland Park."
+
+Each guide should include:
+- **What the neighborhood is like** — housing styles, price ranges, what draws buyers there
+- **Schools, commute, and amenities** — the practical info buyers Google before touring
+- **Recent sales data** — "Median sold price in Q1 2026: $385,000" positions you as a market expert
+- **A lead capture form** — "Want to see what's available in [neighborhood]? Enter your email."
+
+These pages work while you sleep. A buyer researching Leawood at midnight can find your page, read your market insight, and submit an inquiry before your phone is even charged.
+
+### 3. IDX or listing search integration
+
+Let visitors browse available homes directly on your site. IDX integration keeps buyers on your site instead of sending them to Zillow or Realtor.com where your competitors advertise next to your listings.
+
+Even a basic search by city or price range keeps buyers engaged and gives you a reason to capture their email.
+
+### 4. A sold listings section
+
+Showing real past transactions builds credibility fast. You don't need a full case study — a brief entry works:
+
+- "4BR in Brookside | Listed at $485K | Sold in 8 days, $22K over asking"
+- "First-time buyer in Shawnee | Helped them waive inspection contingency strategically — closed on time"
+
+Specifics beat generic "experienced realtor" claims every time.
+
+### 5. Lead capture that goes beyond "Contact Me"
+
+A generic contact form is fine, but specific lead capture tools convert better:
+
+- **"What's My Home Worth?"** — a home valuation request form captures seller leads who aren't ready to list yet
+- **"Get New Listing Alerts"** — an email capture for buyers lets you build a database of prospects with purchase intent
+- **"Book a Buyer Consultation"** — a scheduling link removes the back-and-forth of "when are you available?"
+
+Each of these targets a different stage of the buyer or seller journey.
+
+## What real estate websites don't need
+
+- **Automated IDX blog posts** about "homes for sale in Kansas City." These low-effort pages are everywhere and rank for nothing. Google can't tell them apart from every other real estate site.
+- **Brokerage logos and co-branding competing with your own brand.** Your site should build you, not your brokerage.
+- **A dozen photos of you in front of sold signs.** One or two are fine for credibility. Ten feels performative.
+- **Live chat that no one monitors.** A buyer who sends a chat at 9pm and gets no response until morning has already moved on to the next agent.
+- **Stock photos of houses that look nothing like your market.** Generic suburban stock photography is immediately recognizable as fake. Use real photos from your listings.
+
+## SEO priorities for real estate agents
+
+Real estate SEO is competitive at the broad level but very winnable with specific targeting.
+
+**Local + intent-based searches are your target:**
+- "Real estate agent in Overland Park"
+- "Best realtor in Lee's Summit"
+- "Homes for sale in Brookside Kansas City"
+- "First-time homebuyer agent KC"
+- "Sell my house Leawood"
+
+**How to rank for them:**
+
+**Neighborhood pages are the foundation.** One detailed page per area you work. Update them quarterly with fresh market data to signal to Google that you're the active expert.
+
+**Long-tail seller searches convert high.** "How to sell a house in Overland Park" or "what's my home worth in Brookside" attract sellers who are actively considering their options. A page or blog post targeting these terms brings warm leads.
+
+**Google Business Profile for agents.** Complete your profile, add photos of recent sales, and collect client reviews. See the [full Google Business Profile guide](/blog/google-business-profile-free-tool) for setup details.
+
+**Internal linking between neighborhood pages.** If you have pages for Brookside, Waldo, and Westport, link between them naturally. This helps Google understand your site structure and keeps visitors exploring.
+
+## What this should cost
+
+A real estate agent website with a homepage, agent bio, neighborhood guides, IDX integration, a sold listings section, and lead capture tools should run $600-1,000. Brokerage-provided sites are free but dead-end SEO investments that don't travel with you. Owning your own site is the right long-term call.
+
+See [what BuiltSimple charges](/pricing) — no monthly fees, no surprise costs.
+
+## The bottom line
+
+In a crowded market, the agents who win online are the ones who are specific. Specific about where they work, who they work with, what results they get, and why someone should trust them with the biggest financial transaction of their life.
+
+Stop looking like every other agent. Own your neighborhoods, show your results, and make it easy for buyers and sellers to take the first step.
+
+Ready for a real estate website that actually generates leads? [Let's talk](/contact) — I build websites for agents across the Kansas City market.
+    `,
+  },
+  {
+    slug: "website-tips-for-dentists-medical-offices",
+    title: "Website Tips for Dentists and Medical Offices: What Patients Need to See Before They Book",
+    description: "Medical and dental office websites that convert patients don't happen by accident. Here's exactly what your practice website needs — and what's costing you new patient appointments.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Web Design", "Small Business", "Dental", "Healthcare", "Local Business"],
+    content: `
+A new patient searching for a dentist, doctor, or specialist online is evaluating your practice before they ever walk through the door. They're assessing trustworthiness, convenience, and whether you look like the kind of office they want to be a patient at — all from your website.
+
+Most medical and dental office websites fail this evaluation. They're slow, generic, and impossible to navigate for someone trying to answer the most basic questions. Here's what actually converts searchers into scheduled patients.
+
+## The friction question that kills bookings
+
+Before a prospective patient calls or fills out a form, they need answers to four questions. If your website doesn't answer them immediately and clearly, they move to the next result.
+
+1. **Are you accepting new patients?** Say it explicitly — "Accepting New Patients" in your header or hero section. Don't make people wonder.
+2. **Do you take my insurance?** List every insurance plan you accept. This is a hard filter. Patients who have to call to ask whether you accept their plan often won't.
+3. **Can I book online?** Online scheduling converts visitors who aren't ready to make a phone call. If you use a practice management system with a patient portal or scheduling widget, embed it.
+4. **What is the new patient process?** A brief "What to expect on your first visit" section removes anxiety and reduces no-shows.
+
+Every additional step between "I found this practice online" and "appointment scheduled" costs you a patient.
+
+## Doctor and staff photos and bios are non-negotiable
+
+Patients choose providers they feel comfortable with, especially in dentistry and specialty medicine where anxiety is common.
+
+- **Professional headshots** for every provider — not a photo from 10 years ago, not a stock image of a doctor in a white coat
+- **A real bio:** dental school or medical school, years in practice, areas of clinical interest, and one sentence that shows a human being — "I chose dentistry because I wanted to help people who are nervous about their smile feel confident"
+- **Staff introductions** — front desk and hygienists/assistants that patients interact with regularly. Knowing the team before the first visit reduces anxiety.
+
+Generic "meet our team" pages with everyone listed by name and title but no photos or personality lose the trust-building opportunity entirely.
+
+## Service pages built for search and for patients
+
+The single biggest SEO mistake medical practices make: listing all services on one page.
+
+Google ranks pages, not websites. A dedicated page for "Invisalign in Kansas City" can rank for that specific search. A bullet point under a combined "Services" page cannot.
+
+### For dental offices, create separate pages for:
+- General dentistry and preventive care
+- Cosmetic dentistry (veneers, whitening, bonding)
+- Orthodontics (Invisalign, traditional braces)
+- Dental implants and restorative work
+- Emergency dental care
+- Pediatric dentistry (if you see children)
+- Periodontics or oral surgery (if applicable)
+
+### For medical offices, create separate pages for:
+- Each specialty or service line
+- Conditions you treat (these rank for symptom-based searches)
+- Procedures you offer
+- Age groups or patient populations you focus on
+
+Each page should include what the service involves, common patient questions, your approach, and a clear call to action to schedule.
+
+## Insurance and financial information deserves its own section
+
+Money anxiety is one of the top reasons people avoid medical and dental care — or keep delaying. Address it directly.
+
+- **List every insurance plan you accept**, including whether you're in-network or out-of-network
+- **Describe your payment options** — CareCredit, in-house payment plans, FSA/HSA acceptance
+- **Be upfront about self-pay rates** if applicable — "We offer self-pay pricing for patients without insurance; ask us about our new patient discount"
+
+Burying insurance information in fine print or forcing patients to call to ask doesn't protect you from having to explain it — it just guarantees you'll lose patients who don't bother calling.
+
+## Reviews and results build the trust that gets patients in the door
+
+For healthcare providers, reviews are the primary way new patients evaluate you before choosing.
+
+- **Feature Google reviews prominently on your homepage** — 3-5 recent reviews with the patient's first name and star rating
+- **Create a dedicated "Patient Reviews" page** with your best 15-20
+- **Use reviews that mention specific experiences** — "The hygienist was so gentle, I didn't feel a thing" is more useful to an anxious patient than "Five stars, great service"
+- **Respond to every review on Google**, including the negative ones — it shows you're attentive and professional
+
+Ask for reviews systematically. A text or email with a direct link to your Google review page, sent same-day after the visit, captures reviews when the experience is fresh. This is how practices build review velocity over competitors.
+
+## What dental and medical office websites don't need
+
+- **A health tips blog.** Generic "5 ways to floss better" content doesn't drive local patients and rarely ranks. Your time is better spent on Google Business Profile and review collection.
+- **Virtual office tours or 3D walkthroughs.** These slow your site down. A few real photos of your waiting room and treatment areas are enough.
+- **Multiple service location pages for a single-location practice.** Don't create fake pages for nearby cities to game local SEO. It doesn't work and it looks unprofessional.
+- **Complex patient portals built into your public website.** Link to your actual patient portal (Athena, Epic MyChart, etc.) — don't build a parallel system.
+
+## SEO priorities for dental and medical practices
+
+Local SEO is how new patients find healthcare providers. Here's where to focus.
+
+**Google Business Profile is your most important search asset.** Your GBP listing is what appears in map searches for "dentist near me" or "urgent care in [city]." Complete every field, add photos regularly, and respond to every review. Read the [Google Business Profile guide](/blog/google-business-profile-free-tool) for the full setup process.
+
+**Neighborhood and city targeting matters.** Your website copy should naturally include your city and nearby neighborhoods — "dentist in Overland Park serving Leawood, Prairie Village, and Mission Hills." Don't stuff keywords; include them where they fit naturally.
+
+**Individual service pages rank individually.** "Invisalign dentist Kansas City" and "family dentist Kansas City" are different searches. A dedicated Invisalign page ranks for the first while your homepage ranks for the second.
+
+**Review velocity drives local rankings.** Google's algorithm weights recency. A practice getting 3 new reviews per week outranks one with 100 old reviews and nothing recent. Build review requests into your checkout or follow-up workflow.
+
+## What this should cost
+
+A professional dental or medical office website with a homepage, 6-8 service pages, provider bios, insurance information, a reviews section, and online scheduling integration should cost $500-900. Healthcare-specific website companies often charge $200-400/month for templates you don't own. A one-time custom build you control is the better long-term investment.
+
+See [transparent pricing at BuiltSimple](/pricing) — no monthly contracts, no recurring fees.
+
+## The bottom line
+
+Patients are choosing a provider they trust with their health. Your website should make that decision easy by answering basic questions immediately, showing real people doing real work, and removing every possible barrier to booking.
+
+Get the basics right — clear insurance information, real provider photos, online scheduling, and prominent reviews — and your website will fill your appointment book. Everything else is secondary.
+
+Ready for a healthcare website that actually generates new patient appointments? [Let's talk](/contact) — I build professional websites for dental and medical practices across the Kansas City area.
+    `,
+  },
 ];
