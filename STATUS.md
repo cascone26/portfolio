@@ -85,6 +85,7 @@
 - Location: Mission, KS
 
 ## Recent Changes
+- **2026-03-28**: 4 vertical-specific SEO blog posts (accounting firm website design, photography business website, realtor website design/neighborhood SEO, dental office new patient acquisition) — 47 total posts
 - **2026-03-27**: Fixed deployment timeout issue with fresh git push (deployment now stable)
 - **2026-03-27**: Blog content updates (now 29+ posts)
 - **2026-03-27**: 3 industry-specific SEO blog posts (plumbers/HVAC, landscapers, personal trainers) — 24 total

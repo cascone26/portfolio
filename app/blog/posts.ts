@@ -3676,4 +3676,940 @@ Get the basics right — clear insurance information, real provider photos, onli
 Ready for a healthcare website that actually generates new patient appointments? [Let's talk](/contact) — I build professional websites for dental and medical practices across the Kansas City area.
     `,
   },
+  {
+    slug: "website-tips-for-contractors-home-services",
+    title: "Website Tips for Contractors and Home Service Businesses: How to Get More Jobs Online",
+    description: "Before/after photos, license and insurance proof, service area pages, and fast quote CTAs — here's how contractors and home service businesses turn website visitors into booked jobs.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Contractors", "Home Services", "Roofing", "Construction", "Web Design", "Local SEO", "Small Business"],
+    content: `
+Homeowners searching for a roofer, electrician, or HVAC technician don't browse casually — they have a problem and they want it fixed fast. Your website has about five seconds to convince them you're the right person for the job before they hit the back button.
+
+This guide covers what contractors and home service businesses actually need on their websites to convert visitors into booked jobs — not generic web design advice, but the specific elements that move homeowners from searching to calling.
+
+## Show Your Work With Before/After Photos
+
+No single element builds more trust for a home services business than documented project photos. Homeowners want proof you can actually do the work — not just stock images of tools or a handshake.
+
+### What to photograph
+- Every completed project, ideally with a "before" shot taken at the start
+- Wide shots that show full scope alongside detail shots that show craftsmanship
+- Different project types that represent the range of work you do
+- Real homes that look like your customers' homes (not magazine-perfect staging)
+
+A roofing company with 20 side-by-side before/after photos of real Kansas City homes will outperform a competitor with none, even if that competitor has been in business longer. The photos do the persuasion work so you don't have to.
+
+### How to organize your gallery
+Create a dedicated Projects page rather than burying photos in a blog. Group them by project type — roof replacements, gutters, storm damage repair — so a homeowner looking for a specific job can find relevant examples quickly.
+
+## Lead With License and Insurance Proof
+
+Homeowners are letting you onto their property and into their home. Their number one fear is hiring someone unlicensed who disappears after a deposit, or causes damage with no coverage to back it up.
+
+Make license and insurance information impossible to miss:
+
+- **Display your license number** prominently on your homepage and contact page
+- **List your insurance carrier** and coverage types (general liability + workers' comp)
+- **Mention if you're bonded** — this is especially important for work inside the home
+- **Show certifications** from manufacturers or industry associations (GAF Master Elite, NATE certified, etc.)
+
+This information doesn't need to be the hero of your page, but it should never require hunting. A footer badge, a sidebar callout, or a short "Why Choose Us" section with this information converts skeptical visitors into callers.
+
+## Build Service Area Pages That Rank Locally
+
+If you serve multiple cities or suburbs around Kansas City — Lee's Summit, Overland Park, Blue Springs, Independence — you can't rely on a single homepage to rank for all of them. You need dedicated service area pages.
+
+### What a good service area page includes
+- City or suburb name in the page title and H1 heading
+- A short description of your work in that specific area (mention local neighborhoods or landmarks if you have project history there)
+- Photos from jobs you've completed in that area
+- Testimonials from customers in that city
+- Your contact information and service area map
+
+These pages rank for searches like "roofing contractor Overland Park" and "HVAC repair Blue Springs" — high-intent local searches that are much easier to rank for than broad city-wide terms.
+
+## Make Requesting a Quote Effortless
+
+Most home service websites bury the contact form at the bottom of the page. This is a conversion killer. Homeowners in problem-solving mode want to request a quote the second they decide you look trustworthy — don't make them scroll.
+
+### Best practices for quote CTAs
+- **Sticky header button:** A "Get a Free Quote" button that follows the visitor as they scroll
+- **Short form:** Name, phone number, service type, and maybe a brief description — that's it. Long forms kill conversions.
+- **Phone number in large text** at the top of the page — many homeowners, especially older ones, still prefer to call
+- **Response time promise:** "We respond within 2 hours" or "Same-day estimates available" tells visitors they won't be left waiting
+
+If you use an online scheduling tool, link to it directly from your primary CTA. Reducing the steps between "I need this done" and "appointment booked" is the single highest-leverage thing you can do.
+
+## Other Trust Elements That Convert
+
+### Reviews in the right places
+Google reviews are more powerful than testimonials you write yourself — homeowners know the difference. Embed a reviews widget or display screenshots of real Google/Yelp reviews on your homepage and service pages.
+
+### Years in business and project count
+"Serving Kansas City since 2009" and "2,400+ projects completed" are the kind of credibility signals that move the needle. Put them on your homepage where they're immediately visible.
+
+### Warranty information
+Clearly state your workmanship warranty. A contractor who backs their work for 5 years is easier to hire than one who doesn't mention it at all.
+
+## What a Contractor Website Should Cost
+
+A professional contractor website with a homepage, 4-6 service pages, a project gallery, a service area page or two, and a contact form should cost around $500-800 as a one-time build — not a monthly subscription you pay forever for a template site you don't own.
+
+See [transparent pricing at BuiltSimple](/pricing).
+
+## The Bottom Line
+
+Homeowners hire contractors they trust. Your website builds that trust before you ever pick up the phone. Get the fundamentals right — real project photos, visible credentials, easy quote requests, and local service pages — and you'll be converting more website visitors into paying jobs within weeks.
+
+Ready for a contractor website that actually generates calls? [Let's talk](/contact) — I build professional websites for home service businesses across the Kansas City area.
+    `,
+  },
+  {
+    slug: "website-tips-for-hair-salons-barbershops",
+    title: "Website Tips for Hair Salons and Barbershops: How to Fill Your Booking Calendar Online",
+    description: "Online booking integration, stylist portfolios, pricing transparency, and gallery tips — here's how hair salons and barbershops use their websites to keep chairs full.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Hair Salon", "Barbershop", "Beauty", "Booking", "Web Design", "Small Business"],
+    content: `
+Most people looking for a new salon or barbershop start with Google, scroll through a few options, and make a decision in under two minutes. If your website makes them dig for basic information — how to book, who the stylists are, what things cost — they'll move on to the next result.
+
+The good news is that salons and barbershops have a natural content advantage: your work is highly visual, which means a well-built website with the right photos can do most of the selling for you.
+
+## Put Online Booking Front and Center
+
+If someone can't book directly from your website, you're losing clients. Period. Phone tag is a conversion killer — people searching for salons at 9pm can't call you, but they can book online if you make it easy.
+
+### Booking tool options
+- **Square Appointments** — free for individuals, integrates with Square POS
+- **Vagaro** — popular with salons, includes staff management and client history
+- **StyleSeat** — beauty-industry specific, handles deposits and no-show protection
+- **Booksy** — strong for barbershops, with a marketplace component
+
+The specific tool matters less than the placement. Your booking button should be in your header, visible on mobile, and present on every page. Don't make visitors hunt for it.
+
+### Reduce friction in the booking flow
+- Let clients select their preferred stylist (or "first available")
+- Show real-time availability — don't ask for a call to confirm
+- Collect a deposit for first-time clients if no-shows are a problem
+- Send automatic confirmation and reminder texts
+
+## Build a Portfolio That Showcases Your Best Work
+
+Hair is personal. Clients need to see evidence that you can achieve the specific look they want before they trust you with their appearance.
+
+### What to post
+- Your best work in the styles you want more of — if you want to do more balayage, post your best balayage shots
+- Transformations: before and after the appointment
+- A range of hair types, textures, and lengths that reflect your clientele
+- Fresh content posted consistently, not a gallery from three years ago
+
+### Where to post it
+Instagram is the natural home for hair content, but your website gallery should live on a dedicated page — or at minimum, an embedded Instagram feed. Clients who find you through Google should see your work immediately without having to leave your site.
+
+### Tag your photos for local search
+File names and alt text on your photos can actually help you show up in local searches. "balayage-kansas-city-salon.jpg" is better than "IMG_4821.jpg" for SEO purposes.
+
+## Introduce Your Stylists With Real Bios
+
+A client isn't booking a salon — they're booking a person. Stylist profiles turn anonymous chairs into relationships, and they dramatically increase the percentage of new clients who book with a specific stylist rather than dropping off.
+
+### What a good stylist profile includes
+- A professional headshot (consistent lighting and background across the team looks more polished)
+- Specialties and training
+- Years of experience
+- A short personal note — something human, not corporate
+- A direct link to book specifically with them
+
+If you have a staff of 6, you have 6 individual landing pages worth of content working for you.
+
+## Be Transparent About Pricing
+
+"Prices vary, please call" is a conversion killer in 2026. Potential clients are comparison shopping, and if your pricing isn't visible, they'll just go to a competitor who shows it.
+
+You don't need exact prices for every color service — those legitimately vary. But you should show:
+- Haircut price ranges (starting at $X or $X-$Y)
+- Color service starting prices with a "consultation required for exact pricing" note
+- Add-on services and their prices
+- Any first-visit specials or package deals
+
+Transparency builds trust and filters out clients whose budget doesn't match your prices — saving everyone time.
+
+## Other Elements That Fill Chairs
+
+### Hours and location, obviously readable on mobile
+This sounds basic, but a shocking number of salon websites have hours buried in fine print or missing entirely. Your address, hours, and phone number should be visible without scrolling on a phone screen.
+
+### Reviews on the homepage
+Pull your best Google reviews onto your homepage. Social proof from real clients is more convincing than anything you write about yourself.
+
+### Gift card purchase link
+Gift cards are the highest-margin service you offer. Make them purchasable directly from your website — especially prominent November through January.
+
+### Parking and access notes
+Downtown Kansas City or Crossroads location? Note parking options. Ground-floor entrance? Say so — accessibility information matters to some clients.
+
+## What a Salon Website Should Cost
+
+A clean, professional salon or barbershop website with a homepage, stylist profiles, an online booking integration, a portfolio gallery, a services and pricing page, and a contact page should run around $500-800 as a one-time build.
+
+See [transparent pricing at BuiltSimple](/pricing) — no monthly fees, no template rentals.
+
+## The Bottom Line
+
+Your work speaks for itself when clients see it. The job of your website is to get your portfolio in front of the right people, make booking effortless, and answer every question a new client might have before they reach out.
+
+Get those fundamentals right and you'll see your booking calendar fill up from people who found you online.
+
+Ready for a salon or barbershop website that keeps your chairs full? [Let's talk](/contact) — I build professional websites for beauty businesses across the Kansas City area.
+    `,
+  },
+  {
+    slug: "website-tips-for-lawyers-attorneys",
+    title: "Website Tips for Lawyers and Attorneys: How to Build Trust and Get More Consultations",
+    description: "Trust signals, practice area pages, attorney bios, and consultation CTAs — what law firms need on their websites to convert visitors into consultation requests.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Law Firm", "Attorney", "Legal", "Professional Services", "Web Design", "Small Business"],
+    content: `
+People searching for an attorney are often in stressful situations — facing criminal charges, going through a divorce, dealing with a workplace injury, navigating a business dispute. They're not casually browsing. They're looking for someone they can trust with a serious problem.
+
+Your law firm's website needs to do one thing above all else: establish trust quickly enough that the visitor picks up the phone or submits a consultation request. Everything else is secondary.
+
+## Lead With Credibility Signals, Not Jargon
+
+The most common mistake on attorney websites is leading with vague legalese: "Dedicated to providing comprehensive legal solutions for individuals and families." This tells a potential client nothing.
+
+Instead, lead with specifics:
+- How many years you've been practicing
+- The specific types of cases you handle
+- Your jurisdiction and where you're licensed to practice
+- Notable results (when ethically permissible to share)
+- Recognition from state or local bar associations
+
+Put this information in your homepage hero section, not buried in an "About" page. A visitor who lands on your site from a Google search needs a reason to stay within the first few seconds.
+
+### Bar association compliance
+Before publishing any case results, testimonials, or performance claims, confirm they comply with your state bar's advertising rules. Missouri and Kansas both have specific rules governing attorney advertising — when in doubt, run your website copy past your bar's ethics counsel or a colleague familiar with the rules.
+
+## Build Dedicated Practice Area Pages
+
+A single "Services" page listing everything you do will not rank well in search and won't convert as effectively as dedicated pages for each practice area. Someone searching "Kansas City divorce attorney" deserves a page specifically about your family law practice — not a general overview buried under criminal defense and estate planning.
+
+### What each practice area page should include
+- A clear explanation of what this area of law covers and what clients typically need
+- The types of cases you handle within this practice area
+- Your approach and any relevant experience or results
+- Frequently asked questions specific to this practice (what does the process look like, how long does it take, what does it cost)
+- A prominent consultation CTA
+
+If you handle five distinct areas, you have five pages that can each rank for their own set of local searches.
+
+## Write Attorney Bios That Feel Human
+
+Potential clients want to know who will actually be working on their case. Attorney bios that read like a résumé — "J.D. from X University, admitted to the Missouri Bar in XXXX" — don't build connection. Bios that feel human do.
+
+### What to include
+- Professional photo (a real headshot, not a stock photo)
+- Law school and year admitted to the bar
+- Practice focus and types of clients you serve
+- Previous experience — clerkships, public defender work, DA experience — that's relevant to your practice
+- A brief personal note: why you practice this area of law, what drives you, what you care about
+- Direct contact information or a booking link specific to that attorney
+
+If you're a solo practitioner, your bio page is especially important — you are the firm, and clients are choosing you as much as they're choosing a practice area.
+
+## Make Consultation Requests Easy
+
+Most law firm websites hide their contact form on a dedicated "Contact" page and call it done. This is leaving money on the table.
+
+### Better CTA placement
+- **Sticky header:** A "Schedule a Consultation" button visible at all times
+- **After every practice area description:** "Ready to discuss your case? Schedule a free consultation."
+- **Homepage hero:** Primary CTA alongside your phone number in large text
+
+### What to ask in your intake form
+Keep it short: name, phone, email, practice area, and a brief description of their situation. Long intake forms feel like homework and reduce completions.
+
+If you offer free initial consultations, say so prominently — this removes a major barrier for cost-sensitive clients who might otherwise hesitate to reach out.
+
+### Phone number visibility
+Many people in urgent legal situations want to talk to someone immediately. Your phone number should be in your header, visible on mobile, and easy to tap. Don't make someone fill out a form if they want to call.
+
+## Reviews and Social Proof
+
+Attorney reviews require care — clients may be reluctant to leave public reviews about sensitive legal matters, and you need to be mindful of confidentiality. That said, Google reviews from satisfied clients are valuable and worth actively requesting from those who are comfortable leaving them.
+
+For your website, consider:
+- A reviews widget pulling from Google
+- Avvo, Martindale-Hubbell, or Super Lawyers ratings displayed with their logos
+- General testimonials (non-identifying) if clients consent
+- Awards or recognition from recognized legal organizations
+
+## Local SEO for Attorneys
+
+Most attorney searches are local. "Family law attorney Kansas City" and "DUI lawyer Overland Park" are the kinds of searches that drive clients. Make sure:
+- Your Google Business Profile is claimed, complete, and updated
+- Your website's title tags include your practice area and location
+- Your NAP (name, address, phone) is consistent across every directory
+- You have practice area pages that mention the cities you serve
+
+## What a Law Firm Website Should Cost
+
+A professional attorney website with a homepage, 4-6 practice area pages, attorney bios, a contact form with consultation scheduling, and proper trust signals should cost around $600-900 as a one-time build.
+
+See [transparent pricing at BuiltSimple](/pricing).
+
+## The Bottom Line
+
+Trust is the currency of legal services. Your website earns trust by being specific about who you are, what you do, who you've helped, and how potential clients can reach you. Generic, template-looking websites work against you — they signal that you're not paying attention to your own presentation, which raises questions about whether you'll pay attention to someone's case.
+
+Get the fundamentals right and your website becomes your most effective business development tool.
+
+Ready for a law firm website that generates consultation requests? [Let's talk](/contact) — I build professional websites for attorneys and small law firms in the Kansas City area.
+    `,
+  },
+  {
+    slug: "website-tips-for-veterinarians-animal-clinics",
+    title: "Website Tips for Veterinarians and Animal Clinics: How to Attract and Retain Pet Owners",
+    description: "Emergency contact prominence, services pages, staff bios, new patient forms, and online scheduling — what veterinary clinics need on their websites to win new clients and keep existing ones.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Veterinarian", "Animal Clinic", "Pet Care", "Healthcare", "Web Design", "Small Business"],
+    content: `
+Pet owners have a deeply emotional relationship with their animals — and that emotion shapes how they choose a veterinary clinic. They're not just looking for someone competent. They're looking for a practice that clearly cares about animals, communicates transparently, and is easy to reach when something is wrong.
+
+Your clinic's website is where that relationship begins. Here's what it needs to do well.
+
+## Make Emergency Contact Impossible to Miss
+
+This is the most important thing on your website. A pet owner with a sick animal at 10pm doesn't have patience for a cluttered homepage — they need your emergency line or after-hours instructions within seconds of landing on your site.
+
+### How to handle it
+- Put your emergency contact information in a banner at the very top of every page
+- If you don't provide 24/7 emergency care, clearly state your after-hours referral (the name and number of the emergency animal hospital you send clients to)
+- Make the phone number tappable on mobile — no one wants to manually dial while their dog is in distress
+
+This one element, done correctly, will generate more goodwill than any other part of your website. A client who found your emergency number quickly in a crisis will be loyal for years.
+
+## Build Detailed Services Pages
+
+Pet owners are often anxious about what's happening to their animal. A services page that explains what wellness exams, dental cleanings, or surgical procedures actually involve reduces anxiety and positions your practice as communicative and educational.
+
+### Core services pages to build
+- **Wellness and preventive care:** What's included in a routine exam, vaccination schedules, flea/tick prevention
+- **Dental care:** Why it matters, what the procedure involves, how often it's recommended
+- **Surgery and anesthesia:** How you handle monitoring, pain management, and recovery
+- **Diagnostics:** What in-house labs and imaging you offer
+- **Senior pet care:** Special considerations for older animals — a dedicated page here targets a high-intent audience
+- **Species-specific pages:** If you treat exotic animals, rabbits, birds, or reptiles alongside cats and dogs, those deserve their own pages
+
+Each page should answer: what is this, why does my pet need it, what should I expect, and how do I schedule it.
+
+## Introduce Your Veterinarians and Staff
+
+Pet owners want to know who will be handling their animal. Staff bios with real photos transform a clinic from an anonymous business into a team of people who chose this work because they love animals.
+
+### What each bio should include
+- Professional headshot in clinic attire
+- Veterinary school and year licensed (for DVMs)
+- Areas of special interest or additional training
+- How many years with the practice
+- Pets they have at home — this is humanizing and builds connection
+- A short personal statement about why they went into veterinary medicine
+
+Include your veterinary technicians, receptionists, and other key staff. Seeing familiar faces on the website before a first visit reduces new-client anxiety.
+
+## Make New Client Onboarding Effortless
+
+First-time clients have more friction to overcome than returning ones. Your website can eliminate most of that friction.
+
+### What to offer online
+- **New patient intake forms** available to fill out and submit before the visit — or printable to bring in
+- **What to bring to a first visit** (vaccine records, medications, previous records)
+- **New client specials** if you offer a discounted first exam
+- **A clear explanation of what to expect** during a new patient appointment
+
+Many veterinary practices still require new clients to fill out paper forms at the front desk. Going digital with this process signals that you value clients' time and run a modern practice.
+
+## Online Scheduling for Routine Appointments
+
+Not every appointment type works for online scheduling — urgent care and complex situations are better handled by phone. But routine wellness exams, vaccine boosters, and annual checkups are perfect candidates.
+
+### Scheduling tools used by veterinary practices
+- **Covetrus Pulse** and **Shepherd** (veterinary practice management systems with built-in scheduling)
+- **Calendly** or **Acuity** for simpler setups
+- Direct integration with your PIMS (practice information management system) if it supports it
+
+The goal is the same as any service business: reduce the number of steps between "I want to make an appointment" and "appointment confirmed." Online scheduling available 24/7 captures clients who search for a vet on evenings and weekends.
+
+## Other Elements That Win Pet Owners
+
+### Species served, clearly stated
+If you only see dogs and cats, say so — it saves everyone time. If you see exotic species, list them specifically. Pet owners with rabbits or iguanas often struggle to find qualified vets and will specifically seek out practices that advertise this.
+
+### Accepted payment methods and CareCredit
+Veterinary costs can be unexpected and high. List accepted payment methods, and if you accept CareCredit or other financing, say so prominently. This information directly influences whether a client feels comfortable bringing a pet in versus waiting and hoping the problem resolves.
+
+### Photos of your actual clinic
+Stock photos of animals are fine as accents, but photos of your actual exam rooms, lobby, and team reassure anxious new clients before they arrive. Familiarity reduces stress — for owners and pets.
+
+### Google reviews on the homepage
+Veterinary practices attract passionate reviews from pet owners. If you have strong Google ratings, display them. Reviews from other pet owners carry enormous weight in this category.
+
+## What a Veterinary Website Should Cost
+
+A professional veterinary clinic website with a homepage, 6-8 services pages, staff bios, new client information, online scheduling integration, and emergency contact prominence should cost around $600-900 as a one-time build.
+
+See [transparent pricing at BuiltSimple](/pricing).
+
+## The Bottom Line
+
+Pet owners are loyal — once they find a clinic they trust, they stay for years and refer friends enthusiastically. Your website's job is to earn that initial trust quickly and make every interaction with your practice frictionless.
+
+Get the emergency contact, staff bios, services pages, and scheduling right, and your website becomes a genuine competitive advantage against clinics that still have outdated, hard-to-use sites.
+
+Ready for a veterinary website that brings in new patients and retains existing ones? [Let's talk](/contact) — I build professional websites for veterinary practices across the Kansas City area.
+    `,
+  },
+  {
+    slug: "accounting-firm-website-design",
+    title: "Accounting Firm Website Design: What CPAs and Tax Professionals Need to Win Clients Online",
+    description: "An accounting firm website needs to build trust fast, rank for local tax and CPA searches, and turn visitors into consultation requests. Here's exactly how to do it.",
+    date: "2026-03-28",
+    readTime: "7 min",
+    tags: ["Accounting", "CPA", "Web Design", "Tax", "Professional Services", "Small Business"],
+    content: `
+Accounting is a relationship business built on trust. But most new clients find their CPA the same way they find a dentist or a plumber — Google. If your accounting firm website looks like it was built in 2012, loads slowly, or buries your contact information, you're losing clients who would have been perfect fits.
+
+Here's what an accounting firm website actually needs to convert searchers into consultation requests — and what's a waste of your budget.
+
+## Why accounting firm websites fail
+
+Most accounting firm websites make the same mistakes:
+
+- **Generic language** ("We provide comprehensive accounting solutions") that says nothing and differentiates nothing
+- **No pricing or even pricing range**, forcing every interested visitor to schedule a call just to find out if they can afford you
+- **Services pages that list services** without explaining who they're for or what problems they solve
+- **Buried contact information** that requires clicking through three pages to find a phone number
+
+Your website has one job: make a qualified prospect feel confident enough to contact you. Everything else is secondary.
+
+## What your accounting firm website actually needs
+
+### 1. A homepage that speaks to your ideal client
+
+Your homepage hero should name who you work with and what problems you solve. "Tax preparation and bookkeeping for Kansas City small businesses" is a stronger headline than "Reliable accounting services for individuals and businesses."
+
+Being specific doesn't scare away clients — it attracts the right ones. An accountant who works primarily with LLCs and S-corps communicates differently than one who focuses on personal tax returns or restaurant bookkeeping. Name your niche and own it.
+
+### 2. Service pages for each offering
+
+Build a separate page for each major service: tax preparation, bookkeeping, payroll, business consulting, IRS representation, estate planning. Each page should:
+
+- Explain who this service is for (not just what it is)
+- Describe what the process looks like and what to expect
+- Call out common client questions upfront
+- Include a clear call to action to schedule a consultation
+
+A visitor landing on your bookkeeping page from a Google search shouldn't have to navigate to understand what you offer, who it's for, or how to start.
+
+### 3. Transparent pricing — or at least pricing ranges
+
+You don't have to publish exact rates. But a pricing page that says "Monthly bookkeeping starts at $200/month for businesses under $500K in revenue" or "Tax preparation for individual returns starts at $250" does several things:
+
+- Pre-qualifies visitors (people who can't afford you stop wasting your time)
+- Builds trust through transparency (people appreciate knowing before they call)
+- Reduces the friction of "I'd contact them but I don't know if I can afford it"
+
+Accounting firms that publish pricing ranges consistently report higher consultation request rates than those with completely opaque pricing.
+
+### 4. Team bios with real credentials
+
+Clients care deeply about who is actually doing their work. A dedicated team page with headshots, credentials (CPA, CMA, EA), years of experience, and brief professional bios reassures visitors that qualified professionals are handling their finances.
+
+Include: education, certifications, areas of focus, and one human detail (hobbies, community involvement) that makes the person real.
+
+### 5. A lead capture system beyond "contact us"
+
+A simple contact form is fine, but a tax checklist download, a free initial consultation offer, or a "Is your business tax-ready?" quiz captures leads at earlier stages of the decision process.
+
+Someone who downloads your "Small Business Tax Prep Checklist" isn't ready to sign today — but they've indicated real interest, and a follow-up email sequence can convert them over time.
+
+## What accounting firm websites don't need
+
+- **Stock photos of spreadsheets and calculators.** These look generic and add nothing. A professional headshot of your team accomplishes more trust-building than any stock image.
+- **Long paragraphs of IRS jargon.** Write for clients, not for accountants. If a business owner can't understand what you're offering by reading your services page, they'll leave.
+- **Lengthy "About Us" histories.** Clients care about your credentials and what you can do for them — not a year-by-year narrative of your firm's founding.
+- **Blog posts no one updates.** A stale blog with the last post from 2022 looks worse than no blog at all. Either commit to quarterly updates or skip it.
+
+## SEO priorities for accounting firms
+
+Accounting SEO is highly local and keyword-specific. The most valuable searches to rank for:
+
+- "CPA in [city]" / "accountant in [city]"
+- "small business tax preparation [city]"
+- "bookkeeping services [city]"
+- "accounting firm for [niche]" (restaurants, real estate investors, construction, etc.)
+
+**How to rank:**
+
+**Location pages for each city you serve.** If you work with clients in Overland Park, Lenexa, and Olathe, you need dedicated pages for each — not just a homepage that mentions you're in Kansas City.
+
+**Niche content that answers real questions.** "S-corp vs LLC taxes in Missouri" and "when should a small business hire a bookkeeper" are searches with real buying intent. A 600-word answer positions you as the expert and captures organic traffic.
+
+**Google Business Profile with complete information.** Reviews from business clients, current hours, and a consistent NAP (name, address, phone) listing across directories directly impact local pack rankings. See the [full Google Business Profile guide](/blog/google-business-profile-guide).
+
+**Schema markup for local business and professional services.** This structured data helps Google understand your business type, location, and services, improving local search visibility.
+
+## What an accounting firm website should cost
+
+A professional accounting firm website with a homepage, 5-7 service pages, a team page, a contact/scheduling page, and a pricing page should run $600-1,000 as a one-time build. You own it, it doesn't disappear when you stop paying a monthly fee, and it builds SEO equity over time.
+
+See [transparent pricing at BuiltSimple](/services) — flat rates, no recurring subscriptions.
+
+## The bottom line
+
+Your prospects are searching for accountants every day. The ones with the clearest, most specific, easiest-to-contact websites get the calls. The ones with generic language and buried contact forms don't.
+
+You don't need a complicated website. You need one that speaks directly to your ideal client, shows your credentials, and makes the first step obvious.
+
+Ready for an accounting firm website that converts visitors into clients? [Let's talk](/contact) — I build professional websites for CPAs, bookkeepers, and tax professionals across the Kansas City area.
+    `,
+  },
+  {
+    slug: "photography-business-website-that-books-clients",
+    title: "How to Build a Photography Business Website That Actually Books Clients",
+    description: "Most photographer websites look good but don't convert. Here's the gallery strategy, pricing psychology, and SEO approach that turns portfolio visitors into paying photography clients.",
+    date: "2026-03-28",
+    readTime: "7 min",
+    tags: ["Photography", "Web Design", "Portfolio", "Small Business", "Local Business", "Booking"],
+    content: `
+Most photographer websites are beautiful and useless. The galleries are stunning, the branding is on point, and the contact form gets almost no submissions.
+
+The problem isn't the photography. It's that the website is built like a portfolio instead of a business development tool.
+
+A photography business website needs to do two things: showcase your work convincingly, and make it easy for someone to take the next step. Here's how to build one that actually does both.
+
+## The gallery strategy that sells
+
+Every photographer knows their website needs a gallery. What most get wrong is showing too much instead of too little.
+
+### Show your best 15-20 images per category, not 80
+
+Clients don't view more photos and think "this photographer is better." They lose focus and leave. Your gallery's job is to make someone feel confident in your style — and that happens faster with 15 exceptional images than with 80 average ones.
+
+Edit ruthlessly. If a photo wouldn't make your top 20% personally, don't include it.
+
+### Organize by what clients are actually searching for
+
+Don't organize by "portfolio." Organize by:
+- Wedding photography
+- Engagement sessions
+- Family portraits
+- Brand/headshot photography
+- Real estate photography
+
+Each category should have its own page (not just a section on one page) so it can rank for searches like "wedding photographer [city]" or "headshot photographer [city]." A photographer's gallery page is also an SEO asset — but only if it's properly structured.
+
+### Include location context in your galleries
+
+"Shot at Loose Park, Kansas City" or "Engagement session in the Flint Hills" tells clients two things at once: where you work, and that you know how to use specific locations beautifully. This is meaningful for local clients who recognize the spots.
+
+## The pricing page question
+
+This is where most photographers lose clients who would have booked. Not having a pricing page creates friction — people who are seriously interested leave to find a photographer who shows their rates.
+
+### What to publish
+
+You don't need to show every add-on and custom package rate. But publish:
+- Starting prices for your main packages ("Wedding packages start at $2,200")
+- What's included at that starting price
+- Common add-ons and what they cost
+- Payment structure (deposit amount and when balance is due)
+
+"Pricing available upon request" is a conversion killer in 2026. Clients compare multiple photographers. The ones who require an inquiry just to see a price range lose that comparison consistently.
+
+### How to frame pricing so it doesn't work against you
+
+Lead with what's included at a given price point, not just the number. "8 hours of coverage, two photographers, online gallery of 500 edited images, and a 30-day delivery timeline" justifies the rate. A number alone invites sticker shock.
+
+## Booking and contact flow
+
+Your contact page should be more than a form. Clients booking photographers are often making a significant investment and want to know what happens next.
+
+### Reduce uncertainty about the process
+
+Include a short "how it works" section on your contact or booking page:
+1. Send a message with your date and vision
+2. I'll confirm availability and schedule a quick call
+3. We'll finalize details and you'll receive a contract and invoice for your deposit
+4. You're booked — I'll follow up as your date approaches
+
+This framing converts better than a blank form because it reduces the anxiety of "I don't know what I'm getting into."
+
+### Include an availability calendar if possible
+
+Even a simple "currently booking weddings through [date]" or "availability is limited for peak-season weekends" creates urgency without being pushy. Clients who see that you're in demand are more likely to move quickly.
+
+## What photographer websites don't need
+
+- **Autoplaying music.** This is 2005 and it still happens. Kill it immediately.
+- **Flash-heavy or animated intros** that delay loading by even a second. Clients will leave before your logo finishes its spin.
+- **An "awards" page** unless you've won industry-recognized competitions. A collection of "featured on styled shoots" doesn't do what you think it does.
+- **Overly detailed client questionnaires on the contact form.** Ask for name, date, event type, and how they heard about you. Gather the rest when you talk.
+- **Social media feeds embedded on your site.** They're slow, they break when APIs change, and they send visitors off your site. Focus on keeping people on your pages.
+
+## SEO priorities for photographers
+
+Photography SEO is almost entirely local and category-specific.
+
+**The searches worth targeting:**
+- "Wedding photographer [city]"
+- "Family portrait photographer [city]"
+- "Headshot photographer [city]"
+- "Engagement photographer [city]"
+- "Real estate photography [city]"
+
+**How to rank:**
+
+**Separate pages for each photography category.** Your wedding photography page, family portrait page, and headshot page should each be a full page with its own URL, gallery, description, and lead capture — not sections of a single "work" page. This structure lets each page rank independently for relevant searches.
+
+**Client testimonials with specificity.** "Sarah did our wedding in Leawood — the photos turned out better than we imagined" is more valuable for SEO and conversion than "Great photographer!" Specific details about the location and event type confirm expertise.
+
+**Google Business Profile with category photos.** A photography business profile on Google, with photos categorized by service type and regular review responses, directly affects whether you appear in the local pack. See the [Google Business Profile guide](/blog/google-business-profile-guide) for setup details.
+
+**Alt text on every gallery image.** Use descriptive alt text like "engagement session at Loose Park Kansas City" rather than "IMG_2847.jpg." This is where most photographers leave significant SEO value on the table.
+
+## What a photography business website should cost
+
+A professional photography website with a homepage, 4-6 category-specific gallery pages, a pricing page, an about page, and a contact/booking page should cost $500-800 as a one-time build. You own the site outright — no monthly platform fees like Squarespace or Pixieset charges.
+
+See [what BuiltSimple charges](/services) — flat rates, no surprises.
+
+## The bottom line
+
+Your photography skills get you the work. Your website gets you in front of the clients who will hire you. A portfolio site that makes people feel something but gives them no clear path to book you is leaving revenue on the table every single day.
+
+Get your gallery structure, pricing transparency, and booking flow right, and your website becomes the hardest-working member of your business development team.
+
+Ready for a photography website that books clients? [Let's talk](/contact) — I build photography business websites for photographers across the Kansas City area.
+    `,
+  },
+  {
+    slug: "realtor-website-design-neighborhood-seo",
+    title: "Realtor Website Design: How Neighborhood Pages Win Local SEO for Real Estate Agents",
+    description: "The biggest SEO opportunity most real estate agents miss is neighborhood pages. Here's how to design a realtor website that ranks for local home searches and generates consistent leads.",
+    date: "2026-03-28",
+    readTime: "7 min",
+    tags: ["Real Estate", "Realtor", "Web Design", "Local SEO", "Lead Generation", "Small Business"],
+    content: `
+If you ask most real estate agents where their best leads come from, the answer is usually referrals. Ask them where their worst leads come from, and it's usually Zillow. Somewhere in the middle — underutilized, often generating nothing — is their own website.
+
+That doesn't have to be the case. Agents who invest in the right kind of realtor website design — specifically built around neighborhood content — consistently generate leads from organic search without paying per click. Here's how it works.
+
+## Why most realtor websites fail at SEO
+
+The typical agent website has a homepage, an "About Me" page, a contact page, and a generic property search widget. Sometimes a blog that hasn't been updated since 2021.
+
+This structure ranks for essentially nothing because:
+
+- **The homepage tries to rank for "real estate agent [city]"** — one of the most competitive local searches that exists, dominated by Zillow, Realtor.com, and brokerages with massive domain authority
+- **There's no content that matches what buyers actually search for** — which is specific: neighborhoods, school districts, price ranges, lifestyle
+- **All the pages look the same** — Google can't determine topical authority from a site with four pages that each say "experienced local Realtor"
+
+The fix isn't more advertising spend. It's a different site structure.
+
+## The neighborhood page strategy
+
+Buyers don't search "homes for sale in Kansas City." They search "homes for sale in Brookside" or "best neighborhoods in Overland Park for families" or "what is it like to live in Prairie Village."
+
+A neighborhood page is a dedicated, detailed page about a specific area you work — written not as MLS marketing copy but as genuine local knowledge content. Google rewards this because buyers value it.
+
+### What a neighborhood page needs
+
+**An informative introduction** that answers: what kind of area is this? What draws people there? What's the housing stock like? Write for a buyer who is relocating from out of state and knows nothing about Kansas City.
+
+**Practical lifestyle details:**
+- Schools (rating, type, any notable programs)
+- Commute to downtown or major employment centers
+- Walkability and what you can walk to
+- Character: is it quiet residential, walkable commercial, urban, suburban?
+
+**Housing market data:**
+- Typical price range
+- What buyers get at different price points (1,400 sq ft starter vs. 2,800 sq ft family home)
+- Average days on market (when you can share it)
+- Recent sold examples with brief context ("4BR craftsman on Crestwood — sold $40K over asking in March 2026")
+
+**Your perspective as a local expert.** Don't just list facts — share what you tell your clients about this neighborhood. "I always tell buyers looking at Brookside that they're really buying the walkability. The coffee shop, the park, the Saturday farmers market — people pay a premium for that and almost none of them regret it." This kind of voice differentiates your pages from generic real estate content and is exactly what AI-generated content can't replicate.
+
+**A lead capture specific to that neighborhood.** "Want to see what's currently available in Brookside? Get a free list of active listings." Name and email, nothing more.
+
+### How many pages you need
+
+Build one page per neighborhood or area you actively work. If you cover 8 neighborhoods, you have 8 neighborhood pages. Aim for at least 600-800 words per page — not because word count directly determines rankings, but because it forces you to actually answer the questions buyers have.
+
+Update these pages quarterly. Even adding one sentence about current market conditions signals to Google that the content is actively maintained.
+
+## The realtor website design that supports this strategy
+
+Neighborhood pages are the content strategy. The site design needs to support them.
+
+**Navigation structure:**
+- Home
+- Neighborhoods (dropdown to each area)
+- Buy / Sell (separate pages for buyer and seller services)
+- About
+- Contact
+
+The neighborhoods dropdown is the key piece. It makes your neighborhood content discoverable both to visitors and to Google's crawlers, and it signals that neighborhood expertise is a core part of your service.
+
+**Internal linking:**
+Each neighborhood page should link to related pages. Brookside might link to Waldo, Westport, and your first-time homebuyer services page. These internal links distribute page authority and help buyers discover adjacent neighborhoods they might not have considered.
+
+**Homepage structure:**
+Your homepage should feature:
+- A headline that states your specialty and market ("Kansas City real estate agent specializing in first-time buyers and Northland neighborhoods")
+- 3-5 featured neighborhood cards linking to those pages
+- A brief agent bio with your headshot
+- Social proof (Google reviews, transaction count, years active)
+- A clear primary CTA ("Search Homes" or "Let's Talk About Buying")
+
+## What realtor websites don't need
+
+- **A property search widget that sends people to IDX feeds and away from your content.** If you include IDX, make it a secondary feature, not your homepage hero.
+- **A slider or carousel.** They perform poorly on mobile and slow your load time. A static hero image with clear text outperforms carousels in almost every A/B test.
+- **Testimonials that say "great realtor, highly recommend!"** Specifics matter: "She helped us compete in a 12-offer situation and got us into our home for $8K under asking" is infinitely more persuasive.
+- **Social media icons in the header.** Put them in the footer if at all. Header social icons are exit points off your site before visitors have had a chance to engage.
+
+## Pricing for realtor website design
+
+A real estate agent website with a homepage, 6-10 neighborhood pages, buyer and seller service pages, an agent bio page, and a contact/lead capture page should cost $700-1,100. This is a one-time investment — you own the site, build SEO equity on your own domain, and take it with you if you change brokerages.
+
+See [BuiltSimple's flat-rate pricing](/services) — no monthly fees, no revenue share.
+
+## The bottom line
+
+The agents who dominate organic real estate search in their markets aren't there because they have bigger advertising budgets. They're there because they built the best neighborhood content on the internet for their area and kept it updated.
+
+That's a game any agent can play. It just requires the right site structure and genuine local knowledge — which you already have.
+
+Ready for a realtor website designed to rank? [Let's talk](/contact) — I build real estate agent websites for agents across the Kansas City market.
+    `,
+  },
+  {
+    slug: "dental-office-website-new-patient-acquisition",
+    title: "Dental Office Website Design: How to Turn Your Site Into a New Patient Acquisition Machine",
+    description: "Most dental websites don't generate new patients — they just exist. Here's the specific design, content, and SEO approach that turns a dental office website into a consistent source of new patient bookings.",
+    date: "2026-03-28",
+    readTime: "7 min",
+    tags: ["Dental", "Healthcare", "Web Design", "Local SEO", "Patient Acquisition", "Small Business"],
+    content: `
+A dental practice lives or dies on new patient volume. Patients churn naturally — they move, they age out of pediatric care, they switch to a dentist closer to their new job. Replacing that churn and growing beyond it requires a steady stream of new patients finding you.
+
+For most practices, the website is the most underutilized growth asset they have. Here's how to fix that.
+
+## The new patient acquisition problem
+
+Most dental office websites are built by dental-specific website vendors who use the same template for every practice in their system. The result: sites that look nearly identical to every other dental practice, rank poorly because the domain authority is owned by the vendor, and cost $200-300/month forever.
+
+The practices that consistently outperform in local search don't use these vendors. They own their own site, control their own content, and optimize for the specific searches that bring new patients in their market.
+
+## What your dental website needs to convert new patients
+
+### 1. Above-the-fold clarity about who you are and who you serve
+
+A new patient landing on your homepage has one question: is this the right dentist for me? Answer it immediately.
+
+- **Practice name and location** visible without scrolling
+- **Primary services** (general, cosmetic, pediatric, orthodontics) named clearly
+- **New patient CTA** ("Book a New Patient Appointment" or "New Patients Welcome") in the header and hero
+- **Phone number in large text** at the top — patients, especially older ones, want to call
+
+Dental anxiety is real. A homepage that feels clinical, confusing, or hard to navigate amplifies that anxiety. Calm, clear design with a welcoming photo of your actual team does more to convert than any amount of SEO copy.
+
+### 2. Service-specific pages for every major offering
+
+General dentistry, teeth whitening, Invisalign, dental implants, pediatric services, emergency dental care — each should have its own dedicated page.
+
+This matters for two reasons:
+
+**Conversion:** A patient searching for "dental implants in Overland Park" who lands on your dental implants page — which explains the process, addresses concerns, shows before/after photos, and includes a consultation booking link — converts at dramatically higher rates than one who lands on a generic homepage.
+
+**SEO:** Each service page can rank independently for procedure-specific searches. "Invisalign provider Lenexa" and "teeth whitening Kansas City" are different searches from "dentist near me" — and often less competitive.
+
+### 3. A "Meet the Dentist" page with actual personality
+
+Dental anxiety is the number one reason people avoid the dentist. A dentist who feels approachable and human reduces that anxiety before the first appointment.
+
+Your bio page should include:
+- A professional photo that looks warm and approachable, not clinical
+- Where you went to dental school and any specialty training
+- How long you've been practicing and in this community
+- Something personal: a hobby, a family detail, why you chose dentistry
+- Your philosophy of care in plain language ("I know most people don't love coming to the dentist, so I built this practice around making that experience as comfortable as possible")
+
+Patients choose their dentist. The one who feels like a real person they'd trust wins over the one who looks like a stock photo.
+
+### 4. Online scheduling that actually works
+
+If your "Book an Appointment" button opens a contact form that requires a callback to schedule, you're losing new patients to practices with real-time online booking.
+
+Tools like Zocdoc, NexHealth, or OpenDental's patient portal let patients self-schedule. For a new patient looking for a dentist at 9pm on a Sunday, the practice that offers real-time scheduling captures that patient. The ones that don't, don't.
+
+### 5. New patient information prominently displayed
+
+First-time patients have practical anxieties alongside the dental kind. Answer these questions before they have to ask:
+
+- What insurance do you accept? (List specific plans, not just "most major insurance")
+- Do you offer payment plans or CareCredit?
+- What should I bring to my first appointment?
+- What happens during a new patient visit?
+- Where are you located and is there parking?
+
+A dedicated "New Patients" page that covers all of this reduces friction dramatically and signals that your practice actually thinks about the patient experience.
+
+## What dental office websites don't need
+
+- **Stock photos of perfect smiles.** They're everywhere and they mean nothing to a new patient. A real photo of your actual staff, exam rooms, or lobby is more trust-building than any model photo.
+- **Long home page copy about dental health statistics.** Patients aren't there to read about gum disease prevalence. They want to know if you're the right dentist for them.
+- **Animated tooth logos and dental-pun taglines.** "Smile, it's us!" on every dental website vendor template in existence. Real differentiation comes from showing your actual practice, not from wordplay.
+- **A blog with outdated content.** Four posts from 2021 about flossing tips look worse than no blog. Either publish consistently or remove the section.
+- **Pop-ups on entry.** A new patient landing on your site for the first time does not want to dismiss a pop-up before they can read anything. It signals a disregard for their experience.
+
+## SEO priorities for dental offices
+
+Dental SEO is hyper-local and procedure-specific.
+
+**The highest-value searches:**
+- "Dentist in [city/neighborhood]"
+- "Family dentist [city]"
+- "Emergency dentist [city]"
+- "Dental implants [city]"
+- "Invisalign provider [city]"
+- "Teeth whitening [city]"
+
+**How to rank for them:**
+
+**Individual service pages optimized for each procedure.** Your implants page should include the phrase "dental implants in [city]" in the title, H1, and naturally throughout the content. Each service page is a separate ranking opportunity.
+
+**Google Business Profile optimization.** New patient search is almost entirely local pack search — the map results at the top of Google. A complete profile with photos, accurate hours, procedure categories, and regular review responses directly impacts whether you appear in those results. See the [full Google Business Profile guide](/blog/google-business-profile-guide).
+
+**Review generation strategy.** Dental reviews are make-or-break. A practice with 180 four-star reviews dominates one with 40 reviews at the same rating. Ask every patient after a positive visit. Make it easy: text them a direct link to your Google review page.
+
+**Location + specialty combinations.** "Pediatric dentist Overland Park" and "cosmetic dentist Leawood" are less competitive than broad city searches and convert at higher rates because they match what the searcher actually wants.
+
+## What a dental office website should cost
+
+A professional dental website with a homepage, 6-8 service pages, a team/meet-the-dentist page, a new patients page, and an online scheduling integration should cost $700-1,000 as a one-time build. Not $200/month to a dental vendor for a template you'll never own.
+
+See [transparent pricing at BuiltSimple](/services).
+
+## The bottom line
+
+New patients are searching for a dentist right now. The practices that show up in those searches, communicate clearly who they are, and make it easy to book are the ones that grow.
+
+Your website is either doing that work or it isn't. If it isn't — if it looks like every other dental vendor template, if it doesn't rank for your city, if booking requires a phone call — it's costing you patients every day.
+
+Ready for a dental office website that actually brings in new patients? [Let's talk](/contact) — I build websites for dental practices across the Kansas City area.
+    `,
+  },
+  {
+    slug: "website-tips-for-insurance-agents",
+    title: "Website Tips for Insurance Agents: How to Generate More Leads and Build Client Trust Online",
+    description: "Lead gen forms, credentials display, plain-language explanations, and quote request flow — what independent insurance agents need on their websites to convert visitors into clients.",
+    date: "2026-03-27",
+    readTime: "7 min",
+    tags: ["Insurance", "Financial Services", "Lead Generation", "Professional Services", "Web Design", "Small Business"],
+    content: `
+Insurance is a trust-first purchase. Customers aren't just buying a policy — they're betting that when something goes wrong, you'll be there to help them navigate it. That trust doesn't happen automatically, and for independent agents competing with national brand advertising budgets, your website has to work especially hard to build it.
+
+Here's what an independent insurance agent's website actually needs to generate leads and earn long-term clients.
+
+## Make Your Quote Request Flow the Top Priority
+
+Every element of your website should funnel visitors toward one action: requesting a quote or scheduling a consultation. This isn't about being pushy — it's about making the next step obvious for someone who's already decided they need insurance.
+
+### Quote request best practices
+- **Short form first:** Name, phone, email, and type of coverage needed. That's enough to start a conversation. Long quote forms with 20 fields kill conversions — you can gather the rest of the information during the consultation.
+- **Prominent placement:** Quote request button in the header, on the homepage hero, and at the bottom of every coverage page
+- **Response time commitment:** "I'll follow up within 2 hours during business hours" sets expectations and creates accountability
+- **Phone number in large text** at the top of the page — many insurance clients, especially older ones, strongly prefer calling
+
+If you can integrate with a real-time quoting tool (Insurify, EZLynx, or a carrier-specific tool), that's even better — instant quotes remove a significant conversion barrier.
+
+## Display Your Credentials and Appointments Prominently
+
+Independent agents have a credibility challenge: potential clients can't tell from a name and phone number whether you're a one-person shop operating from a kitchen table or a legitimate professional with real relationships with quality carriers.
+
+Your credentials solve this.
+
+### What to display
+- **State license number** and states where you're licensed
+- **Years in business** — "Serving Kansas City families since 2011" is concrete and reassuring
+- **Carrier appointments** — the names and logos of the companies you represent signal legitimacy and give clients something to verify
+- **Professional memberships** — PIA, NAIFA, IIABA membership badges add credibility
+- **E&O insurance** — some clients, especially commercial accounts, specifically ask. Having it noted builds confidence.
+
+Put this information in a "Why Work With an Independent Agent" section or an "About" page that explains the value of not being tied to a single carrier.
+
+## Write About Insurance in Plain Language
+
+The biggest mistake on insurance agent websites is writing in insurance-industry language that clients don't understand. Terms like "dwelling coverage," "liability limits," and "umbrella policy" need plain-language explanations if you want visitors to trust you and feel educated rather than confused.
+
+### Coverage pages that actually explain things
+Build a page for each major coverage type you offer: home, auto, life, commercial, renters, umbrella. On each page:
+- Explain what this coverage does in simple terms
+- Describe who typically needs it
+- Call out common questions or misconceptions
+- Explain how to think about coverage limits (not just what they are, but how to decide)
+- End with a quote request CTA specific to that coverage type
+
+An insurance agent website that educates visitors positions you as an advisor, not just a vendor. Clients who feel educated make faster decisions and become more loyal long-term clients.
+
+## Demonstrate Local Roots and Community Involvement
+
+National insurers have brand recognition and advertising budgets. You can't compete on that axis. But you can win on local presence, personal relationship, and actual care about the community.
+
+### What builds local credibility
+- **Your photo and bio** on the homepage (not stock art of a handshake)
+- **Named communities you serve** — Johnson County, Lee's Summit, Blue Springs, Prairie Village
+- **Local references** — "I've helped hundreds of families in Overland Park protect their homes" is more compelling than generic copy
+- **Community involvement** — Little League sponsorship, Chamber of Commerce membership, local charity work
+- **Google reviews from local clients** embedded on your homepage
+
+You know your clients by name. Your website should reflect that kind of business, not look like a template generated by a national brand.
+
+## Build Trust Through Transparency
+
+Insurance has a trust problem as an industry. The best thing an independent agent's website can do is get ahead of it through radical transparency.
+
+### Trust-building elements
+- **Explain how you get paid** — many clients don't understand that you earn commissions and worry about conflicts of interest. A brief, honest explanation ("I earn a commission from the carriers I work with, which means you don't pay more than you would buying direct — and you get my expertise for free") goes a long way.
+- **No-pressure language** — avoid language that sounds like high-pressure sales. "Let's figure out what you actually need" converts better than "Limited time offer."
+- **Guarantee your availability** — "When you have a claim, you talk to me directly — not a call center" is a powerful differentiator from direct-to-carrier policies.
+
+## Use Content to Capture Long-Tail Search Traffic
+
+Insurance searches are highly specific. People search for "how much car insurance do I need in Missouri" and "does homeowners insurance cover sewer backup" — not just "insurance agent Kansas City."
+
+A blog or FAQ section that answers common questions captures this traffic and positions you as the expert before a visitor has even seen your services. It doesn't need to be elaborate: four or five well-written FAQ articles can generate meaningful organic traffic over time.
+
+## What an Insurance Agent Website Should Cost
+
+A professional insurance agent website with a homepage, 4-6 coverage pages, an about page with credentials, a quote request form, a client reviews section, and a simple blog or FAQ should cost around $500-800 as a one-time build.
+
+See [transparent pricing at BuiltSimple](/pricing) — no monthly fees or recurring contracts.
+
+## The Bottom Line
+
+You're competing against both national brands and other local agents. Your website can't out-budget the national brands, but it can out-trust them — by showing a real person, explaining coverage clearly, displaying legitimate credentials, and making it easy for someone to start a conversation.
+
+Get those fundamentals right and your website becomes a genuine lead generation asset rather than just a placeholder.
+
+Ready for an insurance agent website that generates real leads? [Let's talk](/contact) — I build professional websites for independent insurance agents across the Kansas City area.
+    `,
+  },
 ];
