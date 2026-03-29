@@ -4963,4 +4963,208 @@ A well-built electrician website with this structure runs around $500-800 as a o
 Electrical emergencies drive impulse calls. Planned work — upgrades, remodels, new installs — drives research. Your website needs to win both: fast and obvious contact info for the emergency caller, and solid local SEO and service pages for the person who's comparing three electricians on a Tuesday afternoon. Get both right and your website will generate consistent inbound work.
     `,
   },
+  {
+    slug: "how-long-to-build-a-small-business-website",
+    title: "How Long Does It Take to Build a Small Business Website? (Honest Timeline)",
+    description: "The real timeline for building a small business website — from DIY to agency to hiring someone who just gets it done. What causes delays, and what to expect when working with BuiltSimple in Kansas City.",
+    date: "2026-03-28",
+    readTime: "6 min",
+    tags: ["Websites", "Small Business", "Kansas City", "Web Design", "Process"],
+    content: `
+One of the most common questions I get from Kansas City small business owners is some version of: "How fast can I get a website?" The answer depends on who builds it and how ready you are — but the short version is that it shouldn't take months. Here's an honest breakdown.
+
+## The DIY Route: Longer Than You Think
+
+If you're building it yourself on Wix, Squarespace, or a WordPress page builder, the clock starts ticking the moment you sign up. Most business owners estimate they'll be done in a weekend. Most are still tweaking things six weeks later.
+
+**Realistic DIY timeline: 3–8 weeks**
+
+Why so long?
+
+- You're learning the platform while building. Every new section means watching a tutorial.
+- The template you picked doesn't quite fit your business, so you're customizing things you didn't plan to customize.
+- Writing your own copy is brutal. Most people stall here.
+- You'll second-guess yourself on colors, fonts, and layout — multiple times.
+- Mobile view looks wrong. Back to the editor.
+
+The end result is often a serviceable site, but it took 40+ hours of your time and it shows. Your time has real value, and 40 hours spent not serving customers is 40 hours of opportunity cost.
+
+## Hiring a Freelancer: Depends on Their Schedule
+
+A freelancer can do good work, but you're often competing with their other clients.
+
+**Realistic freelancer timeline: 3–6 weeks**
+
+The typical flow:
+- **Week 1:** Initial call, proposal back and forth, contract signed
+- **Week 2–3:** Design mockups, your feedback, revisions
+- **Week 4–5:** Build-out, content placement, your review
+- **Week 6:** Revisions, testing, launch
+
+Delays creep in when you're slow to respond, when they're juggling other projects, or when the scope changes mid-build (it always does). The more "rounds of revisions" in the contract, the longer it drags.
+
+## Hiring an Agency: Budget 2–3 Months
+
+Agencies are built for larger, more complex projects. That process doesn't shrink just because your project is smaller.
+
+**Realistic agency timeline: 6–12 weeks**
+
+You'll go through discovery calls, stakeholder meetings, branding reviews, content strategy sessions, and multiple approval rounds. It's thorough — but it's overkill for a 5-page service business website.
+
+## What Causes the Most Delays (At Any Level)
+
+Regardless of who builds your site, the #1 delay is **content**. Copy, photos, logos — the stuff only you can provide.
+
+Common stall points:
+- **You haven't written your service descriptions yet.** This holds up everything.
+- **Photos aren't ready.** Stock photos are fine as a fallback, but your own photos take time.
+- **Logo is outdated or low-resolution.** Redesigning or recreating it adds time.
+- **Decision-making by committee.** If three people have to approve every choice, it takes three times as long.
+
+If you walk in with your content ready — what you do, where you're located, a few decent photos, your contact info — the build can move fast.
+
+## The BuiltSimple Timeline: 1–2 Weeks
+
+When a Kansas City business owner comes to me with their content ready, here's what the actual timeline looks like:
+
+**Day 1–2: Discovery**
+Short call or message exchange. I learn what you do, who your customers are, what pages you need, and what style you like. I look at a couple competitors and note what's working in your market.
+
+**Day 3–5: Design and Build**
+I build the site. For a 4–5 page business site, this is the core work. You'll see a working draft — not a mockup, but the actual site — before the end of the week.
+
+**Day 6–8: Your Feedback and Revisions**
+You review it. Tell me what to change. Most clients request 3–5 things. I fix them same day.
+
+**Day 9–10: Final Review and Launch**
+One more pass together. Then I point your domain, submit to Google, and it's live.
+
+**Total: 7–14 days, assuming you're reasonably responsive.**
+
+Compare that to 6 weeks with a typical freelancer or 3 months with an agency.
+
+## What Speeds Things Up
+
+- **Have your content ready before we start.** Even rough notes beat nothing.
+- **Respond quickly to questions.** I work around your schedule, but a 3-day gap in responses adds a 3-day gap to the timeline.
+- **Trust the process.** Endless back-and-forth on font choices and button colors is the fastest way to double the timeline.
+
+## What Slows Things Down
+
+- Scope changes mid-build ("actually, can we add a booking system?")
+- Waiting on a logo redesign from another vendor
+- Needing approval from a partner who's unavailable
+- Wanting to see 5 different design directions before choosing
+
+None of these are dealbreakers — they just add time. I'll always tell you upfront when something is going to push the timeline.
+
+## The Bottom Line
+
+For a Kansas City small business that needs a professional website — a service company, a salon, a contractor, a local shop — you don't need to wait 2 months. You can have something live, indexed on Google, and ready to send customers to within 2 weeks.
+
+The key is showing up prepared and keeping the feedback loop tight.
+
+**Ready to get started?** [Get in touch](/contact) and I'll tell you how quickly we can get your site live.
+    `,
+  },
+  {
+    slug: "do-i-need-a-website-if-i-have-facebook",
+    title: "Do You Really Need a Website if You Have a Facebook Page?",
+    description: "A lot of Kansas City small businesses run entirely on Facebook. Here's the honest case for why that's a risky strategy — and what a website gets you that Facebook never will.",
+    date: "2026-03-28",
+    readTime: "6 min",
+    tags: ["Websites", "Social Media", "Small Business", "Kansas City", "Local SEO"],
+    content: `
+This question comes up more than you'd think. A Kansas City restaurant or cleaning service gets rolling, builds up a few hundred Facebook followers, and starts wondering: do I actually need a website? Facebook is free. People message us there. Reviews are there. Why bother?
+
+It's a fair question. Here's the honest answer.
+
+## The Short Answer: Yes, You Still Need a Website
+
+Facebook is a rented space. A website is property you own. That distinction matters more than most business owners realize until something goes wrong.
+
+## Reason 1: You Don't Own Your Facebook Page
+
+Facebook can restrict your account, change its algorithm, or go down entirely — and there's nothing you can do about it. It's happened to real businesses.
+
+- In 2021, Facebook went offline for 6+ hours. Businesses that only existed on Facebook had no way for customers to reach them.
+- Pages get incorrectly flagged and disabled. Getting them restored can take weeks.
+- Facebook changes what content gets shown, who sees your posts, and how much reach you get — without asking you.
+
+Your website is yours. It doesn't disappear because a platform changes its rules. Your domain, your content, your contact form — under your control, hosted on infrastructure you're paying for directly.
+
+## Reason 2: Google Doesn't Really Index Facebook Well
+
+When someone in Kansas City searches "best house cleaner in Overland Park" or "Kansas City landscaper," what shows up? Google search results and the Google map pack. Not Facebook.
+
+Facebook posts, events, and business pages have limited Google visibility. A well-built website with location-specific content will outrank a Facebook page almost every time for local searches.
+
+Think about how you find local businesses yourself. Do you search Facebook? Or do you Google it?
+
+Most people Google it. That's where your website lives. That's where your customers are searching.
+
+## Reason 3: Local Search and Google Maps Require a Website
+
+Google Business Profile — the listing that shows up on the map when someone searches for a local service — works dramatically better when you have a website attached to it.
+
+Google uses your website to:
+- Verify that your business is legitimate
+- Understand what services you offer
+- Pull in your hours, location, and service area
+- Rank you against competitors in the map pack
+
+A Facebook page linked to your Google Business Profile helps a little. A real website with proper SEO structure helps a lot. Businesses in Kansas City that rank in the local 3-pack almost always have a website backing them up.
+
+## Reason 4: Facebook Looks Different on Different Devices (and It's Not Yours)
+
+When a potential customer lands on your Facebook page, they see:
+- Facebook's navigation and branding
+- Ads for your competitors (yes, Facebook runs ads near your page)
+- A wall of posts that may or may not reflect what you want them to see
+- Reviews mixed in with comments mixed in with events
+
+You have almost no control over the layout, the presentation, or what shows up first. You can't put your phone number front and center. You can't make a clear call to action the first thing someone sees.
+
+On your website, you control everything. The message is yours. The design is yours. The visitor's path through your business is yours to design.
+
+## Reason 5: Professionalism and Trust Still Matter
+
+A lot of Kansas City customers — especially older ones, especially in service industries — expect a website. Not having one raises a quiet question: is this business legit?
+
+When someone is choosing between two plumbers, two caterers, or two accountants in the KC metro, and one has a website and one has only a Facebook page, the one with the website wins the trust question by default.
+
+It doesn't have to be fancy. It just has to exist, load fast, and answer the basic questions: What do you do? Where do you serve? How do I contact you?
+
+## What Facebook Is Actually Good For
+
+None of this means Facebook is useless. It's great for:
+
+- **Staying top of mind** with existing customers through regular posts
+- **Running local ads** to reach new customers in specific KC zip codes
+- **Social proof** via recommendations and reviews
+- **Event promotion** for grand openings, sales, or seasonal specials
+- **Community building** in neighborhood or industry groups
+
+Facebook is a marketing channel. Your website is your home base. You need both, but if you had to pick one, the website wins — because it's the one you own and the one Google cares about.
+
+## The KC Small Business Reality
+
+A lot of small businesses in Kansas City run on word of mouth and Facebook, and they do fine — until they want to grow. Until a competitor shows up with a real website and starts outranking them in local searches. Until a corporate chain enters the market. Until they realize their entire customer acquisition strategy depends on a platform they don't control.
+
+Getting a website doesn't mean abandoning Facebook. It means having a foundation that you own, that Google can find, and that customers can trust — while Facebook and Instagram handle the social side.
+
+## What It Actually Takes
+
+A basic small business website in Kansas City doesn't have to be expensive or complicated. For most service businesses, 4–5 pages is plenty:
+
+- Home page (what you do, where you serve, how to contact you)
+- Services page (what specifically you offer)
+- About page (who you are and why you're the right choice)
+- Contact page (form, phone, map)
+
+That's it. It doesn't need to be a masterpiece. It needs to load fast, look clean on phones, and show up when someone in the KC area searches for what you do.
+
+**Thinking about making the move from Facebook-only to a real website?** [Get in touch](/contact) — I build affordable small business websites for KC businesses and can usually get you live within two weeks.
+    `,
+  },
 ];
