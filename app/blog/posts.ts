@@ -5068,6 +5068,626 @@ The key is showing up prepared and keeping the feedback loop tight.
     `,
   },
   {
+    slug: "website-tips-for-cleaning-services",
+    title: "Website Tips for Cleaning Services: How to Book More Clients Online",
+    description: "How residential and commercial cleaning companies in Kansas City can use their website to rank locally, earn trust, and turn visitors into recurring clients.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Cleaning Services", "Local SEO", "Small Business", "Kansas City", "Website Tips"],
+    content: `
+Cleaning is a trust business. You're letting someone into your home or office, often when you're not there. Before a potential client ever calls you, they're vetting you — and your website is doing the vetting.
+
+Here's what a cleaning service website needs to actually convert visitors into booked clients.
+
+## Local SEO: "House Cleaning Near Me" Is a High-Intent Search
+
+When someone searches "house cleaning Kansas City" or "office cleaning Overland Park," they're not browsing — they're ready to hire. Ranking in those results is where cleaning service websites win or lose.
+
+What matters for local search:
+
+**Google Business Profile** is your most important local ranking factor. Make sure yours has:
+- Accurate address, service area, phone number, and website link
+- 15+ Google reviews (send a follow-up text to every happy client asking for one)
+- The right category: "House Cleaning Service" or "Commercial Cleaning Service"
+- Photos of your team, your equipment, and — if clients allow — before/after results
+
+**On your website:**
+- Use city and neighborhood names naturally in your page titles and headings: "Residential Cleaning Services in Kansas City, MO" not just "Our Services"
+- Create a "Service Areas" page listing every city and neighborhood you cover — Overland Park, Lenexa, Shawnee, Prairie Village, Lee's Summit. Each name is a search term.
+- Put your full address and phone number in the footer in plain text, not an image
+
+## Separate Pages for Residential and Commercial
+
+House cleaning clients and office cleaning clients are looking for completely different things. A single "Services" page tries to speak to both and ends up speaking to neither.
+
+Residential page should cover:
+- Recurring (weekly, bi-weekly, monthly) vs. one-time cleaning
+- Deep cleaning / move-in / move-out
+- What's included in each service tier
+- Approximate pricing or how pricing is calculated (square footage, bedrooms, etc.)
+
+Commercial page should cover:
+- Office, retail, medical, or restaurant cleaning (whichever you do)
+- After-hours scheduling availability
+- Whether you're bonded and insured (essential for commercial)
+- Cleaning frequency options and contract vs. on-demand
+
+This structure also helps your SEO — "residential house cleaning Kansas City" and "commercial office cleaning Overland Park" are separate search phrases.
+
+## Trust Signals That Close the Deal
+
+Cleaning clients are letting strangers into their space. The main objection isn't price — it's trust. Your website needs to answer:
+
+**Are you background-checked and insured?** Say it explicitly. "All team members are background-checked. We're fully bonded and insured." This phrase should be on your homepage, not hidden in an FAQ.
+
+**What does your cleaning process look like?** A brief description of what you actually do during a typical clean — what products you use, whether you bring your own supplies, your checklist approach — makes you feel organized and professional.
+
+**What do your current clients say?** Google reviews embedded or quoted on your website are the most powerful trust signal available. A review that says "I've used them for 18 months and they've never missed a thing" addresses every concern a prospective client has.
+
+**Real photos of your work.** Before-and-after photos are especially effective — a sparkling kitchen after a deep clean, a gleaming bathroom, a dust-free office. These convert browsers into bookers faster than any written copy.
+
+## Make Booking or Getting a Quote Frictionless
+
+Cleaning clients often research a few options before committing. The ones who can get a quote or book in under five minutes win.
+
+At minimum, have:
+- A **quote request form** that captures home size, service type, and preferred frequency — clients know what they're getting into and you know what to price
+- **Your phone number** prominently in the header
+- A clear statement of what happens next: "Fill out this form and we'll send you a quote within 2 hours"
+
+If you're ready for online booking, tools like Jobber, HouseCall Pro, or Launch27 integrate with cleaning service workflows and let clients book recurring appointments directly.
+
+## Pricing Transparency Reduces "I'll Think About It"
+
+Most cleaning services don't post prices because they vary. But you can still set expectations:
+
+- "Recurring house cleaning starts at $X for a 3-bedroom home"
+- "Move-out deep cleans are typically $Y–$Z depending on home size"
+- "We'll give you an exact quote after a quick call or site visit"
+
+Clients who can self-qualify are more likely to reach out. Clients who have no idea what to expect often don't.
+
+## What a Cleaning Service Website Should Include
+
+- Homepage with clear service types, trust signals (insured, background-checked), and primary CTA
+- Residential cleaning page
+- Commercial cleaning page (if applicable)
+- Service areas page
+- Reviews section (Google reviews embedded or quoted)
+- Contact / quote request form
+- FAQ (covers common questions about what's included, supplies, pets, key access)
+
+A cleaning service website with this structure can be built as a one-time project for around $500–800. [BuiltSimple builds affordable websites for cleaning services](/contact) in the Kansas City metro — no monthly fees, no templates that look like everyone else's.
+
+## The Bottom Line
+
+Cleaning clients are deciding between you and three competitors they found on the same Google search. The one who looks most trustworthy and makes booking easiest wins. Your website does that work for you — around the clock, even when you're on a job.
+    `,
+  },
+  {
+    slug: "website-tips-for-pest-control",
+    title: "Website Tips for Pest Control Companies: Rank Locally and Win the Call",
+    description: "How pest control companies in Kansas City can build a website that ranks for emergency and seasonal searches, earns trust, and turns inbound leads into booked jobs.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Pest Control", "Local SEO", "Small Business", "Kansas City", "Website Tips"],
+    content: `
+Pest control is one of the most urgency-driven home services there is. When someone has a mouse in their kitchen or ants crawling up the counter, they're not comparison shopping for weeks — they're Googling and calling the first result that looks legitimate. Your website has to show up and close the deal in about 30 seconds.
+
+Here's what a pest control website needs to actually win local business.
+
+## Pest-Specific Pages Are Your Biggest SEO Asset
+
+Most pest control websites have a generic "Services" page that lists a dozen pests and treatment types. That's fine for navigation, but it's terrible for SEO.
+
+The way people actually search: "ant exterminator Kansas City," "mouse removal Overland Park," "bed bug treatment Lee's Summit," "termite inspection Shawnee." These are high-intent, pest-specific searches, and the sites that rank for them are the ones with individual pages targeting each pest.
+
+Build a dedicated page for every major pest you treat:
+- Ants and carpenter ants
+- Mice and rats
+- Bed bugs
+- Termites
+- Cockroaches
+- Wasps, hornets, and yellow jackets
+- Mosquitoes
+- Spiders and brown recluses
+
+Each page should describe the pest, how you identify an infestation, your treatment approach, and a clear call to action to schedule an inspection. These pages also serve as education resources that build trust before the phone rings.
+
+## Seasonal and Emergency Searches: Capture Both
+
+Pest control has two search patterns: seasonal (mosquito season, termite swarm season, fall mouse invasions) and emergency (they just found something, they need help now).
+
+For **seasonal traffic**, write blog posts or create landing pages timed to pest cycles in the Kansas City area:
+- "Termite Season in Kansas City: What to Watch For in Spring"
+- "Why Mice Move Inside in October in the KC Metro"
+- "Mosquito Control for Kansas City Yards: What Actually Works"
+
+For **emergency searches**, make sure your website has:
+- Your phone number in the header, visible on mobile, in a large font
+- A "Same-Day Service Available" or "24-Hour Emergency Pest Control" message on the homepage if you offer it
+- A contact form that's short — name, phone, pest type, best time to reach them. That's all you need.
+
+## Local SEO Basics for Pest Control
+
+Your Google Business Profile drives the majority of local pest control calls. Optimize it:
+- Primary category: "Pest Control Service"
+- Service area set correctly (KC metro, not just your city)
+- Google reviews: ask every satisfied customer — pest control jobs with good outcomes are natural review opportunities
+- Post seasonal updates ("Termite swarm season is here — schedule your free inspection")
+
+On your website:
+- Include city and neighborhood names in page titles and service descriptions
+- Build a Service Areas page listing every community you cover
+- Embed your Google Business Profile map on the Contact page
+- Your NAP (name, address, phone) in plain text in the footer
+
+## Licensing and Trust: Non-Negotiable in This Industry
+
+Pest control is a licensed, regulated trade. Your website should state your credentials prominently:
+- License number and state certification
+- Insurance and bonding
+- Whether your technicians are certified applicators
+
+Parents with kids and pets want to know exactly what chemicals you use and whether their home will be safe. A brief FAQ on your treatment approach and safety protocols addresses those concerns before they become objections.
+
+Kansas City–specific: mention if you're licensed in both Missouri and Kansas if you operate across the state line.
+
+## Reviews Handle the Trust Question
+
+Pest control clients talk to their neighbors about this. A review that says "Found a mouse nest in the garage, they came out same day and we've had zero issues since" is the kind of social proof that turns a searcher into a caller.
+
+Embed your Google reviews on the homepage or create a dedicated reviews section. If you have 50+ reviews with a 4.8+ average, put that front and center — it's a major differentiator in a field where trust is everything.
+
+## What a Pest Control Website Should Include
+
+- Homepage with pest icons or photos, trust signals, primary CTA (call or schedule)
+- Individual pest pages (one per major pest you treat)
+- Residential and commercial service pages
+- Service areas page
+- About page with licensing info and team photos
+- Seasonal blog posts (2–4 per year)
+- Contact page with short form and prominent phone number
+
+A pest control website with this structure runs about $500–800 as a one-time project. [BuiltSimple builds websites for pest control companies](/contact) in the Kansas City area with the local SEO structure already baked in.
+
+## The Bottom Line
+
+In pest control, speed and trust win the job. Your website needs to show up when someone searches for a specific pest in their city, answer the "are these people legit?" question immediately, and make calling or booking as easy as tapping a button. Get those three things right and your website does real revenue work.
+    `,
+  },
+  {
+    slug: "website-tips-for-wedding-vendors",
+    title: "Website Tips for Wedding Vendors: How to Book More Couples Online",
+    description: "How wedding planners, caterers, DJs, and other vendors can build a website that attracts KC couples, showcases their work, and converts inquiries into signed contracts.",
+    date: "2026-03-29",
+    readTime: "8 min",
+    tags: ["Wedding", "Local SEO", "Small Business", "Kansas City", "Website Tips"],
+    content: `
+Wedding planning starts with Google. A couple gets engaged, and within days they're searching "wedding photographers Kansas City," "KC wedding caterers," "wedding planners Johnson County." Before they reach out to a single vendor, they've already evaluated a dozen websites and made a shortlist.
+
+Your website isn't just a portfolio — it's your first impression, your pitch, and often the deciding factor between you and a competitor. Here's what it needs to actually book couples.
+
+## Your Work Comes First
+
+Whatever your specialty — photography, catering, floral, DJ, planning — your website should lead with visual proof of your best work. This sounds obvious, but most vendor websites bury the portfolio behind a long "About Me" section or a services overview.
+
+Put your strongest work front and center:
+- For **photographers and videographers**: a curated gallery organized by venue and style
+- For **caterers**: plated dish photos, buffet setups, styled tablescape shots
+- For **florists and decorators**: ceremony and reception florals with context (church ceremony, outdoor tent, barn venue)
+- For **DJs and bands**: clips from actual events, crowd photos, testimonials about the energy and vibe
+- For **planners**: before/after comparisons, styled shoot photos, real wedding highlights
+
+Real weddings outperform styled shoots. Couples want to see what your work looks like under real conditions, at real venues they might recognize.
+
+## Real Wedding Features Are Double-Duty Content
+
+Featuring real weddings on your website does two things: it gives couples compelling evidence of your work, and it generates organic search traffic.
+
+A real wedding feature structured as a blog post — "Emma and Nate's Spring Wedding at The Muehlebach Hotel" — naturally includes venue names, florist names, and location keywords that people actually search. Over time, these posts become a library of local search content that drives traffic from couples searching for vendors at specific Kansas City venues.
+
+Ask permission from every client to feature their wedding. Most are flattered.
+
+## The Inquiry Process Shapes Your Client Quality
+
+Most wedding vendor websites have a generic contact form. The vendors who book the most — and the right clients — have an inquiry form that qualifies couples before the first call.
+
+A good inquiry form captures:
+- Wedding date
+- Venue (if known)
+- What they're looking for (brief description)
+- Budget range (optional, but filters mismatches early)
+- How they heard about you
+
+This tells you whether the couple is a real fit before you spend an hour on a discovery call. It also shows professionalism — couples shopping multiple vendors notice when someone has a thoughtful process.
+
+Auto-responders that confirm receipt and set timeline expectations ("I'll be in touch within 48 hours with availability and next steps") also signal that working with you will be organized.
+
+## Pricing: Show a Starting Point
+
+Wedding vendors are almost universally reluctant to post pricing. The instinct is understandable — packages vary, customization is common, and you don't want to lose someone over a number without context.
+
+But hiding pricing entirely has a cost. Couples on a budget who can't afford you waste your time. Couples who assume you're out of their range never reach out. And couples comparing multiple vendors who don't have your starting price will often just move on to someone whose website makes it clear.
+
+The solution: show a starting point, not a full price list. "Wedding photography packages start at $2,200" or "Catering for weddings of 100–150 guests typically starts at $X per person." Enough to set expectations, not enough to eliminate you from conversations you should be part of.
+
+## Local SEO for Kansas City Wedding Searches
+
+Wedding vendor SEO is highly local. Couples searching for a wedding photographer are searching "wedding photographer Kansas City" or "wedding photographer Leawood KS" — not generic terms.
+
+What moves the needle:
+
+**Your city and surrounding areas should appear naturally throughout your site.** Not stuffed — naturally. "We photograph weddings throughout the Kansas City metro, including Johnson County, Lee's Summit, Liberty, and the downtown KC market."
+
+**Venue-specific pages or posts.** "Weddings at The Loews Kansas City Hotel" or "Catering at The Grand Hall Power and Light" — pages that include the venue name in the title rank for couples searching for vendors at that specific venue. This is a high-converting, low-competition opportunity most vendors ignore.
+
+**Google Business Profile.** Make sure it's fully filled out, with your category, service area, and photos. Reviews are critical — a 4.9 with 30+ reviews beats a 5.0 with 4 reviews every time.
+
+**The Knot and WeddingWire.** These platforms drive real leads and also signal authority to Google. Being listed (and having good reviews) there supports your broader SEO.
+
+## What a Wedding Vendor Website Should Include
+
+- Homepage showcasing real work, brief value statement, primary CTA to inquire
+- Portfolio or gallery (organized by venue, style, or event type)
+- About page that shows personality — couples are hiring a person, not just a service
+- Services / packages page with at least starting price ranges
+- Real wedding features (blog posts, case studies)
+- Testimonials (video testimonials are especially effective in this space)
+- Venue-specific pages for 3–5 major Kansas City venues
+- Contact/inquiry form with qualifying questions
+
+A wedding vendor website with this structure typically runs $700–1,000 as a one-time project. [BuiltSimple builds websites for Kansas City wedding vendors](/contact) with the portfolio, inquiry, and local SEO setup already built in.
+
+## The Bottom Line
+
+Couples book vendors they can picture at their wedding. Your website's job is to help them picture it — through great portfolio presentation, genuine personality, and a clear path to reaching out. Get those right, and inquiries from well-matched couples will come consistently.
+    `,
+  },
+  {
+    slug: "website-tips-for-roofing-companies",
+    title: "Website Tips for Roofing Companies: Rank Locally and Win More Jobs",
+    description: "How roofing contractors in Kansas City can use their website to rank for storm damage and replacement searches, build homeowner trust, and turn website visitors into estimates.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Roofing", "Contractors", "Local SEO", "Small Business", "Kansas City", "Website Tips"],
+    content: `
+Roofing is one of the highest-ticket home services there is. A new roof in the Kansas City area runs $8,000–$18,000. When a homeowner is ready to spend that kind of money, they're not rushing the decision — but they are starting with Google.
+
+A roofing company that ranks well locally and has a website that answers homeowner questions will win more estimates than one that relies entirely on door-to-door or referrals. Here's what that website needs to look like.
+
+## Local SEO for Roofing: Storm Damage Changes Everything in KC
+
+Kansas City gets hail. After a major storm rolls through, homeowners are searching in volume: "roof hail damage inspection Kansas City," "roof repair after hail Overland Park," "insurance claim roofing contractor KC."
+
+If your website isn't positioned for these searches, you're handing those high-intent leads to competitors.
+
+**Storm damage and insurance claims deserve their own page.** A dedicated "Storm Damage Roofing" or "Hail Damage Roof Inspection" page should:
+- Explain how to identify hail damage
+- Describe your free inspection process
+- Address the insurance claim process (this is the #1 homeowner question after a storm)
+- Include your phone number prominently — calls spike after storms
+
+**Your Google Business Profile matters more than anything in the first 48 hours after a storm.** A fully optimized profile with recent reviews will put you in the local 3-pack when search volume spikes. Make sure your hours are current and your phone number is correct — storm season is not the time to be unreachable.
+
+## Separate Service Pages for Replacement vs. Repair vs. Commercial
+
+Homeowners searching for a roof repair and homeowners searching for a full replacement have different concerns and different timelines. A single "Services" page tries to serve both and ends up serving neither.
+
+Build dedicated pages for:
+- **Roof replacement** — the biggest job, needs the most detail on materials, warranties, process, and what homeowners can expect day-of
+- **Roof repair** — smaller jobs, faster turnaround, often urgent; this page should be fast-loading with a prominent phone number
+- **Storm damage / insurance claims** — as described above
+- **Commercial roofing** — if you do it, it deserves its own page with its own messaging
+
+Each page should target a different keyword cluster. "Roof replacement Kansas City" and "roof repair Kansas City" are different searches with different competition levels and different conversion intents.
+
+## Trust Signals in a High-Stakes Purchase
+
+Replacing a roof is one of the largest investments a homeowner makes. The trust barriers are real: contractor fraud exists, shoddy work exists, and homeowners know it. Your website has to address these concerns directly.
+
+**Licensing and insurance, stated plainly.** "Licensed in Missouri and Kansas. Fully insured. GAF-certified installer." One clear line in the header or above the fold. Don't bury it.
+
+**Manufacturer certifications.** If you're a GAF Master Elite contractor, CertainTeed Select ShingleMaster, or similar — that's a major credibility signal. Put the badge on your website with a brief explanation of what it means (most homeowners don't know, but they understand "only 3% of roofers qualify").
+
+**Before and after photos from local jobs.** Nothing closes a roofing lead like photos of a neighbor's house — before the storm-damaged mess, after the clean new install. If you have photos from jobs in specific neighborhoods, use them. "Recent jobs in Leawood, Prairie Village, and Overland Park" builds local credibility.
+
+**A warranty explanation.** Both your workmanship warranty and the manufacturer warranty on materials should be addressed on your website. Homeowners who understand what they're getting are more likely to move forward.
+
+**Google reviews.** After a $12,000 roof replacement that went smoothly, ask for a review. Roofing companies with 50+ reviews at 4.8+ close significantly more estimates than companies with a handful of reviews.
+
+## The Estimate Request Process
+
+Most roofing websites have a "Contact Us" page with a form. That's fine but it's the minimum. Better options:
+
+- **An estimate request form** that captures address, service type (repair vs. replacement), and what prompted the call (storm damage, age of roof, active leak). This lets you prioritize and respond with the right context.
+- **Your phone number in the header in large text.** In roofing, especially after storms, many homeowners want to call. Make that easy.
+- A clear statement of what happens next: "We'll schedule a free inspection within 24 hours and send you a written estimate the same day."
+
+The faster you respond to a roofing inquiry, the higher your close rate. Setting expectations on your website about your response time builds confidence in the process.
+
+## Service Area Pages for KC Metro Coverage
+
+The Kansas City roofing market spans Missouri and Kansas. If you serve the full metro, build location-specific pages or at minimum a well-structured service area page naming every community you cover: Overland Park, Olathe, Lenexa, Shawnee, Prairie Village, Lee's Summit, Liberty, Independence, Blue Springs, North KC.
+
+Each city name is a search term. "Roofing contractor Lee's Summit" and "roofing contractor Olathe" are different searches. Pages that target them specifically rank better than a single generic service area mention.
+
+## What a Roofing Website Should Include
+
+- Homepage with trust signals, CTA to request estimate, and service overview
+- Roof replacement page
+- Roof repair page
+- Storm damage / insurance claim page
+- About page with licensing, certifications, and team photos
+- Before/after photo gallery from local jobs
+- Service areas page
+- Google reviews section
+- Contact / estimate request form with prominent phone number
+
+A roofing website with this full structure typically runs $700–1,000 as a one-time project. [BuiltSimple builds websites for roofing contractors](/contact) in the Kansas City metro with local SEO and lead capture already built in.
+
+## The Bottom Line
+
+In roofing, the jobs go to the contractors homeowners find first and trust most. A well-built website with strong local SEO and clear trust signals does the first part. Real photos, real reviews, and clear credentials do the second. Get both right and your website becomes a consistent source of booked estimates.
+    `,
+  },
+  {
+    slug: "website-tips-for-churches-nonprofits",
+    title: "Website Tips for Churches and Nonprofits: How to Grow Your Community and Donations Online",
+    description: "What churches and nonprofits need on their websites to attract new visitors, increase giving, and build community — without a big budget or a full-time web team.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Nonprofits", "Churches", "Donations", "Local SEO", "Small Business", "Web Design"],
+    content: `
+Churches and nonprofits have websites for different reasons than most businesses — it's not about closing sales, it's about building community, demonstrating impact, and making it easy for people to give, volunteer, or show up. But the fundamentals of a good website still apply: it needs to load fast, work on phones, and answer the visitor's most urgent question within a few seconds.
+
+Here's what actually matters on a church or nonprofit website — and where most organizations waste effort and budget.
+
+## Make Your Most Important Action Impossible to Miss
+
+Every visitor arrives with one of a few intentions: they want to know when and where to show up, they want to give, or they want to learn if this is the right community for them. Your homepage needs to serve all three of these people without making any of them dig.
+
+### The non-negotiables above the fold
+- **Service times and location** for churches — in large, easy-to-read text, not buried in a footer
+- **Donate button** that's prominent in the navigation, not just on a single buried page
+- **"I'm New Here"** or "Get Involved" button for first-time visitors who want to understand what you're about before they commit to showing up
+
+If someone has to click more than twice to find out when you meet or how to give, your website is working against your mission.
+
+## Donation Pages That Actually Convert
+
+Online giving is no longer a nice-to-have — it's where a growing share of charitable giving happens. A poorly designed giving experience loses real donations.
+
+### What a good donation page needs
+- **Multiple giving options:** one-time, recurring monthly, and — ideally — fund-specific giving (general fund, building fund, mission trips)
+- **Security signals:** SSL lock icon, "secure giving" language, and the name of your payment processor (Stripe, PayPal Giving Fund, Tithe.ly, etc.)
+- **Low friction:** asking for the minimum information needed to process the gift. Every additional field reduces conversions.
+- **Mobile optimization:** most giving happens on phones. A donation form that's hard to use on mobile is leaving money on the table.
+- **Tax acknowledgment language:** a note that gifts are tax-deductible and how donors will receive their giving statement builds confidence
+
+For churches and nonprofits already using a platform like Planning Center, Breeze, or Bloomerang, embedding their native giving widget is usually better than building something custom.
+
+## Show Your Impact — Not Just Your Mission
+
+"We serve our community" is on every nonprofit website. What makes people give and get involved is seeing *specific* impact: how many meals served, how many families helped, how many students tutored, how many pounds of food distributed.
+
+### What builds credibility
+- **Annual impact numbers** on the homepage ("2,847 meals served in 2025")
+- **Story-driven content** — a single parent who got help, a student who found a mentor, a congregation member whose life changed
+- **Photo and video** from actual programs, not stock images
+- **Where the money goes** — a simple breakdown (program expenses, administration, fundraising) builds trust with serious donors
+
+Donors give to organizations they believe are effective. Your website needs to demonstrate effectiveness, not just claim it.
+
+## Local SEO for Churches and Nonprofits
+
+Many people search for a new church or a local nonprofit to support the same way they search for a restaurant: "church near me," "Baptist church in Overland Park," "food pantry Kansas City." Local SEO matters here.
+
+### What to prioritize
+- **Google Business Profile** — keep your hours, address, phone, and service times current. This is what shows in Google Maps.
+- **Location-specific page titles** — "Grace Community Church — Leawood, KS" outperforms a generic "Grace Community Church" for local searches
+- **Neighborhood and city mentions** throughout your site — name the communities you serve explicitly
+- **Upcoming events** on your website — new content signals an active organization
+
+For nonprofits, Google's Nonprofit Program grants up to $10,000/month in free Google Ads credits, which can drive significant traffic. A well-built website is necessary to make those ads work.
+
+## What Churches and Nonprofits Can Skip
+
+**Custom mobile apps:** Unless you have 500+ active members engaging digitally, a mobile app costs more than it's worth. A good mobile website covers 95% of what members need.
+
+**Complex CRM integrations on day one:** Get a functional, fast website first. You can add deeper integrations later.
+
+**Stock photography:** Authentic photos of your actual people, programs, and spaces outperform stock images every time. A few hours with a volunteer photographer is worth more than expensive stock licenses.
+
+## Pricing and Budget Guidance
+
+A church or nonprofit website — homepage, about page, donation page, events calendar, contact information, and a basic blog or news section — should cost $400–700 as a one-time build from an independent developer.
+
+Platforms like Squarespace and Wix can work for very small organizations, but they add ongoing monthly costs ($15–$30/month) that compound over time. For most churches and nonprofits that want to own their site without a recurring platform subscription, a custom Next.js or WordPress build is more cost-effective long-term.
+
+See [transparent flat-rate pricing at BuiltSimple](/services) — I build websites for churches and nonprofits across the Kansas City area with no recurring platform fees.
+
+## The Bottom Line
+
+Your website exists to serve your community — both the people already in it and the people looking for what you offer. Keep it fast, keep the important things obvious, make giving easy, and show real impact. That's the whole formula.
+
+**Ready to build a website that serves your mission?** [Get in touch](/contact) — I build affordable, no-nonsense websites for Kansas City churches and nonprofits.
+    `,
+  },
+  {
+    slug: "website-tips-for-ecommerce-retail-stores",
+    title: "Website Tips for E-Commerce and Retail Stores: How to Sell More Online Without a Big Budget",
+    description: "What small retail stores and e-commerce shops need on their websites to drive sales — product pages that convert, trust signals, SEO, and the tools worth paying for.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["E-Commerce", "Retail", "Online Store", "Small Business", "Web Design", "SEO"],
+    content: `
+Small retail stores and independent e-commerce shops are competing against Amazon, Walmart, and every other major retailer on the internet. You can't win on price or selection. But you can win on trust, community connection, curation, and the shopping experience — if your website supports it.
+
+Here's what actually moves the needle for small retail and e-commerce websites, and where budget typically gets wasted.
+
+## Your Product Pages Are Your Sales Team
+
+For retail and e-commerce, the product page is everything. A visitor who lands on a product page is one decision away from buying. If that page doesn't answer their questions and make them feel confident, they leave.
+
+### What a converting product page needs
+- **Multiple photos from multiple angles** — at minimum 3-4 images per product. For apparel, include lifestyle shots in addition to flat lays.
+- **Clear, specific product descriptions** that answer: What is this made of? What size/dimensions? Who is this for? What problem does it solve? Generic manufacturer descriptions hurt SEO and don't help buyers.
+- **Size charts and fit guidance** for apparel — the number one reason people don't buy clothing online is uncertainty about fit
+- **In-stock status** prominently displayed — "Only 3 left" is a legitimate urgency signal that drives decisions
+- **Shipping timeline and return policy** on the product page itself, not buried in the footer. Returns anxiety is a top conversion barrier.
+- **Reviews or ratings** — even 5-10 reviews per product significantly increases conversion. If you're new, follow up with early buyers and ask specifically.
+
+## Trust Signals That Make Strangers Buy From You
+
+Customers buy from Amazon even when the price is higher because they trust the experience. Your job is to build enough trust that a new customer makes that first purchase — because after a good first experience, they'll come back.
+
+### Trust elements that work
+- **Real photos of your store, warehouse, or team** — not stock imagery. Customers want to know there's a real person behind the order.
+- **"About" page with your story** — why you started, what you sell and why, who you are. Independent retailers win when they're personal.
+- **Transparent shipping policy** — exactly how long does it take? Is it free over a certain amount? What carrier? Surprises at checkout cause abandoned carts.
+- **Easy returns** — a no-hassle return policy, prominently displayed, increases purchase confidence even if few people actually use it.
+- **Contact information that's real** — a phone number and email address (not just a contact form) signals you're a legitimate operation
+
+## SEO for Small Retail: Win the Searches Amazon Doesn't Own
+
+You're not going to outrank Amazon for "men's running shoes." But you can rank for "handmade leather wallets Kansas City" or "local toy store Overland Park" or "vintage Kansas City streetwear" — searches where your specific niche and location give you an edge.
+
+### What drives retail SEO
+- **Specific product category pages** with written descriptions — not just a grid of products. A page titled "Handmade Kansas City Gifts" with two paragraphs of real content will rank. A page with only product images won't.
+- **Local landing pages** if you have a physical store — "visit our store in [neighborhood]" content with your address, hours, and map embed
+- **Blog or journal content** — gift guides, "how to style," "what's new this season" posts drive traffic and give Google more content to index
+- **Alt text on every product image** — simple, descriptive, includes the product name and relevant keywords
+
+## The Tools Worth Paying For
+
+Small e-commerce shops often over-invest in platforms and under-invest in the fundamentals. Here's what's actually worth the cost:
+
+**Yes:**
+- **Shopify** ($39/month basic) or **WooCommerce** (free plugin, ~$15/month hosting) — proven e-commerce platforms with payment processing, inventory, and order management built in. Don't try to build this yourself.
+- **Klaviyo or Mailchimp** for email — email drives more repeat revenue than any other channel for small retail. A welcome sequence and post-purchase follow-up are non-negotiable.
+- **Good product photography** — the single highest-ROI investment in e-commerce. Better photos increase conversion more than almost any other change.
+
+**Skip for now:**
+- **Complex loyalty programs** before you have 200+ repeat customers
+- **Live chat** if you don't have staff to monitor it consistently — a delayed response is worse than no chat
+- **Subscription box features** unless subscriptions are your core model
+
+## Checkout: Where Sales Go to Die
+
+A complicated checkout kills sales. Every additional step, every required account creation, every surprise fee at the last step loses customers.
+
+### Checkout best practices
+- **Guest checkout** option — required account creation is one of the top reasons for abandoned carts
+- **Minimal fields** — name, email, shipping address, payment. That's it.
+- **Multiple payment options** — credit cards plus PayPal and ideally Apple Pay/Google Pay for mobile shoppers
+- **Order summary visible** throughout checkout — customers need to see what they're buying
+- **Shipping cost shown early** — "free shipping over $50" shown on the product page, not revealed for the first time in cart
+
+## What a Small Retail Website Should Cost
+
+A small e-commerce store on Shopify — homepage, product catalog with up to 50 products, about page, contact page, and basic email capture — can be set up and designed for $400–600 as a one-time build cost, separate from the Shopify subscription.
+
+For WooCommerce on a managed WordPress host, expect similar setup costs with no ongoing platform fee (hosting runs $15–25/month).
+
+See [BuiltSimple's transparent pricing](/services) — I set up and design small retail and e-commerce sites without the agency markup.
+
+## The Bottom Line
+
+You don't need a complex website. You need good product photos, product pages that answer questions, a checkout that doesn't have friction, and enough trust signals that a stranger feels comfortable buying from someone they've never heard of.
+
+Get those four things right and the rest is optimization.
+
+**Ready to build or improve your online store?** [Let's talk](/contact) — I set up e-commerce sites for small retailers in Kansas City and beyond.
+    `,
+  },
+  {
+    slug: "website-tips-for-nail-salons",
+    title: "Website Tips for Nail Salons: How to Fill Your Books and Attract Higher-Paying Clients",
+    description: "What nail salons need on their websites to show off their work, drive online bookings, and rank locally — plus what not to waste money on.",
+    date: "2026-03-29",
+    readTime: "6 min",
+    tags: ["Nail Salon", "Beauty", "Local SEO", "Booking", "Small Business", "Web Design"],
+    content: `
+Nail salons live and die on repeat clientele and local word of mouth. Most new clients come through Instagram or a Google search — and in both cases, your website plays a bigger role in whether they actually book than most salon owners realize.
+
+Here's what a nail salon website needs to fill books and attract the clients worth having.
+
+## Your Portfolio Does the Selling — Make It Front and Center
+
+A nail salon website without a portfolio is a menu without photos. The work is the pitch. Potential clients aren't reading your mission statement; they're scanning your gallery to see if you can do what they want done.
+
+### Portfolio best practices
+- **Real photos of your actual work** — not stock nail art. Clients can tell the difference, and authenticity builds trust.
+- **Organized by style or service** — gel, acrylic, nail art, press-ons, French tips. Make it easy for someone who wants nail art specifically to find examples of nail art.
+- **Updated regularly** — a gallery that hasn't been updated in six months signals a slow business. Post new work at least monthly.
+- **Mobile-optimized gallery** — most people browsing nail salon galleries are on their phones. Full-width images with fast loading times matter.
+
+If you're active on Instagram, embed your Instagram feed on your website or link to it prominently. Instagram is the best ongoing portfolio tool for visual services.
+
+## Online Booking Is Your Single Biggest Conversion Lever
+
+If someone has to call during business hours to book a nail appointment, many of them won't bother — especially younger clients who prefer to handle everything on their phone at midnight. Online booking converts casual browsers into confirmed appointments.
+
+### Booking setup that works
+- **A "Book Now" button in your navigation** — always visible, always one click away
+- **Real-time availability** — showing open slots makes the booking feel decisive and immediate
+- **Service selection upfront** — let clients choose gel fill, full set, nail art add-on, etc. before they pick a time, so your calendar blocks the right amount of time
+- **Automatic confirmation and reminder texts/emails** — reduces no-shows significantly
+
+Platforms like **Vagaro**, **Booksy**, **StyleSeat**, and **Square Appointments** all have embeddable booking widgets that work well for nail salons. Pick one and make sure it's the first thing someone sees when they visit your site.
+
+## Local SEO: Ranking When Someone Searches "Nail Salon Near Me"
+
+The local 3-pack on Google — those three businesses that show up in the map box — drives most new walk-in and first-time clients for nail salons. Here's what it takes to get there.
+
+### Google Business Profile (most important)
+- **Keep it completely filled out** — hours, address, phone number, services list, photos, website link
+- **Add photos weekly** — Google rewards active listings with better placement. Nail art photos perform especially well.
+- **Ask every satisfied client for a review** — the volume of recent reviews is a major ranking factor. Post a QR code at checkout or send a follow-up text.
+- **Respond to every review** — both positive and negative. Responding signals an active, engaged business.
+
+### On your website
+- **Include your city and neighborhood** in page titles and headings — "Nail Salon in Overland Park, KS" in your homepage title outperforms just your salon name
+- **Name the surrounding areas you serve** — "serving Overland Park, Lenexa, Prairie Village, and Shawnee"
+- **Service-specific pages** — a dedicated page for "nail art Kansas City" or "gel nails Overland Park" can rank for those specific searches
+- **Embed Google Maps** on your contact page
+
+## What to Include Beyond the Portfolio
+
+### Pricing page
+Nail clients price-shop. A clear, honest pricing page — even if it's a range ("Gel full set: $45–$65 depending on length and design") — removes friction and attracts clients who are already okay with your pricing. Hidden pricing that forces a phone call loses clients before the conversation starts.
+
+### Meet the team
+A nail salon's relationship with its clients is personal. Showing photos of your nail techs, their names, and their specialties builds connection before someone walks in the door. Clients who feel like they know you before they arrive are more likely to become regulars.
+
+### Policies page
+Cancellation policy, late arrival policy, no-show fee — having these written on your website means clients can't claim they didn't know. It also screens for clients who respect your time.
+
+## What Nail Salons Can Skip
+
+**Animated glitter backgrounds and busy designs:** They slow down your site and distract from the work. A clean, elegant design showcases nail art better than a cluttered one.
+
+**Extensive blog content:** Unlike service businesses that need to rank for informational queries, nail salons don't need to write about nail care. Your energy is better spent on Instagram and Google reviews.
+
+**Live chat:** Unless you have someone dedicated to monitoring it, a chat widget with slow responses undermines trust more than it builds it.
+
+## Pricing Guidance
+
+A nail salon website — homepage with booking integration, portfolio gallery, services and pricing page, about/team page, and contact/location page — should cost $400–600 as a one-time flat-rate build.
+
+Booking platform subscriptions typically run $25–$50/month and are separate from the website build. They're worth it — the no-show reduction alone usually covers the cost.
+
+See [BuiltSimple's flat-rate pricing](/services) — I build nail salon websites for small beauty businesses across the Kansas City area.
+
+## The Bottom Line
+
+Your work speaks for itself — your website just needs to get out of the way and let it. Show the portfolio, make booking frictionless, keep Google Business Profile active, and display clear pricing. That's the whole playbook for filling your chair with clients who are excited to be there.
+
+**Ready to build a nail salon website that actually books clients?** [Get in touch](/contact) — I build clean, fast websites for beauty businesses in the Kansas City area.
+    `,
+  },
+  {
     slug: "do-i-need-a-website-if-i-have-facebook",
     title: "Do You Really Need a Website if You Have a Facebook Page?",
     description: "A lot of Kansas City small businesses run entirely on Facebook. Here's the honest case for why that's a risky strategy — and what a website gets you that Facebook never will.",

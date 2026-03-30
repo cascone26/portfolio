@@ -85,6 +85,7 @@
 - Location: Mission, KS
 
 ## Recent Changes
+- **2026-03-29**: 3 new SEO blog posts (churches/nonprofits, e-commerce/retail stores, nail salons) — 50 total posts; sitemap updated to include 3 missing /for/ pages (cleaning-services, pest-control, roofing)
 - **2026-03-28**: 4 vertical-specific SEO blog posts (accounting firm website design, photography business website, realtor website design/neighborhood SEO, dental office new patient acquisition) — 47 total posts
 - **2026-03-27**: Fixed deployment timeout issue with fresh git push (deployment now stable)
 - **2026-03-27**: Blog content updates (now 29+ posts)
