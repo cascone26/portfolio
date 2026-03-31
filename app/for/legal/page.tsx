@@ -3,28 +3,28 @@ import FadeIn from "../../components/fade-in";
 import ContactForm from "../../components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Web Design for Real Estate Agents in Kansas City",
+  title: "Web Design for Law Firms and Attorneys in Kansas City",
   description:
-    "Custom websites for real estate agents and brokers in the Kansas City area. Showcase listings, build your personal brand, and turn searches into leads.",
+    "Custom websites for law firms, solo attorneys, and legal practices in the Kansas City area. Build trust, rank for practice-area searches, and turn visitors into consultation requests.",
   alternates: {
-    canonical: "https://builtsimple.dev/for/real-estate",
+    canonical: "https://builtsimple.dev/for/legal",
   },
 };
 
-export default function RealEstatePage() {
+export default function LegalPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Web Design for Real Estate Agents in Kansas City",
+    name: "Web Design for Law Firms and Attorneys in Kansas City",
     description:
-      "Custom websites for real estate agents and brokers in the Kansas City area.",
+      "Custom websites for law firms, solo attorneys, and legal practices in the Kansas City area.",
     provider: {
       "@type": "LocalBusiness",
       name: "BuiltSimple",
       url: "https://builtsimple.dev",
     },
     areaServed: { "@type": "City", name: "Kansas City" },
-    serviceType: "Web Development for Real Estate Agents",
+    serviceType: "Web Development for Law Firms and Attorneys",
   };
 
   return (
@@ -36,8 +36,8 @@ export default function RealEstatePage() {
       {/* Limited-time offer banner */}
       <section className="bg-accent/10 border-b border-accent/20 py-3 px-6 text-center">
         <p className="text-sm text-accent-light font-medium">
-          March special: Free site mockup for your business — no cost, no
-          commitment. Just reply to see what your site could look like.
+          March special: Free site mockup for your law firm — no cost, no
+          commitment. See what your site could look like before you commit.
         </p>
       </section>
 
@@ -46,22 +46,21 @@ export default function RealEstatePage() {
         <div className="max-w-3xl mx-auto relative">
           <FadeIn>
             <p className="text-xs uppercase tracking-widest text-accent-light mb-4 font-medium">
-              For Real Estate Agents in KC
+              For Law Firms and Attorneys in KC
             </p>
           </FadeIn>
           <FadeIn delay={0.1}>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
               Websites for{" "}
-              <span className="gradient-text">Real Estate Agents</span> in
-              Kansas City
+              <span className="gradient-text">Law Firms</span> in Kansas City
             </h1>
           </FadeIn>
           <FadeIn delay={0.15}>
             <p className="text-muted text-lg leading-relaxed mb-8">
-              Buyers and sellers Google their agent before they call. If your
-              only online presence is a brokerage profile page, you&apos;re
-              missing the chance to stand out. A personal website puts your name,
-              your story, and your listings front and center.
+              People searching for an attorney are in a stressful situation and
+              evaluating whether they can trust you — before they ever pick up
+              the phone. Your website is where that trust is built or lost. Most
+              law firm websites lose it.
             </p>
           </FadeIn>
         </div>
@@ -72,15 +71,15 @@ export default function RealEstatePage() {
           <FadeIn delay={0.2}>
             <div className="glass rounded-2xl p-8 mb-8">
               <h2 className="font-semibold text-xl mb-4">
-                What a good real estate website does
+                What your law firm website needs to do
               </h2>
               <ul className="space-y-3 text-muted text-sm">
                 {[
-                  "Ranks for searches like Kansas City real estate agent and your neighborhood",
-                  "Shows your active and past listings with photos and details",
-                  "Tells your story so buyers and sellers trust you before they reach out",
-                  "Makes it easy to schedule a consultation or ask a question",
-                  "Looks sharp on phones — where most home searches happen",
+                  "Rank for practice-area searches — Kansas City divorce attorney, Overland Park personal injury lawyer",
+                  "Establish credibility immediately — bar memberships, years of experience, notable results",
+                  "Make consultation requests effortless — CTA in the header, not buried in a contact page",
+                  "Show your actual attorneys — bios with personality, not just credential lists",
+                  "Load fast on phones — where most urgent legal searches happen",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="text-accent-light mt-0.5 shrink-0">
@@ -108,13 +107,49 @@ export default function RealEstatePage() {
           <FadeIn delay={0.25}>
             <div className="glass rounded-2xl p-8 mb-8">
               <h2 className="font-semibold text-xl mb-4">
-                What you don&apos;t need
+                What your site would include
               </h2>
               <ul className="space-y-3 text-muted text-sm">
                 {[
-                  "A bloated IDX integration that costs $100+/month to maintain",
-                  "Generic templates that look like every other agent in the city",
-                  "A site that takes 8 seconds to load on mobile",
+                  "Dedicated page for each practice area — each one can rank independently in search",
+                  "Attorney bio pages built to build trust, not just list credentials",
+                  "Consultation request form with minimal friction — name, phone, practice area, brief description",
+                  "Prominent phone number on every page — for clients who need to talk now",
+                  "FAQ sections per practice area to capture question-based searches",
+                  "Trust signals: bar memberships, years in practice, results where ethically permissible",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <span className="text-accent-light mt-0.5 shrink-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </FadeIn>
+
+          <FadeIn delay={0.28}>
+            <div className="glass rounded-2xl p-8 mb-8">
+              <h2 className="font-semibold text-xl mb-4">What you don&apos;t need</h2>
+              <ul className="space-y-3 text-muted text-sm">
+                {[
+                  "Stock photos of gavels and scales of justice — they signal generic, not trustworthy",
+                  "Dense walls of legal text in the hero section",
+                  "A complex multi-step intake form that reduces completions",
+                  "A legal template that looks identical to 200 other firms in the area",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="text-red-400 mt-0.5 shrink-0">
@@ -144,10 +179,11 @@ export default function RealEstatePage() {
             <div className="glass rounded-2xl p-8 mb-8">
               <h2 className="font-semibold text-xl mb-4">Simple pricing</h2>
               <p className="text-muted text-sm leading-relaxed">
-                A clean personal site with your bio, services, and contact form
-                starts at $250. A full agent site with a listings gallery,
-                neighborhood guides, and testimonials is $600–1,200. No monthly
-                fees, no contracts — you own it outright.
+                A starter site with your practice areas, attorney bio, and
+                consultation form starts at $300. A full firm site with
+                dedicated practice area pages, FAQ sections, attorney bios, and
+                trust signals runs $800–1,400 depending on how many pages are
+                involved. No contracts, no monthly fees — you own it outright.
               </p>
             </div>
           </FadeIn>

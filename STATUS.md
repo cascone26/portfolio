@@ -85,6 +85,7 @@
 - Location: Mission, KS
 
 ## Recent Changes
+- **2026-03-29**: 3 new vertical SEO blog posts (dental website design guide, law firm website design guide, real estate agent website guide) — 53 total posts; added /for/legal landing page; sitemap updated
 - **2026-03-29**: 3 new SEO blog posts (churches/nonprofits, e-commerce/retail stores, nail salons) — 50 total posts; sitemap updated to include 3 missing /for/ pages (cleaning-services, pest-control, roofing)
 - **2026-03-28**: 4 vertical-specific SEO blog posts (accounting firm website design, photography business website, realtor website design/neighborhood SEO, dental office new patient acquisition) — 47 total posts
 - **2026-03-27**: Fixed deployment timeout issue with fresh git push (deployment now stable)

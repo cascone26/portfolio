@@ -5688,6 +5688,341 @@ Your work speaks for itself — your website just needs to get out of the way an
     `,
   },
   {
+    slug: "dental-website-design-guide",
+    title: "Dental Website Design: What Every Dental Practice and Medical Office Needs to Get Right",
+    description: "A practical guide to dental website design — what your site must include, what to skip, how to rank for 'dentist near me', and realistic pricing for a medical practice website that actually generates new patients.",
+    date: "2026-03-29",
+    readTime: "8 min",
+    tags: ["Dental", "Healthcare", "Web Design", "Local SEO", "Medical Practice", "Small Business"],
+    content: `
+Most dental practice websites were built by a dental-specific vendor, look identical to every other practice on the block, cost $200/month forever, and don't generate meaningful new patient volume. If yours fits that description, this guide is for you.
+
+Whether you're a dentist, general practitioner, specialist, or running a multi-provider practice, your website is your most important marketing asset — and most practices are getting almost nothing out of it.
+
+## What a dental website must include
+
+### 1. New patient status — visible immediately
+
+Patients won't call to ask if you're accepting new patients. They'll move on to the next result. "Accepting New Patients" in your header, hero section, or announcement bar takes 10 seconds to add and removes one of the most common reasons first-time visitors bounce.
+
+### 2. Insurance plans — listed specifically
+
+"We accept most major insurance plans" is meaningless. Patients have Delta Dental, Cigna, MetLife, Aetna, UnitedHealth, BlueCross — and they want to know if their specific plan is covered before they schedule. List every plan. Patients self-filter, which means fewer unpleasant conversations at checkout and fewer no-shows from people who didn't realize their coverage.
+
+### 3. Each service on its own page
+
+This is the single biggest SEO and conversion error on medical practice websites: one "Services" page listing everything you do. Google ranks pages individually, not websites. A dedicated page for dental implants can rank for "dental implants in [your city]." A bullet point on a combined services page cannot.
+
+For a general dental practice, plan for separate pages for:
+- Preventive and general dentistry
+- Cosmetic dentistry (whitening, veneers, bonding)
+- Restorative (crowns, bridges, fillings)
+- Orthodontics / Invisalign
+- Pediatric care (if offered)
+- Emergency dental care
+- Implants and oral surgery (if offered)
+
+Each page is an independent ranking opportunity and a better landing page for patients who are searching for that specific procedure.
+
+### 4. Doctor bios with actual personality
+
+A potential patient is about to trust you with their mouth. They want to feel like they know who you are before they walk through the door. A bio that lists your dental school and license number does not accomplish this.
+
+Include: where you trained, how long you've been practicing, areas you focus on, and one or two genuinely human details — why you chose dentistry, what you care about in patient care, something that makes you feel like a person instead of a credential. A real headshot (not a stock photo) is non-negotiable.
+
+### 5. Online scheduling or a simplified booking request
+
+Patients look for dentists at 10pm on a Tuesday. If your booking option requires a callback during business hours, you're losing those patients to a practice with real-time scheduling. Even a simple "Request an Appointment" form with name, phone, and preferred time is better than making someone call.
+
+Tools like NexHealth, Zocdoc, and most dental practice management systems have patient-facing scheduling widgets. Use them.
+
+### 6. Your phone number, address, and hours — everywhere
+
+These sound obvious, but a surprising number of medical practice websites bury them in a contact page. Your phone number should be in the header, visible on every page, tappable on mobile. Hours should be in the footer or on the homepage. Google Maps embed on the contact page so patients can get directions in one click.
+
+## What you don't need on a dental website
+
+- **Stock photos of perfect smiles.** Every dental website vendor uses the same library of stock images. They signal "generic practice" immediately. Real photos of your actual office, team, and equipment build trust.
+- **A flash intro or animations on the homepage.** Load time is a ranking factor and a user experience factor. Fancy animations cost you both.
+- **A blog full of posts from 4 years ago.** An outdated blog looks worse than no blog. Either publish consistently or remove the section.
+- **Generic taglines.** "Your smile is our priority" appears on thousands of dental websites. It says nothing. Lead with specifics: who you are, where you are, what you do well.
+- **Pop-up offers on load.** Dental anxiety is real. A pop-up the moment someone lands on your site is the wrong first impression for a patient who is already a little nervous.
+
+## SEO priorities for dental and medical practice websites
+
+### Google Business Profile
+
+For most dental searches, the map results (the "local pack") appear before the organic results. If you're not in that map pack, most patients don't find you. Your Google Business Profile needs to be complete, accurate, and actively managed:
+
+- Up-to-date hours, phone, and address
+- Photos of your office exterior, interior, and team
+- Services listed with accurate descriptions
+- Regular responses to reviews (both positive and negative)
+- Posts for promotions or new patient specials
+
+This is separate from your website but just as important for new patient volume.
+
+### Local keyword targeting on each page
+
+Every service page should include location in the title tag, H1, and naturally in the content. "Dental implants in Overland Park" should appear on your dental implants page — not forced unnaturally, but used the way a patient would search for it.
+
+If you serve multiple neighborhoods or suburbs, neighborhood-specific pages or content sections help you rank beyond your immediate address.
+
+### Review volume and velocity
+
+Dental is one of the most review-sensitive healthcare verticals. A practice with 300 Google reviews at 4.5 stars dominates one with 60 reviews at 4.8 stars in local pack rankings and patient trust. Build a systematic process for asking satisfied patients for a review — a text after the appointment with a direct link is the most effective approach.
+
+## What a dental website should cost
+
+A professional dental website should be a one-time build, not a monthly subscription. Here's realistic pricing:
+
+- **Starter site** (home, services overview, contact, hours): $250–400
+- **Full practice site** (home, 6–8 service pages, team bios, new patients page, before/after gallery, contact): $700–1,200
+- **Ongoing hosting:** $15–30/month for hosting and domain, not $200+/month to a vendor
+
+The $200/month vendor model means you never own your site, your domain authority builds on their infrastructure, and you're locked into their template forever. A custom-built site is an asset. A vendor subscription is a recurring expense with no equity.
+
+See [transparent pricing at BuiltSimple](/services) — flat rate, no monthly fees, you own everything.
+
+## The bottom line
+
+A dental or medical practice website that generates new patients is not complicated. It's specific: clear about who you are, what you offer, what insurance you take, and how to book. It has individual service pages that can rank for procedure-specific searches. It looks professional on phones. And it's updated.
+
+If your current site is a generic vendor template or hasn't been touched in three years, the cost of replacing it is almost certainly lower than what you're losing in new patients each month.
+
+**Ready to replace your vendor template with a site you actually own?** [Get in touch](/contact) — I build dental and medical practice websites for providers across the Kansas City area.
+    `,
+  },
+  {
+    slug: "law-firm-website-design-guide",
+    title: "Law Firm Website Design: What Attorney Websites Need to Convert Visitors Into Consultation Requests",
+    description: "A practical guide to law firm website design — what attorney websites must include to build trust, which pages drive the most consultations, how to rank for practice-area searches, and realistic pricing.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Law Firm", "Attorney", "Legal", "Web Design", "Local SEO", "Professional Services"],
+    content: `
+People searching for an attorney aren't browsing. They're in a situation — a car accident, a workplace dispute, a divorce, a contract problem, a criminal charge — and they need someone they can trust with it. The law firm website that converts those visitors is the one that establishes trust fast and removes every barrier between "I found this firm" and "I submitted a consultation request."
+
+Most law firm websites fail at this. Here's what to do differently.
+
+## What a law firm website must include
+
+### 1. Practice area pages — one per area
+
+This is the most important structural decision on an attorney website, and most firms get it wrong. A single "Practice Areas" page that lists your specialties does not rank well and does not convert well.
+
+Each practice area should have its own dedicated page:
+- **Family law / Divorce:** What the process looks like, how you approach it, what clients can expect
+- **Criminal defense:** Types of cases you handle, your defense approach, what to do immediately after an arrest
+- **Personal injury:** Types of accidents and injuries, how contingency fees work, what the claim process involves
+- **Business law:** Entity formation, contracts, disputes — broken into sub-pages if the volume justifies it
+- **Estate planning:** Wills, trusts, probate — what each tool does and who needs them
+
+Each page can rank for practice-area-specific searches ("Kansas City divorce attorney," "Overland Park personal injury lawyer") that the generic homepage never could.
+
+### 2. Attorney bios that feel like a person, not a credential list
+
+Solo practitioners and small firms compete against large firms with bigger ad budgets. The advantage you have: clients can meet *you*, not a massive organization. Use it.
+
+An attorney bio that works includes:
+- Professional headshot — a real one, not a stock image
+- Law school, year admitted to the bar, jurisdictions licensed in
+- Practice focus and types of clients you serve
+- Previous experience that's relevant: clerkships, DA's office, public defender experience, BigLaw background
+- One or two genuinely human details — why you practice this area, what drives you, who you want to help
+- Direct contact information, not just a "contact our firm" form
+
+If you have multiple attorneys, every attorney gets their own bio page. Clients are choosing a person. Give them enough to make that choice.
+
+### 3. Consultation CTAs everywhere — not just the contact page
+
+The most common law firm website mistake: a "Contact Us" link buried in the navigation and a form at the bottom of the contact page. Most attorney websites make the consultation request harder than it needs to be.
+
+Place consultation CTAs:
+- In the header, always visible (sticky if possible)
+- At the end of every practice area page: "Ready to discuss your case? Schedule a free consultation."
+- In the homepage hero alongside your phone number in large text
+- After attorney bios
+
+If you offer free initial consultations, say so on every page. It removes the biggest hesitation for people who haven't hired an attorney before.
+
+### 4. A visible phone number for urgent situations
+
+Many people searching for criminal defense attorneys, DUI lawyers, or emergency family law help need to talk to someone immediately. They're not filling out a form. Your phone number needs to be visible at the top of every page, large, and tappable on mobile.
+
+### 5. Trust signals — earned, not manufactured
+
+Visitors to attorney websites are evaluating whether they can trust this firm with something serious. Trust signals that work:
+- **Years in practice** stated explicitly — not just implied by your graduation year
+- **Bar association memberships** and any legal recognition programs
+- **Case results** where ethically permissible — verdicts, settlements, successful outcomes stated honestly
+- **Client testimonials** — these require care around state bar advertising rules, but real client quotes are among the most powerful trust-builders
+
+What doesn't work: generic stock photos of a gavel and scales of justice, lawyer-speak in the hero section, or vague phrases like "dedicated to excellence in legal representation."
+
+## What attorney websites don't need
+
+- **A law library of generic legal articles.** Content that educates people about the law broadly doesn't convert. Content that answers the specific questions someone in a legal situation is asking does.
+- **A complex intake form.** Name, phone, email, practice area, and a sentence about their situation. That's it. Every additional field reduces completions.
+- **Outdated design with dense text.** People looking for attorneys are often stressed and making fast decisions. Dense walls of text with no visual breaks lose them immediately.
+- **Stock photos of courtrooms or gavels.** Real photos of your actual office and team build more trust.
+
+## SEO for law firm websites
+
+Attorney SEO is competitive, especially in larger markets. The sites that win are the ones built around specificity.
+
+### Practice-area + location pages
+
+"Kansas City personal injury lawyer" is competitive. "Overland Park personal injury attorney" may be less so, and "truck accident lawyer Kansas City" is even more specific. Build pages around the specific cases you want and the specific areas you serve.
+
+### FAQ sections on every practice area page
+
+People searching for legal help often type questions: "how long does a divorce take in Kansas," "what happens after a DUI arrest in Missouri," "do I need a lawyer for a minor car accident." FAQ sections on practice area pages capture these searches and demonstrate expertise.
+
+### Google Business Profile
+
+For local searches, the map pack often appears before organic results. Your firm's Google Business Profile needs to be complete with accurate categories (each practice area can be listed), current hours, photos of your office, and a process for gathering client reviews.
+
+### Review strategy
+
+Bar rules around attorney advertising vary by state — Missouri and Kansas both have specific rules. Within those rules, Google reviews are one of the most powerful factors in local search rankings for attorneys. Build a systematic process for requesting reviews from clients after successful matters.
+
+## Realistic pricing for a law firm website
+
+- **Starter site** (home, practice areas overview, attorney bio, contact): $300–500
+- **Full firm site** (home, 4–6 dedicated practice area pages, attorney bio pages, FAQ sections, contact with intake form): $800–1,400
+- **Ongoing costs:** $15–30/month for hosting — you own the site outright
+
+The legal website template companies charge $200–400/month for hosted templates with limited customization. That's $2,400–4,800 per year on something you don't own, built for a generic law firm, not yours.
+
+See [BuiltSimple's flat-rate pricing](/services).
+
+## The bottom line
+
+A law firm website that generates consultation requests isn't built around aesthetics — it's built around trust. Practice area pages that rank and convert. Attorney bios that make clients feel like they know who they're calling. Consultation CTAs that don't require a treasure hunt to find. And a phone number that's impossible to miss.
+
+Get those right, and the website does the first half of your business development for you.
+
+**Ready to build a law firm website that actually generates consultation requests?** [Get in touch](/contact) — I build attorney and law firm websites for practices in the Kansas City area.
+    `,
+  },
+  {
+    slug: "real-estate-agent-website-guide",
+    title: "Real Estate Agent Website Design: What Your Site Needs to Generate Buyer and Seller Leads",
+    description: "A practical guide to real estate agent website design — what to include, what to skip, how to rank for agent and neighborhood searches, and realistic pricing for an agent site that generates leads.",
+    date: "2026-03-29",
+    readTime: "7 min",
+    tags: ["Real Estate", "Realtor", "Web Design", "Local SEO", "Lead Generation", "Small Business"],
+    content: `
+Most real estate agents have two kinds of online presence: a brokerage profile page they didn't design and can't control, and maybe a Zillow or Realtor.com profile that sends leads to competitors. Neither one builds your personal brand or generates leads that belong exclusively to you.
+
+A personal real estate agent website changes that. Here's what it needs to work.
+
+## What a real estate agent website must include
+
+### 1. A clear personal brand statement on the homepage
+
+Buyers and sellers have a lot of agents to choose from. Your homepage hero section needs to answer immediately: who are you, what areas do you specialize in, and why should someone choose you over the other 40 agents in their search results?
+
+This means:
+- **Your name and a professional photo** — not a generic handshake icon
+- **Your specialty** in plain language: "I help first-time buyers find homes in the KC suburbs" or "I specialize in listing and selling homes in Johnson County"
+- **Your primary service area** — specific neighborhoods or suburbs, not just "Kansas City metro"
+- **A clear CTA** — "Search listings," "Schedule a consultation," or "Get a free home valuation"
+
+Generic agent sites say "Your Trusted Real Estate Partner." Specific ones say "I sell homes in Leawood and Overland Park — here's my average days-on-market and list-to-sale ratio." The specific one wins.
+
+### 2. A listings section (without paying for IDX)
+
+Full IDX integration — where live MLS listings appear on your site with search and filter tools — can cost $100–300/month and requires technical maintenance. For most independent agents, it's not necessary.
+
+What works instead:
+- **Featured listings section** with your current active listings, manually updated
+- **Recently sold gallery** showing properties you've closed, their price points, and neighborhoods — this is your portfolio and your social proof
+- **"Looking for something specific?" CTA** that drives them to contact you directly rather than searching on your site
+
+The most valuable thing an agent website can do is generate direct contact with you. An IDX portal sends people into a search experience that competes with Zillow. A featured listings section and a strong CTA moves them into your pipeline.
+
+### 3. Neighborhood guides
+
+This is the highest-leverage content investment an agent can make online. Neighborhood guides do two things simultaneously: they rank for location-specific searches ("homes for sale in Brookside," "moving to Prairie Village"), and they demonstrate local expertise to buyers and sellers evaluating agents.
+
+A good neighborhood guide covers:
+- Neighborhood overview — character, housing styles, price ranges
+- Who lives there — families, young professionals, retirees, a mix
+- Schools, parks, local restaurants and shops worth knowing
+- Recent market activity — average prices, time on market, how inventory has moved
+- Your personal take as someone who knows the area
+
+Five solid neighborhood guides are worth more than a hundred generic blog posts. They're the kind of content that turns a Google search into a lead.
+
+### 4. A genuine "About" page
+
+Buyers and sellers hire agents they trust, and trust starts with knowing who you are. An agent bio that lists your license number and years in the business tells a potential client almost nothing.
+
+What actually works:
+- A warm, professional photo — not a formal studio headshot if that's not your style
+- How long you've been in real estate and in this market specifically
+- The types of clients you work with and the experience you have (first-time buyers, relocation clients, luxury listings, downsizers)
+- Why you got into real estate and what you genuinely care about in the process
+- Something personal that makes you feel like a real person — a detail about the area you live in, your family, something that shows you're not a robot
+
+People choose agents partly on personality fit. Give them enough to decide.
+
+### 5. Testimonials from real clients
+
+Reviews from past clients are among the most persuasive content on any agent website. Buyers and sellers read them carefully and they directly address the most common concern: will this agent actually deliver?
+
+Gather testimonials from closed transactions — an email after closing asking for a brief Google review or a quote you can use on your site. Include:
+- The client's first name and last initial
+- The neighborhood and type of transaction (bought, sold, both)
+- A quote that speaks to the specific value you provided, not just "she was great"
+
+Real, specific testimonials ("Tom helped us close in 18 days over asking — we'd been looking for 8 months with another agent and got nowhere") convert far better than generic praise.
+
+## What you don't need on a real estate agent website
+
+- **A full IDX integration** unless your entire lead strategy depends on on-site search. It's expensive, slow to load, and competes with your CTA.
+- **A generic brokerage template.** If your site looks like every other agent at your brokerage, it does nothing to differentiate you. Clients looking for an agent are comparing you specifically.
+- **Stock photos of keys, sold signs, or happy couples in front of houses.** Real photos of you, your listings, and your community are worth 10x the stock imagery.
+- **A blog with outdated market reports.** A market update from 14 months ago makes your site look neglected. Update quarterly or remove it.
+
+## SEO for real estate agent websites
+
+Real estate SEO is dominated by Zillow, Realtor.com, and local brokerages. Competing directly on "Kansas City homes for sale" is a losing battle. The strategy that works for individual agents: go specific.
+
+### Agent-name searches
+
+Many people who've met you, seen your marketing, or gotten a referral will Google your name. Your personal website should rank first for your name — above your brokerage profile, above Zillow. This is basic reputation management and often the highest-converting traffic source.
+
+### Neighborhood-specific searches
+
+"Real estate agent in Brookside," "homes for sale in Prairie Village," "Overland Park realtor" — these are less competitive than metro-wide searches and the people making them are the most motivated buyers and sellers in your area. Neighborhood guide pages capture these searches.
+
+### Local community content
+
+Blog posts and pages about local topics — new developments, school zone changes, neighborhood events, market condition updates for specific areas — build authority in your market and capture long-tail searches that broad real estate portals don't serve.
+
+## What a real estate agent website should cost
+
+- **Starter site** (home, bio, contact, featured listings section): $250–400
+- **Full agent site** (home, bio, neighborhood guides, listings gallery, testimonials, contact): $600–1,200
+- **Ongoing costs:** $15–30/month for hosting — you own it outright
+
+Brokerage templates and real estate platform subscriptions often run $50–200/month for something you can't customize and don't own. A custom site is an asset you control.
+
+See [BuiltSimple's flat-rate pricing](/services).
+
+## The bottom line
+
+A real estate agent website that generates leads is built around specificity: your market, your neighborhoods, your track record, your personality. Generic agent sites don't differentiate you. Specific ones do.
+
+Get your name ranking, build out a few strong neighborhood guides, show your actual results, and make it easy for buyers and sellers to reach out. That's the whole playbook.
+
+**Ready to build a real estate agent website that generates leads?** [Get in touch](/contact) — I build agent websites for realtors across the Kansas City market.
+    `,
+  },
+  {
     slug: "do-i-need-a-website-if-i-have-facebook",
     title: "Do You Really Need a Website if You Have a Facebook Page?",
     description: "A lot of Kansas City small businesses run entirely on Facebook. Here's the honest case for why that's a risky strategy — and what a website gets you that Facebook never will.",
