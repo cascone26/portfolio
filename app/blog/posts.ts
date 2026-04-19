@@ -6122,4 +6122,1422 @@ That's it. It doesn't need to be a masterpiece. It needs to load fast, look clea
 **Thinking about making the move from Facebook-only to a real website?** [Get in touch](/contact) — I build affordable small business websites for KC businesses and can usually get you live within two weeks.
     `,
   },
+  {
+    slug: "roofing-website-tips-storm-jobs-google",
+    title: "Website Tips for Roofing Companies: How to Get Storm Jobs From Google",
+    description: "After a hailstorm, every homeowner in your area searches for a roofer. Here's what your website needs to show up, build trust, and turn those searches into signed estimates.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "Small Business", "Roofing", "Contractors", "Local Business"],
+    content: `
+After a major hailstorm or wind event, roofing companies that rank on Google get flooded with calls. Those that don't are invisible — and the homeowners go to whoever shows up first. Your website is the difference between booking six roofs in a week and watching a competitor clean up your neighborhood.
+
+Here's what actually works.
+
+## The insurance claim page is your most valuable asset
+
+Most roofing jobs in the Midwest come from insurance claims. Yet most roofing websites don't explain the claim process at all — they just say "we work with all insurance companies" in a footer.
+
+Build a dedicated page that walks homeowners through how it works:
+1. Hail damage occurs
+2. Homeowner contacts you for a free inspection
+3. You document damage and help them file a claim
+4. Insurance adjuster approves the claim
+5. You replace the roof — homeowner pays only their deductible
+
+This page alone converts more leads than almost anything else on a roofing website. Homeowners are anxious about the process. A roofer who explains it clearly and positions themselves as a guide earns immediate trust.
+
+## Photos of real KC-area roofs close jobs
+
+Stock photography of houses is everywhere. It means nothing. Before-and-after photos of real roofs you've replaced in Kansas City, Overland Park, Lee's Summit, or Lenexa are worth more than any testimonial.
+
+What to capture on every job:
+- Wide shot of damaged roof before tear-off
+- Close-up of hail damage or missing shingles
+- Photo of crew working mid-project
+- Wide shot of completed new roof from street
+- Before/after side-by-side on your website
+
+Homeowners want to see your work. They want to know you've done roofs like theirs in their city. Real photos of real KC homes are what convert browsers into callers.
+
+## Show your credentials above the fold
+
+Roofing has more fraud than almost any other home services trade. After a storm, out-of-state storm chasers descend on neighborhoods and disappear after taking a deposit. Homeowners know this.
+
+Your website should display prominently:
+- **State contractor license number** — in Missouri or Kansas, whichever applies
+- **General liability insurance** — "$2M general liability, fully insured"
+- **Workers compensation coverage** — critical for protecting homeowners from crew liability
+- **How many years in business** — "Serving KC since 2009" is a powerful trust signal
+- **Better Business Bureau or Angi accreditation** if you have it
+
+Don't bury this in an About page. Put it in your hero section or directly below your headline.
+
+## Free inspection offer drives the call
+
+The barrier to entry in roofing is usually the inspection. Homeowners don't want to commit to anything or feel pressured into a sale. A clear, no-pressure free inspection offer removes that friction.
+
+The best-converting version of this offer is specific:
+- "Free roof inspection — we'll send photos and a full report within 24 hours"
+- "No sales pitch, no obligation — just documentation of what the storm did"
+- "We'll tell you honestly if you have a claimable loss or not"
+
+That last line is counterintuitive but powerful. Roofers who promise honest assessments — even when there's no claimable damage — build more trust and close more of the jobs they do get called on.
+
+## Mobile-first, tap-to-call design
+
+Most people searching for a roofer after a storm are doing it from their phone. Your website needs to:
+- Load in under 3 seconds on mobile
+- Have a phone number in the header that taps to call directly
+- Have a "Request Free Inspection" button above the fold on mobile
+- Not require pinching, zooming, or horizontal scrolling
+
+If someone visits your site on their phone and the text is tiny or the button is hard to tap, they're gone. They'll call the next result.
+
+## Service area pages for each city you cover
+
+You probably serve multiple cities — Overland Park, Shawnee, Olathe, Lenexa, Lee's Summit, Blue Springs, Liberty. Each of those cities deserves its own page targeting "roofing company [city name]."
+
+These aren't long pages. A few paragraphs about your work in that area, a photo of a local project, and a clear call-to-action is enough. Each page gives you a shot at ranking for that specific city's searches.
+
+A roofing company with service area pages for 8 KC-area cities has 8 chances to rank instead of 1.
+
+## What this all adds up to
+
+A roofing website that converts has:
+- Insurance claim walkthrough page
+- Before/after photo gallery of local jobs
+- License and insurance credentials front and center
+- Free inspection offer with no-pressure framing
+- Mobile tap-to-call design
+- Service area pages for every city you cover
+
+One average roof replacement in Kansas City brings in $8,000–$15,000. A website that costs $800 and generates one extra job per month pays for itself in the first call.
+
+**Want to see what a roofing site for your company could look like?** [Get a free mockup](/for/roofing) — no commitment, no sales pitch.
+    `,
+  },
+  {
+    slug: "cleaning-service-website-book-recurring-clients",
+    title: "Website Tips for Cleaning Services: How to Book More Recurring Clients Online",
+    description: "Most house cleaning websites look the same and convert no one. Here's what your cleaning business website actually needs to turn visitors into weekly clients.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "Small Business", "Cleaning", "Home Services", "Local Business"],
+    content: `
+House cleaning is one of the most searched local services in every city. But most cleaning company websites don't convert — they have a logo, a list of services, and a contact form that nobody fills out. Here's what actually gets people to book.
+
+## Recurring clients are the business model
+
+A one-time clean is a job. A weekly or biweekly recurring client is a revenue stream. Your website should be built around closing recurring clients, not one-off bookings.
+
+That means:
+- Lead with the recurring offer — "Weekly and biweekly cleaning — set it and forget it"
+- Show clear pricing for recurring vs. one-time (recurring should be discounted)
+- Make it easy to start: "Book your first clean online in 2 minutes"
+- Address the commitment concern: "Cancel anytime — no contracts"
+
+People want to hire a cleaner. They're hesitant because they don't know your prices, they're not sure how it works, and they're nervous about letting a stranger into their home. A website that addresses all three of those things converts.
+
+## Transparent pricing wins every time
+
+The #1 question every potential client has is: "How much does it cost?"
+
+Most cleaning websites don't answer this. They say "contact us for a quote." That friction costs you leads every day.
+
+You don't need to publish exact prices — but a clear range and a structure helps:
+- "Standard homes 1,500–2,500 sq ft start at $120 biweekly"
+- "First clean is always a deep clean — starting at $X — recurring cleans are discounted"
+- "We price based on home size and frequency — here's a quick estimator"
+
+Even a simple "homes typically run $90–$160 per visit depending on size" tells people you're in their budget and earns a call. Hiding prices tells people they can't afford you.
+
+## Trust signals specific to cleaning
+
+When someone hires a cleaner, they're letting a stranger into their home while they're often not there. The trust bar is high.
+
+Put these on your homepage:
+- **Background-checked cleaners** — "All team members pass a full background check"
+- **Insured and bonded** — show the certificate or at minimum state the coverage amount
+- **Years in business** — "Serving the KC metro since 2015"
+- **The same cleaner policy** — if you assign the same person to recurring clients, say so
+- **What to do if something goes wrong** — have a clear guarantee ("If you're not satisfied, we'll come back")
+
+The businesses that win in cleaning are the ones that make people feel safe. Safety and trust convert better than price.
+
+## Before/after photos are your best sales tool
+
+An empty room before cleaning and that same room spotless after cleaning is a powerful visual. Post these everywhere on your site — kitchen sinks, bathroom tiles, baseboards, stovetops.
+
+People are hiring you to make their home look like these photos. Show them exactly what that looks like.
+
+## A simple online booking flow
+
+A phone call to book a cleaning adds friction. People who can book online are more likely to commit on the spot, and you get leads even when you're at a job site.
+
+You don't need a complex booking system. A short form that captures:
+- Home size (bedrooms + bathrooms)
+- Frequency preference (weekly, biweekly, one-time)
+- Preferred day and time
+- Name and contact info
+
+...sends you a lead and sets the expectation of a quick follow-up. Services like Jobber, HouseCall Pro, or even a simple Formspree form work for this.
+
+## Service area with neighborhood-level detail
+
+Be specific about where you clean. "Greater Kansas City area" is too vague. List the cities, neighborhoods, and ZIP codes you cover.
+
+"We clean homes in Leawood, Prairie Village, Mission Hills, Overland Park, and Lenexa" — every one of those city names is a keyword someone is searching. Being specific also filters out leads who are outside your range.
+
+**Want to see what a cleaning service site could look like for your business?** [Get a free mockup](/for/cleaning-services) — I build simple, conversion-focused sites for KC home service businesses.
+    `,
+  },
+  {
+    slug: "electrician-website-design-get-found",
+    title: "Website Tips for Electricians: Get Found When Homeowners Need You",
+    description: "Electrical work means safety and urgency. Here's what your electrician website needs to rank locally, build trust instantly, and turn searches into service calls.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "Small Business", "Electricians", "Contractors", "Local Business"],
+    content: `
+Electrical problems are stressful. A breaker that keeps tripping, outlets that don't work, or a panel that needs replacement — homeowners want a licensed electrician fast, and they want someone they can trust in their home. Your website is the difference between getting that call and watching it go to someone else.
+
+## Lead with licensing, every time
+
+Electrical work is regulated for safety. Homeowners know this. The #1 trust signal for an electrician website is your license — and most electricians bury it in an About page, if they mention it at all.
+
+Put your license number in your header or directly below your headline:
+- "Licensed Electrical Contractor — Missouri License #XXXXXX"
+- "Licensed Master Electrician serving the Kansas City metro"
+
+Your license is your credential. In an industry where unlicensed work is a real danger, showing yours upfront is the single most effective trust signal you can display.
+
+## Emergency service deserves its own callout
+
+Electrical emergencies don't wait for business hours. If you offer 24/7 or same-day emergency service, this should be impossible to miss:
+
+- Large phone number at the top of every page
+- "Emergency electrical service — call anytime" in your header
+- A banner or section specifically addressing electrical emergencies
+
+Homeowners searching at 10 PM for an electrician are deciding in seconds. If your site makes them search for a phone number, they're already calling the next result.
+
+## Service pages beat a generic "Services" list
+
+Homeowners search specifically. They're not searching for "electrician Kansas City" — they're searching for "electrical panel upgrade Overland Park" or "EV charger installation Kansas City."
+
+Individual service pages capture those searches:
+- Electrical panel upgrades and replacements
+- EV charger installation (this is a rapidly growing market)
+- Outlet and switch installation or repair
+- Whole-home rewiring
+- Generator hookup
+- Lighting installation — indoor and outdoor
+- Smoke and CO detector installation
+- Home inspection repairs
+
+Each page should explain what the service involves, what triggers the need (tripping breakers, old Federal Pacific panel, buying an EV), and what the process looks like when you come out.
+
+## Address the "is this safe?" concern directly
+
+Electrical work carries safety implications that plumbing or landscaping don't. Homeowners are sometimes anxious about whether the work was done right. Address this directly:
+
+- "All work is done to code and passes inspection"
+- "We pull permits when required — no shortcuts"
+- "We'll walk you through exactly what we did and why"
+
+Electricians who communicate clearly about code compliance and safety win the trust game. Those who don't invite doubt.
+
+## Reviews and photos of real jobs
+
+Homeowners evaluating electricians look for the same things they look for with any trade:
+- How many reviews, and how recent
+- That reviewers mention being satisfied with the quality, not just the price
+- Photos of completed panel work, conduit runs, or other visible work
+
+Commercial photo galleries don't work here. Real photos of real panel upgrades in real Kansas City homes are what convince someone to call.
+
+## Simple contact form with fast follow-up promise
+
+Most electrical jobs start with a question: "How much would it cost to...?" A form that captures this — name, contact, and a description of what they need — plus a promise to respond within a few hours, converts browsing into a conversation.
+
+"We respond to all inquiries within 2 hours during business hours" is a commitment that sets you apart from electricians who never call back.
+
+**Want to see what an electrician site could look like for your company?** [Get a free mockup](/for/electricians) — I build local service websites that rank and convert.
+    `,
+  },
+  {
+    slug: "chiropractic-website-convert-new-patients",
+    title: "Website Tips for Chiropractors: How to Convert More New Patient Searches",
+    description: "Most chiropractic websites look clinical and feel generic. Here's how to build a site that earns new patients' trust before they ever walk through the door.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "Healthcare", "Chiropractors", "Local Business", "Small Business"],
+    content: `
+People searching for a chiropractor are often in pain and looking for relief they can trust. They're not comparing features — they're deciding whether you seem like someone who can actually help them. Your website is where that decision gets made.
+
+## The new patient journey starts with a specific problem
+
+Most chiropractic websites lead with "Dr. Smith uses a whole-body approach to holistic wellness." Patients searching online aren't thinking in those terms. They're thinking:
+
+- "My lower back has been killing me for three weeks"
+- "I got rear-ended last month and my neck still hurts"
+- "My kid has scoliosis — is chiropractic care appropriate?"
+
+Your homepage should speak to specific conditions and specific situations:
+- Lower back pain
+- Neck pain and headaches
+- Auto accident injuries
+- Sciatica
+- Sports injuries
+- Pediatric chiropractic
+- Pregnancy-related back pain
+
+When a patient with lower back pain lands on your site and sees "lower back pain" in your headline, they feel understood. That's the beginning of trust.
+
+## Make the first appointment easy to book
+
+The biggest conversion mistake on chiropractic websites is burying the booking option. New patients often need to be:
+- Reassured about what the first appointment involves
+- Told how long it takes
+- Shown what it costs (or whether you accept their insurance)
+- Given a clear, easy way to book without calling
+
+Options for first-appointment booking:
+- Online scheduling software (Jane App, ChiroTouch, or even Calendly for simple practices)
+- A short form with preferred day/time that promises a call back to confirm
+- A dedicated "New Patient" page that walks through everything to expect
+
+Practices that make the first appointment easy to book without a phone call are picking up patients that other practices lose.
+
+## Insurance and cash pay clarity
+
+"Do you take my insurance?" is the question behind every chiropractic website visit that doesn't convert. Either answer can be correct — but not answering loses patients.
+
+If you're in-network with major carriers, list them. If you're cash pay, explain your rates and why cash-pay chiropractic is often the better value (no insurance limitations on visit frequency, no referral required, no copay creep).
+
+Hiding pricing or insurance information because "every case is different" is the single biggest conversion killer on healthcare websites.
+
+## Before/after or transformation stories (done carefully)
+
+Before/after is tricky in healthcare — but patient stories are powerful. A short case study format works well:
+
+*"A 42-year-old teacher came in with three months of sciatic pain that was keeping her from standing for her full class periods. After eight sessions focused on lumbar stabilization, she was back to full days with no pain medication."*
+
+No names, no medical claims, no promises. Just a real story that helps a prospective patient see themselves in it.
+
+## Your credentials and philosophy belong on the About page
+
+Patients do check credentials. Your DC degree, any board certifications, years in practice, and any specialties (sports chiropractic, pediatrics, Webster technique for pregnancy) belong on an About page.
+
+What most chiropractors get wrong: leading the About page with the credentials instead of with why they got into this work. People connect with stories. A paragraph about why you became a chiropractor — a personal injury, a family member's recovery, watching a patient get off pain medication — is more persuasive than a credential list.
+
+The credentials confirm the decision. The story initiates it.
+
+**Want to see what a chiropractic website could look like for your practice?** [Get a free mockup](/for/chiropractors) — I build local healthcare sites that earn new patient trust before the first appointment.
+    `,
+  },
+  {
+    slug: "pest-control-website-convert-urgent-searches",
+    title: "Website Tips for Pest Control Companies: Convert the 'We Have a Problem' Search",
+    description: "When someone finds a pest problem, they search immediately. Here's what your pest control website needs to show up and win that urgent, high-intent search.",
+    date: "2026-04-18",
+    readTime: "5 min",
+    tags: ["Web Design", "Small Business", "Pest Control", "Home Services", "Local Business"],
+    content: `
+Pest control is one of the most urgency-driven local service searches there is. Nobody casually looks up pest control companies. They found something in their kitchen, their basement, or their walls — and they want it gone now. Your website needs to capture that urgency and convert it immediately.
+
+## Speed and urgency belong in your design
+
+The moment someone discovers a pest problem, they pull out their phone. If your website loads slowly, looks old, or makes them dig for a phone number, they're already calling the next result.
+
+What a pest control website needs to do in the first 5 seconds:
+- Load on mobile in under 3 seconds
+- Show a phone number that taps to call in the header
+- Communicate "we serve [their city]"
+- Show that you handle the pest they have
+
+A header that says "Same-Day Pest Control in Kansas City — Call Now" with a tap-to-call button above the fold converts the urgent searcher before they even scroll.
+
+## Pest-specific pages rank and convert
+
+Homeowners don't search for "pest control company." They search for "mouse in my house Kansas City" or "ant infestation treatment Overland Park" or "termite inspection Lee's Summit."
+
+Individual pest pages capture these specific searches:
+- Ants (including carpenter ants)
+- Mice and rats
+- Cockroaches
+- Bed bugs
+- Termites
+- Wasps and hornets
+- Spiders
+- Fleas and ticks
+- Mosquitoes (seasonal)
+
+Each page should explain: what the pest is, signs of infestation, health or property risks, your treatment process, and whether it's covered under a recurring service plan.
+
+The homeowner who finds a page specifically about mice in Kansas City homes and how you treat them is far more likely to call than one who finds a generic "services" list.
+
+## The recurring service plan converts fear into retention
+
+A homeowner who just found roaches doesn't just want this problem solved — they're worried it'll come back. A recurring service plan addresses that fear and creates predictable revenue for you.
+
+Present your recurring plan clearly:
+- What pests are covered
+- How often you come out
+- What the quarterly or monthly cost is
+- That it includes free re-service if the problem returns between visits
+
+"We'll treat your home quarterly for $X/month — and if anything comes back between visits, we come back at no charge" is a simple, compelling offer that converts one-time emergencies into long-term clients.
+
+## Show proof in a visual way
+
+Pest control is a service people are squeamish about. Showing the reality of what you deal with — mouse entry points sealed, termite damage caught early, a nest removed from an attic — demonstrates expertise in a way that a credential list doesn't.
+
+Real job photos are your best sales tool. The homeowner who sees a photo of a technician sealing entry points in a garage wall that looks like theirs is more likely to call than one who reads generic marketing copy.
+
+## Licensing and safety reassurance
+
+Pest control chemicals mean people have questions about safety — for kids, pets, and themselves. Address this directly:
+- "All products EPA-registered and safe for pets and children when dry"
+- "Our technicians are licensed by the state of Missouri/Kansas"
+- "We'll tell you exactly what we're applying and how to prepare"
+
+Pest control companies that communicate clearly about safety win the trust of parents and pet owners. That's a significant portion of your market.
+
+**Want to see what a pest control website could look like for your company?** [Get a free mockup](/for/pest-control) — I build local service sites for KC home service businesses.
+    `,
+  },
+  {
+    slug: "website-tips-for-law-firms",
+    title: "Website Tips for Law Firms and Solo Attorneys: How to Win Clients Before They Call",
+    description: "Most law firm websites are generic, overly formal, and fail to convert. Here's what actually works when potential clients are evaluating you against five other attorneys.",
+    date: "2026-04-18",
+    readTime: "7 min",
+    tags: ["Web Design", "Legal", "Law Firm", "Professional Services", "Small Business"],
+    content: `
+When someone needs a lawyer, the stakes are high and the anxiety is real. They're facing a divorce, a car accident injury, a criminal charge, or a business dispute — and they're searching for someone they can trust. Most law firm websites fail to earn that trust because they lead with credentials and firm history instead of with the client's situation.
+
+## Lead with the client's problem, not your credentials
+
+This is the most common mistake on attorney websites: the homepage leads with "Smith & Associates has been serving the Kansas City metro since 1994" when the visitor's first thought is "I just got served divorce papers and I don't know what to do."
+
+Reframe your homepage around the client:
+- "Going through a divorce in Kansas? Here's what to expect — and how we help."
+- "Injured in a car accident? Don't talk to the insurance company before you talk to us."
+- "Charged with a DUI in Missouri? Your first call matters."
+
+This reframe tells the visitor: "I understand what you're going through. I know what you're worried about. I can help." That's what earns a call.
+
+## Practice area pages, not a bulleted list
+
+Most attorney websites have a Services page that lists "Family Law, Personal Injury, Criminal Defense, Business Law" with a paragraph each. That doesn't rank and doesn't convert.
+
+Build individual pages for each practice area and major case type:
+- Divorce (and separate pages for contested divorce, uncontested divorce, high-asset divorce)
+- Child custody and custody modifications
+- DUI/DWI defense
+- Car accident and personal injury
+- Truck accident injuries
+- Workers compensation
+- Business formation and contracts
+- Employment disputes
+
+Each page should explain: what this kind of case involves, what the client needs to know first, what your approach is, and what to do right now. A page titled "Contested Divorce in Missouri — What You Need to Know" will rank for that search and speak directly to the person in that situation.
+
+## Attorney bios need to be human, not just credentialed
+
+Your credentials matter. Your bar admission, law school, years of experience, and case results are all relevant signals. But the reason people hire a specific attorney is often personal chemistry — they want someone who will fight for them, who takes their case seriously, who will explain things clearly.
+
+Your bio should include:
+- Why you practice this area of law (a real reason — not "I have a passion for justice")
+- How you work with clients — communication style, response time, what they can expect
+- A real photo — not a posed stock-photo-style shot, but something that looks like you
+
+People hire people they trust. A bio that shows who you actually are builds that trust faster than a credential list.
+
+## Consultation offer with clear process
+
+"Contact us for a free consultation" is on every law firm website and means nothing. Make it specific:
+
+- "Free 30-minute consultation — no obligation to hire"
+- "You'll leave knowing your options, what the process looks like, and what we'd do in your case"
+- "We respond to all inquiries within 24 hours"
+
+Then explain what happens when they contact you: who calls them, how fast, what the consultation looks like. Removing uncertainty from the intake process removes friction from the conversion.
+
+## Reviews and case results (carefully)
+
+Attorney reviews matter — but ethics rules vary by state on what you can say about results. Know your state bar's advertising rules. Within those constraints:
+
+- Google reviews prominently displayed — not buried, not just a star rating, but actual quotes
+- Case results where ethically permissible — "Personal injury settlement, $X" with appropriate disclaimers
+- Client testimonials focused on experience rather than outcomes — "They kept me informed every step of the way"
+
+A prospective client who reads several detailed reviews describing a positive experience with your firm is significantly more likely to call than one who sees a five-star average with no text.
+
+## Mobile and speed are non-negotiable
+
+Legal searches happen everywhere — someone just had an accident, or they're trying to research options during a lunch break. If your site doesn't load fast and look clean on a phone, you're losing those leads.
+
+Specific requirements:
+- Sub-3 second mobile load time
+- Tap-to-call phone number in the header
+- Form that works on mobile without zooming
+- Text readable without pinching
+
+**Want to see what a law firm website could look like for your practice?** [Get a free mockup](/for/legal) — I build professional, conversion-focused sites for KC-area attorneys and law firms.
+    `,
+  },
+  {
+    slug: "website-tips-for-hvac-companies",
+    title: "Website Tips for HVAC Companies: Show Up When the AC Breaks Down",
+    description: "HVAC calls are driven by urgency and trust. Here's what your heating and cooling company website needs to rank, convert emergency calls, and build a maintenance plan base.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "HVAC", "Small Business", "Contractors", "Local Business"],
+    content: `
+A broken AC in August or a dead furnace in January generates immediate, high-urgency searches. Homeowners aren't browsing — they're calling the first HVAC company that looks trustworthy and answers the phone. Your website is the first test of whether you're that company.
+
+## Emergency service needs a dedicated presence
+
+Emergency HVAC calls are the highest-value jobs you take. They're also where you build long-term maintenance plan clients. Your website should make it obvious that emergency service is available — and what "emergency" means for your company.
+
+The best emergency HVAC website design:
+- Large tap-to-call phone number in the header, visible on every page
+- "24/7 emergency service" or "Same-day appointments available" stated in the hero
+- A banner or persistent callout on every page: "AC out? Call now — we respond within 2 hours"
+- An honest statement of what emergency service costs (after-hours charge, service call fee)
+
+Homeowners calling about a broken AC at 9 PM are deciding in 10 seconds. If they can't find your phone number or don't know if you respond to emergencies, they call the next result.
+
+## Service pages by system type and season
+
+Homeowners search by problem, not by "HVAC services." The searches that drive calls:
+- "AC not cooling Kansas City"
+- "furnace repair Overland Park"
+- "heat pump replacement cost"
+- "HVAC maintenance tune-up"
+
+Individual pages for each service capture these searches:
+- Air conditioner repair and installation
+- Furnace repair and replacement
+- Heat pump service
+- Ductless mini-split systems
+- Indoor air quality (air purifiers, humidifiers, UV systems)
+- HVAC maintenance plans
+- New construction HVAC
+
+Each service page should include common failure symptoms, what the diagnostic process looks like, rough price ranges where possible, and a clear call-to-action.
+
+## The maintenance plan upsell is where margin lives
+
+One-time repair calls are good. Annual maintenance plan customers are better — predictable revenue, lower acquisition cost, first call on replacement jobs.
+
+Your website should present the maintenance plan as the logical next step after any service:
+- Clearly explain what's included (bi-annual tune-up, priority scheduling, discounted repairs)
+- Show the cost clearly ($X/month or $X/year)
+- Position it against the cost of emergency service without a plan
+- Make it easy to sign up online
+
+The homeowners who just paid for an emergency call are the most motivated prospects for a maintenance plan. Having that offer prominent on your site captures them at the right moment.
+
+## Certifications build trust on the spot
+
+NATE certification, EPA 608, manufacturer certifications for Carrier, Trane, Lennox, or Rheem — these signal expertise that homeowners can't evaluate themselves but have been told to look for.
+
+Display them:
+- In your homepage hero or directly below it
+- In the footer
+- On your About page
+
+"NATE-Certified Technicians" in a trust bar near the top of your homepage does more work than any testimonial.
+
+## Reviews for HVAC work specifically
+
+Not all reviews are equal for HVAC. The reviews that convert:
+- Ones that mention speed of response ("They were here within 3 hours")
+- Ones that mention clear pricing ("No surprise charges")
+- Ones that mention clean technicians and respectful treatment of the home
+- Ones that mention the technician by name
+
+Embed 4-5 of your best Google reviews on your homepage, selected for these qualities. Then include a link to your full Google review page so visitors can read more.
+
+**Want to see what an HVAC website could look like for your company?** [Get a free mockup](/contact) — I build local service websites for KC-area heating and cooling companies.
+    `,
+  },
+  {
+    slug: "website-tips-for-painting-contractors",
+    title: "Website Tips for Painting Contractors: How to Win More Interior and Exterior Bids",
+    description: "Most painting contractor websites look generic. Here's what separates the ones that generate steady estimate requests from the ones that do nothing.",
+    date: "2026-04-18",
+    readTime: "5 min",
+    tags: ["Web Design", "Painting", "Small Business", "Contractors", "Local Business"],
+    content: `
+Homeowners searching for a painter have two things in mind: will the work look good, and can I trust this person in my home? Both questions get answered before they ever call. Your website is where those answers come from.
+
+## A photo gallery is your entire sales pitch
+
+Painting is entirely visual. A homeowner considering an interior repaint wants to see other interiors you've painted — similar room types, color transitions, trim work, the edges and corners. A homeowner needing exterior work wants to see houses in their neighborhood with fresh paint.
+
+A portfolio that shows your best work converts better than any marketing copy. What to include:
+- Before and after shots of the same room or exterior wall
+- Close-up shots of trim work, edges, and color transitions
+- Wide shots showing the full transformed space
+- Photos taken in different lighting conditions to show color accuracy
+
+If you don't have a portfolio yet, do one or two jobs at a reduced rate in exchange for extensive photo rights. Those photos will earn back many times their cost.
+
+## Address the "will they show up on time" concern directly
+
+The #1 complaint in painting reviews is reliability — late start times, extended timelines, disappearing mid-project. This is so common that homeowners assume it until proven otherwise.
+
+Address it specifically on your website:
+- "We start on the agreed date — no rescheduling after you book"
+- "Daily project updates — you know exactly where we are"
+- "All work is completed before we invoice"
+
+These aren't differentiators in most industries. In painting they are, because the standard is so low. Making these commitments clearly and prominently converts skeptical homeowners.
+
+## Be specific about your prep process
+
+Experienced homeowners know that bad paint jobs come from skipped prep. Talk about your prep process on your services page:
+- Patching and sanding before painting
+- How you protect floors, furniture, and trim
+- Whether you prime before top coat and when
+- Number of coats applied
+- Cleanup at the end of each workday
+
+A painting contractor who explains their prep process in detail signals quality and care. Most don't — which makes it an immediate differentiator.
+
+## Transparent pricing or a clear quoting process
+
+Painting is notoriously quote-dependent because room sizes, surface conditions, ceiling heights, and paint quality all affect price. You don't need to publish exact prices, but you should have a clear path to a quote:
+- "Request a free estimate — we respond within 24 hours with a detailed quote"
+- Tell them what information to have ready (approximate square footage, number of rooms, story height)
+- Explain what the in-person walk-through involves if you require one
+
+Homeowners who know what to expect from the quoting process are more likely to submit an inquiry.
+
+## Service area and exterior-specific pages
+
+Exterior painting is seasonal and hyper-local. A page titled "Exterior Painting in Overland Park" targets that specific search and signals that you know the area — local weather patterns, common house styles, neighborhood HOA requirements.
+
+Create service area pages for every city you regularly work in. These don't need to be long. A few paragraphs, a photo of a local project, and a clear call-to-action is enough.
+
+**Want to see what a painting contractor site could look like for your business?** [Get a free mockup](/contact) — I build simple, portfolio-forward websites for KC-area painting contractors.
+    `,
+  },
+  {
+    slug: "website-tips-for-handyman-services",
+    title: "Website Tips for Handymen and Home Repair Services",
+    description: "Homeowners searching for a handyman are looking for trust, range of skills, and availability. Here's what your handyman website needs to generate steady local leads.",
+    date: "2026-04-18",
+    readTime: "5 min",
+    tags: ["Web Design", "Handyman", "Small Business", "Home Services", "Local Business"],
+    content: `
+Handyman work is one of the most common local service searches, and one of the hardest to win online because the field is saturated with Angi and Thumbtack listings that push independent operators off the first page. A well-built website changes that.
+
+## List every service explicitly
+
+The most common handyman website mistake: listing "drywall, plumbing, electrical, carpentry" with no detail. Homeowners don't search "handyman services Kansas City" — they search "drywall patch repair Leawood" or "door won't close properly fix" or "garbage disposal installation cost."
+
+Build individual service pages or at minimum very detailed sections for:
+- Drywall patching and texture matching
+- Door and window repair (sticking doors, broken locks, weatherstripping)
+- Ceiling fan and light fixture installation
+- Bathroom fixture repair and replacement
+- Deck repair and staining
+- Fence repair
+- Small tile repair and grout replacement
+- Caulking and weatherization
+- TV mounting and media installations
+- Gutter cleaning and minor gutter repair
+
+The longer and more specific your service list, the more searches you can appear in.
+
+## Address the licensing question honestly
+
+Handymen occupy a gray area in licensing requirements. In Missouri and Kansas, general handyman work under a certain dollar threshold doesn't require a contractor's license — but some work (electrical, plumbing) does. Address this directly on your site:
+- What you're licensed for, if applicable
+- What types of work you refer out to licensed contractors
+- That you carry liability insurance for all work
+
+Homeowners who've had bad handyman experiences are hyper-aware of licensing. Being upfront about what you do and don't do — and being insured — builds trust that vague marketing language doesn't.
+
+## The value of an hourly rate vs. project quotes
+
+Many small handyman operations work hourly for flexibility on small jobs. This is fine — but be clear about it on your website:
+- State your hourly rate or hourly rate range
+- Explain your minimum (1-hour minimum is standard)
+- Note when you switch to project quotes (jobs over X hours)
+
+Homeowners who know what they're paying before they call are more likely to commit to the call. Hidden pricing creates friction and suspicion.
+
+## Build with availability in mind
+
+The #1 frustration homeowners have with handymen is not getting called back or not being available when they need them. Your website should address this:
+- "I respond to all inquiries within a few hours"
+- "Typically available within 1 week — faster for urgent repairs"
+- A simple contact form that makes it easy to describe the job
+
+If you have a booking system or calendar, even better — some homeowners will book online rather than call.
+
+## A few strong reviews go a long way
+
+Handyman work lives and dies on word of mouth. Online reviews are digital word of mouth. Five specific, detailed Google reviews — each mentioning the type of job, the quality, and the professionalism — are worth more than any other marketing investment.
+
+Ask for a review after every job. Make it easy: "Mind leaving a quick Google review? Here's the direct link." A handyman with 25 five-star reviews on Google shows up ahead of larger companies with fewer.
+
+**Want to see what a handyman website could look like for your business?** [Get a free mockup](/contact) — affordable sites for KC-area home service professionals.
+    `,
+  },
+  {
+    slug: "how-to-add-google-reviews-to-your-website",
+    title: "How to Add Google Reviews to Your Small Business Website",
+    description: "Google reviews on your website build trust and convert more visitors. Here are the three best ways to display them — from simple copy-paste to automated widgets.",
+    date: "2026-04-18",
+    readTime: "5 min",
+    tags: ["Web Design", "Google", "Reviews", "Small Business", "Conversion"],
+    content: `
+Google reviews are the single most powerful trust signal for a small business website. A homeowner who's never heard of you will read three or four of your Google reviews and make a decision in 30 seconds. Displaying those reviews on your own website — not just hoping people check Google — puts them in front of every visitor.
+
+Here are the three main ways to do it.
+
+## Option 1: Manual copy-paste (free, simple, works anywhere)
+
+The simplest approach: copy your best Google reviews and paste them directly into your website as testimonials.
+
+How to do it:
+1. Go to your Google Business Profile and find your reviews
+2. Copy the review text, reviewer's name, and star rating
+3. Add these to a testimonials section on your homepage or a dedicated "Reviews" page
+
+What you lose: The reviews won't update automatically when new ones come in. You'll update them manually every few months.
+
+What you gain: Total control over which reviews are displayed, how they're formatted, and where they appear. You can highlight reviews that mention specific services, address specific concerns, or include the reviewer's neighborhood.
+
+This is the right choice for most small business websites that don't change their codebase regularly and want something that just works.
+
+## Option 2: Elfsight Google Reviews Widget (easiest automated option)
+
+Elfsight is a third-party widget service that connects to your Google Business Profile and displays reviews automatically. When a new review comes in, it appears on your website.
+
+Setup:
+1. Go to elfsight.com and sign up (free plan available)
+2. Connect your Google Business Profile
+3. Customize the widget appearance (carousel, grid, list — choose what fits your site)
+4. Copy the embed code and paste it into your website's HTML
+
+Cost: Free plan shows up to 5 reviews with Elfsight branding. The paid plan ($5–$15/month depending on the tier) removes branding and shows all reviews. For most small businesses, the free plan is sufficient to start.
+
+The limitation: the widget is hosted by Elfsight, which means it adds a small external request to your page load. If page speed is a priority (which it should be), test it after adding.
+
+## Option 3: Google Places API (developer approach)
+
+If you have access to a developer — or if your website is custom-built — the Google Places API lets you pull reviews directly from Google and display them however you want.
+
+The process:
+1. Enable the Google Places API in the Google Cloud Console
+2. Get your Place ID (search "find my place ID" in Google)
+3. Make an API call with your Place ID to fetch reviews
+4. Display them in whatever format you want on your site
+
+Cost: Google charges per API call, but at low volume (a small business website), you'll stay within the free tier ($200 in monthly credits, which covers thousands of requests).
+
+The advantage: complete control over design, no third-party dependency, no branding. The disadvantage: requires technical implementation.
+
+## Which option is right for you?
+
+- **No technical resources, want something this week**: Option 1 (manual paste)
+- **Want automatic updates, willing to pay $5–15/month**: Option 2 (Elfsight)
+- **Custom website with a developer**: Option 3 (Places API)
+
+## What your reviews section should look like
+
+Regardless of which method you choose, a good reviews section includes:
+- At least 4 reviews displayed (fewer looks like you're hiding something)
+- Reviewer name and star rating for each
+- Review text that mentions the specific service or situation
+- A link to "See all reviews on Google" so visitors can verify
+
+The reviews section belongs on your homepage, above the fold on mobile if possible. Don't make visitors scroll to find it — social proof works best when it's visible early.
+
+**Need help adding reviews to your website?** [Reach out here](/contact) — I can add a reviews section to any existing site or build one into a new site from the start.
+    `,
+  },
+  {
+    slug: "website-tips-for-moving-companies",
+    title: "Website Tips for Moving Companies: Convert Estimate Requests in a High-Anxiety Market",
+    description: "Moving company customers are anxious, comparison shopping aggressively, and making quick decisions. Here's what your moving company website needs to win those searches.",
+    date: "2026-04-18",
+    readTime: "6 min",
+    tags: ["Web Design", "Moving", "Small Business", "Home Services", "Local Business"],
+    content: `
+Moving is one of the highest-anxiety service purchases a person makes. Customers are trusting strangers with everything they own. They're comparison shopping aggressively across multiple sites. And they decide fast — usually within 2-3 weeks of move date. Your website needs to earn trust immediately and make getting an estimate as easy as possible.
+
+## Address the "will my stuff be safe?" concern upfront
+
+The fear driving every moving customer isn't "will this be done on time" — it's "are my belongings going to arrive intact?" Your website should address this in the first section:
+
+- **Insurance information front and center**: "All moves covered by $X released value protection — full replacement value coverage available"
+- **How you handle fragile items**: "We wrap furniture and box fragile items — no exceptions"
+- **What your claims process looks like** if something does break
+
+Moving companies that address the damage concern directly and honestly convert significantly better than ones that pretend the concern doesn't exist. Customers aren't naive — they know damage happens. What they want to know is that you have a clear process for handling it.
+
+## Make the estimate form the most prominent thing on the page
+
+The instant conversion for moving is not a sale — it's an estimate. Make the estimate request form:
+- Available directly on the homepage (not just on a "Contact" page)
+- Short: move date, from address (city/ZIP), to address (city/ZIP), rough home size (studio/1br/2br/etc.), contact info
+- Promise a specific follow-up time: "We'll send your quote within 2 hours"
+
+Customers who fill out an estimate form are telling you they're serious. Friction in the form — too many fields, unclear labels, no confirmation — loses those leads after they've already decided to reach out.
+
+## Build out local and route pages
+
+Moving customers search specifically:
+- "Moving company Kansas City to Chicago"
+- "Local movers Overland Park"
+- "Apartment movers Midtown KC"
+
+Individual pages for your most common routes and service areas capture these searches:
+- Local KC metro page
+- Common long-distance routes (KC to St. Louis, KC to Dallas, KC to Denver)
+- Apartment-specific moving page (different equipment, elevator logistics, parking considerations)
+- Commercial and office moving page if you offer it
+
+A moving company that shows up for the exact search "movers Kansas City to Chicago" closes that customer at a much higher rate than one that shows up for the generic "moving company" search.
+
+## Pricing transparency vs. "call for a quote"
+
+Most moving companies default to "call for a quote" and lose customers to competitors who show any pricing structure at all. You don't need to show an exact price — but showing a framework helps:
+
+- "Local moves start at $X for 2 movers and a truck for 2 hours"
+- "Long-distance moves are priced by weight and distance — typical 2BR moves to Chicago run $X–$X"
+- "Final pricing always confirmed before move day — no surprise charges on delivery"
+
+Even a rough range with a clear commitment to no surprise charges builds more trust than "too many variables to quote online." It's the honest framing that converts.
+
+## Reviews that speak to the specific anxiety
+
+Not all moving reviews are equal. The ones that convert:
+- Mention that items arrived without damage
+- Mention that the movers were careful and professional (not cavalier about handling things)
+- Mention the timeliness and that the quote matched the final price
+- Mention apartment or elevator moves specifically if you handle those
+
+Display 4-5 reviews on your homepage selected for these qualities. A customer about to trust movers with their grandmother's furniture needs to see that someone in a similar situation had a good experience.
+
+**Want to see what a moving company site could look like for your business?** [Get a free mockup](/contact) — I build local service websites that earn trust and drive estimate requests.
+    `,
+  },
+  {
+    slug: "google-maps-ranking-local-business",
+    title: "How to Rank Higher on Google Maps for Your Local Business",
+    description: "Google Maps is where most local customers find businesses. Here's exactly what moves the needle — from profile completeness to review strategy to citations.",
+    date: "2026-04-19",
+    readTime: "7 min",
+    tags: ["Local SEO", "Google Business Profile", "Small Business", "Kansas City"],
+    content: `
+Most small business owners think a website is the only thing that affects their Google visibility. But for local searches — "plumber near me," "best pizza in Overland Park," "KC HVAC company" — Google Maps results appear above everything else. The business that ranks in the top 3 of the Maps pack gets 75% of the clicks. Below that, almost nothing.
+
+Here's what actually affects your Maps ranking and what you can do about it.
+
+## Complete your Google Business Profile properly
+
+Half of businesses on Google Maps have incomplete profiles. That alone is why they're buried. Google uses every piece of information you provide to decide whether your business is relevant, trustworthy, and worthy of a top ranking.
+
+The fields that matter most:
+- **Business name** — use your exact legal business name, not a keyword-stuffed version. "KC HVAC Repair Company" as your business name violates Google's guidelines and can get your listing suspended.
+- **Primary category** — this is the most important field. Don't pick "Contractor" if you're a plumber. Pick "Plumber" specifically. The primary category drives what searches you appear for.
+- **Service area** — if you serve customers at their location (plumbers, electricians, landscapers), set your service area to your metro radius. Don't leave it as just your address.
+- **Business hours** — Google shows "closed now" prominently. Customers skip closed businesses. Keep your hours accurate and updated for holidays.
+- **Photos** — Google's own data shows that businesses with 100+ photos get 520% more calls than businesses with no photos. Add photos of your work, your team, your equipment. Add more every month.
+- **Services list** — Google lets you list specific services. Use this. "Furnace repair," "AC installation," "heat pump service" are all separate entries that increase your relevance for those specific searches.
+
+## Reviews are the ranking factor you can control most
+
+Google's local algorithm weights three factors: relevance, distance, and prominence. You can't change your location. Relevance comes from your profile completeness. Prominence is largely built by reviews.
+
+What actually helps your ranking:
+- **Quantity** — more reviews signal that more people chose your business. 50 reviews outranks 10 reviews from a similar business.
+- **Recency** — recent reviews matter more than old ones. A business with 100 reviews all from 2019 ranks below a business with 40 reviews from the past 6 months.
+- **Response rate** — responding to every review (positive and negative) signals active management. Google rewards it.
+- **Keywords in reviews** — when customers naturally mention your service type and location in a review ("his plumbing service fixed my leak in KC same day"), it's a local SEO signal. You can't ask customers to include keywords, but asking specific questions after a job often elicits specific answers.
+
+The highest-leverage thing most local businesses can do: set up a review request text message that goes out 2 hours after a job is complete. A brief "Thanks for having us out today — if we did a good job, it would mean a lot if you left us a Google review" with a direct link gets a 20-40% conversion rate on satisfied customers.
+
+## Citations and consistency
+
+A citation is any mention of your business name, address, and phone number (NAP) on the web. Google cross-references your NAP information across Yelp, Facebook, Angi, Better Business Bureau, Bing, Apple Maps, and dozens of other directories. If your name appears as "Mike's Plumbing LLC" on Google but "Mike's Plumbing" on Yelp and "Mike's Plumbing & Drain" on Angi, those inconsistencies reduce Google's confidence in your listing.
+
+Action items:
+1. Audit your top 5 citation sources: Yelp, Facebook, Bing Places, Apple Maps, Angi
+2. Make your NAP identical across all of them
+3. Submit your business to any you're missing (Bing Places and Apple Maps are free, take 5 minutes each, and are often completely blank for local businesses)
+
+## Your website still matters — even for Maps
+
+Google uses your website as a credibility signal for your Maps listing. A business with no website, or a website that loads slowly and has no local content, ranks below a comparable business with a real website.
+
+Your website should include:
+- Your city and neighborhood names in natural language throughout the site
+- A page for each service you offer
+- Your address and phone number in the footer of every page (matching your Google profile exactly)
+- Structured data markup (LocalBusiness schema) that tells Google your business type, location, and hours in a machine-readable format
+
+None of this is complicated. A well-built local business website deployed in a week can move your Maps ranking meaningfully within 30–60 days.
+
+**Want to know specifically what's holding your local rankings back?** [Reach out](/contact) — I'll take a look at your current profile and website and tell you exactly what to fix.
+    `,
+  },
+  {
+    slug: "how-to-get-more-5-star-reviews",
+    title: "How to Get More 5-Star Google Reviews for Your Local Business",
+    description: "Reviews are the single highest-leverage thing most local businesses can improve. Here's a practical system for getting more of them without being pushy.",
+    date: "2026-04-19",
+    readTime: "6 min",
+    tags: ["Local SEO", "Small Business", "Google Business Profile", "Reviews"],
+    content: `
+Most business owners know they need more Google reviews. Most of them are also terrible at actually getting them. They mean to ask, forget in the moment, feel awkward about it, and end up with 12 reviews despite having served 400 satisfied customers.
+
+Here's a system that works without feeling pushy or requiring you to remember to ask every time.
+
+## Why reviews matter beyond reputation
+
+Google reviews are a local ranking factor. More reviews — especially recent reviews — directly lift your position in Google Maps results. A plumber with 80 reviews appears above a plumber with 15 reviews all else being equal. Every review you're not getting is a ranking point you're leaving on the table.
+
+Beyond SEO, the conversion impact is significant: businesses with 50+ reviews see 2-3x higher click-through rates from Maps than businesses with under 10 reviews. The reviews aren't just for credibility — they're for visibility.
+
+## The text message system (most effective for service businesses)
+
+For any business where you complete a job and then leave — plumbers, electricians, cleaners, movers, HVAC technicians — a follow-up text message is the highest-converting review request channel.
+
+The formula:
+1. Job completes
+2. 2–4 hours later (not immediately, not the next day), send a text:
+
+> "Hi [Name], thanks for having us out today. If we did a good job for you, it would mean a lot if you took 30 seconds to leave us a Google review — we're a small local business and it really does help. [direct link]"
+
+That's it. No automation required if you send it manually. Or set up a simple Zapier automation that triggers when you mark a job complete in your scheduling software.
+
+The direct link matters. Telling someone to "search for us on Google and leave a review" loses 80% of people. The link takes them directly to the review box.
+
+**To get your direct review link**: Search your business on Google, click "Write a review," and copy the URL from your browser. Share it and it goes straight to the review dialog.
+
+## The right moment to ask in person
+
+If you interact with customers face-to-face, the best moment to ask is right after they express satisfaction. Not at the end of the job mechanically — when they say something like "this looks great, you guys did a really good job."
+
+That's your opening:
+> "Thanks so much — we're a small local company and Google reviews really help us out. If you have 30 seconds, we'd really appreciate it."
+
+Then hand them a small card with the QR code for your review link. Print 50 cards from Canva for $15. The card takes away the friction of finding you.
+
+## Handling negative reviews without making things worse
+
+Every business gets negative reviews eventually. How you respond matters as much as the review itself for both SEO and conversion:
+
+1. **Respond within 24 hours** — slow responses signal you don't care
+2. **Acknowledge the specific complaint** — don't copy-paste a generic response
+3. **Take responsibility without admitting legal fault** — "I'm sorry this wasn't the experience we aim for" is fine
+4. **Move to private** — "Please call me directly at [number] so we can make this right"
+5. **Never argue** — even if the reviewer is wrong, the audience reading the exchange is potential customers
+
+A well-handled negative review can actually build trust — it shows you're responsive and accountable. A business with 50 five-star reviews and no response to a single negative one looks suspicious.
+
+## How many reviews do you actually need?
+
+For most local service businesses in a mid-size city like Kansas City:
+- **Under 15 reviews**: You're essentially invisible to reviews as a trust signal
+- **15–40 reviews**: You show up but lose to competitors with more
+- **40–80 reviews**: You're competitive for most searches in your category
+- **80+ reviews**: You start outranking most local competitors on prominence alone
+
+If you're at zero, the first 20 reviews matter most. Ask your 20 best customers personally — an email or text that says "I've been working with you for years and I'd love a review if you have a moment" gets a much higher response rate than automated requests.
+
+**If you're building a website alongside building your review presence**, a site that displays your Google reviews prominently (with a widget or screenshot) turns that social proof into direct conversions, not just search visibility. [Let me know](/contact) if you want help with either.
+    `,
+  },
+  {
+    slug: "wix-squarespace-website-not-ranking",
+    title: "Why Your Wix or Squarespace Website Isn't Ranking on Google",
+    description: "DIY website builders are fast to set up but often slow to rank. Here's what's actually holding your Wix or Squarespace site back — and what to do about it.",
+    date: "2026-04-19",
+    readTime: "7 min",
+    tags: ["SEO", "Small Business", "Web Design", "Local SEO"],
+    content: `
+A lot of business owners build a Wix or Squarespace website, spend a weekend getting it looking exactly right, and then wait for the customers to roll in. Six months later, nothing. Type their business name into Google and they barely show up. Type the service they offer and they're on page 4.
+
+This isn't a random bad luck situation. There are specific, predictable reasons DIY website builder sites underperform in search — and most of them have solutions.
+
+## Page speed is often the first problem
+
+Google has been public about this for years: page speed is a ranking factor. Fast pages rank better. Slow pages rank worse. Wix and Squarespace sites tend to load slowly because:
+
+1. They load their entire platform framework for every page (code you don't need)
+2. They include design templates with lots of large images, animations, and video backgrounds
+3. They don't compress images automatically in many cases
+4. They serve content from distant servers for some users
+
+You can check your speed at PageSpeed Insights (Google's own tool). A score under 50 on mobile is a serious ranking problem. Many default Wix sites come in around 30–45.
+
+The fix on a builder: strip animations, remove video backgrounds, compress every image before uploading (use Squoosh or TinyPNG), and eliminate template sections you're not using.
+
+## The URL structure often works against you
+
+Squarespace URLs default to something like "yourbusiness.com/about-1" or use long hashes. Wix used to generate URLs like "yourbusiness.com/home#comp-abc123def456".
+
+Google reads your URL as a signal of what the page is about. A URL like "yourbusiness.com/plumbing-services-kansas-city" ranks better for "plumbing services Kansas City" than "yourbusiness.com/services-1".
+
+Both platforms let you customize URLs — but many people don't. Audit your page URLs and make them descriptive and keyword-relevant.
+
+## No blog = no long-tail keyword opportunity
+
+Wix and Squarespace both offer blog functionality, but most business owners either don't use it or post inconsistently. A website with only 5 pages (home, about, services, gallery, contact) has 5 chances to rank on Google. A website with 5 core pages and 40 blog posts has 45 chances.
+
+Each blog post can target a different search: "how to tell if your furnace needs replacing," "best time to plant grass in Kansas City," "what to expect during a dental implant procedure." These searches bring exactly the right people to your site — people actively looking for what you offer.
+
+This is the biggest missed opportunity for most DIY websites. The platform supports the blog. The business just doesn't use it.
+
+## Local SEO is often completely absent
+
+For businesses serving a local area, keyword research isn't enough — location matters. Google needs signals that you serve a specific area.
+
+What's typically missing from DIY sites:
+- No city and neighborhood names in page content ("serving Overland Park, Lee's Summit, Blue Springs, and the KC metro area")
+- No location-specific pages for service areas
+- No structured data markup (LocalBusiness schema) that tells Google in machine-readable terms who you are and where you operate
+- No footer with full business address matching Google Business Profile exactly
+
+These aren't optional extras — they're the core of local SEO, and most website builders don't walk you through them.
+
+## The honest comparison: builder vs. custom
+
+Wix and Squarespace are legitimate tools for the right use case. If you need a simple online presence, are comfortable maintaining it yourself, and aren't depending on search traffic to drive your business, they're reasonable.
+
+But if your goal is Google search visibility — especially local search visibility for your service area — the limitations are real:
+- Slower load times than hand-built or framework-based sites
+- Less control over technical SEO elements
+- Template designs not optimized for conversion
+- Limited local SEO infrastructure out of the box
+
+A custom-built site with clean code, fast loading, local SEO structure built in from the start, and a blog you'll actually use will outperform a builder site within 90 days in most local markets.
+
+**Thinking about making the switch?** [Let's talk](/contact) — I'll take a look at your current site and tell you specifically what it would take to start ranking.
+    `,
+  },
+  {
+    slug: "small-business-website-cost-kansas-city",
+    title: "How Much Does a Small Business Website Cost in Kansas City? (2026 Breakdown)",
+    description: "Honest pricing breakdown for small business websites in Kansas City. From DIY builders to freelancers to agencies — what you actually get at each price point and what to watch out for.",
+    date: "2026-04-20",
+    readTime: "6 min",
+    tags: ["Web Design", "Pricing", "Small Business", "Kansas City"],
+    content: `
+If you've been trying to figure out what a small business website should cost in Kansas City, you've probably gotten wildly different numbers from different sources. Here's an honest breakdown of what you actually get at each price point.
+
+## The Short Answer
+
+A professionally built small business website in Kansas City ranges from **$200 to $5,000+**, depending on complexity, who builds it, and what's included. Most local service businesses need something in the **$300–1,000** range.
+
+Here's what drives the price — and how to figure out which tier makes sense for you.
+
+## What You're Actually Buying (It's Not Just a Website)
+
+Before getting into numbers, it helps to understand what you're paying for:
+
+- **Design** — how it looks, how it communicates your brand
+- **Development** — code quality, page speed, mobile responsiveness
+- **Content** — copy that converts visitors into customers
+- **SEO structure** — whether Google can find and rank you
+- **Hosting and maintenance** — keeping it live, fast, and secure
+
+Cheap options cut corners on some or all of these. Premium options include more of them.
+
+## Price Tier Breakdown
+
+### DIY Website Builders: $0–50/month
+
+Wix, Squarespace, and similar platforms let you build something yourself for low cost. What you're trading:
+
+- **Time** — setting up even a simple site takes 10–20 hours for a non-designer
+- **Speed** — builder sites consistently score 30–50 on Google PageSpeed, which hurts local rankings
+- **SEO** — URL structures, schema markup, and local SEO are difficult to configure correctly on builders
+- **Maintenance** — you're on your own for updates, security, and changes
+
+Best for: freelancers or businesses where the website is a nice-to-have, not a growth tool.
+
+### Template Freelancers (Fiverr, Upwork): $100–500
+
+These are usually pre-made templates with your name, logo, and colors swapped in. What you get:
+
+- Fast turnaround (sometimes too fast — quality suffers)
+- A generic look shared by hundreds of other sites
+- Little to no SEO setup
+- No custom copywriting
+- Minimal revisions, no ongoing support
+
+Some of these are decent for a basic online presence. Most won't rank in local search without significant additional work.
+
+### Local Freelancers (like BuiltSimple): $200–1,100
+
+This is where you start getting a site that actually works as a marketing tool:
+
+- Custom design built around your specific business
+- Copy written to convert visitors, not just inform them
+- Local SEO structure built in from the start
+- Mobile-first and fast
+- Built with a real framework (Next.js, etc.) that scores well on Core Web Vitals
+- Ongoing relationship — you can ask for changes
+
+For most local service businesses in Kansas City, this is the sweet spot. You get a professional site that ranks and converts without paying agency prices.
+
+What determines where in the range you land:
+
+- **$200–350**: Single-page or simple 3–4 page site (barber, solo therapist, handyman)
+- **$400–700**: Multi-page site with service pages, contact form, and blog setup (contractor, dentist, salon)
+- **750–1,100**: Full build with multiple specialty pages, booking integration, and content strategy (medical practice, PT clinic, law firm)
+
+### Local/Regional Web Agencies: $2,000–10,000+
+
+Agencies bring more team members, more process, and more overhead. The sites can be excellent — but the economics only make sense if:
+
+- You have a large site (50+ pages)
+- You need complex functionality (custom booking systems, e-commerce, membership portals)
+- You have a dedicated marketing budget to support the site
+
+For most local small businesses, you're paying for overhead that doesn't improve the final product.
+
+## The Real Question: What's the Return?
+
+A $600 website that brings in 3 new clients a month pays for itself in 60–90 days, then generates value indefinitely. A $0 website that doesn't rank or convert generates $0 indefinitely.
+
+The cost question isn't really "how little can I spend" — it's "what will actually produce results for my business."
+
+## What to Ask Before Hiring Anyone
+
+1. Do you write the copy, or do I provide it?
+2. What's your process for local SEO setup?
+3. What does the site look like on mobile?
+4. What's included after launch — revisions, updates, hosting?
+5. Can I see examples of sites you've built for businesses similar to mine?
+
+**Want a straight answer on what your specific site would cost?** [Contact me](/contact) — I'll give you an honest number with no runaround.
+    `,
+  },
+  {
+    slug: "why-facebook-page-not-enough-local-business",
+    title: "Why a Facebook Page Isn't Enough for Your Local Business (And What to Do Instead)",
+    description: "A Facebook page feels like a website but it isn't. Here's what your business is missing without a real site — and why it matters more than ever in 2026.",
+    date: "2026-04-20",
+    readTime: "5 min",
+    tags: ["Web Design", "Social Media", "Local Business", "SEO", "Small Business"],
+    content: `
+A lot of local business owners have this covered:
+
+- Facebook page with hundreds of likes
+- Google Business Profile with good reviews
+- Maybe an Instagram account
+
+And then wonder why the phone doesn't ring as much as they'd like. The answer is usually the same: **Facebook is not a website, and Google treats them completely differently.**
+
+## What Facebook Does Well
+
+To be fair, a Facebook page does some things a website can't:
+
+- Social proof through likes, shares, and comments
+- Paid advertising to targeted audiences
+- Event creation and community building
+- Easy updates that don't require a developer
+
+These are real advantages. Nobody's saying to delete your Facebook page.
+
+## What Facebook Can't Do
+
+Here's what a Facebook page does NOT do:
+
+### Rank in Google Search
+
+When someone searches "plumber in Overland Park" or "best pizza near me," Google shows websites in the organic results — not Facebook pages. Your Facebook page might show up in a branded search for your exact business name, but it will almost never rank for the service searches that bring in new customers.
+
+### Tell Google What You Do and Where You Do It
+
+Local SEO depends on structured data, content, and signals that search engines can read and trust. A website can be built specifically to tell Google: "this is a family dentist serving Kansas City, and here's proof." Facebook tells Google: "this is a Facebook profile."
+
+### Convert Visitors Into Customers
+
+A Facebook page makes it easy to scroll, react, and move on. A website built around a specific goal — book an appointment, request a quote, call now — converts that attention into action. The structure, the call to action, and the journey all work together.
+
+### Build Credibility With Skeptical Buyers
+
+For high-consideration purchases (legal services, medical care, home renovation, financial advice), buyers spend 10–20 minutes researching before contacting anyone. A website shows expertise, credentials, testimonials, and process. A Facebook page shows posts. The credibility gap is real.
+
+### Own Your Audience
+
+Facebook can change its algorithm, reduce organic reach, or suspend your account with limited recourse. This has happened to thousands of small businesses. A website and an email list are assets you own. A Facebook page is rented land.
+
+## The Pattern I See Most Often
+
+Business owners run on Facebook for 2–3 years and build a following. Then the algorithm changes, reach drops, and suddenly the phone stops ringing as much. They've built their marketing on something they don't control.
+
+The businesses that stay consistent are the ones that own a website — and use social media to drive traffic back to it.
+
+## What "Enough" Actually Looks Like
+
+For most local businesses, the combination that works is:
+
+1. **A website** — your home base, built to rank and convert
+2. **A Google Business Profile** — optimized and full of reviews
+3. **Facebook/Instagram** — supplemental, for engagement and paid ads
+
+The website is the anchor. Everything else points back to it.
+
+## Getting Started Doesn't Have to Be Complicated
+
+A site for a local service business doesn't need to be complex. It needs to answer the questions buyers are asking, show up in local search, and make it easy to take the next step.
+
+**Ready to get off rented land?** [Talk to me about what your site would look like](/contact) — I'll show you a mockup of your specific business before you spend a dollar.
+    `,
+  },
+  {
+    slug: "what-to-put-on-your-small-business-website",
+    title: "What to Put on Your Small Business Website (And What to Leave Out)",
+    description: "Most small business websites have too much of the wrong stuff and not enough of what buyers actually need. Here's exactly what to include — and what to cut.",
+    date: "2026-04-21",
+    readTime: "6 min",
+    tags: ["Web Design", "Copywriting", "Small Business", "Conversion"],
+    content: `
+The most common problem with small business websites isn't design — it's content. Too much background on the founder's journey, not enough on what you actually do. Too many stock photos, not enough specifics. A contact form buried three pages deep, instead of on the homepage.
+
+Here's what actually belongs on a small business website, and what you can safely cut.
+
+## What Every Page Needs Above the Fold
+
+"Above the fold" means what visitors see without scrolling. You have roughly 5 seconds to answer the question: "Is this what I'm looking for?"
+
+Every page should immediately communicate:
+- **What you do** (specifically, not generically)
+- **Who you serve** (the customer, not just the service)
+- **Where you are** (critical for local businesses)
+- **What to do next** (one clear action)
+
+Bad example: "We are a full-service provider of comprehensive solutions for your needs."
+
+Good example: "Licensed electrician serving Johnson County. Residential service and panel upgrades. Call for a same-day quote."
+
+## The Pages You Actually Need
+
+For most local service businesses, five pages covers it:
+
+**Homepage** — Who you are, what you do, who you serve, and why choose you. One clear call to action.
+
+**Services** — What specifically you offer, broken out clearly. This is where you address every service you want to rank for in Google.
+
+**About** — Who you are, your credentials, your experience. Buyers are choosing a person, not just a service.
+
+**Testimonials or reviews** — Real quotes with names, specific outcomes, and if possible, photos.
+
+**Contact** — Simple form, phone number, hours, service area. Ideally an embedded map.
+
+That's it. You don't need a news page, an FAQ page (unless there are genuinely common questions that affect the buying decision), or a resources section with PDFs nobody reads.
+
+## What Your Homepage Should Include
+
+The homepage is your best shot at a first impression. It should include:
+
+1. A headline that names the service and the location
+2. A short subheading that names the customer benefit
+3. A primary CTA button — "Get a Free Quote," "Book an Appointment," or "Call Now"
+4. A brief overview of your core services (3–5, not 15)
+5. Social proof — a review quote, number of years in business, or certifications
+6. A secondary CTA at the bottom for people who scrolled the whole page
+
+Avoid: stock photos of unrelated people shaking hands, generic mission statements, auto-playing video, a paragraph about company history before anything about what you do.
+
+## What Your Services Page Should Include
+
+This is the page that actually ranks in Google. It should:
+
+- Name every service explicitly (don't just say "HVAC services" — list "furnace repair," "AC installation," "heat pump maintenance")
+- Include 2–3 sentences on each service explaining what's involved
+- Address cost or pricing expectations (even a range builds trust)
+- Answer the question "why choose you for this specific service?"
+- End with a CTA specific to that service
+
+If you have 8+ services, consider separate pages for each major one. "Furnace repair Kansas City" is easier to rank for with a dedicated page than a section on a general services page.
+
+## What to Leave Out
+
+**Your company history before the value proposition.** Nobody reading your homepage at 10pm trying to find an emergency plumber cares that you were founded in 1987. Put credentials and experience in the About page.
+
+**Awards and associations nobody recognizes.** If it's not something your customers have heard of and trust, it's taking up space.
+
+**Long blocks of text with no headers.** Visitors scan. If they can't find what they need in 15 seconds of scanning, they leave.
+
+**Generic testimonials.** "Great service! Would recommend!" says nothing. "Fixed our burst pipe at 11pm on a Sunday in under two hours" says everything.
+
+**Pop-ups that fire immediately.** A pop-up asking for an email within 3 seconds of arriving on a page for the first time gets dismissed every time.
+
+## The One Question That Should Guide Every Decision
+
+For every element on your site, ask: "Does this help a buyer decide to contact me?"
+
+If yes, keep it. If no, cut it.
+
+The goal isn't a beautiful website or a comprehensive one. It's a website that converts the right visitors into real customers.
+
+**Want me to take a look at what you have now?** [Send me your current site](/contact) and I'll tell you specifically what to change.
+    `,
+  },
+  {
+    slug: "how-to-get-more-calls-from-google-local-business",
+    title: "How to Get More Calls from Google as a Local Business",
+    description: "The practical moves that actually move the needle on local Google search — Google Business Profile, reviews, on-page SEO, and the things most local businesses skip that cost them calls every week.",
+    date: "2026-04-22",
+    readTime: "6 min",
+    tags: ["Local SEO", "Google", "Small Business", "Marketing"],
+    content: `
+If you run a local service business — plumber, landscaper, cleaning company, whatever — Google is where most of your potential customers are going to find you. The question is whether they find you or your competitor.
+
+Here's what actually moves the needle, in order of impact.
+
+## 1. Your Google Business Profile Is Your Most Important Asset
+
+Before someone clicks through to your website, they see your Google Business Profile. It shows up in the map pack — those three listings with the map that appear at the top of local searches. Getting in that map pack is the highest-leverage thing you can do for local visibility.
+
+**Get the basics completely filled out:**
+- Business name exactly as it appears on your signage
+- Physical address (even if you're a service-area business, you need a verified address)
+- Phone number that matches what's on your website
+- Business hours, including holidays
+- Correct business category (pick the most specific one that applies)
+
+**Things most businesses skip:**
+- Services section — list every specific service. "Lawn mowing," "hedge trimming," "spring cleanup," not just "landscaping."
+- Products/services with photos and descriptions
+- Q&A section — answer the most common questions customers ask before you even
+- Attributes — "veteran-owned," "women-led," "free estimates," etc.
+
+**Posts:** Google lets you publish posts that show up in your profile. Most businesses never use this. Post once a week — a completed project, a seasonal promotion, a helpful tip — and you'll stand out from the 95% who don't.
+
+## 2. Reviews Are the Single Biggest Local Ranking Factor
+
+Google's algorithm weights reviews heavily. More reviews, higher average rating, and more recent reviews all improve your map pack position.
+
+**The most effective review strategy is embarrassingly simple:** Ask every satisfied customer directly. Not via email blast, not via a card — verbally, right after you complete the job.
+
+"Hey, I'd really appreciate it if you could leave us a Google review — it makes a big difference for a small business. I can text you the link right now if that's easier."
+
+That script works. Customers who are happy in the moment will write the review on the spot if you make it frictionless.
+
+**Reply to every review**, positive and negative. Responses to negative reviews in particular are read closely by prospective customers. A calm, professional response to a bad review does more for your credibility than ignoring it ever could.
+
+## 3. Your Website Still Matters for Google Rankings
+
+The Google Business Profile and the website work together. A strong website reinforces your local SEO.
+
+**The most important things to get right:**
+
+**Local landing pages.** If you serve multiple areas — say, Kansas City, Overland Park, and Lenexa — a page dedicated to each city ranks much better than one page that vaguely mentions the area. The page should name the city, describe your work there, and have a local phone number or address if possible.
+
+**Service pages.** One page per service, not a list of services on one page. "Furnace repair" as its own page with content about furnace repair in Kansas City will rank for that search. A single "Services" page that lists twelve things will rank for none of them.
+
+**N-A-P consistency.** Your Name, Address, and Phone number should be exactly the same everywhere — website footer, Google Business Profile, Yelp, Facebook, every directory listing. Inconsistency confuses Google and suppresses your rankings.
+
+## 4. Local Citations Still Matter
+
+A citation is any mention of your business name, address, and phone number on another site. Yelp, Angi, HomeAdvisor, BBB, local chamber of commerce — these all count.
+
+You don't need hundreds of them. You need the major ones:
+- Yelp
+- Angi (Angie's List)
+- BBB (Better Business Bureau)
+- Facebook Business Page
+- Apple Maps
+- Bing Places
+- Local chamber of commerce directory
+
+Claim each one and make sure the information matches exactly.
+
+## 5. What Most Local Businesses Actually Skip
+
+The thing that separates businesses that dominate local search from those that don't is usually not secret knowledge — it's consistency.
+
+Most businesses set up a Google Business Profile, get a few reviews, and then do nothing for months. The algorithm rewards active, maintained profiles.
+
+**The minimum viable local SEO routine:**
+- Post on Google Business Profile once a week
+- Ask for a review after every completed job
+- Add new photos monthly (job photos from that month are ideal)
+- Respond to reviews within 48 hours
+- Update your hours for holidays the week before
+
+That's it. Forty-five minutes a week, consistently, for six months will move you into the map pack for most local searches if your competitors aren't doing the same.
+
+## The Shortcut That Isn't
+
+A lot of local business owners want to know the trick — the one thing they can do that will immediately get them to the top of Google.
+
+There isn't one. But the honest version of that answer is: the moves above are not complicated, and most of your competitors are not doing them consistently. A business that does the basics reliably beats a business that does nothing and hopes.
+
+If you want to talk about what specifically is holding your local search rankings back, [get in touch](/contact) — I look at this stuff every day.
+    `,
+  },
+  {
+    slug: "website-vs-google-business-profile-which-do-you-need",
+    title: "Website vs. Google Business Profile: Do You Need Both?",
+    description: "A lot of local service businesses wonder if a Google Business Profile is enough and they can skip the website. Here's the honest answer — and when each one matters most.",
+    date: "2026-04-23",
+    readTime: "5 min",
+    tags: ["Local SEO", "Google", "Small Business", "Website"],
+    content: `
+If you run a local service business and someone told you that a Google Business Profile is all you need, you've been given advice that's half right.
+
+Here's the full picture.
+
+## What Google Business Profile Does Well
+
+A Google Business Profile (GBP) is free, it's controlled by Google, and it shows up prominently in local searches. For many service businesses, it drives the majority of calls.
+
+It lets you:
+- Show up in the map pack (the three listings with the map)
+- Get and display customer reviews
+- List your hours, phone number, and service area
+- Post photos and updates
+- Show up in Google Maps searches
+
+For a solo plumber or a one-person cleaning business just getting started, a well-optimized GBP can be enough to generate calls.
+
+## What a Google Business Profile Can't Do
+
+**It doesn't rank for most keyword searches.** The map pack shows up for "plumber near me" and "HVAC repair Kansas City" — but for anything more specific ("how much does it cost to replace a water heater in KC"), only websites rank. Content-driven traffic goes entirely to websites.
+
+**It doesn't build trust for high-consideration purchases.** If you're a remodeler, a financial advisor, an attorney, or anyone where the customer is making a several-hundred-dollar-minimum commitment, they will look for a real website before they call. No website is a credibility gap you can't paper over with a GBP alone.
+
+**It doesn't capture information.** You can't have a quote form, a booking flow, a pricing calculator, or an email capture on a GBP. Every interaction happens through a phone call or a message through the platform — both more friction than a web form.
+
+**You don't own it.** Google can suspend a GBP for any reason — or no reason. This happens, particularly in competitive categories like locksmiths and movers where fake listings create problems that get real businesses caught in the crossfire. If your entire lead source is a platform you don't control, you're one suspension away from no new business.
+
+**It doesn't sell your specific work.** You can post photos, but you can't have a before/after gallery, a detailed services page, a materials comparison, or a project portfolio the way a real website allows. For visual businesses — deck builders, interior designers, nail techs — this is a significant limitation.
+
+## The Honest Answer: You Need Both, But Not Equally
+
+**GBP is your most important local visibility tool.** For most service businesses, it drives more immediate calls than a website does, especially early on. It should be fully filled out, actively maintained, and review generation should be a consistent habit.
+
+**A website is your trust and conversion asset.** It's where someone goes after they find you on Google to decide if they're actually going to call. It also opens up SEO traffic that GBP can't capture — long-tail keyword searches, informational content, service-specific pages that rank for more specific searches.
+
+The businesses that dominate local search usually have both working together:
+- GBP drives the first impression
+- Website converts the consideration
+
+**The exception:** If you are a brand new business with no budget and need immediate traction, spend your first few months getting the GBP working and generating reviews. A mediocre website won't help you as much as those first 20 reviews and an optimized profile will. Once you have traction, build the website.
+
+**When to skip the website entirely:** Almost never, for a local service business. A basic, honest website built for $200–400 will pay for itself in the first month if your GBP is generating calls at all. The website handles the "is this a real business?" question before you ever pick up the phone.
+
+If you're not sure which gap to close first for your specific business, [send me a message](/contact) — I'll tell you what I actually think, not just what generates a website project.
+    `,
+  },
 ];
