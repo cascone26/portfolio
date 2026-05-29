@@ -82,7 +82,7 @@ Standards: RI.4.1, RI.4.2, RL.4.1, RL.4.2, W.4.9. Single classroom license.
 If you spend two weeks teaching the script and using this packet for daily warm-ups before the test, you'll see Part B accuracy go up. Not because the kids are smarter. Because they finally understand what the question is actually asking them to do.
 
 That's the difference between a kid who reads well and a kid who tests well. Both matter. Part A / Part B is where they intersect.
-\`,
+`,
   },
   {
     slug: "teaching-3rd-grade-elapsed-time-without-the-tick-mark-trap",
@@ -161,7 +161,7 @@ Standards: 3.MD.A.1, 3.MD.A.2, 3.OA.D.8. Single classroom license.
 The tick-mark trap isn't really about clocks. It's about whether a student understands what a unit is. Get that right in 3rd grade and you save the student months of confusion in 4th and 5th grade on fractions, decimals, and ratios. Get it wrong and every measurement chapter for the next three years feels like memorizing tricks.
 
 That's why this stuff matters more than it looks.
-\`,
+`,
   },
   {
     slug: "how-to-teach-perfect-tenses-to-5th-graders",
@@ -245,7 +245,7 @@ Standards: L.5.1, L.5.1.b, L.5.1.c, L.5.1.d, L.5.2.b. Single classroom license.
 You're not teaching the perfect tenses to make your students better writers. You're teaching them so they can decode the formal-grammar conventions on a test, and so they recognize the perfect tense when they meet it in published writing later. Those are real, useful goals. They're just not the same as "use the perfect tense in your own life," and pretending otherwise is what gets you the eye-rolls.
 
 Teach the time line. Drill the signal words. Be honest about when it matters. The eye-rolls go away.
-\`,
+`,
   },
   {
     slug: "3rd-grade-multiplication-word-problem-remainder-trap",
@@ -329,7 +329,7 @@ Standards: 3.OA.A.1, 3.OA.A.2, 3.OA.A.3, 3.OA.A.4, 3.OA.D.8. Single classroom li
 3rd grade is where students first learn that math problems are mostly about reading carefully. Get the careful-reading habit in place this year and the kid wins for the next decade. Skip it and they spend middle school making the same translation errors on more complicated arithmetic.
 
 The remainder question is the cleanest example. Drill it until "what happens to the leftover in the real world?" is automatic.
-\`,
+`,
   },
   {
     slug: "the-4-comma-rules-4th-graders-need-and-the-one-that-trips-everyone-up",
@@ -415,7 +415,7 @@ Standards: L.4.1, L.4.2, L.4.3. Single classroom license.
 Grammar tests at 4th grade are about pattern recognition more than rule mastery. Students who can see a sentence and immediately think "introductory phrase — comma" or "two independent clauses — conjunction" get the items right. Students who try to remember the rules from scratch every time slow down and miss.
 
 The four-rule cheat sheet here is the recognition framework that turns guessing into mechanical accuracy. Teach it, drill it, watch the scores go up.
-\`,
+`,
   },
   {
     slug: "why-5th-graders-struggle-with-fractions-on-a-number-line",
