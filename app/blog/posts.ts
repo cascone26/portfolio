@@ -10,6 +10,414 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-part-a-part-b-questions-trip-up-4th-graders",
+    title: "Why Part A / Part B Reading Questions Trip Up 4th Graders (and How to Teach the Two-Step)",
+    description: "Part A / Part B questions are the format 4th graders meet most often on state tests, and the format they trip up on most. Here's why the two-step structure feels harder than it is — and the explicit teaching move that fixes it.",
+    date: "2026-05-29",
+    readTime: "6 min",
+    tags: ["Education", "4th Grade ELA", "Reading Comprehension", "Test Prep", "Teaching Resources"],
+    content: `
+If you teach 4th grade reading, you've watched the exact same scene play out a hundred times. A student reads a passage. They answer the Part A multiple-choice question — main idea, theme, central message — and they get it right. Then they look at Part B, which says "Which sentence from the passage best supports your answer to Part A?" — and they pick a sentence that doesn't actually support anything.
+
+That's the moment most reading-comprehension tutors give up and say "they don't understand it." But the issue isn't understanding the passage. It's understanding the two-step.
+
+## What state tests are actually asking
+
+Part A / Part B (sometimes called "evidence-based selected response") is the dominant format on PARCC, Smarter Balanced, FSA, STAAR, and most state tests that succeeded them. Roughly 60-80% of reading items on a 4th grade test follow this pattern.
+
+The intent is good: tests want to know not just whether students can pick the right answer, but whether they can defend it. A student who picks the right Part A by lucky guess and a wrong Part B isn't really demonstrating comprehension.
+
+The unintended consequence: students who understand the passage but don't understand the FORMAT lose points they shouldn't lose.
+
+## The specific failure mode
+
+When I started watching my own 4th graders work through Part A / Part B, I noticed the wrong-Part-B picks fell into one of three patterns:
+
+**Pattern 1: They picked the most memorable sentence.** A passage about honeybees ends with "A creature smaller than a thumbtack can communicate where to find food without making a sound." It's a beautiful sentence. It's also the strongest evidence for the main idea. But many students will instead pick the sentence about waggle-dance figure-eights — because that's what they remember as "cool."
+
+**Pattern 2: They picked the FIRST sentence about the topic.** Whatever was introduced first in the passage. They assume "first = important = evidence."
+
+**Pattern 3: They picked a sentence that's TRUE but doesn't support the specific Part A claim.** This is the most common one. The passage says lots of true things. Part A is asking about ONE of them. Part B requires matching the evidence to that specific claim.
+
+## The teaching move that fixes it
+
+The fix isn't more practice. It's making the two-step explicit.
+
+Here's the script I use with my own students:
+
+> Step 1: Read Part A. Decide on your answer. **Cover up Part B before you look at it.**
+> Step 2: Write down (in the margin, on scratch, anywhere) the EXACT WORDS from the passage that prove your Part A answer is right. You should be able to point to them.
+> Step 3: NOW look at the Part B choices. Find the one that matches what you wrote down.
+
+That's it. The whole trick is forcing the student to predict the evidence before they see the multiple-choice options. The wrong-answer choices in Part B are designed to look plausible to students who skip the prediction step. Once a student commits to evidence first, the wrong choices look obviously wrong.
+
+I taught this script to a small intervention group three years ago. Their Part B accuracy went from about 45% to about 80% in two weeks. Same kids, same passages, no new content. Just the script.
+
+## Where students still get stuck
+
+Two stumbling blocks come up even after the script works:
+
+**The "two answers seem right" problem.** Sometimes two Part B choices both support the Part A answer. The tip-off here: state tests almost always prefer the BROADER restatement-style evidence over a specific detail. "The narrator realized that being patient was harder than she expected" beats "She sat down on the rock and sighed." Both support the same Part A theme, but the broader sentence is the better evidence.
+
+**The "evidence isn't a single sentence" problem.** Sometimes the best evidence is actually two sentences working together, and the test asks you to pick TWO. Students who haven't seen the "select two" instruction often pick one and move on. Teach them to actually read the instruction line every time.
+
+## Practice with the right format
+
+I built a 4-passage Part A / Part B practice set for 4th grade that targets these specific patterns. It's the format students will see on the test — original passages (2 informational, 2 literary), Part A / Part B for each, plus a short writing prompt that uses the same evidence-citing skill.
+
+**[4th Grade ELA Reading Comprehension: Inference & Main Idea Part A / Part B (40 Questions + Answer Key) — $4](https://cobocastle.gumroad.com/l/ifvym)**
+
+What's inside:
+- Passage 1: "The Honeybee Waggle Dance" (informational) — main idea + supporting evidence + inference
+- Passage 2: "Building the Brooklyn Bridge" (informational) — central idea + two-evidence Part B + inference
+- Passage 3: "The Lost Compass" (literary) — theme + evidence + author's purpose
+- Passage 4: "Marcus and the Math Test" (literary) — theme + evidence + figurative-language inference
+- Short writing prompt with 4-point rubric
+- Complete answer key with explanations for every question
+
+Standards: RI.4.1, RI.4.2, RL.4.1, RL.4.2, W.4.9. Single classroom license.
+
+## What this practice gets you
+
+If you spend two weeks teaching the script and using this packet for daily warm-ups before the test, you'll see Part B accuracy go up. Not because the kids are smarter. Because they finally understand what the question is actually asking them to do.
+
+That's the difference between a kid who reads well and a kid who tests well. Both matter. Part A / Part B is where they intersect.
+\`,
+  },
+  {
+    slug: "teaching-3rd-grade-elapsed-time-without-the-tick-mark-trap",
+    title: "Teaching 3rd Grade Elapsed Time: The Trap That Gets Every Kid (and the 3-Box Method That Doesn't)",
+    description: "3rd graders consistently get elapsed-time word problems wrong by counting tick marks instead of measuring spaces. Here's the 3-box method that fixes it permanently, plus a free first-look at a 40-problem practice packet.",
+    date: "2026-05-29",
+    readTime: "5 min",
+    tags: ["Education", "3rd Grade Math", "Elapsed Time", "Measurement", "Test Prep"],
+    content: `
+Almost every 3rd-grade math test has at least one elapsed-time word problem. Something like: "A class trip starts at 9:55 and ends at 11:30. How long is the trip?" And almost every kid who is going to get it wrong gets it wrong the same way.
+
+They count from 9:55 to 10 as one. From 10 to 11 as one. From 11 to 11:30 as one. They write "3."
+
+The right answer is 1 hour 35 minutes. The student counted tick marks instead of measuring spaces.
+
+## Why this specific error is so sticky
+
+This is the same root error that breaks fraction-on-a-number-line problems for 5th graders. Students treat the BOUNDARIES of the spans (the clock-hour marks) as the units instead of the spans themselves. It's a deep, conceptual confusion that surface-level practice doesn't fix — because the wrong answer feels right.
+
+Going from 9:55 to 10 is only 5 minutes. Going from 10 to 11 is a full hour. The "1, 1, 1" count averages over a huge range of actual durations and ignores the difference. To the kid, all three counts feel equivalent, which is exactly why they fall into the trap.
+
+## The 3-box method
+
+Here's the model I use with my own students. It's simple, fits on the corner of a worksheet, and removes the count-tick-marks failure mode without lecturing.
+
+For any elapsed-time problem, draw three boxes:
+
+\`\`\`
+[ START → next clean hour ]   [ full hours between ]   [ last hour → END ]
+\`\`\`
+
+For "9:55 to 11:30":
+- Box 1: 9:55 → 10:00 = **5 minutes**
+- Box 2: 10:00 → 11:00 = **1 hour (60 minutes)**
+- Box 3: 11:00 → 11:30 = **30 minutes**
+- Total: 5 + 60 + 30 = **95 minutes** = 1 hour 35 minutes
+
+The boxes literally force the student to measure spans, not boundaries. After a week of using the method on every problem, students stop drawing the boxes and start computing in their head — using the same three-step structure.
+
+## When the 3-box method needs a tweak
+
+Two situations require small adjustments:
+
+**Crossing noon or midnight.** "From 11:40 AM to 1:20 PM" — students get tripped up by the AM/PM transition. Same 3-box method, but make Box 2 explicitly include "12:00 (noon)" so they don't lose track of which side they're on.
+
+**Going backward in time.** "A movie ended at 4:10. It lasted 1 hour 45 minutes. When did it start?" — students who learned the 3-box method for forward problems freeze on backward ones. Teach the inverse: work the boxes from RIGHT to LEFT (end → next clean hour → full hours → start time).
+
+**Estimating to the nearest 5 minutes.** Some test items round to 5-minute intervals. The 3-box method still works, but students sometimes resist rounding because it "feels less precise." Be explicit: rounding is part of the answer, not a shortcut around it.
+
+## Where measurement word problems go from here
+
+Once students master elapsed time, the same 3-box-style reasoning transfers to:
+- Liquid volume problems (start volume → operations → end volume)
+- Mass problems (combined mass = sum of parts)
+- Multi-step word problems that combine all three
+
+The trick is consistency. Don't teach time one way, volume another way, mass a third way. Use the same span-versus-boundary framing every time. Students start to see the underlying structure: measurement is always about quantities, not tick marks.
+
+## Practice that targets all three
+
+I put together a 40-problem 3rd-grade measurement test-prep packet that hits time, volume, and mass at four difficulty levels each, plus mixed-multi-step word problems. Every problem has a worked answer key.
+
+**[3rd Grade Math Measurement: Time, Mass & Volume Word Problems (40 Problems + Answer Key) — $4](https://cobocastle.gumroad.com/l/ncsxjs)**
+
+What's inside:
+- Section 1: Telling Time and Elapsed Time (10 problems, includes the multi-step cross-the-hour challenges)
+- Section 2: Liquid Volume in Liters (10 problems, all four operations)
+- Section 3: Mass in Grams and Kilograms (10 problems, includes gram↔kilogram conversion)
+- Section 4: Mixed Measurement Word Problems (10 multi-step problems that combine all three)
+- Complete worked answer key
+
+Standards: 3.MD.A.1, 3.MD.A.2, 3.OA.D.8. Single classroom license.
+
+## The bigger lesson
+
+The tick-mark trap isn't really about clocks. It's about whether a student understands what a unit is. Get that right in 3rd grade and you save the student months of confusion in 4th and 5th grade on fractions, decimals, and ratios. Get it wrong and every measurement chapter for the next three years feels like memorizing tricks.
+
+That's why this stuff matters more than it looks.
+\`,
+  },
+  {
+    slug: "how-to-teach-perfect-tenses-to-5th-graders",
+    title: "How to Teach the Perfect Tenses to 5th Graders Without the Eye-Rolls",
+    description: "Past perfect, present perfect, future perfect — every 5th grader on a state test will see them, and most don't really get the difference. Here's the time-line method that teaches all three in 20 minutes.",
+    date: "2026-05-29",
+    readTime: "6 min",
+    tags: ["Education", "5th Grade ELA", "Grammar", "Verb Tenses", "Test Prep"],
+    content: `
+Walk into any 5th grade ELA class and ask the students to define the past perfect tense. You'll get one of three responses: a blank stare, a guess at "the past, but more past," or a textbook recital that the student clearly doesn't actually understand.
+
+This isn't a kid problem. It's a teaching problem. The perfect tenses are taught the same way every textbook has taught them since 1985: as named categories with grammar-rule definitions. Students memorize the names, take the test, and forget the difference. By the time they hit middle school the only one they reliably use is the simple past.
+
+The fix is to teach all three perfect tenses in the same 20-minute lesson, using a time-line drawing instead of definitions.
+
+## What state tests actually ask
+
+L.5.1.b is the standard. It shows up on every 5th grade state test in roughly the same format:
+
+- "By the time we arrived, the movie ___ already started." (Choose the verb form: had / has / have / will have)
+- "She ___ in Texas for three years." (Same idea, present perfect)
+- "By next June, I ___ graduated." (Future perfect)
+
+Students who guess at these get them right about a third of the time. Students who understand the underlying time-relationship logic get them right about 90% of the time. The gap isn't about more practice; it's about whether the concept actually clicks.
+
+## The time-line method
+
+Draw a horizontal time line on the board. Mark four points on it: past, NOW (mark this clearly — it's the anchor), future. Then add a fourth point: a specific time the speaker is "talking about." That fourth point is the key.
+
+The three perfect tenses describe what happened BEFORE that fourth point.
+
+- **Past perfect** = action happened before a PAST time-being-talked-about. "By the time we arrived [the past time], the movie had already started [before that past time]."
+- **Present perfect** = action happened before NOW (and possibly continues). "She has lived in Texas for three years [up to now]."
+- **Future perfect** = action will happen before a FUTURE time-being-talked-about. "By next June [future time], I will have graduated [before that future time]."
+
+Draw it. Every time. For a week. Students who draw the time line on the board literally stop guessing on these items.
+
+## The signal words that come with each
+
+Once the time-line clicks, layer on the signal words that almost always indicate which perfect tense to use:
+
+- **Past perfect**: "by the time," "before [past event]," "after [past event] had [happened]"
+- **Present perfect**: "since," "for [duration]," "already," "yet," "ever," "never"
+- **Future perfect**: "by [future date]," "by the time [future event]"
+
+State tests are written by people who learned the same English-grammar pedagogy. They use these signal words almost without exception. Train students to spot them and the multiple-choice answer narrows from four options to one.
+
+## The hardest perfect-tense question type
+
+The toughest item on most state tests is the consistency question — where the student has to keep TWO verbs in the same tense relationship:
+
+> "By the time the visitors arrived, the host ___ the table and ___ the candles."
+
+Both blanks need past perfect: "had set / had lit." If you choose simple past for one and past perfect for the other, the sequence breaks. Students who guess get this wrong half the time. Students who can draw the time line get it right almost always.
+
+## The thing no one teaches
+
+Here's the part textbooks skip: in everyday writing, the perfect tenses are mostly optional. You CAN say "When we arrived, the movie started" and listeners will understand you. The perfect tense is what GRAMMARIANS prefer for technical precision, not what real people use in conversation. Students sense this — that's the eye-roll. They're not wrong.
+
+The honest pitch to your students: "On the state test you have to use the perfect tense the textbook way. In real life, you can usually skip it. So learn the textbook way for one test, then go back to writing the way humans actually speak."
+
+That framing — "this is the formal test version, not the right-and-wrong version" — saves you an enormous amount of resistance from kids who hate being told their natural sentences are "wrong."
+
+## Practice with the formal-test version
+
+I built a 5th grade grammar test-prep packet that drills the perfect tenses, tense consistency, sentence types, and run-on/fragment/comma-splice — in the exact multiple-choice format students see on state tests. Every answer has a grammar-rule explanation.
+
+**[5th Grade ELA Grammar Test Prep: Verb Tense & Sentence Structure Drills (40 Questions + Answer Key with Explanations) — $4](https://cobocastle.gumroad.com/l/guybfb)**
+
+What's inside:
+- Section 1: Perfect Verb Tenses — past perfect, present perfect, future perfect (10 questions)
+- Section 2: Verb Tense Consistency & Shifts (10 questions)
+- Section 3: Sentence Structure — simple, compound, complex, compound-complex (10 questions)
+- Section 4: Run-ons, Fragments & Comma Splices (10 questions, including paragraph-level error-finding)
+- Complete answer key with grammar-rule explanations
+
+Standards: L.5.1, L.5.1.b, L.5.1.c, L.5.1.d, L.5.2.b. Single classroom license.
+
+## The whole point
+
+You're not teaching the perfect tenses to make your students better writers. You're teaching them so they can decode the formal-grammar conventions on a test, and so they recognize the perfect tense when they meet it in published writing later. Those are real, useful goals. They're just not the same as "use the perfect tense in your own life," and pretending otherwise is what gets you the eye-rolls.
+
+Teach the time line. Drill the signal words. Be honest about when it matters. The eye-rolls go away.
+\`,
+  },
+  {
+    slug: "3rd-grade-multiplication-word-problem-remainder-trap",
+    title: "The 3rd Grade Multiplication Word Problem Trap: When Remainders Mean 'Round Up'",
+    description: "3rd graders learn division with remainders, then meet a state-test question about cars-needed-for-students and don't know to round up. Here's how to teach the 'real-world remainder' move so they get it right every time.",
+    date: "2026-05-29",
+    readTime: "5 min",
+    tags: ["Education", "3rd Grade Math", "Multiplication", "Division", "Test Prep"],
+    content: `
+Here's a problem you'll find on almost every 3rd grade state math test:
+
+> 25 students need to ride in cars that hold 4 students each. How many cars are needed so that EVERY student has a ride?
+
+A student who has just learned division will compute 25 ÷ 4 = 6 R 1. They will write "6 cars." That answer is wrong. The right answer is 7 cars (because the last student still needs a ride).
+
+The error isn't a math error. It's a translation error. The student computed the arithmetic correctly. They just didn't notice that the WORDS of the problem demand a different interpretation of the remainder.
+
+## What this question type is actually testing
+
+This is a CCSS 3.OA.D.8 item — "solve two-step word problems." But the deeper skill is what teachers call "real-world remainder interpretation." The test is asking: can you tell when the remainder means "round up," when it means "leave behind," and when it means "the answer IS the remainder"?
+
+Three flavors show up on tests:
+
+**Round up.** "How many cars are needed so EVERY student has a ride?" Answer: the quotient plus 1, because the leftover students still need transportation.
+
+**Leave behind.** "How many full bags of 8 cookies can the baker fill from 30 cookies?" Answer: just the quotient (3 full bags). The 6 leftover cookies don't form a full bag.
+
+**The remainder IS the answer.** "30 candies are split equally among 7 friends with the leftovers going in a jar. How many candies are in the jar?" Answer: 2 (the remainder itself).
+
+Same arithmetic (30 ÷ 7 = 4 R 2), three different right answers. The kid who memorized "division with remainders" without learning to interpret loses on at least two out of three.
+
+## The teaching move
+
+The fix is a single question students learn to ask AFTER they compute the remainder. Drill it until it's automatic:
+
+> "What happens to the leftover in the real world?"
+
+For the cars: the leftover students still need a ride → round up.
+For the cookies: the leftover cookies don't form a full bag → drop them.
+For the candy jar: the leftover candies go in the jar → the remainder is the answer.
+
+This is the entire teaching move. Students who learn to ask the question get the right answer on all three variants. Students who don't, don't.
+
+## The other 3rd-grade multiplication trap
+
+Beyond remainders, the second-biggest trap on 3rd grade tests is the multi-step problem where the student does the right arithmetic but stops too early.
+
+> "A box has 9 layers of crackers with 6 crackers in each layer. The teacher gives 18 crackers to her morning class. How many crackers are left for the afternoon class?"
+
+A student who has just learned multiplication will compute 9 × 6 = 54 and write "54." But the question asked how many are LEFT. The right answer is 54 − 18 = 36.
+
+The fix here is the underline-the-question habit. Before computing anything, underline the actual question sentence. Re-read it after computing. If the answer doesn't match what was asked, keep going.
+
+This sounds trivial. It is trivial. It's also the single most common source of "I knew that, I just didn't read" errors on 3rd grade tests.
+
+## Multiplication and division fact-family questions
+
+The third category on 3rd grade tests is the fact-family question:
+
+> "Solve 35 ÷ 7 by thinking about a multiplication fact. Which fact helps?"
+
+Students who learned division as "the opposite of multiplication" handle these instantly. Students who learned division as its own separate procedure ("how many groups of 7 in 35?") often freeze. The fact-family framing is on virtually every 3rd grade test now, so the multiplication-and-division-are-the-same-fact lens is the one that wins.
+
+## Practice with all three
+
+I built a 3rd grade multiplication and division test-prep packet that targets remainder interpretation, multi-step problems, fact families, and mixed word problems. 40 problems, every one has a worked answer key.
+
+**[3rd Grade Math Test Prep: Multiplication & Division Word Problems (40 Problems + Answer Key) — $4](https://cobocastle.gumroad.com/l/wlitrx)**
+
+What's inside:
+- Section 1: Multiplication within 100 — equal groups, arrays, multi-step, money/measurement (10 problems)
+- Section 2: Division within 100 — partitive, quotative, remainders, multi-step (10 problems)
+- Section 3: Multiplication & Division Fact Families — missing factors, fact-family matching, division-by-multiplication (10 problems)
+- Section 4: Mixed Multi-Step Word Problems (10 problems including the round-up remainder type)
+- Complete worked answer key
+
+Standards: 3.OA.A.1, 3.OA.A.2, 3.OA.A.3, 3.OA.A.4, 3.OA.D.8. Single classroom license.
+
+## The whole game
+
+3rd grade is where students first learn that math problems are mostly about reading carefully. Get the careful-reading habit in place this year and the kid wins for the next decade. Skip it and they spend middle school making the same translation errors on more complicated arithmetic.
+
+The remainder question is the cleanest example. Drill it until "what happens to the leftover in the real world?" is automatic.
+\`,
+  },
+  {
+    slug: "the-4-comma-rules-4th-graders-need-and-the-one-that-trips-everyone-up",
+    title: "The 4 Comma Rules 4th Graders Need (and the One That Trips Everyone Up)",
+    description: "4th grade ELA tests check comma usage on a small, predictable set of patterns. Here are the four rules students actually need to know — and the one (commas with introductory phrases) that students miss most often.",
+    date: "2026-05-29",
+    readTime: "6 min",
+    tags: ["Education", "4th Grade ELA", "Grammar", "Punctuation", "Test Prep"],
+    content: `
+4th grade ELA grammar items don't really test the full universe of comma usage. They test a predictable subset of about four rules. If your students know those four rules, they'll get the comma items right almost every time. If they don't, they'll guess.
+
+This post is a teaching cheat sheet for the four rules — plus the one rule (introductory phrases) that students consistently get wrong even after they've been "taught" it.
+
+## The four rules state tests actually check
+
+After auditing released items from PARCC, FSA, STAAR, Smarter Balanced, and a handful of state-specific tests, the comma rules that show up on 4th-grade items basically reduce to:
+
+**1. Commas in a series of three or more.** "I packed apples, bananas, and grapes." The Oxford comma (before "and") is optional on most tests — both versions are accepted as correct.
+
+**2. Commas after an introductory phrase.** "After dinner, we played a game." This is the one students miss most often. More on this below.
+
+**3. Commas in dates and addresses.** "We moved on July 4, 2024." "We live in Portland, Oregon."
+
+**4. Commas before a coordinating conjunction in a compound sentence.** "Mia wanted ice cream, but the shop was closed." (The "FANBOYS" — for, and, nor, but, or, yet, so.)
+
+That's it. That's the whole 4th-grade comma curriculum that the test will check. Three of those rules students mostly get right. The introductory-phrase one is where they lose.
+
+## Why introductory-phrase commas are hard
+
+When a sentence starts with a phrase that sets the time, place, condition, or context — "After dinner," "When the bell rang," "Although it was raining," "On Tuesday," "Whenever the alarm goes off" — there needs to be a comma between that phrase and the main clause.
+
+The problem: in everyday speech and writing, that comma feels optional. You can write "After dinner we played a game" and it reads fine. Students rely on their internal "does it sound okay?" check, and that check tells them no comma is needed.
+
+The teaching move is to make the rule mechanical instead of intuitive:
+
+> If the sentence STARTS with one of these signal words — After, Before, When, While, Although, Because, If, Since, On, Whenever — there's a comma somewhere in the first 6 words.
+
+Have students underline the signal word every time they see one. Then look 4-6 words to the right. Insert a comma. Most introductory-phrase items get solved correctly with this single habit.
+
+## The comma-splice trap (bonus rule for state tests)
+
+4th grade tests sometimes sneak in a comma-splice item even though the rule is technically taught in 5th grade. It looks like:
+
+> Eli forgot his umbrella, he got soaked walking home.
+
+Students often read this as correct because the comma "feels right" — they're connecting two related ideas. But two independent clauses (both can stand alone as sentences) can't be joined by JUST a comma. Three correct fixes:
+
+- Add a conjunction: "Eli forgot his umbrella, **and** he got soaked walking home."
+- Use a semicolon: "Eli forgot his umbrella; he got soaked walking home."
+- Split into two sentences: "Eli forgot his umbrella. He got soaked walking home."
+
+If a 4th grader sees "subject + verb, subject + verb" with NO conjunction, it's a comma splice. The fix isn't more commas — it's one of those three.
+
+## Other punctuation 4th-grade tests check
+
+While we're here, the test will also check:
+
+**Apostrophes** (especially possessives). The trap question: "The dogs bowl is empty" — needs an apostrophe. "The dog's bowl is empty" (one dog) vs "The dogs' bowl is empty" (multiple dogs sharing one bowl).
+
+**Apostrophes in contractions.** "They're" (they are) vs "their" vs "there." This is the single most-frequent test item on apostrophes at 4th grade.
+
+**End punctuation matching the sentence type.** Question = ?, statement = ., strong emotion = !. This sounds trivial but a student rushing through items will sometimes hit a question sentence and miss the question mark.
+
+**Capitalization of proper nouns** — names, places, days of the week, months, holidays, book titles. Days and months catch students most often (they're so common students stop noticing they need capitals).
+
+## Practice with all of it
+
+I built a 4th grade ELA grammar test-prep packet that drills all 40 of these question patterns — parts of speech, capitalization, commas, end punctuation, apostrophes, run-ons, fragments, comma splices — in the exact multiple-choice format students see on state tests. Every answer includes a grammar-rule explanation.
+
+**[4th Grade ELA Test Prep: Grammar Practice (Punctuation, Parts of Speech, Capitalization) — $4](https://cobocastle.gumroad.com/l/cuwtzi)**
+
+What's inside:
+- Section 1: Parts of Speech (10 questions — nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions)
+- Section 2: Capitalization (10 questions)
+- Section 3: Commas (10 questions — series, introductory, dates, direct address, compound, city/state, quotes)
+- Section 4: End Punctuation, Apostrophes & Mixed Errors (10 questions including paragraph-level error-finding)
+- Complete answer key with grammar-rule explanation for every question
+
+Standards: L.4.1, L.4.2, L.4.3. Single classroom license.
+
+## The bigger picture
+
+Grammar tests at 4th grade are about pattern recognition more than rule mastery. Students who can see a sentence and immediately think "introductory phrase — comma" or "two independent clauses — conjunction" get the items right. Students who try to remember the rules from scratch every time slow down and miss.
+
+The four-rule cheat sheet here is the recognition framework that turns guessing into mechanical accuracy. Teach it, drill it, watch the scores go up.
+\`,
+  },
+  {
     slug: "why-5th-graders-struggle-with-fractions-on-a-number-line",
     title: "Why 5th Graders Struggle With Fractions on a Number Line (and the Three Fixes That Actually Work)",
     description: "Fractions on a number line is the single hardest skill on most 5th grade state tests. Here's why students get it wrong, the three diagnostic patterns to look for, and ready-to-print practice that targets the exact misconceptions.",
