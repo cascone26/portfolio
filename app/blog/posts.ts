@@ -10,6 +10,88 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "why-5th-graders-struggle-with-fractions-on-a-number-line",
+    title: "Why 5th Graders Struggle With Fractions on a Number Line (and the Three Fixes That Actually Work)",
+    description: "Fractions on a number line is the single hardest skill on most 5th grade state tests. Here's why students get it wrong, the three diagnostic patterns to look for, and ready-to-print practice that targets the exact misconceptions.",
+    date: "2026-05-28",
+    readTime: "7 min",
+    tags: ["Education", "5th Grade Math", "Test Prep", "Fractions", "Teaching Resources"],
+    content: `
+If you teach 5th grade math, you already know: when students hit fractions on a number line, the wheels come off.
+
+It's not that the unit is harder than fractions-in-general. It's that the number line forces students to think about fractions as **positions** instead of pieces of a pizza — and that's a shift most upper-elementary students never explicitly practice.
+
+This post is what I wish someone had handed me three years ago. It covers the three diagnostic patterns that explain almost every wrong answer, the misconceptions behind each, and a printable practice set that targets them directly.
+
+## The number line is where state tests live
+
+If you pull up almost any released 5th grade state-test item bank — Smarter Balanced, FSA, STAAR, PARCC — the highest-frequency question type for fractions standards (5.NF.A, 5.NF.B) is **plotting or comparing on a number line**. Multiple choice. Part A / Part B. Open response. It comes up in every section.
+
+That means: a student who has a vague sense of fractions but can't reason about them spatially will lose 5-10 percentage points on the test even if they "get" fractions everywhere else.
+
+It also means: if you fix the number line specifically, every student you teach goes into the test better prepared.
+
+## The three diagnostic patterns
+
+When I started watching my own students work through number-line fraction problems, almost every wrong answer fell into one of three buckets. Once I could spot the pattern, I could fix it.
+
+### Pattern 1: Counting tick marks instead of measuring spaces
+
+Ask a 5th grader to plot 3/4 on a number line divided into fourths between 0 and 1. The most common wrong answer points to the **4th** tick mark from 0.
+
+The misconception: students count the tick marks (1, 2, 3, 4) as if they were the fractions. But the tick marks aren't the fractions — the **spaces between** them are. The fraction 3/4 is the 3rd tick mark from 0, because each tick mark sits at the boundary of one space.
+
+The fix: explicitly call out "this is space number 1, this is space number 2…" before any plotting happens. Then have students color the spaces. Once they see fractions as quantities of space, the tick-count error stops cold.
+
+### Pattern 2: Treating every number line as 0 to 1
+
+Show a 5th grader a number line that runs from 0 to 2 with thirds marked. Ask them to plot 4/3. A surprising fraction of students plot it at **4/3 of the way from 0 to 1**, not at the actual tick mark that represents 4/3 (which sits between 1 and 2).
+
+The misconception: students have only ever practiced number lines from 0 to 1. When the line extends to 2 or 3, they unconsciously shrink everything to fit between 0 and 1.
+
+The fix: practice with mixed-range number lines from day one. Number lines that run from 0 to 2, from 1 to 3, from 0 to 5 with halves. Every range exposes the bug if it's there.
+
+### Pattern 3: Decimals and fractions live in different brains
+
+A 5th grader who can confidently plot 3/4 and confidently plot 0.7 will often freeze when asked: "which is greater, 3/4 or 0.7?"
+
+The misconception: fractions and decimals are stored as separate skill sets. The number line is the bridge — but only if students get repeated practice placing both forms on the same line.
+
+The fix: every comparison exercise should be cross-form. Plot 1/2 and 0.4 on the same line. Plot 0.6 and 7/10 on the same line. After a couple weeks of this, students stop seeing them as different things.
+
+## Practice that targets these specifically
+
+I built a 40-problem test-prep packet that walks students through all three patterns explicitly. Each section is leveled — single-form unit fractions through multi-step real-world reasoning — so you can differentiate inside one class period.
+
+**[5th Grade Math Test Prep: Fractions & Decimals on Number Lines (40 Problems + Answer Key) — $4](https://cobocastle.gumroad.com/l/rnvjgl)**
+
+What's inside:
+
+- **Section 1: Plotting Fractions on a Number Line** (10 problems, 4 difficulty levels) — directly targets the tick-count misconception
+- **Section 2: Plotting Decimals on a Number Line** (10 problems) — builds the decimal/fraction parallel
+- **Section 3: Comparing Fractions and Decimals Using a Number Line** (10 problems) — the cross-form bridge
+- **Section 4: Test-Prep Word Problems with Number Lines** (10 problems, multi-step) — what students will actually see on the test
+- Complete worked answer key for every problem
+
+Standards covered: 5.NF.A, 5.NF.B, 5.NBT.A.3, 5.NBT.A.4. Single classroom license.
+
+## What to use it for
+
+- **Daily warm-ups during state-test season** — one problem a day, three weeks before the test
+- **Sub plans** — section 1 or 2 makes a clean 30-minute self-directed lesson
+- **Intervention groups** — pull the students missing pattern 1 or 2, work the matching section together
+- **Summer review** — sections 3 and 4 spiral the skill so students don't lose it over the break
+
+## The bigger point
+
+The number line isn't a side topic. It's the spine that connects fractions, decimals, ratios (next year), and eventually the real number line itself. Time spent here pays interest for years.
+
+If you teach 4th grade and want to head off these misconceptions before they harden, I'd start with explicit "spaces vs. tick marks" practice in the second half of the year. If you teach 6th grade and your students still can't compare 3/4 to 0.7, you can use the same packet as a rapid review — most 6th graders catch up in two days.
+
+Good luck with the test season.
+`,
+  },
+  {
     slug: "how-to-start-tutoring-business-education-entrepreneurs",
     title: "How to Start a Tutoring Business: A Complete Step-by-Step Guide for Education Entrepreneurs",
     description: "Everything you need to know to start a profitable tutoring business in 2026. From niche selection and legal setup to marketing strategies and scaling tips for education entrepreneurs.",
