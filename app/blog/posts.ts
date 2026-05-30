@@ -10,6 +10,92 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "what-state-tests-actually-grade-on-5th-grade-narrative-writing",
+    title: "What State Tests Actually Grade on a 5th Grade Narrative Writing Prompt (and the One Habit That Lifts Every Score)",
+    description: "State tests at 5th grade score narrative writing on four dimensions, not one. Here's what each dimension is really asking for — and the 5-minute pre-writing habit that pulls every dimension up at once.",
+    date: "2026-05-30",
+    readTime: "6 min",
+    tags: ["Education", "5th Grade ELA", "Narrative Writing", "Test Prep", "Writing Rubric"],
+    content: `
+If you teach 5th grade writing, you have probably scored a stack of test-prep narrative responses and felt the exact same thing every time. Some kids tell decent stories. Some kids tell no story at all. And almost nobody scores what the rubric says they could score, because almost nobody knows what the rubric is actually asking for.
+
+That's not a teaching failure. The rubric is genuinely hard to read. This post is what I wish someone had handed me three years ago: the four things state tests actually grade, in plain language, with the one habit that pulls every score up at once.
+
+## What state tests actually look at
+
+Almost every state narrative-writing rubric at 5th grade scores on the same four dimensions. The labels vary (Focus / Development / Conventions / Process, or Organization / Elaboration / Language / Editing) but the underlying questions are:
+
+1. **Focus and Organization**: Does the response actually answer the prompt, and does it have a clear beginning, middle, and end?
+2. **Development**: Can a reader picture the story? Are there specific details about character, setting, conflict, and resolution? Is dialogue (if present) doing real work?
+3. **Language and Conventions**: Are sentences varied? Is the vocabulary grade-appropriate? Are spelling and punctuation under control?
+4. **Process**: Is there evidence the student planned before writing?
+
+Every state-test scorer is trained to assess all four — not just "is the writing good." A student can have a beautiful sentence-level voice and score a 2 because the story doesn't actually answer the prompt. A student with shaky conventions but a tight plot can score a 4 if everything else hangs together.
+
+## The biggest scoring trap
+
+The single most common reason 5th graders lose points on narrative writing isn't sentence structure or vocabulary. It's drift.
+
+The student reads the prompt — say, "Write a story about a character who finds something they did not expect to find" — and starts writing. Within two paragraphs the story has become a generic adventure story that has nothing to do with the unexpected finding. The character runs into a friend, the friend invites them somewhere, they go on a trip. The original prompt vanishes.
+
+State scorers flag drift mercilessly. A response that doesn't address the prompt by the end loses at least one full point on Focus, sometimes two. There is no recovery — once the prompt is gone, it's gone.
+
+## The 5-minute habit that prevents drift
+
+The single most effective fix is a 5-minute pre-writing planning step done BEFORE the first sentence is written. Specifically, students should fill in six boxes:
+
+1. **WHO** is the main character (name + one trait)?
+2. **WHERE / WHEN** does the story happen?
+3. **WHAT** does the character want?
+4. **WHAT problem** gets in the way?
+5. **HOW** is the problem resolved?
+6. **WHAT** does the character learn or feel at the end?
+
+That's it. Six lines on the corner of the scratch paper. The student spends 5 minutes filling it out — and saves 25 minutes of writing time. Why? Because every line of the story now has a destination. The character has a goal. The story has a shape. Drift becomes mechanically harder.
+
+I've watched the same students go from scoring 2s to scoring 4s within three weeks of using this template, with no other intervention. It's the highest-leverage 5 minutes in test-prep writing instruction.
+
+## What "specific" actually means in the Development dimension
+
+The second most common scoring loss is generic detail. The student writes a story but the reader can't picture anything. Everyone in the story is "a girl" or "a boy." The setting is "outside." The conflict is "a problem."
+
+The fix is sensory anchoring: every paragraph should have at least one detail that engages a specific sense — sight, sound, smell, taste, or touch. Not "the room was scary." Instead: "The room smelled like old paper and pencil shavings." Not "she was nervous." Instead: "Her hands wouldn't stop sweating onto the test booklet."
+
+State scorers reward sensory specificity. A response that tells the reader what the room felt like in three different sensory channels will score higher than a response that says "the room felt weird" five times.
+
+## The Language dimension is mostly sentence variety
+
+This one trips up teachers as much as it trips up students. The state rubric's Language category isn't really testing grammar at 5th grade — it's testing whether the student varies sentence structure.
+
+A response that has nine short sentences in a row ("She walked to the door. She opened it. She looked outside. She saw the dog.") scores below a response with the same vocabulary that varies sentence length and opening ("She walked to the door and opened it. Outside, the dog was sitting on the steps, staring at her with that look — the one he gave when he had done something he wasn't supposed to do.").
+
+Teach students to look at their first three sentences after drafting. If they all start the same way ("She did X. She did Y. She did Z."), rewrite at least one to start differently.
+
+## Practice with the actual format
+
+I built a 12-prompt narrative writing test-prep packet that mirrors the state-test format precisely: three time levels (15-min, 25-min, 35-min extended), four story-element-driven sections (character, setting, conflict, theme), a fillable planning template, the 4-point rubric, and a fully annotated sample high-score response showing exactly what each dimension looks like in practice.
+
+**[5th Grade ELA Test Prep: Narrative Writing Prompts (12 Prompts + 4-Point Rubric + Sample High-Score Responses) — $4](https://cobocastle.gumroad.com/l/pmhqwp)**
+
+What's inside:
+- 12 leveled prompts across Character, Setting, Conflict, and Theme
+- Three time levels per section (15-min through 35-min extended)
+- 6-box planning template for every prompt
+- Full 4-point state-test rubric with calibration notes
+- Sample 4-score response with annotated explanation of why each dimension scores a 4
+
+Standards: W.5.3, W.5.4, W.5.5. Single classroom license.
+
+## What this packet gets you
+
+If you spend three weeks using the template on every prompt — and you make students fill it out before writing — you will see Focus scores go up across the whole class. Not because the writing is suddenly better, but because the structure forces students to keep the prompt in view.
+
+That's the single biggest score lever at 5th grade. Everything else is incremental. The planning template is the one habit that pulls every dimension up at once.
+
+Good luck this test season.
+`,
+  },
+  {
     slug: "why-part-a-part-b-questions-trip-up-4th-graders",
     title: "Why Part A / Part B Reading Questions Trip Up 4th Graders (and How to Teach the Two-Step)",
     description: "Part A / Part B questions are the format 4th graders meet most often on state tests, and the format they trip up on most. Here's why the two-step structure feels harder than it is — and the explicit teaching move that fixes it.",
