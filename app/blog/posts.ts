@@ -10,6 +10,219 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "how-to-teach-place-value-through-millions-in-4th-grade",
+    title: "How to Teach 4th Grade Place Value Through Millions (and the Times-Ten Rule That Unlocks the Whole Unit)",
+    description: "4th graders meet large numbers and rounding for the first time at the same time. Here's the one underlying rule — the times-ten relationship from 4.NBT.A.1 — that makes everything else in the unit click.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "4th Grade Math", "Place Value", "Rounding", "Test Prep"],
+    content: `
+The 4th grade place-value unit is where a lot of students hit their first real "I don't get this" moment in math. Up through 3rd grade, numbers stay small enough that you can mostly count or visualize them. In 4th grade the numbers jump to seven digits, and the conceptual demand changes — students aren't just identifying digits anymore, they're reasoning about relationships between digits.
+
+The unit is also where students meet rounding for the first time, which requires the same place-value reasoning but with one extra step. So if the place-value foundation is shaky, rounding falls apart, and the rest of the year struggles.
+
+There's good news: most of the confusion in the unit traces back to one underlying rule. Once students get the rule, the whole unit clicks.
+
+## The rule (4.NBT.A.1 in plain language)
+
+The Common Core standard 4.NBT.A.1 says: *"Recognize that in a multi-digit whole number, a digit in one place represents ten times what it represents in the place to its right."*
+
+That's the whole rule. The 3 in 3,000 is **ten times** the 3 in 300. The 7 in 70,000 is **ten times** the 7 in 7,000. Every place is ten times the one to its right and one-tenth of the one to its left.
+
+This is the foundation underneath:
+- Reading and writing multi-digit numbers
+- Comparing two multi-digit numbers
+- Rounding to any place
+- The decimal place-value system students meet in 5th grade
+
+If a student can articulate the times-ten rule, every other skill in the unit becomes a procedure they can derive instead of one they have to memorize.
+
+## Why students get reading and writing big numbers wrong
+
+The most common error on word-form questions isn't actually about place value — it's about commas. Students learn that commas group digits in threes (thousands, millions, billions) but then they don't use the commas as anchor points when reading.
+
+The fix: teach students to read the number one comma-group at a time, naming the period as they go.
+
+For **3,275,041**, the procedure is:
+1. Read the leftmost group: "three" → say "three **million**"
+2. Read the middle group: "two hundred seventy-five" → say "two hundred seventy-five **thousand**"
+3. Read the rightmost group: "forty-one" → say "forty-one"
+
+Result: "three million, two hundred seventy-five thousand, forty-one."
+
+Once students consistently use the commas as anchors, the error rate on word-form questions drops by half.
+
+## Why rounding is harder than it looks
+
+Rounding to the nearest ten is easy. Rounding 64,328 to the nearest ten-thousand is hard. The difference isn't the rounding rule — it's that students have to locate the right digit before they apply the rule.
+
+The teaching move is to make digit identification an explicit pre-step:
+
+1. **Find the rounding digit.** For "nearest ten-thousand," circle the ten-thousands digit (in 64,328 that's the 6).
+2. **Look at the digit immediately to its right.** That's the deciding digit (the 4 in 64,328).
+3. **Apply the rule.** If the deciding digit is 5 or more, round UP. If less than 5, round DOWN.
+4. **Replace every digit to the right of the rounding digit with 0.**
+
+After three days of drilling this 4-step procedure on every rounding problem, students stop guessing.
+
+## Comparing big numbers without losing patience
+
+When students compare 4,820,716 and 4,802,761, they tend to look at the rightmost digit first ("6 < 1? No, 6 > 1, so the first one is bigger") and get it wrong. The 6 vs. 1 comparison is irrelevant because the numbers differ at a higher place.
+
+The procedure: compare LEFT to RIGHT, place by place, until the first place where the digits differ. THAT comparison decides the answer.
+
+For 4,820,716 vs 4,802,761:
+- Millions: 4 = 4 → continue
+- Hundred-thousands: 8 = 8 → continue
+- Ten-thousands: 2 vs 0 → STOP. 2 > 0, so the first number is bigger.
+
+Whatever happens to the right of the first differing digit doesn't matter. This is a 30-second skill once students understand it, and it shows up on every state test.
+
+## Practice with all four skills
+
+I built a 40-problem 4th grade place-value test-prep packet that targets reading/writing, comparing, rounding, and the times-ten relationship — exactly the four skills the state tests check. Every problem has a worked answer key with explanation.
+
+**[4th Grade Math Test Prep: Place Value Through Millions (40 Problems + Answer Key) — $4](https://cobocastle.gumroad.com/l/ryynot)**
+
+What's inside:
+- Section 1: Reading and Writing Whole Numbers Through Millions (10 problems — standard, word, expanded forms)
+- Section 2: Comparing and Ordering Whole Numbers (10 problems including word-problem compares)
+- Section 3: Rounding Whole Numbers to Any Place (10 problems from nearest ten through nearest million)
+- Section 4: Place-Value Relationships and Word Problems (10 problems including the foundational 4.NBT.A.1 ten-times rule)
+- Complete worked answer key
+
+Standards: 4.NBT.A.1, 4.NBT.A.2, 4.NBT.A.3. Single classroom license.
+
+## The whole game
+
+The unit is taught backwards in most curricula — they teach the procedures first and the times-ten rule as a side note. Flip it. Teach the rule first. Drill the rule for two days. Then everything else in the unit is a consequence of the rule, not a new skill.
+
+Place value is the structural backbone of the whole arithmetic system. Get it solid in 4th grade and the next four years of math sit on top of it cleanly. Skip it and every chapter that follows feels like memorizing procedures.
+
+It's worth the two extra days at the start of the unit.
+`,
+  },
+  {
+    slug: "teaching-figurative-language-to-5th-graders",
+    title: "Teaching Figurative Language to 5th Graders: The 6 Devices State Tests Actually Check (and How to Make Them Stick)",
+    description: "5th grade figurative-language tests don't check every device equally. Here's the six that come up most often, the most-missed category, and the in-context practice habit that lifts every score.",
+    date: "2026-05-30",
+    readTime: "6 min",
+    tags: ["Education", "5th Grade ELA", "Figurative Language", "Test Prep", "Reading"],
+    content: `
+Most 5th grade figurative-language tests check the same six categories. If your students can identify those six in isolation AND in passage context, they will get 90%+ of the figurative-language items right. Most students learn the six in isolation, miss them in context, and lose points.
+
+This post is the short list, the patterns I see students miss, and the one practice habit that pulls every score up.
+
+## The six devices state tests actually check
+
+In rough order of how often they show up on 5th grade state-test items:
+
+1. **Simile** — comparison using *like* or *as*
+2. **Metaphor** — direct equation of two unlike things, no *like* or *as*
+3. **Personification** — giving human qualities to non-human things
+4. **Hyperbole** — deliberate exaggeration for effect
+5. **Idiom** — fixed expression whose meaning is different from its literal words
+6. **In-context interpretation** — given a passage, what does this figurative phrase tell you about the character/setting/mood?
+
+Other devices (alliteration, onomatopoeia, allusion) show up occasionally but at low frequency. The six above are the ones to drill.
+
+## Where students lose points: the simile/metaphor confusion
+
+The single most common error is calling a metaphor a simile (or vice versa). The fix is one mechanical question:
+
+> "Does the sentence contain the word *like* or *as*?"
+
+If yes → simile. If no → metaphor. There are technical edge cases (some teachers count "is" specifically as metaphor-only, etc.) but for state-test purposes, the *like / as* rule decides every simile/metaphor item correctly.
+
+Drill this until it's automatic. Then add the second move: identify the two things being compared. "Her smile was as bright as sunshine" — comparing **smile** to **sunshine**. State tests sometimes ask "what is being compared" as a follow-up.
+
+## Where students REALLY lose points: personification
+
+Personification is the device students MOST often miss. Why? Because it doesn't have a single signal word like *like* or *as*. The student has to recognize that a non-human thing is doing a human action.
+
+The teaching move is to name the two pieces explicitly:
+
+1. **Find the subject.** What is the sentence about?
+2. **Ask: is it human?** If no, continue.
+3. **Find the verb or descriptor.** What is the subject doing or what quality does it have?
+4. **Ask: is this action or quality usually used for humans?** If yes, you have personification.
+
+Example: "The leaves danced in the autumn wind."
+- Subject: leaves (not human)
+- Verb: danced (usually human)
+- Result: personification
+
+Once students learn to ask the two-step question, personification stops being the surprise category.
+
+## Hyperbole is easier than students think
+
+Hyperbole is exaggeration meant to make a point. "I'm so hungry I could eat a horse." "I've told you a million times." "This bag weighs a ton."
+
+The signal: the literal statement is impossible. No one can eat a horse. No one has been told a million times. No bag weighs a ton.
+
+Teach students to ask: "Could this literally be true?" If no, it's probably hyperbole.
+
+The trap: students sometimes call something hyperbole when it's really just emphasis or strong description. "The classroom was really loud" is not hyperbole. "The classroom was the loudest place in the universe" is. The exaggeration has to be extreme.
+
+## Idioms require explicit teaching
+
+The hardest figurative-language category for 5th graders is idioms — because idioms are cultural shortcuts students have to learn by exposure. "Break a leg" doesn't logically mean "good luck." There's no reasoning that gets a student from one to the other. They have to know it.
+
+The teaching move: keep a running list of the 30-40 most common idioms 5th graders see on state tests. Drill 5 a week. Test on Friday. After 2 months students know the bank.
+
+A starter list:
+- *break a leg* = good luck
+- *hit the books* = study
+- *a piece of cake* = something easy
+- *once in a blue moon* = rarely
+- *raining cats and dogs* = raining heavily
+- *under the weather* = sick
+- *cost an arm and a leg* = expensive
+- *let the cat out of the bag* = reveal a secret
+- *spill the beans* = reveal a secret
+- *the early bird gets the worm* = act first to succeed
+
+State tests pull from a fairly small bank. Knowing the bank is the entire game.
+
+## The practice habit that lifts every score: in-context
+
+Identifying figurative language in isolated sentences is one skill. Identifying it in a passage and interpreting what it tells the reader is a harder, higher-leverage skill — and it's the one state tests reward most.
+
+For every figurative-language exercise students do, add one in-context question at the end:
+
+> "Her heart was a drum beating against her chest."
+> What does this tell the reader about how the character is feeling?
+
+The student has to identify the device (metaphor), then interpret what it means in context (the character is nervous/scared because her heart is pounding hard).
+
+This double-step is the actual state-test skill. Practice it on every exercise.
+
+## Practice with all six devices + in-context
+
+I built a 40-question 5th grade figurative-language test-prep packet that hits all six categories plus in-context interpretation, in the multiple-choice format students see on state tests. Every answer has a teaching-quality explanation.
+
+**[5th Grade ELA Test Prep: Figurative Language (40 Questions + Answer Key with Explanations) — $4](https://cobocastle.gumroad.com/l/tqaie)**
+
+What's inside:
+- Section 1: Identifying Similes and Metaphors (10 questions)
+- Section 2: Personification (10 questions — the most-missed category)
+- Section 3: Hyperbole and Idioms (10 questions including common test-tested idioms)
+- Section 4: Figurative Language in Context (10 questions tied to short reading passages)
+- Complete answer key with grammar-rule explanation for every question
+
+Standards: L.5.5, RL.5.4. Single classroom license.
+
+## The bigger picture
+
+Figurative language is one of those test categories where the gap between "I taught it" and "they remember it on the test" is huge. Students learn the names of the devices and then promptly forget which is which.
+
+The fix isn't more lessons. It's more in-context practice with a tight feedback loop. The packet above is the second piece. The first piece is the in-context habit.
+
+Good luck this test season.
+`,
+  },
+  {
     slug: "what-state-tests-actually-grade-on-5th-grade-narrative-writing",
     title: "What State Tests Actually Grade on a 5th Grade Narrative Writing Prompt (and the One Habit That Lifts Every Score)",
     description: "State tests at 5th grade score narrative writing on four dimensions, not one. Here's what each dimension is really asking for — and the 5-minute pre-writing habit that pulls every dimension up at once.",
