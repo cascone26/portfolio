@@ -10,6 +10,279 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "how-to-teach-order-of-operations-in-5th-grade",
+    title: "Teaching Order of Operations in 5th Grade: PEMDAS Isn't the Trick, Nesting Is",
+    description: "Most 5th graders memorize PEMDAS in a day. The trick that drops scores on state tests isn't the rule — it's nested parentheses, brackets, and braces. Here's how to teach the nesting so it sticks.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "5th Grade Math", "Order of Operations", "PEMDAS", "Test Prep"],
+    content: `
+The order of operations is one of those topics that looks easy from a distance and gets surprisingly tricky up close. Most 5th graders learn the PEMDAS acronym in a day. Many of them still get 5.OA.A.1 items wrong on the state test. The reason isn't the rule — it's the way the rule interacts with nested grouping symbols.
+
+This post is about teaching the part that actually causes the lost points.
+
+## PEMDAS is fine. The trap is what comes inside the P.
+
+The standard rule — Parentheses, Exponents, Multiplication and Division (left to right), Addition and Subtraction (left to right) — is something 5th graders can recite by Friday of the first week of the unit.
+
+What they cannot reliably do, even by week 3, is solve expressions like this:
+
+**3 × [5 + (6 − 2)] = ?**
+
+Or this:
+
+**2 × {3 + [4 × (1 + 1)]} = ?**
+
+This is where 5.OA.A.1 lives. The standard explicitly mentions parentheses, brackets, AND braces. And state tests check it.
+
+## How to teach nesting so it sticks
+
+The teaching move is to label the levels.
+
+Show students that grouping symbols come in three matching pairs:
+- ( ) round parentheses — innermost level
+- [ ] square brackets — middle level
+- { } curly braces — outermost level
+
+The rule: **solve from the innermost level outward.** Round parens first, then square brackets, then curly braces.
+
+I draw this on the board as concentric circles. The expression lives in layers, like a Russian nesting doll. Students unwrap one layer at a time and rewrite the expression as a simpler version after each unwrapping.
+
+Worked example: **2 × {3 + [4 × (1 + 1)]}**
+
+Layer 1 (innermost parens): 1 + 1 = 2. Rewrite: **2 × {3 + [4 × 2]}**
+
+Layer 2 (brackets): 4 × 2 = 8. Rewrite: **2 × {3 + 8}**
+
+Layer 3 (braces): 3 + 8 = 11. Rewrite: **2 × 11**
+
+Final step: 2 × 11 = **22**.
+
+When students rewrite the expression after each step, they stop losing track of what they have left. Without the rewriting, they try to hold three layers in their head, lose one, and arrive at the wrong answer.
+
+## The "place the parentheses" puzzle is the secret weapon
+
+Test items often go in reverse. The student gets an expression and a target value and has to place parentheses to make the equation true.
+
+Example: "Place ONE pair of parentheses in **8 + 12 ÷ 2 × 5** so the result equals 50."
+
+Without parentheses: 8 + 6 × 5 = 38. Wrong.
+
+With parens around (8 + 12): (8 + 12) ÷ 2 × 5 = 20 ÷ 2 × 5 = 10 × 5 = 50. Correct.
+
+This puzzle format is the single best way to teach the order of operations because it forces students to think about HOW parentheses change the order, not just memorize the order. Drill three of these per day for a week and students start to see expressions structurally rather than as random sequences of operations.
+
+## Multiplication and division go LEFT TO RIGHT (and so do addition and subtraction)
+
+The biggest non-nesting mistake in 5th grade order of operations is treating the M-D and A-S pairs as separate steps. Students learn "M before D" because the letters look like a ranking. They aren't.
+
+**Multiplication and division have the SAME priority.** When both show up, you do them in the order they appear, LEFT TO RIGHT.
+
+50 ÷ 5 × 2 = ?
+
+Wrong (M before D): 5 × 2 = 10; 50 ÷ 10 = 5.
+Right (left to right): 50 ÷ 5 = 10; 10 × 2 = 20.
+
+Same rule for addition and subtraction. The fix: teach students that "PEMDAS" is really "P E (MD) (AS)" — two pairs of equal-priority operations done left to right.
+
+## The packet
+
+I built a 5th grade test-prep packet with 40 order-of-operations problems covering the full standard from simple two-step problems through 4-level nested brackets and braces, plus word problems and "place the parentheses" puzzles. Every problem has a worked answer key.
+
+**[5th Grade Math Test Prep: Order of Operations — $4](https://cobocastle.gumroad.com/l/nnaph)**
+
+What's inside:
+- Section 1: Two-Operation Problems (10 problems)
+- Section 2: Parentheses, Brackets, and Braces with nesting (10 problems)
+- Section 3: Real-World Word Problems (10 problems)
+- Section 4: Expressions, Equivalence, and Challenge — including "place the parentheses" puzzles (10 problems)
+- Complete answer key with step-by-step worked solutions
+
+Standards: 5.OA.A.1, 5.OA.A.2. Single classroom license.
+
+## The takeaway
+
+If your students can recite PEMDAS but miss order-of-operations items on the state test, the gap is almost always nesting. Teach the three-pair grouping-symbol hierarchy, drill the "rewrite the expression after each step" habit, and add three "place the parentheses" puzzles per day. The lost points come back fast.
+`,
+  },
+  {
+    slug: "how-to-teach-volume-of-rectangular-prisms-in-5th-grade",
+    title: "Teaching Volume of Rectangular Prisms in 5th Grade: From Unit Cubes to the Formula in One Bridge",
+    description: "5th graders meet volume for the first time. The standards expect students to BOTH count unit cubes AND apply V = l × w × h. The bridge between the two is where most teaching fails. Here's how to build it.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "5th Grade Math", "Volume", "Measurement", "Test Prep"],
+    content: `
+The 5.MD.C standards introduce 5th graders to volume for the first time. The standards expect two things at the same time: students should be able to find volume by COUNTING unit cubes, and they should be able to find volume by APPLYING the formula V = l × w × h.
+
+Most curricula teach these two methods on different days and never explicitly connect them. As a result, students learn each method as a separate procedure and miss the conceptual link. On the state test, the moment a problem mixes the two — say, "this prism has a bottom layer of 12 cubes and is 3 layers tall, what is the volume?" — students freeze.
+
+There's a teaching move that builds the bridge in one lesson.
+
+## The bridge: a bottom layer is l × w
+
+Here is the entire connection in one sentence:
+
+**The number of unit cubes in the bottom layer of a rectangular prism equals length times width. The total volume equals that bottom-layer count times the height.**
+
+That's it. V = l × w × h is just (cubes in bottom layer) × (number of layers).
+
+If you teach the formula this way — as a shorthand for cube-counting rather than as a separate procedure — students immediately see that both methods are the same.
+
+Worked example. A prism is 6 cubes long, 4 cubes wide, 2 cubes tall.
+
+Cube-counting method: bottom layer has 6 × 4 = 24 cubes. There are 2 layers. Total = 24 × 2 = 48 cubes.
+
+Formula method: V = l × w × h = 6 × 4 × 2 = 48 cubic units.
+
+Same answer, same reasoning. The formula is just the cube-count written compactly.
+
+## The missing-dimension problem is where the bridge pays off
+
+State tests love missing-dimension items:
+- "A box has a volume of 60 cubic inches. It is 5 layers tall. What is the area of the bottom layer?"
+- "A box has a volume of 240 cubic meters. The base is 8 m by 5 m. What is the height?"
+
+Students who learned the formula as a black box panic at these. Students who learned that V = (bottom layer) × (height) just solve algebraically: bottom layer = V ÷ height.
+
+Two missing-dimension routines to drill:
+
+- Given volume + height, find the base area: **base = V ÷ h**
+- Given volume + length + width, find the height: **h = V ÷ (l × w)**
+
+That's enough to handle every 5.MD missing-dimension item on the test.
+
+## Composite figures and the "split, find, add" routine
+
+Composite figures — two rectangular prisms stacked or joined — are the next layer of state-test difficulty. The routine students need is exactly three steps:
+
+1. **Split** the figure into two simple rectangular prisms.
+2. **Find** the volume of each.
+3. **Add** the two volumes.
+
+That's it. The hardest part is usually identifying the dimensions of each prism from a 2D drawing, but the routine itself is simple. Teach the routine on every composite figure problem until students do it without prompting.
+
+## Units matter — and they're a free point on every test
+
+Volume is the topic where students lose points on UNITS more than on the math. Cubic inches, cubic feet, cubic centimeters, cubic meters — students confuse them, forget them, or write the wrong one.
+
+The simplest teaching move: require students to write the unit on every answer. Make it a habit by Day 2 of the unit. Then test items that ask "what is the volume in cubic inches?" become automatic — students already wrote "cubic inches" on every problem of the practice packet.
+
+## Real-world fill problems are the multi-step trap
+
+Fill problems are where everything comes together. A pool is 30 ft × 15 ft × 5 ft, but water is only added to a depth of 4 ft. Students see "30 × 15 × 5 = 2,250" and write that. The answer is 30 × 15 × 4 = 1,800.
+
+The fix is the same as in the order-of-operations and word-problem posts: students underline the actual question first. "How much water is in the pool" is NOT the same as "what is the volume of the pool."
+
+## The packet
+
+I built a 5th grade test-prep packet with 40 volume problems covering unit cubes, the V = l × w × h formula, missing dimensions, and composite figures with fill-rate problems. Every problem has a worked answer key.
+
+**[5th Grade Math Test Prep: Volume of Rectangular Prisms — $4](https://cobocastle.gumroad.com/l/qgycir)**
+
+What's inside:
+- Section 1: Understanding Volume with Unit Cubes (10 problems)
+- Section 2: Volume Formula V = l × w × h with units (10 problems)
+- Section 3: Finding a Missing Dimension (10 problems)
+- Section 4: Composite Figures and Real-World Word Problems (10 problems)
+- Complete answer key with worked solutions
+
+Standards: 5.MD.C.3, 5.MD.C.4, 5.MD.C.5. Single classroom license.
+
+## The takeaway
+
+Volume in 5th grade is a unit where the conceptual bridge — that the formula is just the cube count written compactly — solves most of the lost points. Build that bridge explicitly in lesson 1, then drill the missing-dimension and composite-figure routines for two weeks. Scores on this part of the test climb fast.
+`,
+  },
+  {
+    slug: "how-to-teach-long-division-in-4th-grade",
+    title: "Teaching Long Division in 4th Grade: The Remainder-Interpretation Habit That Lifts Word Problem Scores",
+    description: "4th graders learn long division procedurally and then lose half the word-problem points because they don't know what to DO with the remainder. Three rules — keep, drop, round up — cover every state test item.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "4th Grade Math", "Long Division", "Remainders", "Test Prep"],
+    content: `
+Long division is the procedural Mt. Everest of 4th grade. Once students get past the procedure — "divide, multiply, subtract, bring down" — they tend to feel like they have it conquered. Then they get to the word problems and the score drops in half.
+
+The reason is almost always the remainder. Most 4th graders who can divide 235 by 40 cannot explain whether the answer to a bus-loading problem is 5 buses, 6 buses, "5 buses with 35 students left," or "5 remainder 35." The procedure they have. The interpretation they don't.
+
+There are three rules — keep, drop, round up — that cover every long-division word problem on the state test.
+
+## Rule 1: KEEP the remainder
+
+Use this rule when the remainder is the actual answer the question is asking for.
+
+**Example:** "A class collects 482 cans of food. They put exactly 9 cans in each donation bag. **How many cans are left over?**"
+
+Solve: 482 ÷ 9 = 53 remainder 5.
+
+The question asks for the leftover cans. The answer is **5**, not 53.
+
+Students who don't read the question carefully grab the quotient and miss the item. The fix is to underline what the question is asking BEFORE you start dividing.
+
+## Rule 2: DROP the remainder
+
+Use this rule when the question asks "how many can you fully make / fill / fit?" — when the remainder is unusable.
+
+**Example:** "A bakery makes 240 cookies. They put 8 cookies in each full box. **How many full boxes can they fill?**"
+
+Solve: 240 ÷ 8 = 30 with no remainder. (Or, 482 ÷ 9 = 53 remainder 5 → 53 full bags.)
+
+The remainder doesn't matter; it doesn't fill another bag. Drop it.
+
+Trigger words: "complete," "full," "filled," "make," "package."
+
+## Rule 3: ROUND UP
+
+Use this rule when leaving anyone (or anything) behind is not an option.
+
+**Example:** "A field trip needs 235 students seated on buses. Each bus seats 40 students. **What is the LEAST number of buses needed?**"
+
+Solve: 235 ÷ 40 = 5 remainder 35.
+
+If you use only 5 buses, 35 students are left at school. You need a 6th bus.
+
+Answer: **6 buses.**
+
+This is the rule students miss most often, and it shows up on every state test in some form. The student who divides correctly and writes "5 remainder 35" or even "5.875" gets the item wrong.
+
+Trigger words: "buses," "vans," "trips," "containers," "tables" — anything where you can't have a partial unit AND can't leave anyone behind.
+
+## How to drill the three rules
+
+For each rule, drill 5-10 word problems IN A ROW so the rule becomes automatic. Then mix them. State-test items don't come labeled — students have to recognize which rule applies on their own.
+
+After two days of mixed practice with the three rules, the word-problem accuracy lift is dramatic. The procedural division they already knew. The interpretation is what was missing.
+
+## The procedural piece — and one teaching tweak
+
+The standard long-division procedure works, but I've found one tweak that catches a lot of careless errors: have students multiply BACK at the end of every problem.
+
+After dividing 482 ÷ 9 = 53 R 5, the student multiplies 9 × 53 = 477 and adds 5 to get 482. The check confirms the answer. If the check doesn't match, they go back and find the error.
+
+This 20-second habit catches roughly half of the "I wrote the wrong digit in the quotient" errors. On a test with 10 long-division items, that can be 2-3 saved points.
+
+## The packet
+
+I built a 4th grade test-prep packet with 40 long-division problems covering the full progression — clean 2-digit dividends, 3-digit dividends with remainders, 4-digit dividends, and word problems for all three remainder-interpretation rules. Every problem has a complete answer key with the multiplication check shown.
+
+**[4th Grade Math Test Prep: Long Division — $4 — coming soon to Gumroad](https://cobocastle.gumroad.com)**
+
+What's inside:
+- Section 1: Dividing by 1-Digit Divisors (No Remainder) (10 problems)
+- Section 2: Dividing with Remainders (10 problems)
+- Section 3: Larger Numbers — 3- and 4-Digit Dividends (10 problems)
+- Section 4: Word Problems and Interpreting Remainders (10 problems for keep / drop / round up)
+- Complete answer key
+
+Standards: 4.NBT.B.6, 4.OA.A.3. Single classroom license.
+
+## The takeaway
+
+The long-division procedure is the easy part of the unit. The remainder-interpretation rules — keep, drop, round up — are where the test points live. Drill them as three separate routines, then mix them, and watch word-problem scores climb. The math is the same; the reading is what closes the gap.
+`,
+  },
+  {
     slug: "how-to-teach-fractions-and-decimals-operations-in-5th-grade",
     title: "Teaching 5th Grade Fraction and Decimal Operations: The Two Mistakes That Cause Most Lost Points",
     description: "5th graders are expected to fluently add, subtract, multiply, and divide both fractions and decimals. Two specific misconceptions cause most of the lost points on state tests. Here's what they are and how to fix them.",
