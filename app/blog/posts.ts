@@ -10,6 +10,313 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "how-to-teach-fractions-and-decimals-operations-in-5th-grade",
+    title: "Teaching 5th Grade Fraction and Decimal Operations: The Two Mistakes That Cause Most Lost Points",
+    description: "5th graders are expected to fluently add, subtract, multiply, and divide both fractions and decimals. Two specific misconceptions cause most of the lost points on state tests. Here's what they are and how to fix them.",
+    date: "2026-05-30",
+    readTime: "6 min",
+    tags: ["Education", "5th Grade Math", "Fractions", "Decimals", "Test Prep"],
+    content: `
+By the end of 5th grade, students are expected to fluently operate on both fractions and decimals — adding and subtracting fractions with unlike denominators, multiplying fractions and mixed numbers, dividing whole numbers by unit fractions, and computing with decimals to hundredths. That's a lot of procedures, and most curricula teach them as a sequence of independent skills.
+
+The result on state tests: students remember the procedures but miss the conceptual checks. Two specific misconceptions account for the bulk of lost points. If you target them directly, scores lift.
+
+## Misconception 1: "Multiplying always makes bigger, dividing always makes smaller"
+
+This is the heaviest hitter. Students arrive in 5th grade with three years of whole-number arithmetic, where multiplication always increases the value and division always decreases it. Then they meet fractions and the rule breaks.
+
+- 5 × 2/3 = 10/3, which is LESS than 5.
+- 4 ÷ 1/2 = 8, which is MORE than 4.
+
+If a student is sleepwalking through a problem, "multiplying by a fraction less than 1 makes the answer smaller" looks wrong, so they second-guess their work and switch to the wrong operation.
+
+The teaching move is to make this explicit with a one-minute talk before every fraction-operation lesson:
+
+- Multiplying by a number greater than 1 makes the answer bigger.
+- Multiplying by a number equal to 1 keeps the answer the same.
+- Multiplying by a number less than 1 (like a proper fraction) makes the answer **smaller**.
+
+Same logic in reverse for division. Then have students predict — before they compute — whether the answer will be bigger or smaller than the starting number. This single habit catches half of the procedural errors students would otherwise make.
+
+## Misconception 2: "Decimal points don't really matter if I line everything up"
+
+Students learn the "line up the decimal points" rule for addition and subtraction. They overgeneralize it to multiplication, where it is wrong.
+
+For 3.4 × 0.6, students sometimes line up the decimals first and get 0.34 or 3.40 confused. The correct procedure for decimal multiplication is:
+
+1. Ignore the decimals. Multiply as if both numbers are whole: 34 × 6 = 204.
+2. Count the total decimal places in BOTH factors. (3.4 has 1, 0.6 has 1 — total of 2.)
+3. Place the decimal in the product so it has that many digits to the right: 2.04.
+
+For division, the move is to multiply BOTH numbers by a power of ten to make the divisor a whole number. 7.5 ÷ 0.5 becomes 75 ÷ 5 = 15.
+
+If you teach decimal operations as "different rules for +/− vs. ×/÷" from day one, students stop mixing the procedures.
+
+## The third skill: keeping track of "what you have left"
+
+Multi-step real-world problems are where everything has to come together. A student might compute correctly through three steps and then miss the final question because they answered the wrong question.
+
+Example: "A bakery sold 3/8 of its 240 cupcakes in the morning. In the afternoon, it sold half of what remained. How many cupcakes are LEFT at the end of the day?"
+
+The wrong move: solving for "how many were sold." The right move: solving for "how many are left." Both procedures involve the same operations; the answer is different.
+
+I teach this with one simple practice: students underline the actual question and write "I'm looking for ___" before they start computing. Three seconds per problem, dramatic accuracy lift.
+
+## The packet
+
+I built a 40-problem 5th grade test-prep packet covering the full range of fraction and decimal operations students need for state tests. Every problem has a worked answer key showing the procedure step by step.
+
+**[5th Grade Math Test Prep: Fractions and Decimals Operations — $4](https://cobocastle.gumroad.com/l/sjhlvl)**
+
+What's inside:
+- Section 1: Adding and Subtracting Fractions with Unlike Denominators (10 problems)
+- Section 2: Multiplying Fractions and Mixed Numbers (10 problems)
+- Section 3: Dividing with Fractions (10 problems)
+- Section 4: Decimal Operations and Multi-Step Real-World Problems (10 problems)
+- Complete answer key with worked-out steps
+
+Standards: 5.NF.A.1, 5.NF.A.2, 5.NF.B.4, 5.NF.B.7, 5.NBT.B.7. Single classroom license.
+
+## The takeaway
+
+If you want to lift scores on the fraction-and-decimal portion of the state test, you do not need more procedural drills. You need to drill the two predictions — "will this answer be bigger or smaller than what I started with?" and "what is the question actually asking?" — until they are automatic. The procedures students mostly know. The metacognition is what closes the gap.
+`,
+  },
+  {
+    slug: "how-to-teach-part-a-part-b-questions-in-5th-grade-reading",
+    title: "Teaching Part A / Part B Reading Questions in 5th Grade: The Two-Stage Habit That Lifts Scores",
+    description: "Part A / Part B questions trip up strong readers more than they should. The reason isn't comprehension — it's that students answer Part B without re-checking against their Part A answer. Here's the habit that fixes it.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "5th Grade ELA", "Reading Comprehension", "Test Prep", "EBSR"],
+    content: `
+Part A / Part B questions — what the testing world calls "evidence-based selected response" or EBSR — are now on most state reading tests. They show up on PARCC, Smarter Balanced, FSA, STAAR, and most state-built assessments. They are also one of the question types where strong readers lose the most unnecessary points.
+
+The reason isn't comprehension. It's procedural.
+
+## How Part A / Part B works
+
+A Part A question asks for a theme, main idea, inference, or character trait. Part B then asks which detail from the passage BEST supports the answer in Part A.
+
+The scoring rule is the part most students miss: **the two questions are graded together.** A correct Part A with a wrong Part B is wrong. A wrong Part A with a "correct" Part B is wrong. Students need both right or they get zero.
+
+This grading rule is what makes EBSR brutal for students who would otherwise be solid readers. They get the theme right in Part A, then pick the most "dramatic" sentence in Part B without checking whether it actually supports their Part A answer. Lost points everywhere.
+
+## The two-stage habit
+
+The single intervention that fixes this is teaching the two-stage habit:
+
+**Stage 1 (Part A):** Read the question. Read all four answer choices. Choose the one that fits the passage as a whole. Underline the choice in the test booklet.
+
+**Stage 2 (Part B):** For EACH of the four answer choices in Part B, ask: "Does this sentence directly support my Part A answer?"
+- If it supports a DIFFERENT answer than the one I picked in Part A, throw it out.
+- If it is true but doesn't connect to my Part A answer, throw it out.
+- The remaining choice (or the most-connected choice) is the answer.
+
+Critically: if no Part B answer connects to the Part A answer the student picked, that is a signal to **go back and re-check Part A**. The student likely picked the wrong main idea.
+
+This is the single most powerful test-taking habit you can teach for 5th grade reading. Drill it on every EBSR practice item until students do it automatically.
+
+## Why "the most dramatic sentence" is usually wrong
+
+Test writers know how 5th graders read. Wrong answers in Part B are usually built around sentences that:
+- Are emotionally vivid (a character cries, shouts, runs)
+- Contain a fact that is true but tangential to the main idea
+- Restate a single detail rather than the broader theme
+
+A correct Part B answer is usually a sentence that summarizes a turn in the passage — the moment when the character or topic changes direction, or the sentence that names the central idea most directly. It's often not the most "dramatic" line.
+
+Teach students to ignore the drama. The right Part B sentence is the one that makes the Part A answer obviously true.
+
+## What to look for in a passage before reading the questions
+
+Train students to do a 10-second scan before reading the questions:
+- What's the title? (Often a strong main-idea clue.)
+- Who or what is the passage mostly about?
+- Is it fiction or informational?
+- For fiction: who is the main character, what do they want, and does that change?
+- For informational: what is the topic, and what is the author saying ABOUT the topic?
+
+That 10-second scan tees up the main idea before students see the question. Then Part A becomes a much faster choice and Part B becomes easier to filter.
+
+## The packet
+
+I built a 5th grade test-prep packet with 4 original passages and 16 paired Part A / Part B questions in the exact format students see on state tests. Every question has an answer key with explanation.
+
+**[5th Grade ELA Test Prep: Reading Comprehension Part A / Part B — $4](https://cobocastle.gumroad.com/l/xaflu)**
+
+What's inside:
+- 4 original passages (2 fiction, 2 informational)
+- 16 paired Part A / Part B questions
+- Topics: theme, main idea, character inference, fact vs. opinion
+- Complete answer key with worked explanations
+
+Standards: RL.5.1, RL.5.2, RI.5.1, RI.5.2. Single classroom license.
+
+## The takeaway
+
+EBSR questions reward procedural discipline as much as comprehension. A 5th grader who reads at a strong 5th grade level can lose half the EBSR points on a test by skipping the cross-check between Part A and Part B. Teach the two-stage habit, drill it, and watch scores move.
+`,
+  },
+  {
+    slug: "how-to-teach-main-idea-in-3rd-grade",
+    title: "Teaching Main Idea in 3rd Grade: The 'Whole Passage Test' That Catches Most Wrong Answers",
+    description: "3rd graders confuse main idea with supporting detail more than any other reading-comprehension mistake. The 'whole passage test' is a one-question habit that fixes it.",
+    date: "2026-05-30",
+    readTime: "4 min",
+    tags: ["Education", "3rd Grade ELA", "Main Idea", "Reading Comprehension", "Test Prep"],
+    content: `
+The single most common 3rd grade reading mistake on state tests is picking a true detail as the main idea. The detail is right there in the passage. It is true. It is concrete. And it is the wrong answer.
+
+This isn't a comprehension problem. It's a categorization problem — students cannot reliably distinguish "the main idea" from "a supporting detail," even when they understand the passage.
+
+## The whole-passage test
+
+There's one question that solves most of this:
+
+**"Is this idea about the WHOLE passage, or just one part?"**
+
+If a 3rd grader can ask this question for every answer choice on every main-idea item, the accuracy rate climbs sharply. Main ideas describe the whole passage. Details describe only one part.
+
+Worked example. The passage is about an octopus changing color for several different reasons. The answer choices include:
+- A. Octopuses live in the ocean.
+- B. Octopuses change color for many different reasons.
+- C. Octopuses are color-blind.
+- D. The ocean floor is full of rocks and seaweed.
+
+Apply the whole-passage test:
+- A. Mentioned briefly, but the passage isn't about where they live. **Part, not whole.**
+- B. The passage gives multiple reasons across multiple paragraphs. **Whole.**
+- C. Mentioned at the very end as a surprising fact. **Part, not whole.**
+- D. A detail. **Part, not whole.**
+
+Only B passes the whole-passage test. The answer is B.
+
+The first three or four times you teach this, model it out loud on every passage. After a week, students will do it silently. After two weeks, they will be catching their own errors before circling an answer.
+
+## Why "best new title" questions check the same skill
+
+State tests often ask "Which would be the best NEW title for this passage?" right next to a main-idea question. Both check the same thing. The best new title summarizes the whole passage, not one part.
+
+This means students get TWO shots at every main idea — once labeled "main idea" and once labeled "best new title." If they can do one, they can do the other. Teach them as the same skill and you double the practice without doubling the work.
+
+## Distinguishing the main idea from "the lesson"
+
+Fiction passages often pair a main-idea question with a lesson or moral question. Students confuse them.
+
+- **Main idea** = what the story is about. (Example: "Maya gave up her own gift to help a stranger.")
+- **Lesson** = what the reader can take away. (Example: "Sometimes a small kindness matters more than getting what we planned.")
+
+Teaching students to label fiction passages with both — "what is this story about?" and "what does this story teach?" — gives them clean categories so they pick the right answer when the question asks for one specifically.
+
+## Why short, original passages beat long published ones
+
+A lot of main-idea practice uses long passages with rich vocabulary. That's good for vocabulary practice, but it isn't good for main-idea practice — students get bogged down in the comprehension layer and never reach the categorization layer.
+
+For main-idea drills, short passages at exact grade-level lexile are better. 100-115 words is plenty. Five answer choices, two of which are detail traps. After 20 reps at that length, students start applying the whole-passage test automatically.
+
+## The packet
+
+I built a 3rd grade test-prep packet with 6 short original passages (3 fiction, 3 informational), each ~100-115 words, followed by 5 main-idea questions per passage. Every passage gives students another rep on the whole-passage test.
+
+**[3rd Grade ELA Reading Comprehension: Main Idea and Details — $4](https://cobocastle.gumroad.com/l/xdzzns)**
+
+What's inside:
+- 6 original short passages (3 fiction, 3 informational)
+- 30 multiple-choice questions
+- Each passage covers main idea, best supporting detail, author's purpose, vocabulary in context, and best new title
+- Complete answer key with brief teacher explanations
+
+Standards: RI.3.2, RL.3.2, RI.3.1. Single classroom license.
+
+## The takeaway
+
+Main-idea accuracy in 3rd grade is mostly about categorization, not comprehension. Teach the whole-passage test, give students 20-30 reps at on-grade length, and watch the main-idea portion of the state test climb. Detail traps stop catching students who run the check.
+`,
+  },
+  {
+    slug: "how-to-teach-multi-step-word-problems-with-variables-in-4th-grade",
+    title: "Teaching Multi-Step Word Problems with Variables in 4th Grade: The 'Write the Equation First' Habit",
+    description: "4th graders meet algebraic thinking for the first time through multi-step word problems with variables. The biggest gap is between word-problem reading and equation writing. Here's the habit that closes it.",
+    date: "2026-05-30",
+    readTime: "5 min",
+    tags: ["Education", "4th Grade Math", "Word Problems", "Algebra", "Test Prep"],
+    content: `
+The 4.OA standards push 4th graders into early algebraic thinking — solving multi-step word problems and representing unknowns with a letter standing in for the answer. For a lot of students, this is the first time they have ever had to TRANSLATE a sentence into an equation, and the gap between reading the problem and writing the equation is where most of the lost points live.
+
+There's one habit that closes the gap.
+
+## The habit: write the equation BEFORE you do any arithmetic
+
+The mistake almost every 4th grader makes on multi-step problems is reading the problem and immediately starting to compute. They add the first two numbers they see, then subtract the third, and hope the answer is in the right ballpark. Sometimes it works. On any problem with more than one operation, it usually doesn't.
+
+The fix is procedural, not conceptual. Before students do ANY arithmetic on a word problem:
+
+1. Identify the unknown. Name it with a letter. ("Let p = pens per box.")
+2. Write the equation that represents the situation, using the letter.
+3. ONLY THEN solve.
+
+This adds 30 seconds per problem and adds 20 percentage points to accuracy.
+
+Worked example. "A school orders 4 boxes of pens. Each box has p pens. After distributing 10 pens to each of 12 classrooms, there are 8 pens left. How many pens were in each box?"
+
+Step 1: Let p = pens per box.
+
+Step 2: Equation. Total pens = 4p. Distributed = 10 times 12 = 120. Left over = 8. So: 4p minus 120 equals 8.
+
+Step 3: Solve. 4p = 128. p = 32.
+
+A student who tries to do this in their head without writing the equation will almost always miss it. A student who writes the equation almost always gets it right.
+
+## The "let n equal" sentence — the most underused teaching move
+
+A lot of 4th grade teachers introduce variables as "the missing number" without ever asking students to label what the variable represents. Then students get to a multi-variable problem in 6th grade and have no idea what to do.
+
+The fix is to require, on every variable problem from day one, that students start with a "Let ___ equal ___" sentence. "Let n = the number of pencils." "Let h = Henry's marbles." "Let p = pens per box."
+
+This is a 10-second habit that pays off for years. It also makes Part B questions on state tests dramatically easier — when the question asks "what does n represent in the equation," students who built the habit already wrote the answer at the top of their work.
+
+## Why the predict-the-answer move matters here too
+
+Same move as in the fraction-operations post: before students compute, ask "is your answer going to be a big number or a small number?"
+
+For "4p minus 120 equals 8, find p":
+- A student who predicts "p is probably small because there's only 4 boxes and 120 are leaving" will catch a wrong answer that says p = 300.
+- A student who just computes will write down whatever the calculator says.
+
+Prediction is a metacognitive check, not a math skill, and it costs nothing.
+
+## Multi-operation problems and the "what's the question" trap
+
+Multi-step problems on state tests often include extra information that isn't needed. They also often ask for something that ISN'T the final number computed.
+
+Example: "A juice machine fills 6 bottles per minute. It runs for 9 minutes, then 8 bottles are removed for inspection. How many bottles are ready to ship?"
+
+Students compute 6 times 9 = 54. Then they pick 54 as the answer because that was the last thing they computed. The actual question asks for "ready to ship" which is 54 minus 8 = 46.
+
+Same fix as in the reading-comprehension post: students underline the actual question before they start working. The handful of seconds spent re-reading the question catches dozens of points on every test.
+
+## The packet
+
+I built a 4th grade test-prep packet with 40 multi-step word problems that build from straightforward two-step problems into variable-equation reasoning. Every problem has a worked answer key with the equation written out.
+
+**[4th Grade Math Test Prep: Multi-Step Word Problems with Variables — $4](https://cobocastle.gumroad.com/l/urwyvf)**
+
+What's inside:
+- Section 1: Two-Step Word Problems (10 problems)
+- Section 2: Introducing Variables (10 problems)
+- Section 3: Three-Step and Multi-Operation Problems (10 problems)
+- Section 4: Challenge — Mixed Equations and Reasoning (10 problems)
+- Complete answer key with equation setup AND worked solutions
+
+Standards: 4.OA.A.1, 4.OA.A.2, 4.OA.A.3, 4.NBT.B.4, 4.NBT.B.5, 4.NBT.B.6. Single classroom license.
+
+## The takeaway
+
+The hardest part of 4th grade word problems isn't the arithmetic. It's the translation from sentence to equation. Teach the habit of writing the equation first, with a "let ___ equal" sentence on every variable problem, and accuracy on multi-step items climbs every test.
+`,
+  },
+  {
     slug: "how-to-teach-place-value-through-millions-in-4th-grade",
     title: "How to Teach 4th Grade Place Value Through Millions (and the Times-Ten Rule That Unlocks the Whole Unit)",
     description: "4th graders meet large numbers and rounding for the first time at the same time. Here's the one underlying rule — the times-ten relationship from 4.NBT.A.1 — that makes everything else in the unit click.",
