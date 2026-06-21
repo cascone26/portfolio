@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Pin the workspace root so Turbopack doesn't infer the parent dir
+  // (C:\Users\coboc\repos has its own package-lock.json for playwright).
+  turbopack: {
+    root: __dirname,
+  },
   async headers() {
     return [
       {
