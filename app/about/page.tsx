@@ -99,7 +99,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  I&apos;m Jacob — 20 years old, based in Mission, KS. I&apos;m
+                  I&apos;m Jacob — 21 years old, based in Mission, KS. I&apos;m
                   currently a student at Grand Canyon University studying
                   elementary education and Christian teaching, graduating in
                   April 2027.
