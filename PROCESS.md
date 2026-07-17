@@ -131,3 +131,73 @@ The portfolio site is **production-ready and healthy**. The massive growth from 
 The site is now accurately documented in STATUS.md, with this PROCESS.md capturing the audit methodology so future iterations can follow the same pattern.
 
 **Status: READY FOR PRODUCTION. No blockers, no regressions, stable deployment.**
+
+---
+
+# Follow-Up Session: Dead Code Cleanup (2026-07-17, Evening)
+
+## Problem Statement
+From the morning audit, one issue was flagged for "next cycle": abandoned OneSignal push notification infrastructure (NotificationBell.tsx never imported, OneSignalProvider wrapping the app with no functional purpose). This session resolves it.
+
+## Investigation & Execution
+
+### 1. Dead Code Verification
+- Confirmed NotificationBell.tsx is never imported anywhere (grep search across entire codebase)
+- Confirmed OneSignal is only used by OneSignalProvider and NotificationBell (both unused)
+- Verified react-onesignal dependency is only imported by these two dead components
+
+### 2. Cleanup Performed
+**Deleted files:**
+- `app/components/NotificationBell.tsx` — component with notification bell icon button, never used
+- `app/components/OneSignalProvider.tsx` — SDK initialization wrapper, only used in layout.tsx
+- `public/OneSignalSDKWorker.js` — OneSignal service worker, no longer needed
+- `public/vercel.svg`, `public/next.svg`, `public/logo.svg`, `public/globe.svg`, `public/file.svg`, `public/window.svg` — unused legacy template SVG files
+
+**Modified files:**
+- `app/layout.tsx` — removed OneSignalProvider import and wrapper
+- `package.json` — removed `"react-onesignal": "^3.5.1"` from dependencies
+
+### 3. Build Verification
+- Local build: Clean (798 routes, zero warnings/errors)
+- Commit: `2ebb596` with full provenance message
+- GitHub push: Successful to origin/main
+- Vercel deployment: Successful, aliased to https://builtsimple.dev (5-minute deploy)
+- Live verification: All tested pages (/, /about, /blog, /contact, /products) return HTTP 200
+
+### 4. Fresh Pass for Other Issues
+**Searches conducted:**
+- Console.log statements: None found
+- TODO/FIXME comments: Only legitimate content placeholders (testimonials) — no code issues
+- Build warnings/errors: Zero
+- Missing alt text on images: All Image components properly tagged
+- Unused public assets: All legacy SVGs removed
+- Environment variables: Only ADMIN_PASSWORD (properly configured on Vercel)
+
+## Decisions Made
+- **Remove completely:** OneSignal infrastructure is abandoned; no evidence of partial implementation or future plans.
+- **Remove SVG files:** Unused template files cluttering public/ directory; no references in codebase.
+- **Keep react-onesignal out of dependencies:** Cleaner package.json; re-add only if feature is resurrected.
+
+## Deployment & Verification
+
+### Commits Made
+1. **2ebb596** — Clean up dead OneSignal code and unused assets
+
+### Live Verification (2026-07-17, 16:50 UTC)
+```
+/: 200 OK
+/about: 200 OK
+/blog: 200 OK
+/contact: 200 OK
+/products: 200 OK
+https://builtsimple.dev: 200 OK (custom domain live)
+```
+
+## Documentation Updated
+1. **STATUS.md** — removed dead code sections, marked all issues resolved
+2. **PROCESS.md** — this append documents the follow-up methodology and results
+
+## Conclusion
+Site remains **production-ready and stable**. Dead code completely removed. One audit cycle now complete: morning audit identified issue, evening session resolved it. Process discipline (identify → document → execute → verify → deploy) working as intended.
+
+**Status: PRODUCTION READY. Zero dead code, zero build warnings, zero production issues.**

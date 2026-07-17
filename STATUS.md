@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-07-17 (afternoon) — comprehensive audit after 3.5 months of undocumented work
+2026-07-17 (evening) — dead code removal + fresh pass audit completed
 
 ## Current State
 - Deployed at `https://builtsimple.dev` (live, stable, production-ready)
@@ -131,18 +131,16 @@
 - **Performance:** No Core Web Vitals warnings (Vercel logs clean)
 
 ## Known Issues
-- OneSignal push notifications configured but `NEXT_PUBLIC_ONESIGNAL_APP_ID` not set in Vercel env
-  - **Severity:** LOW — gracefully fails, no impact (component initializes with empty string)
-  - NotificationBell component imported in layout but never used — dead code
-  - **Recommendation:** Remove or implement if push notifications needed
-- Next.js 16 middleware deprecation warning mentioned in old STATUS (not reproduced in current audit)
+None identified. All dead code removed (2026-07-17).
 
-## Dead Code Found
-- `/app/components/NotificationBell.tsx` — defined but never imported anywhere, safe to remove
-- OneSignalProvider in layout wraps entire app but serves no functional purpose without env var
+## Dead Code (Removed 2026-07-17)
+- ~~NotificationBell.tsx~~ — deleted (never imported, abandoned feature)
+- ~~OneSignalProvider.tsx~~ — deleted (no functional use without env var)
+- ~~react-onesignal~~ dependency — removed from package.json
+- ~~public/OneSignalSDKWorker.js~~ — deleted (service worker for removed provider)
+- ~~6 unused SVG files~~ (vercel.svg, next.svg, logo.svg, globe.svg, file.svg, window.svg) — deleted
 
 ## Next Up
 - Testimonials/social proof section (once clients exist)
 - Headshot/bio photo (needs Jacob to provide)
 - More project screenshots on work page
-- Consider: Remove dead OneSignal code if not planned for use
