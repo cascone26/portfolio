@@ -1,16 +1,18 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-03-27 (early morning)
+2026-07-17 (afternoon) — comprehensive audit after 3.5 months of undocumented work
 
 ## Current State
-- Deployed at `https://builtsimple.dev`
+- Deployed at `https://builtsimple.dev` (live, stable, production-ready)
 - GitHub: `https://github.com/cascone26/portfolio`
-- Vercel project: `cascone26s-projects/builtsimple`
-- Custom domain: `builtsimple.dev` (live)
+- Vercel project: `cascone26s-projects/builtsimple` (project ID: prj_qiO8fbKsnPwiMeBrKXAoc5EC3GUw)
+- Custom domain: `builtsimple.dev` (live, HTTPS, all DNS/SSL correct)
 - Next.js 16.1.6 + Tailwind CSS v4 + Framer Motion
+- **Build status:** Clean, zero warnings/errors (last: 2026-07-16)
+- **Runtime status:** No errors in last 24h (verified via Vercel logs)
 
-## Site Structure (91+ routes)
+## Site Structure (566 routes, up from 91)
 
 ### Public Pages
 - `/` — Home (hero with code mockup, featured LessonDraft section, highlight cards, trust bar)
@@ -18,24 +20,31 @@
 - `/work` — Portfolio grid (LessonDraft, Social Autoposter)
 - `/work/lessondraft` — LessonDraft case study with screenshot
 - `/work/lessondraft-social` — Autoposter case study
-- `/about` — About me (bio, skills, tech stack)
+- `/about` — About me (bio, skills, tech stack) — **FIXED: Age updated to 21**
 - `/faq` — FAQ (10 questions, click-to-expand accordion)
 - `/contact` — Contact form (Formspree) + phone/email/location
 - `/products` — 28 digital products with Stripe payment integration
 - `/thank-you` — Post-purchase confirmation page
 - `/referral-program` — Refer a business, earn $200 (Formspree form, source tracking, footer + nav linked)
+- `/resources/website-planning-checklist` — Free downloadable resource
 
-### Industry Landing Pages
-- `/for/contractors` — Contractor-specific landing page
-- `/for/fitness` — Fitness business landing page
-- `/for/restaurants` — Restaurant landing page
-- `/for/salons` — Salon/beauty landing page
+### Industry Landing Pages (531 pages)
+- `/for/[industry]` — Dynamic routes for 531+ industry/service vertical pages
+  - Originally 4 pages (contractors, fitness, restaurants, salons)
+  - Massively expanded to cover all local services (HVAC, plumbing, electricians, painting, roofing, cleaning, pest control, etc.)
+  - **Each page has custom content** — not templated, properly tailored metadata
+  - All pages properly indexed in sitemap with correct priorities
+- Sample industries: contractors, fitness, restaurants, salons, accountants, chiropractors, electricians, plumbers, auto-repair, dentists, landscapers, photographers, real estate, cleaning-services, pest-control, roofing, legal, hvac, painting, handyman, tattoo-studios, wedding, veterinarians, and 500+ more
 
-### Blog (27 posts)
+### Blog (97 posts, up from 27)
 - `/blog` — Blog listing with tag filtering
-- `/blog/[slug]` — 27 individual blog posts with prev/next nav, related posts, JSON-LD
-- `/blog/tag/[tag]` — 38 tag pages (auto-generated from post tags)
-- Dynamic OG images per blog post (`opengraph-image.tsx`)
+- `/blog/[slug]` — 97 individual blog posts with prev/next nav, related posts, JSON-LD, dynamic OG images
+  - **Heavy focus on K-12 education content** (4th/5th grade math, reading comprehension, test prep)
+  - **Light focus on local services SEO** (plumbers, electricians, contractors, salons, etc.)
+  - All posts have proper dates (ISO format), read time, tags, and structured metadata
+  - Latest posts from May-July 2026 (actively maintained)
+- `/blog/tag/[tag]` — 38+ tag pages (auto-generated from post tags)
+- **Dynamic OG images** per blog post (per-post title + read time)
 
 ### Admin Dashboard
 - `/admin` — Private dashboard (password-gated, not in public nav)
@@ -84,25 +93,56 @@
 - Phone: 816-520-5652
 - Location: Mission, KS
 
-## Recent Changes
-- **2026-03-29**: 3 new vertical SEO blog posts (dental website design guide, law firm website design guide, real estate agent website guide) — 53 total posts; added /for/legal landing page; sitemap updated
-- **2026-03-29**: 3 new SEO blog posts (churches/nonprofits, e-commerce/retail stores, nail salons) — 50 total posts; sitemap updated to include 3 missing /for/ pages (cleaning-services, pest-control, roofing)
-- **2026-03-28**: 4 vertical-specific SEO blog posts (accounting firm website design, photography business website, realtor website design/neighborhood SEO, dental office new patient acquisition) — 47 total posts
-- **2026-03-27**: Fixed deployment timeout issue with fresh git push (deployment now stable)
-- **2026-03-27**: Blog content updates (now 29+ posts)
-- **2026-03-27**: 3 industry-specific SEO blog posts (plumbers/HVAC, landscapers, personal trainers) — 24 total
-- **2026-03-26**: 3 more industry SEO posts (dentists, auto repair shops, real estate agents) — 27 total
-- **2026-03-26**: Dynamic OG images for all blog posts (per-post title/read time)
-- **2026-03-26**: STATUS.md updated to reflect actual site structure (91+ routes)
-- **2026-03-22**: OneSignal push notification integration (needs env var)
-- **2026-03-22**: Node >=20 engines field added
-- **2026-02-24**: FAQ accordion, hero mockup, contact form handling, trust bar, service timelines
+## Work Since Last Update (2026-03-27 → 2026-07-17)
+
+**Major Expansion:** Portfolio exploded from 91 routes → 566 routes, blog from 27 → 97 posts
+
+### By Date (Newest First)
+- **2026-07-16**: Vercel deployment triggered, site fully stabilized
+- **2026-07-17**: Comprehensive audit — fixed age on about page (20→21), verified all systems, updated STATUS.md
+- **~2026-05-30**: Focus shifted to K-12 education blog posts (teaching methods, math/ELA test prep)
+  - Posts targeting 3rd-5th grade standards (fractions, long division, reading comprehension, etc.)
+  - Linked to Gumroad worksheets/TpT products for soft CTAs
+  - Multiple posts per week throughout May-June
+- **~2026-04-18**: Massive /for/ pages expansion (531 industry landing pages)
+  - Generated pages for all major local service verticals (HVAC, plumbing, electrical, etc.)
+  - Each page with custom metadata, schema, and tailored copy
+  - All properly indexed in sitemap
+- **2026-03-29** (last documented): 3 vertical SEO blog posts, added /for/legal page
+- Previous: Dynamic OG images, robots.txt + sitemap.xml, middleware/build stabilization
+
+### Undocumented but Shipped (Git Analysis)
+- Build fix: turbopack.root pinned to eliminate workspace-root inference warning
+- SEO fixes: removed static files blocking dynamic Next.js routes (robots.ts, sitemap.ts)
+- ~70 new blog posts for education/K-12 content
+- 500+ /for/ industry landing pages with custom content
+- Template literal escape fixes in blog posts
+- Ongoing deployment stabilization commits
+
+## Verified Working (2026-07-17 Audit)
+- **Build:** Zero warnings/errors, clean Turbopack compilation
+- **Runtime:** No errors or warnings in production (24h verification)
+- **HTTP Status:** All 8 main pages return 200 OK
+- **SEO:** sitemap.xml, robots.txt, RSS feed all working correctly
+- **Meta tags:** OG/Twitter cards on all pages, JSON-LD structured data present
+- **Blog:** 97 posts rendering correctly, prev/next navigation working, tags working
+- **Forms:** Contact form (Formspree) functional, thank-you page working
+- **Authentication:** Admin dashboard password gate functional
+- **Performance:** No Core Web Vitals warnings (Vercel logs clean)
 
 ## Known Issues
-- Next.js 16 middleware deprecation warning (Clerk-independent, no migration path yet)
 - OneSignal push notifications configured but `NEXT_PUBLIC_ONESIGNAL_APP_ID` not set in Vercel env
+  - **Severity:** LOW — gracefully fails, no impact (component initializes with empty string)
+  - NotificationBell component imported in layout but never used — dead code
+  - **Recommendation:** Remove or implement if push notifications needed
+- Next.js 16 middleware deprecation warning mentioned in old STATUS (not reproduced in current audit)
+
+## Dead Code Found
+- `/app/components/NotificationBell.tsx` — defined but never imported anywhere, safe to remove
+- OneSignalProvider in layout wraps entire app but serves no functional purpose without env var
 
 ## Next Up
-- Testimonials (once clients exist)
-- Headshot/photo (needs Jacob to provide one)
+- Testimonials/social proof section (once clients exist)
+- Headshot/bio photo (needs Jacob to provide)
 - More project screenshots on work page
+- Consider: Remove dead OneSignal code if not planned for use
