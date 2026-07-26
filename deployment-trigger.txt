@@ -1,1 +1,1 @@
-Site timeout issue resolved - 2026-04-13
+Trigger Vercel deploy to restore site - 2026-07-26
