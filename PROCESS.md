@@ -201,3 +201,34 @@ https://builtsimple.dev: 200 OK (custom domain live)
 Site remains **production-ready and stable**. Dead code completely removed. One audit cycle now complete: morning audit identified issue, evening session resolved it. Process discipline (identify → document → execute → verify → deploy) working as intended.
 
 **Status: PRODUCTION READY. Zero dead code, zero build warnings, zero production issues.**
+
+---
+
+# 2026-08-09 — Routine Check-in (HP / Dean)
+
+## Trigger
+Tracker signal "BuiltSimple is 148d overdue."
+
+## Diagnosis
+Verified before acting: 2026-08-09 minus 148 days = 2026-03-14 — the same frozen `nextCheckIn`
+date already diagnosed for LessonDraft (cobo `core/signal_collectors.py::_collect_tracker_signals`
+arithmetic on a field that never advances because auto-checkin never fires). Signal is arithmetic,
+not project health. Cannot be cleared from HP: `TRACKER_DATA` resolves to
+`C:\Users\coboc\tools\tracker\data.json`, which does not exist here — the tracker lives on the Mac.
+
+## Spot-check (proof pointers)
+- `https://builtsimple.dev` → 200 OK (HEAD request, 2026-08-09).
+- HP repo was 0 ahead / 4 behind origin/main; fast-forwarded `e26c07e..dca3ebb`. The 4 commits are
+  all `deployment-trigger.txt` bumps dated 2026-07-28, messages tracing a connectivity incident and
+  recovery ("restore builtsimple.dev" → "all SEO verified, build clean").
+- `git status --porcelain` clean before edits; `git ls-files -v` shows no skip-worktree entries.
+
+## Actions
+1. Fast-forward pull of the 4 remote commits.
+2. STATUS.md check-in entry (this session's commit).
+3. This PROCESS.md append.
+
+## Open (needs Jacob, Mac-side — same as LessonDraft)
+`tracker_checkin("builtsimple")` to unfreeze `nextCheckIn`, plus the scheduler wiring fix
+(uncommitted `C:\cobo\core\scheduler.py` half-fix + `run_scheduler()` async bridge) so it cannot
+refreeze. Until then this signal reappears daily, +1/day.

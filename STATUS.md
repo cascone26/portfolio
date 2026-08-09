@@ -1,7 +1,20 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-07-17 (evening) — dead code removal + fresh pass audit completed
+2026-08-09 — routine check-in from HP (tracker "148d overdue" signal review)
+
+## Check-in — 2026-08-09 (HP)
+- **"148d overdue" signal is the frozen tracker field, not project health** — same root cause as
+  LessonDraft: `nextCheckIn` pinned at 2026-03-14 (2026-08-09 − 2026-03-14 = 148 days exactly).
+  STATUS.md writes do not clear the signal; only a Mac-side `tracker_checkin("builtsimple")` can
+  unfreeze it (`~/tools/tracker/data.json` does not exist on HP).
+- **Site live:** `https://builtsimple.dev` → 200 OK (HEAD check, 2026-08-09).
+- **Repo synced:** HP copy was 4 commits behind; fast-forwarded `e26c07e..dca3ebb`. All 4 were
+  `deployment-trigger.txt` bumps from 2026-07-28 — commit messages (`1e96e94` "restore
+  builtsimple.dev" → `dca3ebb` "all SEO verified, build clean") indicate a site-connectivity
+  incident on 07-28 that was resolved the same night via redeploys. Site verified up today.
+- Working tree clean, no skip-worktree entries in this repo.
+- No code changes since the 2026-07-17 audit other than the deploy triggers above.
 
 ## Current State
 - Deployed at `https://builtsimple.dev` (live, stable, production-ready)
@@ -98,6 +111,8 @@
 **Major Expansion:** Portfolio exploded from 91 routes → 566 routes, blog from 27 → 97 posts
 
 ### By Date (Newest First)
+- **2026-08-09**: HP check-in — site 200, repo synced (+4 deploy-trigger commits), tracker signal diagnosed as frozen field
+- **2026-07-28**: Site-connectivity incident; restored via 4 Vercel redeploy triggers (`1e96e94`…`dca3ebb`), SEO re-verified
 - **2026-07-16**: Vercel deployment triggered, site fully stabilized
 - **2026-07-17**: Comprehensive audit — fixed age on about page (20→21), verified all systems, updated STATUS.md
 - **~2026-05-30**: Focus shifted to K-12 education blog posts (teaching methods, math/ELA test prep)
