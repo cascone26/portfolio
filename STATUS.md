@@ -1,7 +1,14 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-09 — routine check-in from HP (tracker "148d overdue" signal review)
+2026-08-09 — second check-in from HP (explicit review request)
+
+## Check-in — 2026-08-09, second of the day (HP, explicit request)
+- Explicitly requested review; state matches the morning check-in (`e0a1a08`) exactly.
+- **Signal re-verified as arithmetic:** 148d = 2026-08-09 − 2026-03-14 — the frozen `nextCheckIn`
+  tracker field, not project health. Still clears only via Mac-side `tracker_checkin("builtsimple")`.
+- Site `https://builtsimple.dev` → 200 OK (HEAD check).
+- Repo: working tree clean, divergence 0/0 vs `origin/main` after fetch. No new commits since `e0a1a08`.
 
 ## Check-in — 2026-08-09 (HP)
 - **"148d overdue" signal is the frozen tracker field, not project health** — same root cause as
