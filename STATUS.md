@@ -1,7 +1,14 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-11 — second check-in from HP (explicit review request)
+2026-08-11 — third check-in from HP (explicit review request)
+
+## Check-in — 2026-08-11, third of the day (HP, explicit request)
+- Explicitly requested review; state matches both earlier check-ins today (`71b002d`, `a82d439`) exactly.
+- **Signal re-verified as arithmetic:** 150d = 2026-08-11 − 2026-03-14 — the frozen `nextCheckIn`
+  tracker field. Unchanged; clears only via Mac-side `tracker_checkin("builtsimple")` + scheduler wiring.
+- Site `https://builtsimple.dev` → 200 OK (HEAD check).
+- Repo: working tree clean, divergence 0/0 vs `origin/main` after fetch. No commits since `a82d439`.
 
 ## Check-in — 2026-08-11, second of the day (HP, explicit request)
 - Explicitly requested review; state matches this morning's check-in (`71b002d`) exactly.
