@@ -1,8 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import FadeIn from "./components/fade-in";
 import BrowserFrame from "./components/browser-frame";
 import Typewriter from "./components/typewriter";
+
+export const metadata: Metadata = {
+  title: "BuiltSimple | Web & AI Solutions for Small Businesses",
+  description:
+    "We build websites and AI tools for small businesses in the Kansas City area. Fast, affordable, no tech jargon.",
+  alternates: {
+    canonical: "https://builtsimple.dev",
+  },
+};
 
 const highlights = [
   {
