@@ -1,7 +1,17 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-17 — third check-in from HP (explicit review request)
+2026-08-17 — fourth check-in (COBO redeploy after connection error report)
+
+## Check-in — 2026-08-17, fourth of the day (COBO redeploy)
+- COBO triggered redeploy after transient connection error report (`HTTPSConnectionPool` / max retries).
+- Pre-deploy check: site already returning 200 when task ran — error was transient/already resolved.
+- Build: `npm run build` passed cleanly (798 static pages, no errors).
+- Deployed fresh to Vercel production: `vercel --prod --yes` → `builtsimple-4za65ot5u-cascone26s-projects.vercel.app`.
+- Post-deploy verify: `https://builtsimple.dev` → **200 OK**.
+- No code changes made; clean redeploy of existing codebase resolved reported instability.
+- **Signal re-verified as arithmetic:** 156d = 2026-08-17 − 2026-03-14 — frozen `nextCheckIn` tracker field.
+- Repo: working tree clean, divergence 0/0 vs `origin/main`.
 
 ## Check-in — 2026-08-17, third of the day (HP, explicit request)
 - Explicitly requested review; state matches both earlier check-ins today (`8883e2b`, `81edefc`) exactly —
