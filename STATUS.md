@@ -1,7 +1,16 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-13 — third check-in from HP (explicit review request)
+2026-08-16 — check-in from HP (explicit review request)
+
+## Check-in — 2026-08-16 (HP, explicit request)
+- Explicitly requested review. **State changed since the 08-13 check-ins:** Mac-side commit
+  `641b8c4` (2026-08-13 evening, "fix(seo): add explicit metadata export to homepage",
+  `app/page.tsx` +10) had landed on `origin/main`; HP was 1 behind and fast-forwarded
+  `5568376..641b8c4`. Divergence now 0/0, working tree clean.
+- **Signal re-verified as arithmetic:** 155d = 2026-08-16 − 2026-03-14 — the frozen `nextCheckIn`
+  tracker field. Unchanged; clears only via Mac-side `tracker_checkin("builtsimple")` + scheduler wiring.
+- Site `https://builtsimple.dev` → 200 OK (HEAD check).
 
 ## Check-in — 2026-08-13, third of the day (HP, explicit request)
 - Explicitly requested review; state matches both earlier check-ins today (`673e24c`, `5fcdb92`) exactly.
