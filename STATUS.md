@@ -1,7 +1,22 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-19 — check-in from HP, fourth of the day (explicit review request); state matches `ac81b1b`
+2026-08-19 — check-in from HP, fifth of the day (explicit review request); state matches `8ec6d42`
+
+## Check-in — 2026-08-19, fifth of the day (HP, explicit request)
+- Explicitly requested review; **state matches `8ec6d42` exactly** — no new commits, working tree
+  clean, no product-code movement. Written because the review was asked for, not because state moved.
+  Fifth entry of 2026-08-19; all five are same-state.
+- Site `https://builtsimple.dev` → **200 OK** (0.41s).
+- **Icon still proven live (Handle-tier, re-verified):** served `/icon.png` → 200, 16936 B, sha256
+  `cb5980a346f7d5f6194d1331ef0cb8fed64084ab40e763a352394e9338688a03` — byte-identical to the
+  committed `app/icon.png` blob at HEAD. Zero drift between serving bytes and HEAD.
+- Repo: divergence **0/0** vs `origin/main` after fetch; no skip-worktree entries (all `H`).
+- **Signal is arithmetic, diagnosis unchanged:** 158d = 2026-08-19 − 2026-03-14, the frozen
+  `nextCheckIn` field, +1/day. No STATUS.md entry clears it — including this one. Clears only
+  Mac-side: `tracker_checkin("builtsimple")` **plus** wiring `run_scheduler()` into
+  `autonomy_loop.py::run_cycle()` (async — needs an `asyncio.run` bridge), else it refreezes.
+  **Both remain open for Jacob; unchanged since 07-20.**
 
 ## Check-in — 2026-08-19, fourth of the day (HP, explicit request)
 - Explicitly requested review; **state matches `ac81b1b` exactly** — no new commits since 00:32 CDT,
