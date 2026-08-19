@@ -232,3 +232,47 @@ not project health. Cannot be cleared from HP: `TRACKER_DATA` resolves to
 `tracker_checkin("builtsimple")` to unfreeze `nextCheckIn`, plus the scheduler wiring fix
 (uncommitted `C:\cobo\core\scheduler.py` half-fix + `run_scheduler()` async bridge) so it cannot
 refreeze. Until then this signal reappears daily, +1/day.
+
+---
+
+# 2026-08-19 — check-in: first state change since 08-17; a cheap deploy-proof method
+
+## Framing
+Signal fired at 158d. Prior sessions established the diagnosis (frozen `nextCheckIn`, 2026-03-14), so
+the question was not "what's wrong with BuiltSimple" but "did anything actually move since 08-17."
+Verify the arithmetic first (158 = 2026-08-19 − 2026-03-14 ✓ → frozen field, not project health),
+then spend the session on the spot-check rather than re-deriving the root cause.
+
+## What was found
+Unlike the 08-09→08-17 run of identical-state check-ins, state HAD moved: HP was 0 ahead / 4 behind.
+Mac-side work had landed — one COBO redeploy check-in (`51e6d62`) and three app-icon commits
+(`36e8ef7` K2C-style icon → `8cb8b2b` transparent PNG cutout → `e5f4b9e` pixel-art LoRA render).
+The icon sequence reads as two corrections in a row: the full painted scene was wrong for an icon,
+then the cutout still wasn't the intended pixel-art register.
+
+## Decision fork — is "merged" the same as "shipped"?
+The commits were on `origin/main`, but that only proves the change exists, not that production serves
+it (Report-tier, per Charisma). Rather than assume, the check was made cheap and conclusive:
+fetch the live asset and hash it against the committed blob.
+
+    curl -s https://builtsimple.dev/icon.png -o served.png
+    sha256sum served.png app/icon.png    # → cb5980a346f7d5f6… on both
+
+Byte-identical ⇒ `e5f4b9e` is genuinely live. That earns the **Handle**, not just the Report — the
+distinction being that the artifact was actually fetched off the running system, not read about.
+
+**Reusable method:** to prove any Mac-side deploy landed, hash the served bytes against the committed
+blob. It is one curl plus one hash, needs no Vercel dashboard access, and gives a real proof pointer
+instead of a 200-code (which only proves *something* is being served).
+
+## Proof pointers
+- `https://builtsimple.dev` → 200 OK, 0.16s.
+- `/icon.png` → 200, `image/png`, 16936 B, sha256 `cb5980a346f7d5f6…` == local `app/icon.png`.
+- ff-pull `368e154..e5f4b9e`; divergence 0/0 after; working tree clean.
+- Check-in commit `b1a93b2`, pushed to `origin/main`.
+
+## Open (needs Jacob, Mac-side — unchanged since 07-20)
+1. `tracker_checkin("builtsimple")` to unfreeze `nextCheckIn`.
+2. Commit the `C:\cobo\core\scheduler.py` half-fix AND wire `run_scheduler()` into
+   `autonomy_loop.py::run_cycle()` via an async bridge, so the field cannot refreeze.
+Until both land, this signal reappears daily at +1/day.
