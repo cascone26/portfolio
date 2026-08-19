@@ -1,7 +1,21 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-19 — check-in from HP (explicit review request); first state CHANGE since 08-17
+2026-08-19 — check-in from HP, second of the day (explicit review request); state matches `b1a93b2`
+
+## Check-in — 2026-08-19, second of the day (HP, explicit request)
+- Explicitly requested review; **state matches this morning's check-in (`b1a93b2`) exactly.** The only
+  new commit since is `6a9b094`, the PROCESS.md write-back from that same session (records the
+  served-bytes-vs-committed-blob hash as the cheap way to prove a Mac-side deploy actually landed).
+  No product-code movement.
+- Site `https://builtsimple.dev` → **200 OK** (0.28s).
+- Repo: working tree clean, divergence **0/0** vs `origin/main` after fetch. No skip-worktree entries
+  (`git ls-files -v` all `H`), so ff-pulls stay safe in this repo.
+- **Signal re-verified as arithmetic:** 158d = 2026-08-19 − 2026-03-14 — the frozen `nextCheckIn`
+  tracker field, +1/day. Not a project-health signal, and a STATUS.md entry cannot clear it.
+  Clears only via Mac-side `tracker_checkin("builtsimple")` + wiring `run_scheduler()` into
+  `autonomy_loop.py::run_cycle()` (async, needs an `asyncio.run` bridge).
+  **Both remain open for Jacob; unchanged since 07-20.**
 
 ## Check-in — 2026-08-19 (HP, explicit request)
 - **First state change since the 08-17 check-ins.** HP was 4 behind `origin/main`; ff-pulled
