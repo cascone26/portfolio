@@ -1,7 +1,25 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-17 — fourth check-in (COBO redeploy after connection error report)
+2026-08-19 — check-in from HP (explicit review request); first state CHANGE since 08-17
+
+## Check-in — 2026-08-19 (HP, explicit request)
+- **First state change since the 08-17 check-ins.** HP was 4 behind `origin/main`; ff-pulled
+  `368e154..e5f4b9e` (no skip-worktree entries in this repo, so ff is safe here).
+- Incoming, all Mac-side:
+  - `51e6d62` (08-17) — fourth check-in of 08-17, COBO redeploy after a transient connection error; site 200 confirmed.
+  - `36e8ef7` (08-17) — add K2C-style app icon.
+  - `8cb8b2b` (08-18) — icon switched to a transparent PNG cutout instead of a full painted scene.
+  - `e5f4b9e` (08-18) — icon switched to a real pixel-art render (LoRA + palette quantization).
+- **`e5f4b9e` is PROVEN live in production (Handle-tier, not Report):** `https://builtsimple.dev/icon.png`
+  → 200, `image/png`, 16936 B, and the served bytes are **sha256-identical** to the committed
+  `app/icon.png` (`cb5980a346f7d5f6…`). The icon work is deployed, not just merged.
+- Site `https://builtsimple.dev` → **200 OK** (0.16s).
+- Repo after pull: working tree clean, divergence **0/0** vs `origin/main`.
+- **Signal re-verified as arithmetic:** 158d = 2026-08-19 − 2026-03-14 — the frozen `nextCheckIn`
+  tracker field, +1/day. Not a project-health signal. Clears only via Mac-side
+  `tracker_checkin("builtsimple")` + wiring `run_scheduler()` into `autonomy_loop.py::run_cycle()`.
+  **Both remain open for Jacob; unchanged since 07-20.**
 
 ## Check-in — 2026-08-17, fourth of the day (COBO redeploy)
 - COBO triggered redeploy after transient connection error report (`HTTPSConnectionPool` / max retries).
