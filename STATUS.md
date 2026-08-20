@@ -1,7 +1,19 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-20 — second check-in of the day (HP, explicit review request); state matches `65a0d19`
+2026-08-20 — third check-in of the day (HP, explicit review request); state matches `312f824`
+
+## Check-in — 2026-08-20, third of the day (HP, explicit request)
+- Explicitly requested review; **state matches `312f824` exactly** — no new commits, tree clean,
+  divergence **0/0** vs `origin/main` after fetch, no skip-worktree entries (all `H`).
+- Site `https://builtsimple.dev` → **200 OK** (0.16s).
+- **Icon still live (Handle-tier):** served `/icon.png` sha256 `cb5980a346f7d5f6…`, 16936 B —
+  byte-identical to committed `app/icon.png` at HEAD.
+- **Signal is arithmetic (159d = 2026-08-20 − 2026-03-14)** — frozen `nextCheckIn`, +1/day. This
+  entry does not clear it. Mac-side only: `tracker_checkin("builtsimple")` **plus** wiring
+  `run_scheduler()` into `autonomy_loop.py::run_cycle()` (async — needs an `asyncio.run` bridge).
+  **Both still open for Jacob; unchanged since 07-20.**
+
 
 ## Check-in — 2026-08-20, second of the day (HP, explicit request)
 - Explicitly requested review; **state matches `65a0d19` exactly** — no new commits since this
