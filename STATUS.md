@@ -1,7 +1,18 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-22 — check-in #2 (HP, explicit review request); state matches `f8222f2`
+2026-08-22 — check-in #3 (HP, explicit review request); state matches `d3636ab`
+
+## Check-in — 2026-08-22, third of the day (HP, explicit request)
+- Explicitly requested review; **state matches `d3636ab` exactly** — no new commits, tree clean,
+  divergence **0/0** vs `origin/main` after fetch, no skip-worktree entries.
+- Site `https://builtsimple.dev` → **200 OK** (0.17s). Served `/icon.png` sha256
+  `cb5980a346f7d5f6…`, 16936 B — byte-identical to committed `app/icon.png` (Handle-tier, unchanged).
+- **161d = 2026-08-22 − 2026-03-14**, same count as #1/#2 today; the counter only ticks at date
+  rollover. Identical-state run still spans **08-17 → 08-22**.
+- **Both Mac-side items still open, unchanged:** (1) `tracker_checkin("builtsimple")` + wiring
+  `run_scheduler()` into `autonomy_loop.py::run_cycle()` via an async bridge; (2) move the proxy
+  supervisor's secret-bearing copy outside the repo.
 
 ## Check-in — 2026-08-22, second of the day (HP, explicit request)
 - Explicitly requested review; **state matches `f8222f2` exactly** — no new commits, tree clean,
