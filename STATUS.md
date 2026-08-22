@@ -1,7 +1,19 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-22 — check-in (HP, explicit review request); state matches `0de1ec6`
+2026-08-22 — check-in #2 (HP, explicit review request); state matches `f8222f2`
+
+## Check-in — 2026-08-22, second of the day (HP, explicit request)
+- Explicitly requested review; **state matches `f8222f2` exactly** — no new commits, tree clean,
+  divergence **0/0** vs `origin/main` after fetch.
+- Site `https://builtsimple.dev` → **200 OK**. Served `/icon.png` sha256 `cb5980a346f7d5f6…`,
+  16936 B — still byte-identical to the committed `app/icon.png` blob (Handle-tier, unchanged).
+- **Signal re-verified as arithmetic: 161d = 2026-08-22 − 2026-03-14** (frozen `nextCheckIn`, +1/day).
+  Same count as entry #f8222f2 because the counter only ticks at date rollover. Identical-state run
+  still spans **08-17 → 08-22**.
+- **Both Jacob/Mac-side items remain open, unchanged:** (1) `tracker_checkin("builtsimple")` +
+  wiring `run_scheduler()` into `autonomy_loop.py::run_cycle()` via an async bridge — the only thing
+  that clears this signal; (2) move the proxy supervisor's secret-bearing copy outside the repo.
 
 ## Check-in — 2026-08-22 (HP, explicit request)
 - Explicitly requested review; **state matches `0de1ec6` exactly** — no new commits, tree clean,
