@@ -170,7 +170,7 @@ export default function JacobCasconePage() {
           meta="Multi-subject AI learning platform · Solo builder & operator"
           bullets={[
             "Refactored a single-subject study tool into a subject-agnostic architecture — one shared AI-chat layer, progress-tracking interface, and content-grounding registry, with each new subject (8 real classes, chess, trivia) plugging in as an adapter instead of duplicated code.",
-            "Built a live, playable chess module against a real chess engine running client-side with zero server cost, with move-quality analysis feeding the same cross-subject progress system.",
+            "Built a chess module integrating a real chess engine client-side with zero server cost, with move-quality analysis wired into the same cross-subject progress system.",
             "Found and fixed two silent production incidents via direct live investigation — a corrupted environment variable that silently broke every database-backed feature app-wide, and a stale auth-token sync gap breaking every AI route.",
           ]}
         />
