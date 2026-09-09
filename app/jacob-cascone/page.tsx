@@ -166,6 +166,16 @@ export default function JacobCasconePage() {
           ]}
         />
         <ProjectCard
+          title="llm-ladder"
+          meta="Open-source npm package · github.com/cascone26/llm-ladder · Zero runtime dependencies"
+          href="https://github.com/cascone26/llm-ladder"
+          bullets={[
+            "Extracted and generalized LessonDraft's production provider-failover system into a standalone, documented library: multi-provider LLM failover with circuit breaking and proactive budget-aware standdown.",
+            "Built a chaos-test suite that injects real failure modes (timeouts, 429 rate limits, malformed responses) and asserts on actual failover behavior — not just happy-path success. Verifies a dead provider gets skipped after its circuit opens, a circuit re-closes after its window, a canary-confirmed failure opens a circuit on the first strike instead of waiting for three, and a budget guard stands a provider down using its real check-then-record ordering.",
+            "10/10 tests passing, deterministic (injectable clock, no real sleeps, full suite runs in under 100ms). The budget-guard test initially had wrong math and failed on its first run — left that in the README as the honest story, not smoothed over.",
+          ]}
+        />
+        <ProjectCard
           title="Meta Tutor"
           meta="Multi-subject AI learning platform · Solo builder & operator"
           bullets={[
