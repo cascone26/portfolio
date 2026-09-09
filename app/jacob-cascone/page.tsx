@@ -175,10 +175,10 @@ export default function JacobCasconePage() {
           ]}
         />
         <ProjectCard
-          title="Multi-Agent Sprite Verification Pipeline"
+          title="Multi-Round AI Verification Pipeline for a 36K-Asset Catalog"
           meta="Personal game-asset project"
           bullets={[
-            "Designed a 31-agent parallel vision-verification workflow to QA 634 game sprite assets against their intended name and appearance, catching 21 confirmed mismatches and hard-blocking them from recurring in the generation pipeline.",
+            "Designed a multi-round verification pipeline — a 31-agent contact-sheet review, then an adversarial \"skeptic\" AI pass, then personal human spot-check at full resolution — to QA a 36,000+ sprite catalog against intended name/appearance. Found that even the adversarial AI layer had real error rates in both directions, closed only by human-in-the-loop review; the final verified set is hard-blocked in the generation pipeline.",
           ]}
         />
       </Section>
@@ -193,7 +193,7 @@ export default function JacobCasconePage() {
           >
             <p className="font-semibold text-white text-sm mb-1">deal-scout ↗</p>
             <p className="text-xs text-slate-400">
-              21-source AI-assisted deal aggregation bot
+              34-source deal-aggregation bot, $0 cost via pure heuristic scoring
             </p>
           </a>
           <a
@@ -204,7 +204,7 @@ export default function JacobCasconePage() {
           >
             <p className="font-semibold text-white text-sm mb-1">deep-down ↗</p>
             <p className="text-xs text-slate-400">
-              Complete shipped game, all phases built &amp; verified
+              6-phase Roblox game, engine-verified via automated headless testing
             </p>
           </a>
           <a
