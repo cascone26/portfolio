@@ -501,6 +501,12 @@
 - **Authentication:** Admin dashboard password gate functional
 - **Performance:** No Core Web Vitals warnings (Vercel logs clean)
 
+## Accessibility Updates (2026-09-03)
+- **Fixed:** `app/components/fade-in.tsx` now honors `prefers-reduced-motion` media query (skips animation when user preference set)
+- **Added:** `/accessibility` page with WCAG 2.2 AA statement, compliance checklist, known limitations
+- **Status:** ✅ Five MVP accessibility non-negotiables (per Codex 3D Anatomy Rendering primer): motion preferences honored, accessibility statement published, text contrast 4.5:1 (Tailwind dark theme meets standard), keyboard nav via existing form patterns
+- **R2 Opportunity:** zero (site is purely templated, no large static assets beyond the favicon)
+
 ## Known Issues
 None identified. All dead code removed (2026-07-17).
 
