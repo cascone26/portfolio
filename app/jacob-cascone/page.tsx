@@ -43,11 +43,13 @@ function ProjectCard({
   meta,
   href,
   bullets,
+  video,
 }: {
   title: string;
   meta: string;
   href?: string;
   bullets: string[];
+  video?: string;
 }) {
   return (
     <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8 mb-6 backdrop-blur-sm">
@@ -68,6 +70,16 @@ function ProjectCard({
         </h3>
       </div>
       <p className="text-sm text-slate-400 italic mb-4">{meta}</p>
+      {video && (
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full rounded-lg border border-white/10 mb-4"
+        />
+      )}
       <ul className="space-y-2">
         {bullets.map((b, i) => (
           <li key={i} className="text-sm text-slate-300 leading-relaxed flex gap-2">
@@ -158,6 +170,7 @@ export default function JacobCasconePage() {
           title="LessonDraft"
           meta="AI lesson-planning platform for K-12 teachers · lessondraft.com · Solo builder & operator · Live, real paying subscribers"
           href="https://lessondraft.com"
+          video="/demos/lessondraft-demo.mp4"
           bullets={[
             "Full production SaaS built solo: Next.js frontend, Stripe subscription billing across 3 tiers, Supabase-backed accounts, and 40+ AI-generated tools (lesson plans, worksheets, rubrics, IEP goals, report-card comments) — no signup required to try the core generator.",
             "Designed a multi-provider AI generation pipeline with automatic failover across free-tier, self-hosted, and premium models, with self-healing health checks that route around a dead provider automatically — keeps marginal AI cost near zero without sacrificing uptime.",
