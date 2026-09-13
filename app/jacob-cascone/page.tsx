@@ -189,6 +189,16 @@ export default function JacobCasconePage() {
           ]}
         />
         <ProjectCard
+          title="standards-rag"
+          meta="Open-source RAG tool · github.com/cascone26/standards-rag · Real document, real eval"
+          href="https://github.com/cascone26/standards-rag"
+          bullets={[
+            "A retrieval-grounded Q&A tool over the real, public Common Core Math Standards PDF (93 pages) — a from-scratch BM25 retrieval implementation (zero cost, no embedding API) feeding Claude for citation-grounded synthesis.",
+            "Built a real retrieval-precision eval against 10 questions with verified ground truth: 70% precision@5, 30% precision@1 on the first run — reported as-is with a root-cause explanation for each miss (PDF-extraction artifacts on standard codes, vocabulary mismatch between natural questions and document phrasing) rather than tuned to look better.",
+            "Chose lexical retrieval over embeddings deliberately for a single domain-specific document with precise vocabulary — a documented architecture decision, not a shortcut.",
+          ]}
+        />
+        <ProjectCard
           title="Meta Tutor"
           meta="Multi-subject AI learning platform · Solo builder & operator"
           bullets={[
