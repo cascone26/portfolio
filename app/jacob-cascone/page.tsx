@@ -199,6 +199,16 @@ export default function JacobCasconePage() {
           ]}
         />
         <ProjectCard
+          title="agentic-grader"
+          meta="Open-source agent · github.com/cascone26/agentic-grader · Human-approval gate, 8/8 tests"
+          href="https://github.com/cascone26/agentic-grader"
+          bullets={[
+            "An agentic batch-grading pipeline with a real human-approval gate: low-confidence grades are routed to a teacher for review instead of being silently auto-committed — a working prototype of the same product category as Flint/Frizzle, not a toy demo.",
+            "Designed the grading function as an injectable interface, the same pattern llm-ladder's chaos tests use for provider calls — this makes the actual hard problem (deciding when NOT to trust the AI) fully unit-testable with deterministic fake graders, independent of any live LLM call: 8/8 tests passing.",
+            "Two failure principles enforced and tested: a grading error is never treated as a silent zero (it's flagged for review with the error attached), and an invalid confidence value throws loudly instead of silently misrouting a submission.",
+          ]}
+        />
+        <ProjectCard
           title="Meta Tutor"
           meta="Multi-subject AI learning platform · Solo builder & operator"
           bullets={[
