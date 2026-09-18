@@ -5,6 +5,10 @@ import FadeIn from "../components/fade-in";
 export const metadata: Metadata = {
   title: "Thank You",
   description: "Your purchase was successful. Your product is on its way.",
+  robots: { index: false, follow: false },
+  alternates: {
+    canonical: "https://builtsimple.dev/thank-you",
+  },
 };
 
 export default function ThankYouPage() {
