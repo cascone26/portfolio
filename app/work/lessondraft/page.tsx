@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "LessonDraft — Case Study",
   description:
     "How I built LessonDraft, an AI-powered lesson plan generator for teachers, using Next.js, Supabase, Stripe, and the Anthropic API.",
+  alternates: {
+    canonical: "https://builtsimple.dev/work/lessondraft",
+  },
 };
 
 export default function LessonDraftCaseStudy() {

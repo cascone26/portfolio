@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     type: "profile",
   },
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://builtsimple.dev/jacob-cascone",
+  },
 };
 
 function Section({

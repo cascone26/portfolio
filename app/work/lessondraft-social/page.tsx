@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "LessonDraft Social Autoposter — Case Study",
   description:
     "How I built an automated social media content pipeline for LessonDraft using AI to generate and schedule educational content.",
+  alternates: {
+    canonical: "https://builtsimple.dev/work/lessondraft-social",
+  },
 };
 
 export default function LessonDraftSocialCaseStudy() {

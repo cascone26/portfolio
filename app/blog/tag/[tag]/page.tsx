@@ -26,6 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Posts tagged "${displayTag}"`,
     description: `All BuiltSimple blog posts tagged with ${displayTag}.`,
+    alternates: {
+      canonical: `https://builtsimple.dev/blog/tag/${encodeURIComponent(decoded)}`,
+    },
   };
 }
 
