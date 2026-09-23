@@ -16,7 +16,7 @@ export default function BrowserFrame({
       className={`rounded-2xl overflow-hidden border border-white/[0.08] shadow-2xl shadow-black/40 ${className}`}
     >
       {/* Chrome bar */}
-      <div className="bg-[#0f1629] px-4 py-3 flex items-center gap-3 border-b border-white/[0.06]">
+      <div className="bg-[#0a0e1a] px-4 py-3 flex items-center gap-3 border-b border-white/[0.06]">
         <div className="flex gap-1.5">
           <div className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]/70" />
           <div className="w-2.5 h-2.5 rounded-full bg-[#febc2e]/70" />
@@ -30,7 +30,7 @@ export default function BrowserFrame({
         <div className="w-[52px]" /> {/* spacer to center url bar */}
       </div>
       {/* Content */}
-      <div className="bg-[#080d1a]">{children}</div>
+      <div className="bg-[#05070d]">{children}</div>
     </div>
   );
 }

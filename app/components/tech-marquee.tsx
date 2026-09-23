@@ -22,8 +22,8 @@ export default function TechMarquee() {
   return (
     <div className="overflow-hidden py-4 relative select-none">
       {/* Edge fades */}
-      <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-[#0b1121] to-transparent z-10 pointer-events-none" />
-      <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#0b1121] to-transparent z-10 pointer-events-none" />
+      <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-[#05070d] to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#05070d] to-transparent z-10 pointer-events-none" />
 
       {/* Track */}
       <div className="marquee-track flex gap-3">

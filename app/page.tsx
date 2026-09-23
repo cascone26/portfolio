@@ -4,6 +4,7 @@ import Image from "next/image";
 import FadeIn from "./components/fade-in";
 import BrowserFrame from "./components/browser-frame";
 import Typewriter from "./components/typewriter";
+import SiteAudit from "./components/site-audit";
 
 export const metadata: Metadata = {
   title: "BuiltSimple | Web & AI Solutions for Small Businesses",
@@ -52,13 +53,32 @@ const highlights = [
   },
 ];
 
+const steps = [
+  {
+    n: "01",
+    title: "Free audit & call",
+    description: "Run the live audit above or just tell me about your business. I'll point out exactly what's costing you customers — no pitch, no pressure.",
+  },
+  {
+    n: "02",
+    title: "I build, you watch it happen",
+    description: "You get a real staging link within days, not a mockup PDF. Changes happen live while we talk — no 6-week agency black box.",
+  },
+  {
+    n: "03",
+    title: "Ship it and move on",
+    description: "Site goes live, connected to Google Business, fast and mobile-ready. No retainer required — I'm here when you need something changed.",
+  },
+];
+
 export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-12 pb-20 px-6 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.07] blur-[120px] pointer-events-none" />
-        <div className="absolute -top-20 right-[15%] w-[500px] h-[400px] rounded-full bg-purple-500/[0.04] blur-[120px] pointer-events-none" />
+      <section className="relative pt-16 pb-20 px-6 overflow-hidden">
+        <div className="signal-grid absolute inset-x-0 top-0 h-[520px] pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.08] blur-[120px] pointer-events-none" />
+        <div className="absolute -top-20 right-[15%] w-[500px] h-[400px] rounded-full bg-cyan-400/[0.05] blur-[120px] pointer-events-none" />
 
         <div className="max-w-5xl mx-auto relative">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -72,7 +92,7 @@ export default function Home() {
               </FadeIn>
 
               <FadeIn delay={0.1}>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] mb-4 tracking-tight">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-4 tracking-tight">
                   Websites & AI tools{" "}
                   <span className="gradient-text">for small businesses.</span>
                 </h1>
@@ -95,12 +115,12 @@ export default function Home() {
 
               <FadeIn delay={0.3}>
                 <div className="flex flex-wrap gap-3">
-                  <Link
-                    href="/contact"
+                  <a
+                    href="#audit"
                     className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
                   >
-                    Get a free audit
-                  </Link>
+                    Run a free site audit
+                  </a>
                   <Link
                     href="/services"
                     className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
@@ -114,7 +134,7 @@ export default function Home() {
             {/* Right — site mockup */}
             <FadeIn delay={0.3} direction="left">
               <div className="hidden md:block">
-                <BrowserFrame url="your-site-stats">
+                <BrowserFrame url="yourbusiness.com — sample audit">
                   <div className="p-5 space-y-4">
                     {/* Top stats row */}
                     <div className="grid grid-cols-3 gap-2.5">
@@ -192,13 +212,20 @@ export default function Home() {
         </section>
       </FadeIn>
 
+      {/* Live Site Audit — the real feature */}
+      <section id="audit" className="py-16 px-6 relative scroll-mt-24">
+        <div className="max-w-3xl mx-auto">
+          <FadeIn>
+            <SiteAudit />
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Featured project — LessonDraft */}
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
-            <p className="text-xs uppercase tracking-widest text-accent-light mb-4 font-medium">
-              Featured Project
-            </p>
+            <p className="eyebrow mb-4">Featured Project</p>
           </FadeIn>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <FadeIn delay={0.1}>
@@ -260,14 +287,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How it works */}
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <FadeIn>
+            <div className="text-center mb-14">
+              <p className="eyebrow justify-center mb-4">How It Works</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
+                Three steps.{" "}
+                <span className="gradient-text">No surprises.</span>
+              </h2>
+            </div>
+          </FadeIn>
+          <div className="grid md:grid-cols-3 gap-6 relative">
+            <div className="hidden md:block absolute top-6 left-[16.5%] right-[16.5%] h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+            {steps.map((s, i) => (
+              <FadeIn key={s.n} delay={i * 0.12}>
+                <div className="relative">
+                  <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center font-mono text-accent-light font-bold mb-5 relative z-10 bg-[#05070d]">
+                    {s.n}
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">{s.title}</h3>
+                  <p className="text-muted text-sm leading-relaxed">{s.description}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Social proof — What I've Built */}
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <div className="text-center mb-12">
-              <p className="text-xs uppercase tracking-widest text-accent-light mb-4 font-medium">
-                What I&apos;ve Built
-              </p>
+              <p className="eyebrow justify-center mb-4">What I&apos;ve Built</p>
               <h2 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
                 Real projects.{" "}
                 <span className="gradient-text">Real results.</span>
@@ -345,11 +399,12 @@ export default function Home() {
       {/* Gradient CTA banner */}
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 gradient-mesh" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0b1121] via-transparent to-[#0b1121]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#05070d] via-transparent to-[#05070d]" />
+        <div className="scan-line" />
 
         {/* Decorative floating shapes */}
         <div className="absolute top-1/4 left-[10%] w-20 h-20 border border-accent/10 rounded-2xl rotate-12 float-shape" />
-        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-purple-400/15 rounded-full float-shape-reverse" />
+        <div className="absolute bottom-1/4 right-[12%] w-14 h-14 border border-cyan-400/15 rounded-full float-shape-reverse" />
         <div className="absolute top-1/3 right-[25%] w-10 h-10 border border-purple-500/[0.1] rounded-lg rotate-45 float-shape-slow" />
 
         <div className="max-w-3xl mx-auto text-center relative">

@@ -13,16 +13,20 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/[0.06] pt-16 pb-8 px-6">
+    <footer className="relative border-t border-white/[0.06] pt-16 pb-8 px-6 overflow-hidden">
       {/* Subtle top glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[1px] bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[1px] bg-gradient-to-r from-transparent via-accent-cyan/40 to-transparent" />
+      <div className="signal-grid absolute inset-x-0 top-0 h-64 pointer-events-none opacity-40" />
 
-      <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-10">
+      <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 relative">
         {/* Brand */}
         <div>
-          <p className="font-bold text-lg text-foreground mb-2 tracking-tight">
-            BuiltSimple
-          </p>
+          <div className="flex items-center gap-2 mb-2">
+            <span className="w-2 h-2 rounded-full bg-accent-cyan shrink-0" />
+            <p className="font-bold text-lg text-foreground tracking-tight">
+              Built<span className="text-accent-light">Simple</span>
+            </p>
+          </div>
           <p className="text-muted text-sm leading-relaxed">
             Web & AI solutions for small businesses in Kansas City.
           </p>
@@ -73,8 +77,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] text-center text-muted text-xs">
+      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-2 text-center text-muted text-xs relative">
         <span>&copy; {new Date().getFullYear()} BuiltSimple</span>
+        <span className="flex items-center gap-1.5">
+          <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+          Built and run by one person — no agency layers
+        </span>
       </div>
     </footer>
   );
