@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useMotionValue, useTransform, animate } from "framer-motion";
 
 interface CheckResult {
   id: string;
@@ -24,6 +24,23 @@ function scoreColor(score: number) {
   if (score >= 80) return "#34d399";
   if (score >= 50) return "#fbbf24";
   return "#fb923c";
+}
+
+function ScoreNumber({ value }: { value: number }) {
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (v) => Math.round(v));
+  const [display, setDisplay] = useState(0);
+
+  useEffect(() => {
+    const controls = animate(count, value, { duration: 1.1, ease: [0.21, 0.47, 0.32, 0.98] });
+    const unsub = rounded.on("change", (v) => setDisplay(v));
+    return () => {
+      controls.stop();
+      unsub();
+    };
+  }, [value, count, rounded]);
+
+  return <>{display}</>;
 }
 
 function ScoreRing({ score }: { score: number }) {
@@ -60,7 +77,7 @@ function ScoreRing({ score }: { score: number }) {
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <span className="text-2xl font-bold" style={{ color }}>
-          {score}
+          <ScoreNumber value={score} />
         </span>
         <span className="text-[10px] text-muted/60 uppercase tracking-wider">score</span>
       </div>

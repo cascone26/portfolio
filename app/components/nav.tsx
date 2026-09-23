@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,10 +20,32 @@ const links = [
 export default function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 24);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <div className="sticky top-0 z-50 w-full px-4 pt-4">
-      <nav className="nav-pill max-w-5xl mx-auto rounded-2xl">
+    <motion.div
+      className="sticky top-0 z-50 w-full px-4"
+      animate={{ paddingTop: scrolled ? 10 : 16 }}
+      transition={{ duration: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
+    >
+      <motion.nav
+        className="nav-pill max-w-5xl mx-auto rounded-2xl"
+        animate={{
+          boxShadow: scrolled
+            ? "0 12px 40px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.04)"
+            : "0 8px 30px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.03)",
+        }}
+        transition={{ duration: 0.3 }}
+      >
         <div className="px-5 py-3 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2.5 group">
             <span className="relative w-2 h-2 rounded-full bg-accent-cyan shrink-0">
@@ -130,7 +153,7 @@ export default function Nav() {
             </Link>
           </div>
         )}
-      </nav>
-    </div>
+      </motion.nav>
+    </motion.div>
   );
 }

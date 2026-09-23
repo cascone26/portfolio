@@ -5,6 +5,10 @@ import FadeIn from "./components/fade-in";
 import BrowserFrame from "./components/browser-frame";
 import Typewriter from "./components/typewriter";
 import SiteAudit from "./components/site-audit";
+import ParticleField from "./components/particle-field";
+import Magnetic from "./components/magnetic";
+import HeroChart from "./components/hero-chart";
+import TiltCard from "./components/tilt-card";
 
 export const metadata: Metadata = {
   title: "BuiltSimple | Web & AI Solutions for Small Businesses",
@@ -79,6 +83,7 @@ export default function Home() {
         <div className="signal-grid absolute inset-x-0 top-0 h-[520px] pointer-events-none" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.08] blur-[120px] pointer-events-none" />
         <div className="absolute -top-20 right-[15%] w-[500px] h-[400px] rounded-full bg-cyan-400/[0.05] blur-[120px] pointer-events-none" />
+        <ParticleField className="absolute inset-0 pointer-events-none opacity-70" />
 
         <div className="max-w-5xl mx-auto relative">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -115,18 +120,22 @@ export default function Home() {
 
               <FadeIn delay={0.3}>
                 <div className="flex flex-wrap gap-3">
-                  <a
-                    href="#audit"
-                    className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
-                  >
-                    Run a free site audit
-                  </a>
-                  <Link
-                    href="/services"
-                    className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
-                  >
-                    See pricing
-                  </Link>
+                  <Magnetic>
+                    <a
+                      href="#audit"
+                      className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
+                    >
+                      Run a free site audit
+                    </a>
+                  </Magnetic>
+                  <Magnetic>
+                    <Link
+                      href="/services"
+                      className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                    >
+                      See pricing
+                    </Link>
+                  </Magnetic>
                 </div>
               </FadeIn>
             </div>
@@ -154,21 +163,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Visitor chart mock */}
-                    <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-4">
-                      <div className="flex items-center justify-between mb-3">
-                        <p className="text-xs font-medium text-muted/80">Visitors this month</p>
-                        <p className="text-xs font-semibold text-green-400">+34%</p>
-                      </div>
-                      <div className="flex items-end gap-1.5 h-16">
-                        {[35, 42, 38, 55, 48, 62, 58, 71, 65, 78, 85, 92].map((h, i) => (
-                          <div
-                            key={i}
-                            className="flex-1 rounded-sm bg-gradient-to-t from-accent/40 to-accent-light/60"
-                            style={{ height: `${h}%` }}
-                          />
-                        ))}
-                      </div>
-                    </div>
+                    <HeroChart />
                     {/* Bottom checklist */}
                     <div className="space-y-2">
                       {[
@@ -272,16 +267,18 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.2} direction="left">
-              <BrowserFrame url="lessondraft.com" className="pulse-glow">
-                <Image
-                  src="/screenshots/lessondraft.jpg"
-                  alt="LessonDraft — AI-powered lesson plan generator for teachers"
-                  width={1376}
-                  height={860}
-                  className="w-full h-auto"
-                  priority={false}
-                />
-              </BrowserFrame>
+              <TiltCard max={5} className="rounded-2xl">
+                <BrowserFrame url="lessondraft.com" className="pulse-glow">
+                  <Image
+                    src="/screenshots/lessondraft.jpg"
+                    alt="LessonDraft — AI-powered lesson plan generator for teachers"
+                    width={1376}
+                    height={860}
+                    className="w-full h-auto"
+                    priority={false}
+                  />
+                </BrowserFrame>
+              </TiltCard>
             </FadeIn>
           </div>
         </div>
@@ -333,7 +330,7 @@ export default function Home() {
           </FadeIn>
           <div className="grid md:grid-cols-3 gap-4">
             <FadeIn delay={0.1}>
-              <div className="glass rounded-2xl p-7 text-center">
+              <TiltCard className="glass rounded-2xl p-7 text-center">
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                 </div>
@@ -350,10 +347,10 @@ export default function Home() {
                 >
                   lessondraft.com
                 </a>
-              </div>
+              </TiltCard>
             </FadeIn>
             <FadeIn delay={0.2}>
-              <div className="glass rounded-2xl p-7 text-center">
+              <TiltCard className="glass rounded-2xl p-7 text-center">
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
                 </div>
@@ -370,10 +367,10 @@ export default function Home() {
                 >
                   View demo
                 </a>
-              </div>
+              </TiltCard>
             </FadeIn>
             <FadeIn delay={0.3}>
-              <div className="glass rounded-2xl p-7 text-center">
+              <TiltCard className="glass rounded-2xl p-7 text-center">
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                 </div>
@@ -390,7 +387,7 @@ export default function Home() {
                 >
                   View demo
                 </a>
-              </div>
+              </TiltCard>
             </FadeIn>
           </div>
         </div>
@@ -418,18 +415,22 @@ export default function Home() {
               works for your business.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
-              >
-                Start a project
-              </Link>
-              <Link
-                href="/services"
-                className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
-              >
-                View pricing
-              </Link>
+              <Magnetic>
+                <Link
+                  href="/contact"
+                  className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                >
+                  Start a project
+                </Link>
+              </Magnetic>
+              <Magnetic>
+                <Link
+                  href="/services"
+                  className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                >
+                  View pricing
+                </Link>
+              </Magnetic>
             </div>
           </FadeIn>
         </div>
