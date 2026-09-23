@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Fraunces } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import LayoutShell from "./components/layout-shell";
 import BackgroundFx from "./components/background-fx";
@@ -12,6 +12,25 @@ const geist = Geist({
   display: "swap",
   fallback: ["system-ui", "arial"],
 });
+
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  display: "swap",
+  style: ["italic"],
+  fallback: ["Georgia", "serif"],
+});
+
+const THEME_INIT_SCRIPT = `
+(function () {
+  try {
+    var stored = localStorage.getItem('theme');
+    if (stored === 'light' || stored === 'dark') {
+      document.documentElement.setAttribute('data-theme', stored);
+    }
+  } catch (e) {}
+})();
+`;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://builtsimple.dev"),
@@ -57,9 +76,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+        <meta name="theme-color" content="#05070d" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)" />
+      </head>
       <body
-        className={`${geist.variable} font-[family-name:var(--font-geist-sans)] antialiased bg-background text-foreground overflow-x-hidden`}
+        className={`${geist.variable} ${fraunces.variable} font-[family-name:var(--font-geist-sans)] antialiased bg-background text-foreground overflow-x-hidden`}
       >
         <script
           type="application/ld+json"

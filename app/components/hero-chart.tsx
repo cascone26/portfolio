@@ -41,7 +41,7 @@ export default function HeroChart() {
   }, []);
 
   return (
-    <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-4 relative overflow-hidden">
+    <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-4 relative overflow-hidden">
       <div className="flex items-center justify-between mb-3">
         <p className="text-xs font-medium text-muted/80">Visitors this month</p>
         <p className="text-xs font-semibold text-green-400">

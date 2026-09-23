@@ -19,7 +19,7 @@ export default function Accordion({ items }: { items: AccordionItem[] }) {
           <div
             key={item.q}
             className={
-              i < items.length - 1 ? "border-b border-white/[0.06]" : ""
+              i < items.length - 1 ? "border-b border-[var(--border)]" : ""
             }
           >
             <button

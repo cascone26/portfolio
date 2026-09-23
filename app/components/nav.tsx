@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import ThemeToggle from "./theme-toggle";
 
 const links = [
   { href: "/", label: "Home" },
@@ -39,12 +40,12 @@ export default function Nav() {
     >
       <motion.nav
         className="nav-pill max-w-5xl mx-auto rounded-2xl"
-        animate={{
+        style={{
           boxShadow: scrolled
-            ? "0 12px 40px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.04)"
-            : "0 8px 30px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.03)",
+            ? "0 12px 40px var(--shadow-color), inset 0 1px 0 var(--tint-04)"
+            : "0 8px 30px var(--shadow-color), inset 0 1px 0 var(--tint-04)",
+          transition: "box-shadow 0.3s var(--ease)",
         }}
-        transition={{ duration: 0.3 }}
       >
         <div className="px-5 py-3 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2.5 group">
@@ -70,7 +71,7 @@ export default function Nav() {
                   className={`px-3 py-1.5 rounded-lg transition-all duration-200 ${
                     isActive
                       ? "text-accent-light bg-accent/10 font-medium"
-                      : "text-muted hover:text-foreground hover:bg-white/[0.05]"
+                      : "text-muted hover:text-foreground hover:bg-[var(--tint-05)]"
                   }`}
                 >
                   {l.label}
@@ -79,7 +80,8 @@ export default function Nav() {
             })}
           </div>
 
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex items-center gap-3">
+            <ThemeToggle />
             <Link
               href="/contact"
               className="btn-gradient text-white font-semibold px-4 py-1.5 rounded-lg text-sm"
@@ -89,9 +91,11 @@ export default function Nav() {
           </div>
 
           {/* Mobile toggle */}
+          <div className="lg:hidden flex items-center gap-2">
+          <ThemeToggle />
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden text-muted hover:text-foreground transition-colors p-1"
+            className="text-muted hover:text-foreground transition-colors p-1"
             aria-label="Toggle menu"
           >
             <svg
@@ -119,11 +123,12 @@ export default function Nav() {
               )}
             </svg>
           </button>
+          </div>
         </div>
 
         {/* Mobile menu */}
         {open && (
-          <div className="lg:hidden border-t border-white/[0.06] px-3 py-3 space-y-1">
+          <div className="lg:hidden border-t border-[var(--border)] px-3 py-3 space-y-1">
             {links.map((l) => {
               const isActive =
                 l.href === "/"
@@ -137,7 +142,7 @@ export default function Nav() {
                   className={`block px-3 py-2 rounded-lg text-sm transition-all ${
                     isActive
                       ? "text-accent-light bg-accent/10 font-medium"
-                      : "text-muted hover:text-foreground hover:bg-white/[0.05]"
+                      : "text-muted hover:text-foreground hover:bg-[var(--tint-05)]"
                   }`}
                 >
                   {l.label}

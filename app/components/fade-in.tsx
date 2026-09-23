@@ -32,7 +32,7 @@ export default function FadeIn({
       ref={ref}
       initial={{ opacity: 0, ...offsets[direction] }}
       animate={isInView ? { opacity: 1, x: 0, y: 0 } : {}}
-      transition={prefersReducedMotion ? { duration: 0 } : { duration: 0.6, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
+      transition={prefersReducedMotion ? { duration: 0 } : { duration: 0.7, delay, ease: [0.2, 0.8, 0.3, 1.05] }}
       className={className}
     >
       {children}

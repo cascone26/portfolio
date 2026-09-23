@@ -13,7 +13,7 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/[0.06] pt-16 pb-8 px-6 overflow-hidden">
+    <footer className="relative border-t border-[var(--border)] pt-16 pb-8 px-6 overflow-hidden">
       {/* Subtle top glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[1px] bg-gradient-to-r from-transparent via-accent-cyan/40 to-transparent" />
       <div className="signal-grid absolute inset-x-0 top-0 h-64 pointer-events-none opacity-40" />
@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-2 text-center text-muted text-xs relative">
+      <div className="max-w-5xl mx-auto mt-12 pt-6 border-t border-[var(--border)] flex flex-col sm:flex-row items-center justify-between gap-2 text-center text-muted text-xs relative">
         <span>&copy; {new Date().getFullYear()} BuiltSimple</span>
         <span className="flex items-center gap-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />

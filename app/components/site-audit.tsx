@@ -159,7 +159,7 @@ export default function SiteAudit() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="audit-scanning rounded-lg mt-5 p-5 border border-white/[0.06] text-sm text-muted/70 font-mono"
+              className="audit-scanning rounded-lg mt-5 p-5 border border-[var(--border)] text-sm text-muted/70 font-mono"
             >
               <span className="text-accent-light">{">"}</span> fetching page…{" "}
               <span className="text-accent-light">{">"}</span> checking SEO, speed, mobile-readiness…
@@ -184,7 +184,7 @@ export default function SiteAudit() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
-              className="mt-6 pt-6 border-t border-white/[0.06]"
+              className="mt-6 pt-6 border-t border-[var(--border)]"
             >
               <div className="flex items-center gap-5 mb-5">
                 <ScoreRing score={result.score} />
@@ -221,7 +221,7 @@ export default function SiteAudit() {
               </div>
 
               {result.score < 90 && (
-                <div className="mt-5 pt-5 border-t border-white/[0.06] flex flex-wrap items-center justify-between gap-3">
+                <div className="mt-5 pt-5 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-3">
                   <p className="text-sm text-muted">
                     I can fix all of this in a week or two.
                   </p>

@@ -7,6 +7,16 @@ interface Particle {
   y: number;
   vx: number;
   vy: number;
+  r: number;
+  baseAlpha: number;
+  twinklePhase: number;
+  twinkleSpeed: number;
+}
+
+function readColorVar(name: string, fallback: string): string {
+  if (typeof window === "undefined") return fallback;
+  const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return v || fallback;
 }
 
 export default function ParticleField({ className = "" }: { className?: string }) {
@@ -25,11 +35,11 @@ export default function ParticleField({ className = "" }: { className?: string }
     let particles: Particle[] = [];
     let mouse = { x: -9999, y: -9999 };
     let raf = 0;
-    let dpr = Math.min(window.devicePixelRatio || 1, 2);
+    let t = 0;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
 
-    const DENSITY = 9000; // px^2 per particle
-    const LINK_DIST = 130;
-    const MOUSE_DIST = 160;
+    const DENSITY = 11000; // px^2 per dust mote
+    const MOUSE_DIST = 140;
 
     function resize() {
       if (!canvas) return;
@@ -42,12 +52,16 @@ export default function ParticleField({ className = "" }: { className?: string }
       canvas!.style.height = `${height}px`;
       ctx!.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-      const count = Math.min(90, Math.floor((width * height) / DENSITY));
+      const count = Math.min(70, Math.floor((width * height) / DENSITY));
       particles = Array.from({ length: count }, () => ({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.25,
-        vy: (Math.random() - 0.5) * 0.25,
+        vx: (Math.random() - 0.5) * 0.08,
+        vy: (Math.random() - 0.5) * 0.08 - 0.03, // gentle upward drift, like rising dust/embers
+        r: Math.random() * 1.6 + 0.5,
+        baseAlpha: Math.random() * 0.4 + 0.25,
+        twinklePhase: Math.random() * Math.PI * 2,
+        twinkleSpeed: Math.random() * 0.4 + 0.2,
       }));
     }
 
@@ -62,54 +76,35 @@ export default function ParticleField({ className = "" }: { className?: string }
     }
 
     function step() {
+      t += 1 / 60;
       ctx!.clearRect(0, 0, width, height);
+      const dustColor = readColorVar("--particle-color", "148, 197, 224");
 
       for (const p of particles) {
         p.x += p.vx;
         p.y += p.vy;
-        if (p.x < 0 || p.x > width) p.vx *= -1;
-        if (p.y < 0 || p.y > height) p.vy *= -1;
+        if (p.x < -10) p.x = width + 10;
+        if (p.x > width + 10) p.x = -10;
+        if (p.y < -10) p.y = height + 10;
+        if (p.y > height + 10) p.y = -10;
 
         const dx = p.x - mouse.x;
         const dy = p.y - mouse.y;
         const dist = Math.sqrt(dx * dx + dy * dy);
+        let x = p.x;
+        let y = p.y;
         if (dist < MOUSE_DIST) {
-          const force = (1 - dist / MOUSE_DIST) * 0.6;
-          p.x += (dx / (dist || 1)) * force;
-          p.y += (dy / (dist || 1)) * force;
+          const push = (1 - dist / MOUSE_DIST) * 14;
+          x += (dx / (dist || 1)) * push;
+          y += (dy / (dist || 1)) * push;
         }
-      }
 
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-          const a = particles[i];
-          const b = particles[j];
-          const dx = a.x - b.x;
-          const dy = a.y - b.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < LINK_DIST) {
-            ctx!.strokeStyle = `rgba(94, 200, 242, ${0.14 * (1 - dist / LINK_DIST)})`;
-            ctx!.lineWidth = 1;
-            ctx!.beginPath();
-            ctx!.moveTo(a.x, a.y);
-            ctx!.lineTo(b.x, b.y);
-            ctx!.stroke();
-          }
-        }
-        const distToMouse = Math.hypot(particles[i].x - mouse.x, particles[i].y - mouse.y);
-        if (distToMouse < MOUSE_DIST) {
-          ctx!.strokeStyle = `rgba(34, 211, 238, ${0.25 * (1 - distToMouse / MOUSE_DIST)})`;
-          ctx!.beginPath();
-          ctx!.moveTo(particles[i].x, particles[i].y);
-          ctx!.lineTo(mouse.x, mouse.y);
-          ctx!.stroke();
-        }
-      }
+        const twinkle = 0.55 + 0.45 * Math.sin(t * p.twinkleSpeed + p.twinklePhase);
+        const alpha = p.baseAlpha * twinkle;
 
-      for (const p of particles) {
-        ctx!.fillStyle = "rgba(148, 197, 224, 0.55)";
+        ctx!.fillStyle = `rgba(${dustColor}, ${alpha.toFixed(3)})`;
         ctx!.beginPath();
-        ctx!.arc(p.x, p.y, 1.4, 0, Math.PI * 2);
+        ctx!.arc(x, y, p.r, 0, Math.PI * 2);
         ctx!.fill();
       }
 

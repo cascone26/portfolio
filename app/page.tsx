@@ -99,7 +99,7 @@ export default function Home() {
               <FadeIn delay={0.1}>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-4 tracking-tight">
                   Websites & AI tools{" "}
-                  <span className="gradient-text">for small businesses.</span>
+                  <span className="gradient-text glow-serif">for small businesses.</span>
                 </h1>
               </FadeIn>
 
@@ -131,7 +131,7 @@ export default function Home() {
                   <Magnetic>
                     <Link
                       href="/services"
-                      className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                      className="btn-outline text-foreground font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
                     >
                       See pricing
                     </Link>
@@ -147,15 +147,15 @@ export default function Home() {
                   <div className="p-5 space-y-4">
                     {/* Top stats row */}
                     <div className="grid grid-cols-3 gap-2.5">
-                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
                         <p className="text-2xl font-bold text-green-400">98</p>
                         <p className="text-[10px] text-muted/60 mt-0.5">Speed Score</p>
                       </div>
-                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
                         <p className="text-2xl font-bold text-accent-light">A+</p>
                         <p className="text-[10px] text-muted/60 mt-0.5">SEO Grade</p>
                       </div>
-                      <div className="bg-white/[0.04] border border-white/[0.06] rounded-xl p-3 text-center">
+                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
                         <p className="text-2xl font-bold text-green-400">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="inline"><polyline points="20 6 9 17 4 12"/></svg>
                         </p>
@@ -301,7 +301,7 @@ export default function Home() {
             {steps.map((s, i) => (
               <FadeIn key={s.n} delay={i * 0.12}>
                 <div className="relative">
-                  <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center font-mono text-accent-light font-bold mb-5 relative z-10 bg-[#05070d]">
+                  <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center font-mono text-accent-light font-bold mb-5 relative z-10 bg-[var(--background)]">
                     {s.n}
                   </div>
                   <h3 className="font-semibold text-lg mb-2">{s.title}</h3>
@@ -396,7 +396,7 @@ export default function Home() {
       {/* Gradient CTA banner */}
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 gradient-mesh" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#05070d] via-transparent to-[#05070d]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--background)] via-transparent to-[var(--background)]" />
         <div className="scan-line" />
 
         {/* Decorative floating shapes */}
@@ -426,7 +426,7 @@ export default function Home() {
               <Magnetic>
                 <Link
                   href="/services"
-                  className="btn-outline text-white font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                  className="btn-outline text-foreground font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
                 >
                   View pricing
                 </Link>
