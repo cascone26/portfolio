@@ -137,6 +137,7 @@ export default function SiteAudit() {
           <input
             type="text"
             inputMode="url"
+            aria-label="Website URL to audit"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder="yourbusiness.com"

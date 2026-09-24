@@ -21,6 +21,7 @@ export default function Magnetic({
   function handleMouseMove(e: MouseEvent<HTMLDivElement>) {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const rect = el.getBoundingClientRect();
     const relX = e.clientX - rect.left - rect.width / 2;
     const relY = e.clientY - rect.top - rect.height / 2;

@@ -26,6 +26,7 @@ export default function TiltCard({
   function handleMouseMove(e: MouseEvent<HTMLDivElement>) {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const rect = el.getBoundingClientRect();
     px.set((e.clientX - rect.left) / rect.width);
     py.set((e.clientY - rect.top) / rect.height);

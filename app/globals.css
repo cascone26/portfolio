@@ -45,7 +45,7 @@
   --card-bg: rgba(255, 255, 255, 0.72);
   --accent: #2563eb;
   --accent-dark: #1d4ed8;
-  --accent-light: #0891b2;
+  --accent-light: #0a7290;
   --accent-cyan: #0e7490;
   --text-secondary: #5b6472;
   --border: rgba(15, 23, 42, 0.09);
@@ -74,7 +74,7 @@
     --card-bg: rgba(255, 255, 255, 0.72);
     --accent: #2563eb;
     --accent-dark: #1d4ed8;
-    --accent-light: #0891b2;
+    --accent-light: #0a7290;
     --accent-cyan: #0e7490;
     --text-secondary: #5b6472;
     --border: rgba(15, 23, 42, 0.09);
@@ -120,28 +120,30 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  color-scheme: dark;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    color-scheme: dark;
+  }
 
-html[data-theme="light"] {
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: light) {
-  html:not([data-theme="dark"]) {
+  html[data-theme="light"] {
     color-scheme: light;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  overflow-wrap: break-word;
-  word-break: break-word;
-  transition: background-color 0.4s var(--ease-soft), color 0.4s var(--ease-soft);
+  @media (prefers-color-scheme: light) {
+    html:not([data-theme="dark"]) {
+      color-scheme: light;
+    }
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    transition: background-color 0.4s var(--ease-soft), color 0.4s var(--ease-soft);
+  }
 }
 
 /* ===== GLASS CARD ===== */
