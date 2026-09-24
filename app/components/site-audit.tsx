@@ -121,14 +121,14 @@ export default function SiteAudit() {
 
   return (
     <div className="glow-border hud-corners rounded-2xl overflow-hidden">
-      <div className="rounded-2xl p-6 md:p-8">
-        <div className="flex items-center justify-between mb-1">
+      <div className="rounded-2xl p-8 md:p-10">
+        <div className="flex items-center justify-between mb-3">
           <p className="eyebrow">Live audit — try it now</p>
         </div>
-        <h3 className="text-xl md:text-2xl font-bold mb-2 tracking-tight">
+        <h3 className="text-xl md:text-2xl font-bold mb-3 tracking-tight">
           See what&apos;s actually wrong with your site
         </h3>
-        <p className="text-muted text-sm mb-5 leading-relaxed">
+        <p className="text-muted text-sm mb-7 leading-relaxed">
           Real checks, run live against your URL right now — not a canned demo. HTTPS, mobile
           readiness, SEO basics, load time, and more.
         </p>

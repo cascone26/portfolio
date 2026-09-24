@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-20 pb-16 px-6 overflow-hidden">
+      <section className="relative pt-24 pb-24 px-6 overflow-hidden">
         <div className="signal-grid absolute inset-x-0 top-0 h-[520px] pointer-events-none" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.08] blur-[120px] pointer-events-none" />
         <ParticleField className="absolute inset-0 pointer-events-none opacity-70" />
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       {/* Live Site Audit — the real feature, right below the fold */}
-      <section id="audit" className="py-10 px-6 relative scroll-mt-24">
+      <section id="audit" className="py-16 px-6 relative scroll-mt-24">
         <div className="max-w-2xl mx-auto">
           <FadeIn>
             <SiteAudit />
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* Trust bar */}
       <FadeIn>
-        <section className="relative py-8 px-6">
+        <section className="relative py-12 px-6">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--tint-02)] to-transparent" />
           <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-x-10 gap-y-3 text-muted text-sm relative">
             {[
@@ -128,7 +128,7 @@ export default function Home() {
       </FadeIn>
 
       {/* Featured project — LessonDraft */}
-      <section className="py-24 px-6">
+      <section className="py-28 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <p className="eyebrow mb-4">Featured Project</p>
@@ -195,11 +195,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="py-20 px-6">
+      {/* How it works — its own panel, visually separate chapter */}
+      <section className="relative py-28 px-6 border-y border-[var(--border)] bg-[var(--tint-02)]">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
-            <div className="text-center mb-14">
+            <div className="text-center mb-16">
               <p className="eyebrow justify-center mb-4">How It Works</p>
               <h2 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
                 Three steps.{" "}
@@ -207,7 +207,7 @@ export default function Home() {
               </h2>
             </div>
           </FadeIn>
-          <div className="grid md:grid-cols-3 gap-6 relative">
+          <div className="grid md:grid-cols-3 gap-10 relative">
             <div className="hidden md:block absolute top-6 left-[16.5%] right-[16.5%] h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
             {steps.map((s, i) => (
               <FadeIn key={s.n} delay={i * 0.12}>
@@ -225,10 +225,10 @@ export default function Home() {
       </section>
 
       {/* Social proof — What I've Built */}
-      <section className="py-20 px-6">
+      <section className="py-28 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
-            <div className="text-center mb-12">
+            <div className="text-center mb-16">
               <p className="eyebrow justify-center mb-4">What I&apos;ve Built</p>
               <h2 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
                 Real projects.{" "}
@@ -239,7 +239,7 @@ export default function Home() {
               </p>
             </div>
           </FadeIn>
-          <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <FadeIn delay={0.1}>
               <TiltCard className="glass rounded-2xl p-7 text-center">
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
@@ -285,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* Gradient CTA banner */}
-      <section className="py-24 px-6 relative overflow-hidden">
+      <section className="py-32 px-6 relative overflow-hidden">
         <div className="absolute inset-0 gradient-mesh" />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--background)] via-transparent to-[var(--background)]" />
         <div className="scan-line" />

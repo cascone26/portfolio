@@ -109,10 +109,15 @@
   --font-serif-display: var(--font-fraunces), Georgia, serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* Must be layered (not a bare top-level rule) — unlayered CSS beats every
+   Tailwind utility regardless of specificity, which silently zeroed out
+   every padding/margin utility (py-*, mb-*, etc.) site-wide. */
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 html {
