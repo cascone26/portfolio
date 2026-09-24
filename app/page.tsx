@@ -7,7 +7,6 @@ import Typewriter from "./components/typewriter";
 import SiteAudit from "./components/site-audit";
 import ParticleField from "./components/particle-field";
 import Magnetic from "./components/magnetic";
-import HeroChart from "./components/hero-chart";
 import TiltCard from "./components/tilt-card";
 
 export const metadata: Metadata = {
@@ -18,44 +17,6 @@ export const metadata: Metadata = {
     canonical: "https://builtsimple.dev",
   },
 };
-
-const highlights = [
-  {
-    title: "Services & Pricing",
-    description:
-      "Websites, AI chatbots, automation, and more — something for every budget.",
-    href: "/services",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-    ),
-  },
-  {
-    title: "My Work",
-    description:
-      "Real products I've shipped — including a live AI-powered SaaS platform.",
-    href: "/work",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
-    ),
-  },
-  {
-    title: "About Me",
-    description: "Who I am, what I know, and why I do this.",
-    href: "/about",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    ),
-  },
-  {
-    title: "Get in Touch",
-    description:
-      "Free audit, no pressure — tell me about your business and I'll give you honest advice.",
-    href: "/contact",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-    ),
-  },
-];
 
 const steps = [
   {
@@ -79,118 +40,77 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-16 pb-20 px-6 overflow-hidden">
+      <section className="relative pt-20 pb-16 px-6 overflow-hidden">
         <div className="signal-grid absolute inset-x-0 top-0 h-[520px] pointer-events-none" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full bg-blue-500/[0.08] blur-[120px] pointer-events-none" />
-        <div className="absolute -top-20 right-[15%] w-[500px] h-[400px] rounded-full bg-cyan-400/[0.05] blur-[120px] pointer-events-none" />
         <ParticleField className="absolute inset-0 pointer-events-none opacity-70" />
 
-        <div className="max-w-5xl mx-auto relative">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left — text */}
-            <div>
-              <FadeIn delay={0}>
-                <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent-light text-sm px-4 py-1.5 rounded-full mb-8">
-                  <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-                  Available for projects — Mission, KS
-                </div>
-              </FadeIn>
-
-              <FadeIn delay={0.1}>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-4 tracking-tight">
-                  Websites & AI tools{" "}
-                  <span className="gradient-text glow-serif">for small businesses.</span>
-                </h1>
-              </FadeIn>
-
-              <FadeIn delay={0.15}>
-                <p className="font-mono text-sm text-accent-light/60 mb-6 tracking-wide">
-                  <span className="text-accent-light/30">{">"}</span>{" "}
-                  <Typewriter />
-                </p>
-              </FadeIn>
-
-              <FadeIn delay={0.2}>
-                <p className="text-lg text-muted max-w-lg mb-10 leading-relaxed">
-                  I build fast, affordable websites and set up AI automation for
-                  local businesses in KC. No tech jargon. No agencies. Just
-                  results.
-                </p>
-              </FadeIn>
-
-              <FadeIn delay={0.3}>
-                <div className="flex flex-wrap gap-3">
-                  <Magnetic>
-                    <a
-                      href="#audit"
-                      className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
-                    >
-                      Run a free site audit
-                    </a>
-                  </Magnetic>
-                  <Magnetic>
-                    <Link
-                      href="/services"
-                      className="btn-outline text-foreground font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
-                    >
-                      See pricing
-                    </Link>
-                  </Magnetic>
-                </div>
-              </FadeIn>
+        <div className="max-w-3xl mx-auto relative text-center">
+          <FadeIn delay={0}>
+            <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent-light text-sm px-4 py-1.5 rounded-full mb-8">
+              <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
+              Available for projects — Mission, KS
             </div>
+          </FadeIn>
 
-            {/* Right — site mockup */}
-            <FadeIn delay={0.3} direction="left">
-              <div className="hidden md:block">
-                <BrowserFrame url="yourbusiness.com — sample audit">
-                  <div className="p-5 space-y-4">
-                    {/* Top stats row */}
-                    <div className="grid grid-cols-3 gap-2.5">
-                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
-                        <p className="text-2xl font-bold text-green-400">98</p>
-                        <p className="text-[10px] text-muted/60 mt-0.5">Speed Score</p>
-                      </div>
-                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
-                        <p className="text-2xl font-bold text-accent-light">A+</p>
-                        <p className="text-[10px] text-muted/60 mt-0.5">SEO Grade</p>
-                      </div>
-                      <div className="bg-[var(--tint-04)] border border-[var(--border)] rounded-xl p-3 text-center">
-                        <p className="text-2xl font-bold text-green-400">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="inline"><polyline points="20 6 9 17 4 12"/></svg>
-                        </p>
-                        <p className="text-[10px] text-muted/60 mt-0.5">Mobile Ready</p>
-                      </div>
-                    </div>
-                    {/* Visitor chart mock */}
-                    <HeroChart />
-                    {/* Bottom checklist */}
-                    <div className="space-y-2">
-                      {[
-                        "SSL secured & fast loading",
-                        "Google Business connected",
-                        "Contact form capturing leads",
-                      ].map((item) => (
-                        <div key={item} className="flex items-center gap-2.5 text-[11px]">
-                          <span className="w-4 h-4 rounded-full bg-green-500/15 flex items-center justify-center shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-green-400"><polyline points="20 6 9 17 4 12"/></svg>
-                          </span>
-                          <span className="text-muted/70">{item}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </BrowserFrame>
-              </div>
-            </FadeIn>
-          </div>
+          <FadeIn delay={0.1}>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-4 tracking-tight">
+              Websites & AI tools{" "}
+              <span className="gradient-text glow-serif">for small businesses.</span>
+            </h1>
+          </FadeIn>
+
+          <FadeIn delay={0.15}>
+            <p className="font-mono text-sm text-accent-light/60 mb-6 tracking-wide">
+              <span className="text-accent-light/30">{">"}</span>{" "}
+              <Typewriter />
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.2}>
+            <p className="text-lg text-muted max-w-lg mx-auto mb-10 leading-relaxed">
+              I build fast, affordable websites and set up AI automation for
+              local businesses in KC. No tech jargon. No agencies. Just
+              results.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.3}>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Magnetic>
+                <a
+                  href="#audit"
+                  className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm"
+                >
+                  Run a free site audit
+                </a>
+              </Magnetic>
+              <Magnetic>
+                <Link
+                  href="/services"
+                  className="btn-outline text-foreground font-semibold px-6 py-2.5 rounded-lg text-sm inline-flex"
+                >
+                  See pricing
+                </Link>
+              </Magnetic>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Live Site Audit — the real feature, right below the fold */}
+      <section id="audit" className="py-10 px-6 relative scroll-mt-24">
+        <div className="max-w-2xl mx-auto">
+          <FadeIn>
+            <SiteAudit />
+          </FadeIn>
         </div>
       </section>
 
       {/* Trust bar */}
       <FadeIn>
         <section className="relative py-8 px-6">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.02] to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--tint-02)] to-transparent" />
           <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-x-10 gap-y-3 text-muted text-sm relative">
             {[
               "24-hour response time",
@@ -206,15 +126,6 @@ export default function Home() {
           </div>
         </section>
       </FadeIn>
-
-      {/* Live Site Audit — the real feature */}
-      <section id="audit" className="py-16 px-6 relative scroll-mt-24">
-        <div className="max-w-3xl mx-auto">
-          <FadeIn>
-            <SiteAudit />
-          </FadeIn>
-        </div>
-      </section>
 
       {/* Featured project — LessonDraft */}
       <section className="py-24 px-6">
@@ -267,7 +178,7 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.2} direction="left">
-              <TiltCard max={5} className="rounded-2xl">
+              <TiltCard max={5} className="rounded-2xl hud-corners">
                 <BrowserFrame url="lessondraft.com" className="pulse-glow">
                   <Image
                     src="/screenshots/lessondraft.jpg"
@@ -328,28 +239,8 @@ export default function Home() {
               </p>
             </div>
           </FadeIn>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             <FadeIn delay={0.1}>
-              <TiltCard className="glass rounded-2xl p-7 text-center">
-                <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                </div>
-                <h3 className="font-semibold text-lg mb-2">LessonDraft</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  AI-powered lesson plan generator. Full SaaS with auth,
-                  Stripe payments, and real paying users.
-                </p>
-                <a
-                  href="https://lessondraft.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent-light text-sm mt-3 inline-block hover:underline"
-                >
-                  lessondraft.com
-                </a>
-              </TiltCard>
-            </FadeIn>
-            <FadeIn delay={0.2}>
               <TiltCard className="glass rounded-2xl p-7 text-center">
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-4 mx-auto">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
@@ -436,31 +327,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Highlight cards */}
-      <section className="py-20 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-4">
-            {highlights.map((h, i) => (
-              <FadeIn key={h.href} delay={i * 0.1}>
-                <Link
-                  href={h.href}
-                  className="group glass rounded-2xl p-7 block"
-                >
-                  <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-5 group-hover:bg-accent/20 transition-colors">
-                    {h.icon}
-                  </div>
-                  <h2 className="font-semibold text-lg mb-2 group-hover:text-accent-light transition-colors">
-                    {h.title}
-                  </h2>
-                  <p className="text-muted text-sm leading-relaxed">
-                    {h.description}
-                  </p>
-                </Link>
-              </FadeIn>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }

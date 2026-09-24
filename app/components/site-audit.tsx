@@ -120,7 +120,7 @@ export default function SiteAudit() {
   }
 
   return (
-    <div className="glow-border rounded-2xl overflow-hidden">
+    <div className="glow-border hud-corners rounded-2xl overflow-hidden">
       <div className="rounded-2xl p-6 md:p-8">
         <div className="flex items-center justify-between mb-1">
           <p className="eyebrow">Live audit — try it now</p>
@@ -146,9 +146,9 @@ export default function SiteAudit() {
           <button
             type="submit"
             disabled={loading || !url.trim()}
-            className="btn-gradient text-white font-semibold px-6 py-2.5 rounded-lg text-sm whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+            className={`btn-gradient text-white font-semibold px-7 py-2.5 rounded-lg text-sm whitespace-nowrap shrink-0 disabled:opacity-50 disabled:cursor-not-allowed ${!loading && !result ? "btn-pulse" : ""}`}
           >
-            {loading ? "Scanning…" : "Run free audit"}
+            {loading ? "Scanning…" : "Run audit"}
           </button>
         </form>
 
