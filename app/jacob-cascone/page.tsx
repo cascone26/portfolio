@@ -220,11 +220,13 @@ export default function JacobCasconePage() {
         />
         <ProjectCard
           title="Meta Tutor"
-          meta="Multi-subject AI learning platform · Solo builder & operator"
+          meta="Multi-subject AI learning platform · Solo builder & operator · Live-app screenshots + case study (it's login-gated to 2 accounts, so this is the proof)"
+          href="https://meta-tutor-six.vercel.app/showcase"
           bullets={[
             "Refactored a single-subject study tool into a subject-agnostic architecture — one shared AI-chat layer, progress-tracking interface, and content-grounding registry, with each new subject (8 real classes, chess, trivia) plugging in as an adapter instead of duplicated code.",
             "Built a chess module integrating a real chess engine client-side with zero server cost, with move-quality analysis wired into the same cross-subject progress system.",
             "Found and fixed two silent production incidents via direct live investigation — a corrupted environment variable that silently broke every database-backed feature app-wide, and a stale auth-token sync gap breaking every AI route.",
+            "Root-caused a broken deploy pipeline blocking a second engineer's first PR — the repo was split across 3 stale Vercel projects from a prior account migration — and fixed it so pushes auto-deploy with working auth, backed by a GitHub branch-protection ruleset and a CI typecheck/build gate on every PR.",
           ]}
         />
         <ProjectCard
