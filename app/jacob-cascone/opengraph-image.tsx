@@ -1,0 +1,105 @@
+import { ImageResponse } from "next/og";
+
+export const runtime = "edge";
+export const alt = "Jacob Cascone — AI Engineer";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
+export default function OGImage() {
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          padding: "80px",
+          background: "linear-gradient(135deg, #0b1121 0%, #111d3a 50%, #0b1121 100%)",
+          fontFamily: "system-ui, -apple-system, sans-serif",
+          position: "relative",
+          overflow: "hidden",
+        }}
+      >
+        {/* Glow orbs */}
+        <div
+          style={{
+            position: "absolute",
+            top: "-100px",
+            left: "-100px",
+            width: "400px",
+            height: "400px",
+            borderRadius: "50%",
+            background: "radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%)",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            bottom: "-50px",
+            right: "-50px",
+            width: "350px",
+            height: "350px",
+            borderRadius: "50%",
+            background: "radial-gradient(circle, rgba(99,102,241,0.12) 0%, transparent 70%)",
+          }}
+        />
+
+        {/* Eyebrow */}
+        <div
+          style={{
+            fontSize: "22px",
+            fontWeight: 600,
+            letterSpacing: "4px",
+            textTransform: "uppercase",
+            color: "#60a5fa",
+            marginBottom: "20px",
+          }}
+        >
+          AI Engineer
+        </div>
+
+        {/* Name */}
+        <div
+          style={{
+            fontSize: "64px",
+            fontWeight: 800,
+            letterSpacing: "-1px",
+            color: "#f1f5f9",
+            lineHeight: 1.1,
+            marginBottom: "24px",
+          }}
+        >
+          Jacob Cascone
+        </div>
+
+        {/* Description */}
+        <div
+          style={{
+            fontSize: "22px",
+            color: "#94a3b8",
+            lineHeight: 1.5,
+            maxWidth: "720px",
+          }}
+        >
+          Ships production AI products end-to-end — LessonDraft (live SaaS, real
+          subscribers), Meta Tutor, and a multi-agent QA pipeline.
+        </div>
+
+        {/* Bottom accent line */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: "4px",
+            background: "linear-gradient(90deg, #3b82f6, #818cf8, #3b82f6)",
+          }}
+        />
+      </div>
+    ),
+    { ...size }
+  );
+}

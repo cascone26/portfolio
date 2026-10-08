@@ -9,6 +9,13 @@ export const metadata: Metadata = {
     description:
       "AI Engineer who ships production products end-to-end — LessonDraft (live SaaS, real subscribers), Meta Tutor, and a multi-agent QA pipeline.",
     type: "profile",
+    url: "https://builtsimple.dev/jacob-cascone",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jacob Cascone — AI Engineer",
+    description:
+      "AI Engineer who ships production products end-to-end — LessonDraft (live SaaS, real subscribers), Meta Tutor, and a multi-agent QA pipeline.",
   },
   robots: { index: true, follow: true },
   alternates: {
