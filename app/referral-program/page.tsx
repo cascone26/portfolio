@@ -86,7 +86,6 @@ export default function ReferralProgramPage() {
       "@type": "LocalBusiness",
       name: "BuiltSimple",
       url: "https://builtsimple.dev",
-      telephone: "816-520-5652",
       email: "cobo.cascone@gmail.com",
       address: {
         "@type": "PostalAddress",
