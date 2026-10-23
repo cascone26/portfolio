@@ -11,7 +11,17 @@ export const metadata: Metadata = {
   },
 };
 
-const services = [
+interface ServiceEntry {
+  title: string;
+  price: string;
+  timeline: string;
+  priceNote: string;
+  description: string;
+  icon: React.ReactNode;
+  popular?: boolean;
+}
+
+const services: ServiceEntry[] = [
   {
     title: "Website Refresh",
     price: "$100-250",
@@ -39,6 +49,7 @@ const services = [
     price: "$600-1,200",
     timeline: "1-2 weeks",
     priceNote: "Depends on number of pages and custom features",
+    popular: true,
     description:
       "A multi-page site built for growth — with multiple pages, custom features, booking, e-commerce, or whatever your business needs.",
     icon: (
@@ -156,10 +167,19 @@ export default function ServicesPage() {
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <p className="text-muted text-lg max-w-2xl leading-relaxed">
+            <p className="text-muted text-lg max-w-2xl leading-relaxed mb-4">
               Something for every budget. Pick what makes sense for your
               business right now and add on later. No hidden fees.
             </p>
+          </FadeIn>
+          <FadeIn delay={0.15}>
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-accent-light">
+              <span>10% off your first project</span>
+              <span className="text-muted/40">&middot;</span>
+              <span>Save 15% bundling a site + monthly retainer</span>
+              <span className="text-muted/40">&middot;</span>
+              <span>$100 credit for referring a friend who signs</span>
+            </div>
           </FadeIn>
         </div>
       </section>
@@ -168,7 +188,12 @@ export default function ServicesPage() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((s, i) => (
             <FadeIn key={s.title} delay={i * 0.08}>
-              <div className="glass rounded-2xl p-6 h-full">
+              <div className={`glass rounded-2xl p-6 h-full relative ${s.popular ? "ring-2 ring-accent/40" : ""}`}>
+                {s.popular && (
+                  <span className="absolute -top-3 left-6 bg-accent text-white text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                    Most Popular
+                  </span>
+                )}
                 <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent-light mb-5">
                   {s.icon}
                 </div>
@@ -238,6 +263,9 @@ export default function ServicesPage() {
             >
               Get a free audit
             </Link>
+            <p className="text-muted/70 text-xs mt-5 relative">
+              50% due at signing, 50% when your site goes live — you&apos;re never paying in full upfront.
+            </p>
           </div>
         </FadeIn>
       </section>

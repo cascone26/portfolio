@@ -235,7 +235,7 @@ export default function Home() {
                 <span className="gradient-text">Real results.</span>
               </h2>
               <p className="text-muted text-sm">
-                Trusted by KC businesses &middot; 10+ projects completed &middot; 5+ sites shipped and live
+                Live demo templates you can test right now &middot; Plus a full SaaS product shipped and serving real users
               </p>
             </div>
           </FadeIn>

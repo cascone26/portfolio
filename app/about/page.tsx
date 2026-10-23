@@ -99,17 +99,18 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  I&apos;m Jacob — 21 years old, based in Mission, KS. I&apos;m
-                  currently a student at Grand Canyon University studying
-                  elementary education and Christian teaching, graduating in
-                  April 2027.
+                  I build websites and AI tools for small businesses — and I&apos;ve
+                  shipped more than side projects. LessonDraft, a full SaaS product
+                  I built from scratch, has real users, real payments, and real AI
+                  integration running in production today. No agency overhead — I
+                  personally handle every project from design to deployment.
                 </p>
                 <p>
-                  On the side, I build websites and AI tools for small
-                  businesses. I taught myself web development and have since
-                  shipped a live SaaS product (LessonDraft) with real users, real
-                  payments, and real AI integration. No agency overhead — I
-                  personally handle every project from design to deployment.
+                  The short bio: I&apos;m Jacob, 21, based in Mission, KS, and a
+                  student at Grand Canyon University studying elementary education
+                  and Christian teaching, graduating April 2027. Web development
+                  started as something I taught myself on the side — it&apos;s now
+                  a real part of how I work.
                 </p>
               </div>
             </div>
