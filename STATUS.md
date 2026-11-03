@@ -1,7 +1,24 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-08-22 — check-in #3 (HP, explicit review request); state matches `d3636ab`
+2026-11-03 — builtsimple.dev down on Vercel (same fair-use pause as LessonDraft), self-host prepped
+
+## 2026-11-03 — Vercel DEPLOYMENT_DISABLED, Olympus self-host prepped, Cloudflare step pending
+`builtsimple.dev` returns 402/`DEPLOYMENT_DISABLED` — same account-wide Vercel fair-use pause that
+hit LessonDraft (`team_5RpPbVHxcFDV7QwyfGeQWCAB`, "cascone26's projects"), not a code/build problem
+(the deployment itself built fine). Applied the same fix LessonDraft already uses:
+- Olympus systemd service `portfolio.service` live on port 3102, verified serving real content both
+  locally and via the Tailscale Funnel.
+- Mounted at `/portfolio` on the same `:8443` Funnel port LessonDraft/Meta Tutor already use.
+- `lessondraft` repo's `cloudflare/origin-proxy.js` updated with `builtsimple.dev`/`www` routes,
+  committed but not deployed yet (Cloudflare API token can't manage Workers on this account at all —
+  see `LessonDraft/PROCESS.md` 2026-11-03 entry).
+- **Still needed, Jacob only:** (1) deploy the updated Worker via the Cloudflare dashboard directly;
+  (2) migrate builtsimple.dev's nameservers to Cloudflare (currently on Namecheap's own DNS) —
+  real live email forwarding on this domain needs its MX/SPF records recreated on Cloudflare as
+  part of that move, full detail in `LessonDraft/PROCESS.md`.
+
+## Previous check-in — 2026-08-22, third of the day (HP, explicit request)
 
 ## Check-in — 2026-08-22, third of the day (HP, explicit request)
 - Explicitly requested review; **state matches `d3636ab` exactly** — no new commits, tree clean,
