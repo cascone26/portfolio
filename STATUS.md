@@ -538,3 +538,11 @@ None identified. All dead code removed (2026-07-17).
 - Testimonials/social proof section (once clients exist)
 - Headshot/bio photo (needs Jacob to provide)
 - More project screenshots on work page
+
+## 2026-11-04 — SEO audit "missing robots.txt / sitemap.xml" = false positive (site 402)
+Audit flagged both as missing. Verified: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/,
+points to sitemap) and `app/sitemap.ts` (static pages + blog + auto-discovered /for/ pages; last build
+emitted 784 `<loc>` entries in `.next/server/app/sitemap.xml.body`) both exist; canonical + meta already in
+`app/layout.tsx`. Live `curl https://builtsimple.dev/robots.txt` and `/sitemap.xml` both return **402**
+(Vercel DEPLOYMENT_DISABLED, see 2026-11-03 entry). Fix is restoring hosting (Cloudflare/Olympus cutover),
+not code. No code changes made.
