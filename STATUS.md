@@ -546,3 +546,6 @@ emitted 784 `<loc>` entries in `.next/server/app/sitemap.xml.body`) both exist; 
 `app/layout.tsx`. Live `curl https://builtsimple.dev/robots.txt` and `/sitemap.xml` both return **402**
 (Vercel DEPLOYMENT_DISABLED, see 2026-11-03 entry). Fix is restoring hosting (Cloudflare/Olympus cutover),
 not code. No code changes made.
+
+## 2026-11-05 — SEO audit re-flag, re-verified false positive
+Same audit (missing robots.txt/sitemap.xml) re-ran. `next build` passes and emits `/robots.txt` + `/sitemap.xml` as static routes; layout has title/description/canonical/metadataBase. Live site still returns 402 on `/`, `/robots.txt`, `/sitemap.xml` (Vercel pause), so the audit cannot see them. No code change needed. The fix is to un-pause Vercel or move hosting to Olympus.
