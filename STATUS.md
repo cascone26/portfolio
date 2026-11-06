@@ -3,6 +3,13 @@
 ## Last Updated
 2026-11-03 — builtsimple.dev down on Vercel (same fair-use pause as LessonDraft), self-host prepped
 
+## 2026-11-05 — COBO job #11935 "Auto-redeploy builtsimple" failures = Vercel 402 pause
+3 "unknown" errors in 48h were site_guardian queueing redeploys against a 402 (`DEPLOYMENT_DISABLED`,
+account-level Vercel pause, see 2026-11-03). Re-verified live: `curl https://builtsimple.dev` -> 402.
+Redeploy can't fix that, so `estate-core` commit `9e12161` makes site_guardian skip redeploy on 402 and
+send a "Site Paused" notice instead. Site stays down until Jacob deploys the Cloudflare Worker +
+moves DNS (Olympus `portfolio.service` :3102 is the target).
+
 ## 2026-11-03 — Vercel DEPLOYMENT_DISABLED, Olympus self-host prepped, Cloudflare step pending
 `builtsimple.dev` returns 402/`DEPLOYMENT_DISABLED` — same account-wide Vercel fair-use pause that
 hit LessonDraft (`team_5RpPbVHxcFDV7QwyfGeQWCAB`, "cascone26's projects"), not a code/build problem
