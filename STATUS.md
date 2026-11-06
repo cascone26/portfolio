@@ -556,3 +556,6 @@ not code. No code changes made.
 
 ## 2026-11-05 — SEO audit re-flag, re-verified false positive
 Same audit (missing robots.txt/sitemap.xml) re-ran. `next build` passes and emits `/robots.txt` + `/sitemap.xml` as static routes; layout has title/description/canonical/metadataBase. Live site still returns 402 on `/`, `/robots.txt`, `/sitemap.xml` (Vercel pause), so the audit cannot see them. No code change needed. The fix is to un-pause Vercel or move hosting to Olympus.
+
+## 2026-11-05 (later) — SEO audit re-flag #3, still false positive
+Re-checked: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/, Sitemap line), `app/sitemap.ts` (static + blog + /for/ pages), `app/layout.tsx` (metadataBase, title, description, OG/Twitter, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel paused). No code change. Suggest the audit job treat 402/5xx as "site unreachable" rather than "file missing".
