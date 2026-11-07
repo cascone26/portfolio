@@ -562,3 +562,6 @@ Re-checked: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/, 
 
 ## 2026-11-07 — SEO audit re-flag #4, still false positive
 Re-verified: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/, Sitemap line), `app/sitemap.ts`, and `app/layout.tsx` (metadataBase, canonical) are all present. Live `/`, `/robots.txt`, and `/sitemap.xml` return **402** with `X-Vercel-Error: DEPLOYMENT_DISABLED`. No code change made. The audit job should treat 402 as "site unreachable", not "file missing".
+
+## 2026-11-07 (later) — SEO audit re-flag #5, still false positive
+Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, title, description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job needs a 402 guard: treat it as "site unreachable", not "file missing". Otherwise it will keep re-flagging.
