@@ -568,3 +568,6 @@ Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.
 
 ## 2026-11-07 (re-flag #6) — SEO audit, still false positive
 Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job still needs a 402 guard.
+
+## 2026-11-07 (re-flag #7) — SEO audit, still false positive
+Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job still needs a 402 guard.
