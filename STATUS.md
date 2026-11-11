@@ -3,6 +3,13 @@
 ## Last Updated
 2026-11-03 — builtsimple.dev down on Vercel (same fair-use pause as LessonDraft), self-host prepped
 
+## 2026-11-05 — COBO job #11935 "Auto-redeploy builtsimple" failures = Vercel 402 pause
+3 "unknown" errors in 48h were site_guardian queueing redeploys against a 402 (`DEPLOYMENT_DISABLED`,
+account-level Vercel pause, see 2026-11-03). Re-verified live: `curl https://builtsimple.dev` -> 402.
+Redeploy can't fix that, so `estate-core` commit `9e12161` makes site_guardian skip redeploy on 402 and
+send a "Site Paused" notice instead. Site stays down until Jacob deploys the Cloudflare Worker +
+moves DNS (Olympus `portfolio.service` :3102 is the target).
+
 ## 2026-11-03 — Vercel DEPLOYMENT_DISABLED, Olympus self-host prepped, Cloudflare step pending
 `builtsimple.dev` returns 402/`DEPLOYMENT_DISABLED` — same account-wide Vercel fair-use pause that
 hit LessonDraft (`team_5RpPbVHxcFDV7QwyfGeQWCAB`, "cascone26's projects"), not a code/build problem
@@ -538,3 +545,49 @@ None identified. All dead code removed (2026-07-17).
 - Testimonials/social proof section (once clients exist)
 - Headshot/bio photo (needs Jacob to provide)
 - More project screenshots on work page
+
+## 2026-11-04 — SEO audit "missing robots.txt / sitemap.xml" = false positive (site 402)
+Audit flagged both as missing. Verified: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/,
+points to sitemap) and `app/sitemap.ts` (static pages + blog + auto-discovered /for/ pages; last build
+emitted 784 `<loc>` entries in `.next/server/app/sitemap.xml.body`) both exist; canonical + meta already in
+`app/layout.tsx`. Live `curl https://builtsimple.dev/robots.txt` and `/sitemap.xml` both return **402**
+(Vercel DEPLOYMENT_DISABLED, see 2026-11-03 entry). Fix is restoring hosting (Cloudflare/Olympus cutover),
+not code. No code changes made.
+
+## 2026-11-05 — SEO audit re-flag, re-verified false positive
+Same audit (missing robots.txt/sitemap.xml) re-ran. `next build` passes and emits `/robots.txt` + `/sitemap.xml` as static routes; layout has title/description/canonical/metadataBase. Live site still returns 402 on `/`, `/robots.txt`, `/sitemap.xml` (Vercel pause), so the audit cannot see them. No code change needed. The fix is to un-pause Vercel or move hosting to Olympus.
+
+## 2026-11-05 (later) — SEO audit re-flag #3, still false positive
+Re-checked: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/, Sitemap line), `app/sitemap.ts` (static + blog + /for/ pages), `app/layout.tsx` (metadataBase, title, description, OG/Twitter, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel paused). No code change. Suggest the audit job treat 402/5xx as "site unreachable" rather than "file missing".
+
+## 2026-11-07 — SEO audit re-flag #4, still false positive
+Re-verified: `app/robots.ts` + `public/robots.txt` (allow all, disallow /admin/, Sitemap line), `app/sitemap.ts`, and `app/layout.tsx` (metadataBase, canonical) are all present. Live `/`, `/robots.txt`, and `/sitemap.xml` return **402** with `X-Vercel-Error: DEPLOYMENT_DISABLED`. No code change made. The audit job should treat 402 as "site unreachable", not "file missing".
+
+## 2026-11-07 (later) — SEO audit re-flag #5, still false positive
+Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, title, description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job needs a 402 guard: treat it as "site unreachable", not "file missing". Otherwise it will keep re-flagging.
+
+## 2026-11-07 (re-flag #6) — SEO audit, still false positive
+Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job still needs a 402 guard.
+
+## 2026-11-07 (re-flag #7) — SEO audit, still false positive
+Re-checked: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (description, `alternates.canonical`) all present. Live `/robots.txt` and `/sitemap.xml` return **402** (Vercel DEPLOYMENT_DISABLED). No code change. The audit job still needs a 402 guard.
+
+## 2026-11-07 (re-flag #8) — SEO audit false positive, root cause fixed in auditor
+Portfolio code unchanged: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, description, `alternates.canonical`) all present. Live site still returns **402** (Vercel DEPLOYMENT_DISABLED).
+Root cause: `C:\estate-core\core\site_guardian_actions.py::_check_site_seo` treated any non-200 response as "Missing robots.txt/sitemap.xml". Patched it so the homepage is checked first and a non-200 there means the site is unreachable, with no fix queued. Files are now flagged as missing only on a 404. Backup is `site_guardian_actions.py.bak-20261107`. The guardian process needs a restart to load the patch.
+
+## 2026-11-08 (re-flag #9) — "Check failed: " (empty) — auditor transport error, not SEO
+Flag contained only `Check failed: ` with an empty message, which comes from an exception with an empty `str()`, almost certainly `asyncio.TimeoutError` from the aiohttp probe. Portfolio code unchanged: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, description, canonical) are all present. Live `/` and `/robots.txt` still return **402** (Vercel DEPLOYMENT_DISABLED).
+Auditor fix: `C:\estate-core\core\site_guardian_actions.py::_check_site_seo` now returns `unreachable: "<ExcType>: <msg>"` with no issues when an exception is raised, so no fix job is queued. Backup is `site_guardian_actions.py.bak-20261108`. The guardian needs a restart to load both the 11-07 and 11-08 patches. The real fix is still to restore hosting.
+
+## 2026-11-08 (re-flag #10) — SEO audit false positive; second guardian copy found on Mac and patched
+Portfolio code unchanged: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` (metadataBase, description, canonical) are all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel DEPLOYMENT_DISABLED).
+Why it kept re-flagging after the HP patches: the Mac (Sam) has its **own** `~/estate-core/core/site_guardian_actions.py` (12.7KB, dated Oct 17). That copy was never patched and still treated any non-200 as "Missing". Applied the same guard there: check the homepage first, report non-200 as `unreachable` with no fix job, flag robots/sitemap as missing only on a 404, and return `unreachable` on exceptions. Backup is `site_guardian_actions.py.bak-20261108` on the Mac, and `py_compile` passes. The process that imports it on the Mac (and the HP one) needs a restart to load the patch. The real fix is still to restore hosting.
+
+## 2026-11-09 (re-flag #11) — SEO audit false positive; stale Mac daemon restarted
+Portfolio code unchanged: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` are all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel DEPLOYMENT_DISABLED).
+Root cause of #11: the Mac's `com.estate.daemon` (`~/cobo/cobo.py`, PID 70634) started 2026-11-08 10:21:17. That was **before** the guardian patch landed at 10:25:51, so the old unguarded `_check_site_seo` was still loaded in memory. I restarted it with `launchctl kickstart -k gui/$UID/com.estate.daemon`, and it now runs as PID 27918, started 2026-11-09 06:06:43, with the patched code. No HP process imports `site_guardian` at the moment. If it re-flags again, the next suspect is another importer of `site_guardian_actions`. The real fix is still to restore hosting (un-pause Vercel).
+
+## 2026-11-09 (re-flag #12) — stale job queued before the #11 restart; no new flags since
+Portfolio code unchanged: `app/robots.ts`, `public/robots.txt`, `app/sitemap.ts`, `app/layout.tsx` are all present. Live `/robots.txt` and `/sitemap.xml` still return **402** (Vercel DEPLOYMENT_DISABLED).
+This flag is Mac `cobo.db` job **11970**, created 2026-11-09 12:05:19 UTC (06:05:19 CST). That is 84 seconds **before** the daemon restart at 06:06:43 that loaded the patched guardian, so the old unguarded code queued it. The patched daemon (PID 27918) is still running, the Mac `site_guardian_actions.py` has the `unreachable` guard (lines 112–134), and no SEO job has been queued after id 11970. No further re-flags are expected. If one does show up with a `created_at` after 12:06:43 UTC, look for another importer of `site_guardian_actions`. The real fix is still to un-pause Vercel.
