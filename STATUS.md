@@ -1,7 +1,7 @@
 # Portfolio — Status
 
 ## Last Updated
-2026-11-03 — builtsimple.dev down on Vercel (same fair-use pause as LessonDraft), self-host prepped
+2026-11-14 — BuiltSimple lead pipeline intentionally disabled and cleaned ("prep for publish" state)
 
 ## 2026-11-05 — COBO job #11935 "Auto-redeploy builtsimple" failures = Vercel 402 pause
 3 "unknown" errors in 48h were site_guardian queueing redeploys against a 402 (`DEPLOYMENT_DISABLED`,
@@ -9,6 +9,23 @@ account-level Vercel pause, see 2026-11-03). Re-verified live: `curl https://bui
 Redeploy can't fix that, so `estate-core` commit `9e12161` makes site_guardian skip redeploy on 402 and
 send a "Site Paused" notice instead. Site stays down until Jacob deploys the Cloudflare Worker +
 moves DNS (Olympus `portfolio.service` :3102 is the target).
+
+## 2026-11-14 — BuiltSimple lead-scraper pipeline intentionally disabled ("prep for publish")
+**Problem:** Watchdog was reporting "0 emails sent in 3 days" with 7 stale fix-queue entries from March-April 2026.
+
+**Root Cause:** The lead-scraper project (`~/projects/lead-scraper/`) was intentionally cleaned on 2026-07-28:
+- `scripts/` directory (daily-pipeline.js, check-replies.js, check-opens.js) removed
+- `db/leads.db` database removed
+- LaunchAgents disabled: `com.builtsimple.email-sender`, `com.builtsimple.follow-up`, `com.builtsimple.token-refresh`
+- README updated to "Code implementation pending" (prep for public GitHub release)
+
+**Status:** The pipeline is **intentionally not in service**. It was a lead-generation tool that required Gmail API access and scheduled LaunchAgent execution. All infrastructure has been removed.
+
+**Fix Applied (2026-11-14):**
+- Disabled BuiltSimple pipeline check in `~/tools/watchdog.cjs` — now skips the check instead of trying to query missing database
+- Cleared 7 stale fix-queue entries from March-April 2026 (were blocking progress reports)
+- Verified: Watchdog now runs cleanly without errors or false alerts on this pipeline
+- No code changes to portfolio site itself; only monitoring/infrastructure cleanup
 
 ## 2026-11-03 — Vercel DEPLOYMENT_DISABLED, Olympus self-host prepped, Cloudflare step pending
 `builtsimple.dev` returns 402/`DEPLOYMENT_DISABLED` — same account-wide Vercel fair-use pause that
