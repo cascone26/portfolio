@@ -1,0 +1,12 @@
+diff --git a/node_modules/@opennextjs/cloudflare/dist/cli/build/bundle-server.js b/node_modules/@opennextjs/cloudflare/dist/cli/build/bundle-server.js
+index 7420316..2e426ed 100644
+--- a/node_modules/@opennextjs/cloudflare/dist/cli/build/bundle-server.js
++++ b/node_modules/@opennextjs/cloudflare/dist/cli/build/bundle-server.js
+@@ -41,6 +41,7 @@ const optionalDependencies = [
+     "probe-image-size",
+     // `server.edge` is not available in react-dom@18
+     "react-dom/server.edge",
++    "sharp-20c6a5da84e2135f",
+ ];
+ /**
+  * Bundle the Open Next server.

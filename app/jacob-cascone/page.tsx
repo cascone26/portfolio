@@ -104,7 +104,7 @@ function ProjectCard({
 
 export default function JacobCasconePage() {
   return (
-    <main className="min-h-screen px-6 py-20 md:py-28 max-w-3xl mx-auto">
+    <main className="min-h-screen px-6 py-20 md:py-28 max-w-3xl mx-auto bg-[#0b1121]">
       {/* Hero */}
       <header className="mb-20">
         <p className="text-sm font-medium text-blue-400 tracking-wide mb-3">
