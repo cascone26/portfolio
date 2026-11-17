@@ -635,8 +635,24 @@ Root cause of the 402/`DEPLOYMENT_DISABLED` run documented across the whole re-f
 2. Once that's confirmed, I finish via API: either `PUT /accounts/{id}/workers/domains` (Custom Domain, needs the conflicting A records deleted first) or classic Worker Route + leaving DNS alone — picking whichever is cleaner once the permission actually lands.
 3. **Real analytics**: `@vercel/analytics` was wired in code but never actually enabled in the Vercel dashboard (confirmed live — showed a "This preview shows demo data" placeholder; no historical real traffic to recover). Once the zone's DNS permission works, swap to Cloudflare Web Analytics (free, no-cookie) — enabling it is a dashboard "Enable" click, no token permission needed for that part specifically.
 
-## Current State (updated 2026-11-17)
-- **Live now**: `https://builtsimple-workers.meta-tutor.workers.dev` (Cloudflare Workers, verified via real screenshots)
-- **Domain** `builtsimple.dev`: zone active on Cloudflare (same account as `lessondraft.com`), nameservers cut over, but not yet routed to the Worker — currently 404s. Blocked on the token-permission fix in #1 above.
-- Vercel (`cascone26s-projects/portfolio`) is no longer the deploy target; left in place as a dormant copy, not relied on
-- Next.js 16.4.3 + Tailwind CSS v4 + Framer Motion, deployed via `@opennextjs/cloudflare` + `wrangler`
+## 2026-11-17 (later same day) — fully cut over, DONE, verified end to end
+The scoped-token permission bug from above never actually resolved (waited 5 real minutes of propagation, confirmed via a direct before/after comparison of the zone's own `permissions` array — genuinely stuck, not impatience). Root-caused as far as it's worth chasing, then bypassed cleanly: Jacob pulled the account's **Global API Key** (full-access, tied to login, not a scoped token) and that worked on the first try with zero permission issues.
+
+**Finished with it:**
+- Added classic Worker Routes (not Custom Domains, since the existing proxied A records already worked fine): `builtsimple.dev/*` and `www.builtsimple.dev/*` → `builtsimple-workers`. Both verified live, real HTTP 200s on the actual domain (not just the `*.workers.dev` test URL).
+- Cleaned up the two leftover A records (still pointing at Vercel's dead IP) to a placeholder `192.0.2.1` — purely cosmetic since Worker Routes intercept before origin is ever consulted, but removes the confusing dangling reference. Re-verified every route still 200s after the change.
+- Removed `@vercel/analytics` entirely (uninstalled the package, dropped the `<Analytics />` component) and wired a real **Cloudflare Web Analytics** beacon in its place (`app/layout.tsx`, via `next/script`), using a site token created through the account's RUM API (`d49d0329cfd4496883f738775856683f`). This one actually collects real data — the Vercel one never did, confirmed earlier in the day.
+- **Caught a real false-negative in my own verification along the way**: first deploy looked clean via `curl` (raw HTML never contained the old Vercel script either way, since `@vercel/analytics` also injects client-side) but a real headless-browser DOM check kept finding `_vercel/insights/script.js` still being loaded, even after removing the import and confirming zero string matches across every shipped JS chunk. Root cause: Next.js/Turbopack's persistent build cache (`.next/cache`) had served a stale compiled layout chunk that still called the old analytics injector, despite the source already being clean. Fixed by wiping `.next` + `.open-next` + `.wrangler` and rebuilding from nothing — re-verified with a brand-new, never-used browser profile (not reusing any cached state) that the real live DOM has zero Vercel references and the Cloudflare beacon script tag present. This is exactly the kind of gap a shallow "it loads" check misses — don't trust a clean `curl` alone when verifying client-injected third-party scripts; check the rendered DOM.
+- Purged Cloudflare's edge cache (`purge_cache`) after each real deploy so verification wasn't looking at a year-cached (`s-maxage=31536000`) stale copy.
+
+**Final verified state, own eyes, real domain, not the test URL:**
+- `https://builtsimple.dev/`, `/jacob-cascone`, `/admin/login`, `/sitemap.xml`, `/feed.xml`, `https://www.builtsimple.dev/` — all 200, screenshotted and visually confirmed correct (homepage renders pixel-identical to the pre-migration design, `/jacob-cascone` readable after the earlier dark-bg fix)
+- Zero dependency on the paused Vercel account, zero dependency on Olympus uptime — a genuinely standalone, durable deploy
+- Real analytics now collecting (Cloudflare Web Analytics), free, no cookies
+
+## Current State (updated 2026-11-17, final)
+- **Live, fully cut over**: `https://builtsimple.dev` (+ `www`) serving directly from Cloudflare Workers via Worker Routes. `https://builtsimple-workers.meta-tutor.workers.dev` still works too as a direct Worker URL.
+- Email forwarding (MX/SPF records) untouched and confirmed still correct throughout.
+- Vercel (`cascone26s-projects/portfolio`) is no longer the deploy target; left in place as a dormant copy, not relied on.
+- Next.js 16.4.3 + Tailwind CSS v4 + Framer Motion, deployed via `@opennextjs/cloudflare` + `wrangler`. Real analytics via Cloudflare Web Analytics (site token `d49d0329cfd4496883f738775856683f`).
+- Nothing outstanding on this task.
