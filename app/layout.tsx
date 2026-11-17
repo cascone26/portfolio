@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Fraunces } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 import LayoutShell from "./components/layout-shell";
 import BackgroundFx from "./components/background-fx";
 import ScrollProgress from "./components/scroll-progress";
@@ -143,7 +143,12 @@ export default function RootLayout({
         <ScrollProgress />
 
         <LayoutShell>{children}</LayoutShell>
-        <Analytics />
+        <Script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "d49d0329cfd4496883f738775856683f"}'
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
